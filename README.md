@@ -1,0 +1,2 @@
+# lauzhack
+Website for LauzHack
