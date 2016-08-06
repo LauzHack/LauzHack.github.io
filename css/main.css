@@ -24,6 +24,10 @@ section {
         font-size: 1.5em;
     }
 
+    section small {
+        font-size: 0.4em !important;
+    }
+
     section .row {
         margin: 0 0 2em 0;
     }
@@ -62,13 +66,22 @@ section {
     background: #e2001a;
     color: #fff;
     font-size: 1.25em;
-    display: flex;
 }
 
     .section-info .text-container {
-        margin: auto;
+        padding: 3em;
     }
 
+    .section-info a {
+        color: #fff;
+        text-decoration: underline;
+    }
+
+        .section-info a:active,
+        .section-info a:focus,
+        .section-info a:hover {
+            color: #000;
+        }
 
 .maps-container {
     height: 20em;
@@ -82,18 +95,5 @@ section {
 
 
 footer {
-    background: #e2001a;
-    color: #eee;
-    padding: 3em;
     margin-top: 5em;
 }
-
-    footer a {
-        color: #fff;
-    }
-
-        footer a:active,
-        footer a:focus,
-        footer a:hover {
-            color: #000;
-        }
