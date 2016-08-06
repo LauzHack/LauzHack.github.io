@@ -1,40 +1,151 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="google-site-verification" content="8xj9MRIqeAo6vX5cxlF3JH-H1AObdLQj7VPrc1k8QUQ" />
-    <title>Lauzhack</title>
-
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="stylesheets/styles.css">
-
-    <meta name="viewport" content="width=device-width">
-
-  </head>
-  <body>
-    <div class="coverbox">
-      <img src="images/background3.jpg" style="width: 100%;">
-    </div>
-    <div class="blackbox">
-      <div class="col-md-4 col-md-offset-4">
-        <h1>LauzHack(){</h1>
-        <div class="col-md-offset-1">
-          <h2>//Fall 2016</h2>
-          <h3>//November 19-20, 2016</h3>
-          <h3>//École polytechnique fédérale de Lausanne</h3><br>
-          <h3>//Pre-register for updates and priority registration.</h3>
+    <meta name="description" content="Student-run hackathon at EPFL, Switzerland">
+    <meta name="author" content="EPFL I&C Students Association">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="8xj9MRIqeAo6vX5cxlF3JH-H1AObdLQj7VPrc1k8QUQ">
+    <title>LauzHack 2016</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <section class="col-xs-12 section-title">
+        <h1>LauzHack</h1>
+        <p>
+            November 19-20, 2016
+            <br>
+            EPFL, Switzerland
+        </p>
+        <a class="btn btn-xl"
+           target="_blank"
+           rel="noreferrer"
+           href="registration.html">
+            Pre-register now!
+        </a>
+    </section>
+    <section class="col-xs-12 section-info">
+        <div class="col-md-6 text-container">
+            <p>
+                An invention marathon.
+                <br>
+                Learn, build & share during a weekend in a relaxed atmosphere.
+                <br>
+                No need to be a programmer, anybody can come!
+            </p>
+            <p>
+                EPFL, the Swiss Federal Institute of Technology in Lausanne, is one of Europe's top universities.
+                <br>
+                It is located in the southwestern part of Switzerland, bordering Lake Geneva.
+            </p>
         </div>
-        <h1>}</h1> <br><br>
-        <div>
-          <div class="col-md-6 b"><a href="preregistration.html">Pre-register!</a><br></div>
-          <div class="col-md-6 b"><a href="sponsorInfo.pdf">Sponsorship Packages</a></div>
+        <div class="col-md-6 maps-container">
+            <div id="maps-canvas" />
+            <script>
+                window.onload = function () {
+                    var options = {
+                        zoom: 9,
+                        center: { lat: 46.5189865, lng: 6.5676007 },
+                        mapTypeId: google.maps.MapTypeId.ROADMAP,
+                        clickableIcons: false,
+                        disableDefaultUI: true
+                    };
+                    var map = new google.maps.Map(document.getElementById("maps-canvas"), options);
+                    new google.maps.Marker({
+                        map: map,
+                        position: options.center
+                    });
+                };
+            </script>
         </div>
-      </div>
-    </div>
-   
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
-
+    </section>
+    <section class="col-xs-12">
+        <h1>F.A.Q.</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Is it free?</h2>
+                <p>
+                    Yes! Anybody can come for free.
+                    <br>
+                    We will also provide food and drinks.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h2>What should I bring?</h2>
+                <p>
+                    Bring your laptop and a power cord!
+                    <br>
+                    You may also want to bring headphones.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h2>Can I sleep there?</h2>
+                <p>
+                    There will be beds and showers available.
+                    <br>
+                    Please bring your own toiletries and towels.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Do I own my hack?</h2>
+                <p>
+                    Yes.
+                    <br>
+                    Anything you create will be owned solely by you.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h2>How do teams work?</h2>
+                <p>
+                    You will work in teams of up to 5 participants.
+                    <br>
+                    If you do not have a team, we will start with team building.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h2>I have another question...</h2>
+                <p>
+                    You can find us on <a href="https://facebook.com/lauzhack"
+                                          target="_blank"
+                                          rel="noreferrer">Facebook</a>,
+                    <br>
+                    or reach us by <a href="mailto:hackathon.clic@epfl.ch">email</a>!
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="col-xs-12">
+        <h1>Sponsors</h1>
+        <div class="row">
+            <h2>Interested in sponsoring us?</h2>
+            <p>
+                We have attractive packages at reasonable prices. No VAT to pay!
+                <br>
+                <a href="pdf/SponsorInfo.pdf"
+                   target="_blank"
+                   rel="noreferrer">View our sponsorship packages.</a>
+            </p>
+        </div>
+        <div class="row">
+            <h2>Who are our sponsors?</h2>
+            <p>
+                We are currently talking to many companies.
+                <br>
+                Expect this section to fill up soon!
+            </p>
+        </div>
+    </section>
+    <footer class="col-xs-12">
+        <p>
+            LauzHack is organized by <a href="http://clic.epfl.ch/"
+                                        target="_blank"
+                                        rel="noreferrer">CLIC</a>,
+            the EPFL Computer &amp; Communication Sciences students' association.
+        </p>
+    </footer>
+    <script src="https://maps.googleapis.com/maps/api/js" defer></script>
+</body>
 </html>

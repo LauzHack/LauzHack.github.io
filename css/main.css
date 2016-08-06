@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "Sanchez";
+    src: url("../fonts/Sanchez.otf");
+}
+
+body {
+    background: #f0f0f0;
+    text-align: center;
+    font-family: Sanchez, Courier, monospace;
+}
+
+section {
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+    section h1 {
+        font-size: 4em;
+        margin: 0.5em;
+    }
+
+    section h2 {
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+
+    section .row {
+        margin: 0 0 2em 0;
+    }
+
+
+.section-title {
+    /* Fake a dark overlay with a gradient. Black is black... I want my sanity back... */
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/epfl_lake.jpg');
+    min-height: 100vh;
+    color: white;
+}
+
+    .section-title h1 {
+        font-size: 10em;
+        margin: 1.2em 0 0 0;
+    }
+
+    .section-title p {
+        font-size: 3em;
+    }
+
+    .section-title .btn {
+        color: #e2001a !important;
+        font-size: 2em;
+        padding: 0.7em 1em;
+    }
+
+        .section-title .btn:hover {
+            color: #fff !important;
+            border-color: #e2001a;
+            background-color: #e2001a;
+        }
+
+
+.section-info {
+    background: #e2001a;
+    color: #fff;
+    font-size: 1.25em;
+    display: flex;
+}
+
+    .section-info .text-container {
+        margin: auto;
+    }
+
+
+.maps-container {
+    height: 20em;
+    padding: 0;
+}
+
+    .maps-container div {
+        width: 100%;
+        height: 100%;
+    }
+
+
+footer {
+    background: #e2001a;
+    color: #eee;
+    padding: 3em;
+}
+
+    footer a {
+        color: #fff;
+    }
+
+        footer a:active,
+        footer a:focus,
+        footer a:hover {
+            color: #000;
+        }
