@@ -10,7 +10,6 @@ body {
 }
 
 section {
-    padding: 0 !important;
     overflow: hidden;
 }
 
@@ -25,7 +24,7 @@ section {
     }
 
     section small {
-        font-size: 0.4em !important;
+        font-size: 0.4em;
     }
 
     section .row {
@@ -40,11 +39,6 @@ section {
     color: white;
 }
 
-    .section-title h1 {
-        font-size: 10em;
-        margin: 1.2em 0 0 0;
-    }
-
     .section-title p {
         font-size: 3em;
     }
@@ -52,7 +46,7 @@ section {
     .section-title .btn {
         color: #e2001a !important;
         font-size: 2em;
-        padding: 0.7em 1em;
+        padding: 0.75em;
     }
 
         .section-title .btn:hover {
@@ -83,6 +77,13 @@ section {
             color: #000;
         }
 
+
+.logo {
+    max-width: 80%;
+    margin: 10em auto 0 auto;
+}
+
+
 .maps-container {
     height: 20em;
     padding: 0;
@@ -92,6 +93,11 @@ section {
         width: 100%;
         height: 100%;
     }
+
+
+.no-padding {
+    padding: 0 !important;
+}
 
 
 footer {
