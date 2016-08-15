@@ -13,23 +13,27 @@ section {
     overflow: hidden;
 }
 
-    section h1 {
-        font-size: 4em;
-        margin: 0.5em;
-    }
+h1 {
+    font-size: 4em;
+    margin: 0.5em;
+}
 
-    section h2 {
-        font-weight: bold;
-        font-size: 1.5em;
-    }
+h2 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
 
-    section small {
-        font-size: 0.4em;
-    }
+small {
+    font-size: 0.4em;
+}
 
-    section .row {
-        margin: 0 0 2em 0;
-    }
+strong {
+    color: black;
+}
+
+.row {
+    margin: 0 0 2em 0;
+}
 
 
 .section-title {
