@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <section class="col-xs-12 section-title">
+    <section class="section-title">
         <img class="logo"
              src="images/logo.png"
              alt="LauzHack" />
@@ -32,44 +32,50 @@
             </small>
         </p>
     </section>
-    <section class="col-xs-12 section-info no-padding">
-        <div class="col-md-6 text-container">
-            <p>
-                Learn, build & share during a weekend in a relaxed atmosphere.
-                <br>
-                No need to be a programmer, anybody can come!
-            </p>
-            <p>
-                EPFL is one of Europe's top universities.
-                <br>
-                It's located in the southwestern part of Switzerland, bordering Lake Geneva.
-                <br>
-                You can find directions <a href="http://information.epfl.ch/access"
-                                           rel="noreferrer"
-                                           target="_blank">here</a>.
-            </p>
-        </div>
-        <div class="col-md-6 maps-container">
-            <div id="maps-canvas"></div>
-            <script>
-                window.onload = function () {
-                    var options = {
-                        zoom: 9,
-                        center: { lat: 46.5189865, lng: 6.5676007 },
-                        mapTypeId: google.maps.MapTypeId.ROADMAP,
-                        clickableIcons: false,
-                        disableDefaultUI: true
-                    };
-                    var map = new google.maps.Map(document.getElementById("maps-canvas"), options);
-                    new google.maps.Marker({
-                        map: map,
-                        position: options.center
-                    });
-                };
-            </script>
+    <section class="section-info">
+        <div class="row no-padding">
+            <div class="col-md-6 vertical-center">
+                <div class="text-container">
+                    <p>
+                        Learn, build & share during a weekend in a relaxed atmosphere.
+                        <br>
+                        No need to be a programmer, anybody can come!
+                    </p>
+                    <p>
+                        EPFL is one of Europe's top universities.
+                        <br>
+                        It's located in the southwestern part of Switzerland, bordering Lake Geneva.
+                        <br>
+                        You can find directions <a href="http://information.epfl.ch/access"
+                                                   rel="noreferrer"
+                                                   target="_blank">here</a>.
+                    </p>
+                </div>
+            </div><!-- comment to avoid extra spaces with inline-block, thanks CSS...
+         --><div class="col-md-6 vertical-center">
+                <div class="maps-container">
+                    <div id="maps-canvas"></div>
+                    <script>
+                        window.onload = function () {
+                            var options = {
+                                zoom: 9,
+                                center: { lat: 46.5189865, lng: 6.5676007 },
+                                mapTypeId: google.maps.MapTypeId.ROADMAP,
+                                clickableIcons: false,
+                                disableDefaultUI: true
+                            };
+                            var map = new google.maps.Map(document.getElementById("maps-canvas"), options);
+                            new google.maps.Marker({
+                                map: map,
+                                position: options.center
+                            });
+                        };
+                    </script>
+                </div>
+            </div>
         </div>
     </section>
-    <section class="col-xs-12">
+    <section>
         <h1>F.A.Q.</h1>
         <div class="row">
             <div class="col-md-4">
@@ -135,7 +141,7 @@
                 <p>
                     Don't worry! Part of the fun of a hackathon is meeting new people.
                     <br>
-                    You'll have time before hacking to socialize and form teams of up to 4 people.
+                    You'll have time before hacking to socialize and form teams of up to 4.
                 </p>
             </div>
             <div class="col-md-4">
@@ -150,7 +156,7 @@
             </div>
         </div>
     </section>
-    <section class="col-xs-12">
+    <section>
         <h1>Sponsors</h1>
         <div class="row">
             <h2>Interested in sponsoring us?</h2>
@@ -171,8 +177,8 @@
             </p>
         </div>
     </section>
-    <footer class="col-xs-12 section-info">
-        <div class="text-container">
+    <section class="section-info section-footer">
+        <div class="row">
             <p>
                 LauzHack is organized by <a href="http://clic.epfl.ch/"
                                             target="_blank"
@@ -180,7 +186,7 @@
                 the EPFL Computer &amp; Communication Sciences students' association.
             </p>
         </div>
-    </footer>
+    </section>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXP2NuuGZAxORy6-p6je3mSiXjCboOtX8"></script>
 </body>
 </html>

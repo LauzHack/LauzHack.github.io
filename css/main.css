@@ -10,7 +10,12 @@ body {
 }
 
 section {
+    width: 100%;
     overflow: hidden;
+}
+
+.row {
+    padding: 1em 2em;
 }
 
 h1 {
@@ -29,10 +34,6 @@ small {
 
 strong {
     color: black;
-}
-
-.row {
-    margin: 0 0 2em 0;
 }
 
 
@@ -66,10 +67,6 @@ strong {
     font-size: 1.25em;
 }
 
-    .section-info .text-container {
-        padding: 3em;
-    }
-
     .section-info a {
         color: #fff;
         text-decoration: underline;
@@ -82,9 +79,19 @@ strong {
         }
 
 
+.section-footer {
+    margin-top: 5em;
+}
+
+
 .logo {
     max-width: 80%;
     margin: 10em auto 0 auto;
+}
+
+
+.text-container {
+    padding: 2em;
 }
 
 
@@ -99,11 +106,20 @@ strong {
     }
 
 
-.no-padding {
-    padding: 0 !important;
+.vertical-center {
+    vertical-align: middle;
+    float: none;
+    padding: 0;
+    margin: 0;
+}
+
+@media all and (min-width:768px) {
+    .vertical-center {
+        display: inline-block;
+    }
 }
 
 
-footer {
-    margin-top: 5em;
+.no-padding {
+    padding: 0 !important;
 }
