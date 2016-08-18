@@ -123,3 +123,9 @@ strong {
 .no-padding {
     padding: 0 !important;
 }
+
+.partner-logo{
+    max-width: 25vw
+    height:auto;
+    width: auto;
+}
