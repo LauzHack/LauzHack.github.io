@@ -90,6 +90,11 @@ strong {
 }
 
 
+.sponsor-logo {
+    height: 20vh;
+}
+
+
 .text-container {
     padding: 2em;
 }
@@ -122,10 +127,4 @@ strong {
 
 .no-padding {
     padding: 0 !important;
-}
-
-.partner-logo{
-    max-width: 25vw
-    height:auto;
-    width: auto;
 }
