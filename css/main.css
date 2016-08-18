@@ -10,27 +10,31 @@ body {
 }
 
 section {
-    padding: 0 !important;
+    width: 100%;
     overflow: hidden;
 }
 
-    section h1 {
-        font-size: 4em;
-        margin: 0.5em;
-    }
+.row {
+    padding: 1em 2em;
+}
 
-    section h2 {
-        font-weight: bold;
-        font-size: 1.5em;
-    }
+h1 {
+    font-size: 4em;
+    margin: 0.5em;
+}
 
-    section small {
-        font-size: 0.4em !important;
-    }
+h2 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
 
-    section .row {
-        margin: 0 0 2em 0;
-    }
+small {
+    font-size: 0.4em;
+}
+
+strong {
+    color: black;
+}
 
 
 .section-title {
@@ -40,11 +44,6 @@ section {
     color: white;
 }
 
-    .section-title h1 {
-        font-size: 10em;
-        margin: 1.2em 0 0 0;
-    }
-
     .section-title p {
         font-size: 3em;
     }
@@ -52,7 +51,7 @@ section {
     .section-title .btn {
         color: #e2001a !important;
         font-size: 2em;
-        padding: 0.7em 1em;
+        padding: 0.75em;
     }
 
         .section-title .btn:hover {
@@ -68,10 +67,6 @@ section {
     font-size: 1.25em;
 }
 
-    .section-info .text-container {
-        padding: 3em;
-    }
-
     .section-info a {
         color: #fff;
         text-decoration: underline;
@@ -82,6 +77,23 @@ section {
         .section-info a:hover {
             color: #000;
         }
+
+
+.section-footer {
+    margin-top: 5em;
+}
+
+
+.logo {
+    max-width: 80%;
+    margin: 10em auto 0 auto;
+}
+
+
+.text-container {
+    padding: 2em;
+}
+
 
 .maps-container {
     height: 20em;
@@ -94,6 +106,20 @@ section {
     }
 
 
-footer {
-    margin-top: 5em;
+.vertical-center {
+    vertical-align: middle;
+    float: none;
+    padding: 0;
+    margin: 0;
+}
+
+@media all and (min-width:768px) {
+    .vertical-center {
+        display: inline-block;
+    }
+}
+
+
+.no-padding {
+    padding: 0 !important;
 }

@@ -11,80 +11,85 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <section class="col-xs-12 section-title">
-        <h1>LauzHack</h1>
+    <section class="section-title">
+        <img class="logo"
+             src="images/logo.png"
+             alt="LauzHack" />
         <p>
             November 19-20, 2016
             <br>
             EPFL, Switzerland
         </p>
-
         <a class="btn btn-xl"
            target="_blank"
            rel="noreferrer"
            href="registration.html">
             Pre-register now!
         </a>
-
         <p>
             <small>
                 Get priority for registration, and important updates by e-mail.
             </small>
         </p>
     </section>
-    <section class="col-xs-12 section-info">
-        <div class="col-md-6 text-container">
-            <p>
-                An invention marathon.
-                <br>
-                Learn, build & share during a weekend in a relaxed atmosphere.
-                <br>
-                No need to be a programmer, anybody can come!
-            </p>
-
-            <p>
-                EPFL, the Swiss Federal Institute of Technology in Lausanne, is one of Europe's top universities.
-                <br>
-                It is located in the southwestern part of Switzerland, bordering Lake Geneva.
-                <br>
-                You can find directions to EPFL <a href="http://information.epfl.ch/access"
+    <section class="section-info">
+        <div class="row no-padding">
+            <div class="col-md-6 vertical-center">
+                <div class="text-container">
+                    <p>
+                        Learn, build & share during a weekend in a relaxed atmosphere.
+                        <br>
+                        No need to be a programmer, anybody can come!
+                    </p>
+                    <p>
+                        EPFL is one of Europe's top universities.
+                        <br>
+                        It's located in the southwestern part of Switzerland, bordering Lake Geneva.
+                        <br>
+                        You can find directions <a href="http://information.epfl.ch/access"
                                                    rel="noreferrer"
                                                    target="_blank">here</a>.
-            </p>
-        </div>
-        <div class="col-md-6 maps-container">
-            <div id="maps-canvas" />
-            <script>
-                window.onload = function () {
-                    var options = {
-                        zoom: 9,
-                        center: { lat: 46.5189865, lng: 6.5676007 },
-                        mapTypeId: google.maps.MapTypeId.ROADMAP,
-                        clickableIcons: false,
-                        disableDefaultUI: true
-                    };
-                    var map = new google.maps.Map(document.getElementById("maps-canvas"), options);
-                    new google.maps.Marker({
-                        map: map,
-                        position: options.center
-                    });
-                };
-            </script>
+                    </p>
+                </div>
+            </div><!-- comment to avoid extra spaces with inline-block, thanks CSS...
+         --><div class="col-md-6 vertical-center">
+                <div class="maps-container">
+                    <div id="maps-canvas"></div>
+                    <script>
+                        window.onload = function () {
+                            var options = {
+                                zoom: 9,
+                                center: { lat: 46.5189865, lng: 6.5676007 },
+                                mapTypeId: google.maps.MapTypeId.ROADMAP,
+                                clickableIcons: false,
+                                disableDefaultUI: true
+                            };
+                            var map = new google.maps.Map(document.getElementById("maps-canvas"), options);
+                            new google.maps.Marker({
+                                map: map,
+                                position: options.center
+                            });
+                        };
+                    </script>
+                </div>
+            </div>
         </div>
     </section>
-    <section class="col-xs-12">
+    <section>
         <h1>F.A.Q.</h1>
         <div class="row">
             <div class="col-md-4">
-                <h2>Who can participate?</h2>
+                <h2>Can I participate?</h2>
                 <p>
-                    You are eligible to participate if you are a student, or have graduated from university in the past twelve months.
+                    You must be <strong>at least 18 years old</strong> and <strong>a student</strong>, or have graduated from university in the past twelve months.
                 </p>
             </div>
             <div class="col-md-4">
                 <h2>How much does it cost?</h2>
                 <p>
-                    Thanks to our sponsors, attendance is completely free.
+                    Thanks to our sponsors, <strong>attendance is completely free</strong>.
+                    <br>
+                    This also includes meals.
                 </p>
             </div>
             <div class="col-md-4">
@@ -92,7 +97,7 @@
                 <p>
                     Bring your laptop, charger and other gadgets you might use for your project.
                     <br>
-                    Please bring <b>a valid ID</b> for admission.
+                    Please bring <strong>a valid ID</strong> for admission.
                 </p>
             </div>
         </div>
@@ -110,7 +115,7 @@
             <div class="col-md-4">
                 <h2>What will I eat?</h2>
                 <p>
-                    We'll provide meals from breakfast on Saturday to lunch on Sunday.
+                    <strong>We'll provide meals</strong> from breakfast on Saturday to lunch on Sunday.
                     <br>
                     If you have dietary restrictions, we’ll try our best to accommodate them.
                 </p>
@@ -126,7 +131,9 @@
             <div class="col-md-4">
                 <h2>I've never been to a hackathon...</h2>
                 <p>
-                    LauzHack is very beginner friendly, there will be plenty of mentors and a range of workshops to help you out before and during the hackathon.
+                    We are very <strong>beginner friendly</strong>.
+                    <br>
+                    There will be plenty of mentors and a range of workshops to help you out.
                 </p>
             </div>
             <div class="col-md-4">
@@ -134,7 +141,7 @@
                 <p>
                     Don't worry! Part of the fun of a hackathon is meeting new people.
                     <br>
-                    You'll have time before hacking to socialize and form teams of up to 4 people.
+                    You'll have time before hacking to socialize and form teams of up to 4.
                 </p>
             </div>
             <div class="col-md-4">
@@ -149,7 +156,7 @@
             </div>
         </div>
     </section>
-    <section class="col-xs-12">
+    <section>
         <h1>Sponsors</h1>
         <div class="row">
             <h2>Partners</h2>
@@ -201,8 +208,8 @@
         </div>
     </section>
 
-    <footer class="col-xs-12 section-info">
-        <div class="text-container">
+    <section class="section-info section-footer">
+        <div class="row">
             <p>
                 LauzHack is organized by <a href="http://clic.epfl.ch/"
                                             target="_blank"
@@ -210,7 +217,7 @@
                 the EPFL Computer &amp; Communication Sciences students' association.
             </p>
         </div>
-    </footer>
+    </section>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXP2NuuGZAxORy6-p6je3mSiXjCboOtX8"></script>
 
 
