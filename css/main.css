@@ -49,20 +49,20 @@ strong {
     }
 
     .section-title .btn {
-        color: #e2001a !important;
+        color: #d42b2e !important;
         font-size: 2em;
         padding: 0.75em;
     }
 
         .section-title .btn:hover {
             color: #fff !important;
-            border-color: #e2001a;
-            background-color: #e2001a;
+            border-color: #d42b2e;
+            background-color: #d42b2e;
         }
 
 
 .section-info {
-    background: #e2001a;
+    background: #d42b2e;
     color: #fff;
     font-size: 1.25em;
 }
