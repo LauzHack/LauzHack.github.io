@@ -50,6 +50,7 @@ strong {
 .section-title {
     /* Fake a dark overlay with a gradient. Black is black... I want my sanity back... */
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/background.jpg');
+    background-size: cover;
     min-height: 100vh;
     color: white;
 }
