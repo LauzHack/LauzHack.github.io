@@ -139,13 +139,35 @@ strong {
     margin: 0 0 2em 0;
 }
 
+.staff-link .staff-info {
+    opacity: 0.8;
+}
+
+.staff-link:hover .staff-info {
+    opacity: 1;
+    color: white;
+}
+
+.staff-link:focus .staff-info,
+.staff-link:active .staff-info {
+    color: white;
+}
+
 .staff-pic {
-    width: 10vw;
-    height: 10vw;
+    width: 10em;
+    height: 10em;
 }
 
 .staff-info {
     background-color: rgba(0, 0, 0, 0.2);
+}
+
+.staff-firstname {
+    font-weight: 600;
+}
+
+.staff-lastname {
+    opacity: 0.7;
 }
 
 
