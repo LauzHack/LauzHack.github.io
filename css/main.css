@@ -136,6 +136,7 @@ strong {
 
 .staff-container {
     display: inline-block;
+    margin: 0 0 2em 0;
 }
 
 .staff-pic {
