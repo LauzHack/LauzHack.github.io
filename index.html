@@ -27,6 +27,12 @@
 
     <link rel="icon" type="image/png" href="images/favicon-16.png" sizes="16x16">
     <link rel="icon" type="image/png" href="images/favicon-32.png" sizes="32x32">
+    <script>
+        function msgto (mailID, mailDomain) {
+          var txt = mailID + "@" + mailDomain
+          document.write ("<a href=mailto:"+ txt + ">" + txt + "</a>");
+        };
+    </script>
 </head>
 <body>
     <section class="section-title">
@@ -169,7 +175,7 @@
                                           target="_blank"
                                           rel="noreferrer">Facebook</a>,
                     <br>
-                    or email us at <a href="mailto:info@lauzhack.com">info@lauzhack.com</a>!
+                    or email us at <script>msgto("info", "lauzhack.com")</script>!
                 </p>
             </div>
         </div>
