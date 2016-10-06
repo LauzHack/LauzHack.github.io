@@ -18,6 +18,10 @@ section {
     padding: 1em 2em;
 }
 
+    .row[class*="sponsor"] {
+        margin-bottom: 3em;
+    }
+
 .row-centered {
     text-align: center;
 }
@@ -119,7 +123,7 @@ strong {
 }
 
 .sponsor-gold img {
-    height: 45vh;
+    height: 42vh;
 }
 
 .sponsor-silver img {
