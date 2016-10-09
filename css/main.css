@@ -24,29 +24,6 @@ section {
         margin-bottom: 3em;
     }
 
-    .row[class*="sponsor-gold"]{
-        background-color: rgba(212,175,55,0.2);
-        border-top-right-radius: 50px;
-        border-bottom-right-radius: 50px;
-        padding-left: 10%;
-        margin-right: 10%;
-    }
-
-    .row[class*="sponsor-silver"]{
-        background-color: rgba(192,192,192,0.2);
-        border-top-left-radius: 50px;
-        border-bottom-left-radius: 50px;
-        margin-left: 10%;
-        padding-right: 10%;
-    }
-
-    .row[class*="sponsor-bronze"]{
-        background-color: rgba(205,127,50,0.13);
-        border-top-right-radius: 50px;
-        border-bottom-right-radius: 50px;
-        padding-left: 10%;
-        margin-right: 10%;
-    }
 
 .row-centered {
     text-align: center;
