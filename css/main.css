@@ -16,11 +16,14 @@ section {
 
 .row {
     padding: 1em 2em;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
     .row[class*="sponsor"] {
         margin-bottom: 3em;
     }
+
 
 .row-centered {
     text-align: center;
