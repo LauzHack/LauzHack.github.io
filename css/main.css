@@ -15,13 +15,29 @@ section {
 }
 
 .row {
-    padding: 1em 10%;
+    padding: 1em 2em;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
     .row[class*="sponsor"] {
         margin-bottom: 3em;
     }
 
+    .row[class*="sponsor-gold"]{
+        background-color: rgba(212,175,55,0.12);
+
+    }
+
+    .row[class*="sponsor-silver"]{
+        background-color: rgba(192,192,192,0.18);
+
+    }
+
+    .row[class*="sponsor-bronze"]{
+        background-color: rgba(205,127,50,0.12);
+
+    }
 
 .row-centered {
     text-align: center;
@@ -152,10 +168,10 @@ strong {
 .maps-container {
     height: 20em;
     padding: 0;
-    pointer-events: none;
 }
 
     .maps-container div {
+        width: 100%;
         height: 100%;
     }
 
