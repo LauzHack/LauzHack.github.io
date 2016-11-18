@@ -129,17 +129,17 @@ strong {
 
     .section-announcements h1 {
         font-size: 4em;
-        margin: 2em 0;
+        margin: 1em 0;
     }
 
     .section-announcements h2 {
         font-size: 3em;
-        margin: 2em 0;
+        margin: 0.5em 0;
     }
 
     .section-announcements h3 {
         font-size: 2em;
-        margin: 1em 0;
+        margin: 0.25em 0;
     }
 
 .section-footer {
