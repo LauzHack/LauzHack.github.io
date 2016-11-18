@@ -24,19 +24,16 @@ section {
         margin-bottom: 3em;
     }
 
-    .row[class*="sponsor-gold"]{
+    .row[class*="sponsor-gold"] {
         background-color: rgba(212,175,55,0.12);
-
     }
 
-    .row[class*="sponsor-silver"]{
+    .row[class*="sponsor-silver"] {
         background-color: rgba(192,192,192,0.18);
-
     }
 
-    .row[class*="sponsor-bronze"]{
+    .row[class*="sponsor-bronze"] {
         background-color: rgba(205,127,50,0.12);
-
     }
 
 .row-centered {
@@ -121,6 +118,29 @@ strong {
             color: #000;
         }
 
+
+.section-announcements {
+    color: gray;
+}
+
+    .section-announcements *:first-child {
+        color: black;
+    }
+
+    .section-announcements h1 {
+        font-size: 4em;
+        margin: 2em 0;
+    }
+
+    .section-announcements h2 {
+        font-size: 3em;
+        margin: 2em 0;
+    }
+
+    .section-announcements h3 {
+        font-size: 2em;
+        margin: 1em 0;
+    }
 
 .section-footer {
     margin-top: 5em;
@@ -228,4 +248,9 @@ strong {
 
 .no-padding {
     padding: 0 !important;
+}
+
+.no-scroll {
+    height: 100%;
+    overflow: hidden;
 }
