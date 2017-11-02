@@ -1,112 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   preserveAspectRatio="xMinYMin meet"
-   viewBox="-19837.638 0 0 99.188188"
-   id="svg2"
-   version="1.1"
-   inkscape:version="0.91 r13725"
-   width="150"
-   height="150"
-   sodipodi:docname="dominos_pizza.svg">
-  <metadata
-     id="metadata27">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <defs
-     id="defs25" />
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     id="namedview23"
-     showgrid="false"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
-     inkscape:zoom="2.61"
-     inkscape:cx="49.721373"
-     inkscape:cy="49.466815"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="logo" />
-  <desc
-     id="desc4">
-A representation of the Domino's Pizza trademark logo.
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="5e3" viewBox="1 2 100 133.33333" width="5e3" version="1.1" preserveAspectRatio="xMinYMin meet" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<desc>A representation of the Domino&apos;s Pizza trademark logo.
 This representation is dedicated to the public domain by the author:
-http://creativecommons.org/licenses/publicdomain
-</desc>
-  <g
-     id="logo"
-     transform="matrix(0.50911688,-0.50911688,0.50911688,0.50911688,-1.1903153,100.53319)">
-    <rect
-       x="49.901917"
-       y="-3.3966817e-006"
-       width="100"
-       height="48.5"
-       rx="4"
-       style="fill:#de2939"
-       id="rect7" />
-    <circle
-       cx="65.401917"
-       cy="15.499995"
-       r="8"
-       style="fill:#ffffff"
-       id="circle9" />
-    <circle
-       cx="82.901917"
-       cy="33.249996"
-       r="8"
-       style="fill:#ffffff"
-       id="circle11" />
-    <circle
-       cx="125.90192"
-       cy="24.249996"
-       r="8"
-       style="fill:#ffffff"
-       id="circle13" />
-    <rect
-       x="99.901917"
-       y="-3.3966817e-006"
-       width="3"
-       height="48.5"
-       style="fill:#ffffff;stroke:none"
-       id="rect15" />
-    <rect
-       x="49.901917"
-       y="50.999996"
-       width="100"
-       height="48.5"
-       rx="4"
-       style="fill:#007bad"
-       id="rect17" />
-    <path
-       style="fill:#ffffff;fill-rule:evenodd;stroke:none"
-       d="m 54.901918,72.999996 0,-17.5 6,0 c 7.5,1 7.5,16 0,17.5 z m 4.5,-13.5 0,9 c 3.5,-0.5 3.5,-8.5 0,-9 m 13.75,0.75 c 7,0 7,12.75 0,12.75 -7,0 -7,-12.75 0,-12.75 z m 0,3.25 c 1.75,0 1.75,6.25 0,6.25 -1.75,0 -1.75,-6.25 0,-6.25 z m 6.75,-2.5 4.5,0 0,1.5 a 3.5,3.5 0 0 1 6,0 3.5,3.5 0 0 1 6,0 l 0,10.5 -4.25,0 0,-7.5 a 1,1.5 0 0 0 -1.75,0 l 0,7.5 -4.5,0 0,-7.5 a 1,1.5 0 0 0 -1.75,0 l 0,7.5 -4.25,0 z m 18.5,0 4.500002,0 0,12 -4.500002,0 z m 2.250002,-7 a 2.6,2.6 0 1 0 0.01,0 m 4.24,7 4.25,0 0,2 a 3.15,3.15 0 0 1 6,1 l 0,9 -4.25,0 0,-7.5 a 1,1.5 0 0 0 -1.75,0 l 0,7.5 -4.25,0 z m 17.25,-0.75 c 7,0 7,12.75 0,12.75 -7,0 -7,-12.75 0,-12.75 z m 0,3.25 c 1.75,0 1.75,6.25 0,6.25 -1.75,0 -1.75,-6.25 0,-6.25 z m 8.25,-8 4.5,0 -3,7.75 -3.25,0 z m 10,8.5 c -4.5,-2 -4,1 -1,1.5 3.5,1.5 3.5,7.5 -2,7.5 q -2.5,-0.25 -4.25,-1.5 l 1.5,-2.5 c 4.25,2 4.25,-1 0.25,-2 -4,-2 -1,-10 7,-6 z m -80.500002,31 -5,0 0,-18 5,0 a 6,6 0 0 1 0,12 z m 0,-14.5 a 2.6125,2.375 0 0 1 0,4.75 z m 7.75,2 4.5,0 0,12.5 -4.5,0 z m 2.25,-6.3 a 2.6,2.6 0 1 0 0.01,0 m 3.99,6.3 9.5,0 -4,8.75 3.75,0 0,3.75 -9.75,0 4,-9 -3.5,0 z m 11.25,0 9.5,0 -4,8.75 3.75,0 0,3.75 -10,0 4.25,-9 -3.75,0 z m 17.000002,10.5 a 4,6.3 0 1 1 0,-9 l 0,-1.5 4.75,0 0,12.5 -4.75,0 z m 0,-3 a 1,2.5 0 1 1 0,-3 z"
-       id="path19"
-       inkscape:connector-curvature="0" />
-  </g>
+http://creativecommons.org/licenses/publicdomain</desc>
+<g transform="matrix(.50912 -.50912 .50912 .50912 -8.5237 94.2)">
+<rect rx="4" height="48.5" width="100" y="-.0000033967" x="49.902" fill="#de2939"/>
+<g fill="#fff">
+<circle cy="15.5" cx="65.402" r="8"/>
+<circle cy="33.25" cx="82.902" r="8"/>
+<circle cy="24.25" cx="125.9" r="8"/>
+<rect height="48.5" width="3" y="-.0000033967" x="99.902"/>
+</g>
+<rect rx="4" height="48.5" width="100" y="51" x="49.902" fill="#007bad"/>
+<path fill-rule="evenodd" fill="#fff" d="m54.902 73v-17.5h6c7.5 1 7.5 16 0 17.5zm4.5-13.5v9c3.5-0.5 3.5-8.5 0-9m13.75 0.75c7 0 7 12.75 0 12.75s-7-12.75 0-12.75zm0 3.25c1.75 0 1.75 6.25 0 6.25s-1.75-6.25 0-6.25zm6.75-2.5h4.5v1.5a3.5 3.5 0 0 1 6 0 3.5 3.5 0 0 1 6 0v10.5h-4.25v-7.5a1 1.5 0 0 0 -1.75 0v7.5h-4.5v-7.5a1 1.5 0 0 0 -1.75 0v7.5h-4.25zm18.5 0h4.5v12h-4.5zm2.25-7a2.6 2.6 0 1 0 0.01 0m4.24 7h4.25v2a3.15 3.15 0 0 1 6 1v9h-4.25v-7.5a1 1.5 0 0 0 -1.75 0v7.5h-4.25zm17.25-0.75c7 0 7 12.75 0 12.75s-7-12.75 0-12.75zm0 3.25c1.75 0 1.75 6.25 0 6.25s-1.75-6.25 0-6.25zm8.25-8h4.5l-3 7.75h-3.25zm10 8.5c-4.5-2-4 1-1 1.5 3.5 1.5 3.5 7.5-2 7.5q-2.5-0.25-4.25-1.5l1.5-2.5c4.25 2 4.25-1 0.25-2-4-2-1-10 7-6zm-80.5 31h-5v-18h5a6 6 0 0 1 0 12zm0-14.5a2.6125 2.375 0 0 1 0 4.75zm7.75 2h4.5v12.5h-4.5zm2.25-6.3a2.6 2.6 0 1 0 0.01 0m3.99 6.3h9.5l-4 8.75h3.75v3.75h-9.75l4-9h-3.5zm11.25 0h9.5l-4 8.75h3.75v3.75h-10l4.25-9h-3.75zm17 10.5a4 6.3 0 1 1 0 -9v-1.5h4.75v12.5h-4.75zm0-3a1 2.5 0 1 1 0 -3z"/>
+</g>
 </svg>
