@@ -20,6 +20,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 1em 0;
 }
 
 .item-large {
