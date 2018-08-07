@@ -30,7 +30,8 @@
   a: |-
         More details to come soon on travel reimbursement - stay tuned!
 
-- q: What about intellectual property?
+- id: ip
+  q: What about intellectual property?
   a: |-
         We do not claim any rights on any of your intellectual property whatsoever.  
         Everything you create, at LauzHack or not, belongs to you.
