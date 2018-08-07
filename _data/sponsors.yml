@@ -1,9 +1,11 @@
 - name: Bronze
   color: rgba(205,127,50,0.12)
+  size: 16
   sponsors:
 
 - name: Silver
   color: rgba(192,192,192,0.18)
+  size: 32
   sponsors:
     - name: Crédit Suisse
       link: https://www.credit-suisse.com/ch/en.html
@@ -14,6 +16,7 @@
 
 - name: Gold
   color: rgba(212,175,55,0.12)
+  size: 42
   sponsors:
     - name: Logitech
       link: https://www.logitech.com/en-ch
@@ -21,10 +24,14 @@
       link: https://www.swissquote.ch/index/index_quote_e.html
 
 - name: Partners
+  size: 20
   color: rgba(0,0,0,0)
   no_sort: true
   sponsors:
     - name: EPFL
       link: https://epfl.ch/index.en.html
-    - name: AAA
-      link: https://perdu.com
+
+- name: Food Sponsors
+  size: 20
+  color: rgba(0,0,0,0)
+  sponsors:

@@ -7,44 +7,31 @@ body {
     background: #f0f0f0;
     text-align: center;
     font-family: Sanchez, Courier, monospace;
+    margin: 0;
 }
 
 section {
     width: 100%;
     overflow: hidden;
+    padding: 1.5em 0;
 }
 
-.row {
-    padding: 1em 2em;
-    padding-left: 10%;
-    padding-right: 10%;
+.items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-    .row[class*="sponsor"] {
-        margin-bottom: 3em;
-    }
-
-    .row[class*="sponsor-gold"] {
-        background-color: rgba(212,175,55,0.12);
-    }
-
-    .row[class*="sponsor-silver"] {
-        background-color: rgba(192,192,192,0.18);
-    }
-
-    .row[class*="sponsor-bronze"] {
-        background-color: rgba(205,127,50,0.12);
-    }
-
-.row-centered {
-    text-align: center;
+.item-large {
+    flex-grow: 0;
+    flex-basis: 30%;
+    padding: 0 1.65%;
 }
 
-.col-centered {
-    display: inline-block;
-    float: none;
-    margin-right: -4px;
-    padding: 0 3em;
+.item-small {
+    flex-grow: 0;
+    flex-basis: 17%;
+    padding: 0 1.5%;
 }
 
 h1 {
@@ -59,6 +46,11 @@ h2 {
 h3 {
     font-weight: bold;
     font-size: 1.5em;
+    margin-bottom: 0;
+}
+
+strong {
+    color: black;
 }
 
 @media all and (max-width:768px) {
@@ -72,21 +64,16 @@ h3 {
     }
 }
 
-small {
-    font-size: 0.4em;
-}
-
-strong {
-    color: black;
-}
-
-
 .section-title {
     /* Fake a dark overlay with a gradient. Black is black... I want my sanity back... */
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/background.jpg');
     background-size: cover;
     min-height: 100vh;
     color: white;
+}
+
+.section-title > div {
+    padding: 0 2em;
 }
 
     .section-title p {
@@ -123,31 +110,10 @@ strong {
             color: #000;
         }
 
-
-.section-announcements {
-    color: gray;
-}
-
-    .section-announcements *:first-child {
-        color: black;
-    }
-
-    .section-announcements h1 {
-        font-size: 4em;
-        margin: 1em 0;
-    }
-
-    .section-announcements h2 {
-        font-size: 3em;
-        margin: 0.5em 0;
-    }
-
-    .section-announcements h3 {
-        font-size: 2em;
-        margin: 0.25em 0;
-    }
-
 .section-footer {
+    background: #d42b2e;
+    color: #fff;
+    font-size: 1.25em;
     margin-top: 5em;
 }
 
@@ -164,40 +130,9 @@ strong {
     }
 }
 
-.sponsor-gold img {
-    height: 42vh;
-}
-
-.sponsor-silver img {
-    height: 32vh;
-}
-
-.sponsor-bronze img {
-    height: 16vh;
-}
-
-.sponsor-partner img {
-    height: 20vh;
-}
-
-.sponsor-food img {
-    height: 20vh;
-}
-
-
-.text-container {
+.section-info > div {
     padding: 2em;
 }
-
-
-.maps-container {
-    height: 20em;
-    padding: 0;
-}
-
-    .maps-container div {
-        height: 100%;
-    }
 
 
 .staff-container {
@@ -206,56 +141,30 @@ strong {
 }
 
 .staff-link .staff-info {
-    opacity: 0.8;
+    opacity: 0.7;
+    color: white;
 }
 
-.staff-link:hover .staff-info {
+.staff-link:active .staff-info,
+.staff-link:hover  .staff-info {
     opacity: 1;
-    color: white;
 }
 
-.staff-link:focus .staff-info,
-.staff-link:active .staff-info {
-    color: white;
-}
-
-.staff-pic {
+.staff-image {
     width: 10em;
     height: 10em;
 }
 
 .staff-info {
     background-color: rgba(0, 0, 0, 0.2);
+    margin-top: -0.3em;
+    padding: 0.3em 0;
 }
 
-.staff-firstname {
+.staff-first {
     font-weight: 600;
 }
 
-.staff-lastname {
+.staff-last {
     opacity: 0.7;
-}
-
-
-.vertical-center {
-    vertical-align: middle;
-    float: none;
-    padding: 0;
-    margin: 0;
-}
-
-@media all and (min-width:768px) {
-    .vertical-center {
-        display: inline-block;
-    }
-}
-
-
-.no-padding {
-    padding: 0 !important;
-}
-
-.no-scroll {
-    height: 100%;
-    overflow: hidden;
 }

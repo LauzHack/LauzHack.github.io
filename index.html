@@ -1,530 +1,173 @@
+---
+---
+
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="Student-run hackathon at EPFL, Switzerland">
-    <meta name="author" content="EPFL I&amp;C Students Association">
+    <meta name="description" content="{{ site.description }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="LauzHack">
-    <meta property="og:image" content="http://lauzhack.com/images/preview.jpg">
-    <meta property="og:url" content="http://lauzhack.com">
-    <meta property="og:description" content="Student-run hackathon at EPFL">
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:image" content="{{ site.url }}/images/preview.jpg">
+    <meta property="og:url" content="{{ site.url }}">
+    <meta property="og:description" content="{{ site.description }}">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@lauzhack">
-    <meta name="twitter:title" content="LauzHack">
-    <meta name="twitter:image" content="http://lauzhack.com/images/preview.jpg">
-    <meta name="twitter:description" content="Student-run hackathon at EPFL">
+    <meta name="twitter:site" content="@{{ site.twitter }}">
+    <meta name="twitter:title" content="{{ site.title }}">
+    <meta name="twitter:image" content="{{ site.url }}/images/preview.jpg">
+    <meta name="twitter:description" content="{{ site.description }}">
 
-    <title>LauzHack 2018</title>
+    <title>{{ site.title }} {{ site.year }}</title>
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
 
     <link rel="icon" type="image/png" href="images/favicon-16.png" sizes="16x16">
     <link rel="icon" type="image/png" href="images/favicon-32.png" sizes="32x32">
-
-    <script>
-        // Basic protection against dumb bots
-        function msgto(mailID, mailDomain) {
-            var txt = mailID + "@" + mailDomain;
-            document.write("<a href=\"mailto:" + txt + "\">" + txt + "</a>");
-        };
-    </script>
 </head>
 <body>
     <section class="section-title">
+      <div>
         <img class="logo"
              src="images/logo.png"
-             alt="LauzHack">
+             alt="{{ site.title }}">
         <h1>
-            Date TBA
+            {{ site.date }}
             <br>
-            EPFL, Switzerland
+            {{ site.location }}
         </h1>
         <p>
-            <h2>
-                More to come soon.
-            </h2>
-        </p>
-        <p>
             <h3>
-                Follow us on <a href="https://www.facebook.com/lauzhack/"
+                Follow us on <a href="https://www.facebook.com/{{ site.facebook }}"
                                 target="_blank"
                                 rel="noreferrer">Facebook</a>
-                and <a href="https://twitter.com/lauzhack"
+                and <a href="https://twitter.com/{{ site.twitter }}"
                        target="_blank"
                        rel="noreferrer">Twitter</a>
                 for updates!
             </h3>
         </p>
-        <p>
-            <h3>
-                Don't forget to check out the 2017 <a href="https://lauzhack2017.devpost.com"
-                                                      target="_blank"
-                                                      rel="noreferrer">projects</a>
-                and photos from <a href="https://www.flickr.com/photos/clic-epfl/sets/72157688594566001"
-                                   target="_blank"
-                                   rel="noreferrer">Saturday</a>
-                and <a href="https://www.flickr.com/photos/clic-epfl/sets/72157666472688549"
-                       target="_blank"
-                       rel="noreferrer">Sunday</a>,
-            </h3>
-        </p>
-        <p>
-            <h3>
-                as well as the 2016 <a href="https://lauzhack.devpost.com/submissions"
-                                       target="_blank"
-                                       rel="noreferrer">projects</a>
-                and photos from <a href="https://www.flickr.com/photos/clic-epfl/albums/72157673003949813"
-                                   target="_blank"
-                                   rel="noreferrer">Saturday</a>
-                and <a href="https://www.flickr.com/photos/clic-epfl/albums/72157675427474611"
-                       target="_blank"
-                       rel="noreferrer">Sunday</a>.
-            </h3>
-        </p>
+      </div>
     </section>
     <section class="section-info">
-        <div class="row no-padding">
-            <div class="col-md-6 vertical-center">
-                <div class="text-container">
-                    <p>
-                        LauzHack is a student-run hackathon at EPFL in Lausanne, Switzerland.
-                    </p>
-                    <p>
-                        Hackathons are creativity marathons, where attendees work in teams to create something exciting in a short time.
-                    </p>
-                    <p>
-                        Come and join over 200 like-minded students hacking together during a weekend to make something amazing!
-                    </p>
-                    <p>
-                        Please keep in mind our <a href="http://lauzhack.com/pdf/rules.pdf"
-                                                   target="_blank">rules</a>.
-                    </p>
-                </div>
-            </div><!-- comment to avoid extra spaces with inline-block, thanks CSS...
-         --><div class="col-md-6 vertical-center">
-                <div class="maps-container">
-                    <div id="maps-canvas"></div>
-                    <script>
-                        window.onload = function () {
-                            var options = {
-                                zoom: 9,
-                                center: { lat: 46.5189865, lng: 6.5676007 },
-                                mapTypeId: google.maps.MapTypeId.ROADMAP,
-                                clickableIcons: false,
-                                disableDefaultUI: true
-                            };
-                            var map = new google.maps.Map(document.getElementById("maps-canvas"), options);
-                            new google.maps.Marker({
-                                map: map,
-                                position: options.center
-                            });
-                        };
-                    </script>
-                </div>
-            </div>
-        </div>
+      <div>
+        {% capture info %}{% include info.md %}{% endcapture %}
+        {{ info | markdownify }}
+      </div>
     </section>
-    <section id="schedule">
-        <h1>Schedule</h1>
-        <div class="row">
-            To be announced.
-        </div>
+    <section class="section-past">
+      <h1>Past Editions</h1>
+      <div class="items-container">
+        {% for edition in site.data.editions %}
+          <div class="item-large">
+            <h3>{{ edition.year }}</h3>
+            <p>{{ edition.description }}
+            <p>
+              {% for item in edition.links %}
+                <a href="{{ item.link }}"
+                   target="_blank"
+                   rel="noreferrer">{{ item.name }}</a>
+              {% endfor %}
+            </p>
+            <p>Photos:
+              {% for item in edition.galleries %}
+                <a href="{{ item.link }}"
+                   target="_blank"
+                   rel="noreferrer">{{ item.name }}</a>
+              {% endfor %}
+            </p>
+          </div>
+        {% endfor %}
+      </div>
     </section>
-    <section>
-        <h1>F.A.Q.</h1>
-        <div class="row">
-            <div class="col-md-4">
-                <h3>Can I participate?</h3>
-                <p>
-                    You must be <strong>at least 18 years old</strong> and <strong>a student</strong>, or have graduated from university in the past twelve months.
-                </p>
-            </div>
-            <div class="col-md-4">
-                <h3>How much does it cost?</h3>
-                <p>
-                    Thanks to our sponsors, <strong>attendance is completely free</strong>.
-                    We will provide you with WiFi, <strong>meals</strong>, swag, and a workspace.
-                </p>
-            </div>
-            <div class="col-md-4">
-                <h3>What should I bring?</h3>
-                <p>
-                    Your laptop, charger and anything else you'd like.
-                    <br>
-                    Please bring <strong>a valid ID</strong> for admission.
-                </p>
-            </div>
+<!--    <section id="section-schedule">
+      <h1>Schedule</h1>
+      <div>
+          To be announced.
+      </div>
+    </section> -->
+    <section class="section-faq">
+      <h1>F.A.Q.</h1>
+      <div class="items-container">
+        {% for item in site.data.faq %}
+        <div class="item-large">
+          <h3 id="{{ item.id }}">{{ item.q }}</h3>
+          <p>{{ item.a | markdownify }}</p>
         </div>
-        <div class="row">
-            <div class="col-md-4">
-                <h3>Where is it?</h3>
-                <p>
-                    LauzHack will take place in EPFL's Lausanne campus. It's located in the southwestern part of Switzerland, bordering Lake Geneva.
-                    You can find directions <a href="http://information.epfl.ch/access"
-                                               rel="noreferrer"
-                                               target="_blank">here</a>.
-                </p>
-            </div>
-            <div class="col-md-4">
-                <h3>Where will I sleep?</h3>
-                <p>
-                    We have a sleeping area with mattresses, and showers.
-                    <br>
-                    Please bring your sleeping bag, towel, and toiletries.
-                </p>
-            </div>
-            <div class="col-md-4">
-                <h3>Will my travel be reimbursed?</h3>
-                <p>
-                    More details to come soon on travel reimbursement.
-                </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <h3 id="faq-ip">What about intellectual property?</h3>
-                <p>
-                    We do not claim any rights on any of your intellectual property whatsoever. Everything you create, at LauzHack or not, belongs to you.
-                </p>
-            </div>
-            <div class="col-md-4">
-                <h3>What if I don't have a team?</h3>
-                <p>
-                    Don't worry! Part of the fun of a hackathon is meeting new people.
-                    We will have time at the beginning of the event to socialize and form teams.
-                </p>
-            </div>
-            <div class="col-md-4">
-                <h3>I have another question...</h3>
-                <p>
-                    Message us on <a href="https://facebook.com/lauzhack"
-                                     target="_blank"
-                                     rel="noreferrer">Facebook</a>,
-                    <br>
-                    Tweet to us <a href="http://twitter.com/lauzhack"
-                                   target="_blank"
-                                   rel="noreferrer">@lauzhack</a>,
-                    <br>
-                    or email us at at
-                    <script>msgto("info", "lauzhack.com")</script>!
-                </p>
-            </div>
-        </div>
+        {% endfor %}
+      </div>
     </section>
-    <section>
-        <h1>Sponsors</h1>
-        <div class="row">
-          <p>Interested in sponsoring us? Check out our <a href="/pdf/sponsor.pdf">sponsorship prospectus</a>.</p>
-        </div>
-        <div class="row row-centered sponsor-gold">
-            <div class="col-centered">
-                 <a href="http://logitech.com/"
-                    rel="noreferrer"
-                    target="_blank">
-                     <img src="images/logos/logitech.svg"
-                          alt="Logitech">
-                 </a>
-            </div>
-        </div>
-        <div class="row row-centered sponsor-partner">
-            <h3>General Partners</h3>
-            <!-- NOTE: EPFL requies that their logo be first -->
-            <div class="col-centered">
-                <a href="http://epfl.ch/"
+    <section class="section-sponsors">
+      <h1>Sponsors</h1>
+      <div>
+        <p>Interested in sponsoring us? Check out our <a href="/pdf/sponsor.pdf">sponsorship prospectus</a>.</p>
+      </div>
+
+      {% for tier in site.data.sponsors %}
+        {% if tier.sponsors %}
+          {% if tier.no_sort %}
+            {% assign sponsors = tier.sponsors %}
+          {% else %}
+            {% assign sponsors = tier.sponsors | sort: 'name' %}
+          {% endif %}
+
+          <div class="items-container"
+               style="background: {{ tier.color }}">
+            {% for sponsor in sponsors %}
+
+              {% comment %} Use SVG if available, PNG otherwise {% endcomment %}
+              {% assign file_svg_path = sponsor.name | prepend: '/images/logos/' | append: '.svg' %}
+              {% for file in site.static_files %}
+                {% if file.path == file_svg_path %}
+                  {% assign file_img = file_svg_path %}
+                {% endif %}
+              {% endfor %}
+              {% unless file_img %}
+                {% assign file_img = sponsor.name | prepend: '/images/logos/' | append: '.png' %}
+              {% endunless %}
+
+              <div>
+                <a href="{{ sponsor.link }}"
                    rel="noreferrer"
                    target="_blank">
-                    <img src="images/logos/epfl.svg"
-                         alt="EPFL">
+                  <img src="{{ file_img }}"
+                       alt="{{ tier.name }} sponsor - {{ sponsor.name }}"
+                       style="height: {{ tier.size }}vh">
                 </a>
-            </div>
-        </div>
+              </div>
+            {% endfor %}
+          </div>
+        {% endif %}
+      {% endfor %}
     </section>
-    <section class="section-info section-footer">
-        <h1>Committee</h1>
-        <div class="row row-centered">
-            <div class="col-centered">
-                <a class="staff-link"
-                   target="_blank"
-                   rel="noreferrer"
-                   href="https://www.linkedin.com/in/axel-uran">
-                    <div class="staff-container">
-                        <img class="staff-pic"
-                             src="images/staff/axel_uran.jpg"
-                             alt="Picture of Axel Uran">
-                        <div class="staff-info">
-                            <span class="staff-firstname">
-                                Axel
-                            </span>
-                            <br>
-                            <span class="staff-lastname">
-                                Uran
-                            </span>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-centered">
-                <a class="staff-link"
-                   target="_blank"
-                   rel="noreferrer"
-                   href="https://www.linkedin.com/in/audreyloeffel">
-                    <div class="staff-container">
-                        <img class="staff-pic"
-                             src="images/staff/audrey_loeffel.jpg"
-                             alt="Picture of Audrey Loeffel">
-                        <div class="staff-info">
-                            <span class="staff-firstname">
-                                Audrey
-                            </span>
-                            <br>
-                            <span class="staff-lastname">
-                                Loeffel
-                            </span>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-centered">
-                <a class="staff-link"
-                   target="_blank"
-                   rel="noreferrer"
-                   href="https://www.linkedin.com/in/blagovestakostova">
-                    <div class="staff-container">
-                        <img class="staff-pic"
-                             src="images/staff/betty_kostova.jpg"
-                             alt="Picture of Betty Kostova">
-                        <div class="staff-info">
-                            <span class="staff-firstname">
-                                Betty
-                            </span>
-                            <br>
-                            <span class="staff-lastname">
-                                Kostova
-                            </span>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-centered">
-                <a class="staff-link"
-                   target="_blank"
-                   rel="noreferrer"
-                   href="https://www.linkedin.com/in/boubacar-camara">
-                    <div class="staff-container">
-                        <img class="staff-pic"
-                             src="images/staff/boubacar_camara.jpg"
-                             alt="Picture of Boubacar Camara">
-                        <div class="staff-info">
-                            <span class="staff-firstname">
-                                Boubacar
-                            </span>
-                            <br>
-                            <span class="staff-lastname">
-                                Camara
-                            </span>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-centered">
-                <a class="staff-link"
-                   target="_blank"
-                   rel="noreferrer"
-                   href="https://www.linkedin.com/in/floriandepraz">
-                    <div class="staff-container">
-                        <img class="staff-pic"
-                             src="images/staff/florian_depraz.jpg"
-                             alt="Picture of Florian Depraz">
-                        <div class="staff-info">
-                            <span class="staff-firstname">
-                                Florian
-                            </span>
-                            <br>
-                            <span class="staff-lastname">
-                                Depraz
-                            </span>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-centered">
-                <a class="staff-link"
-                   target="_blank"
-                   rel="noreferrer"
-                   href="https://www.linkedin.com/in/natalia-nessler-730933149/">
-                    <div class="staff-container">
-                        <img class="staff-pic"
-                             src="images/staff/natalia_nessler.png"
-                             alt="Picture of Natalia Nessler">
-                        <div class="staff-info">
-                            <span class="staff-firstname">
-                                Natalia
-                            </span>
-                            <br>
-                            <span class="staff-lastname">
-                                Nessler
-                            </span>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-centered">
-                <a class="staff-link"
-                   target="_blank"
-                   rel="noreferrer"
-                   href="https://www.linkedin.com/in/romain-gehrig-96b2aab7">
-                    <div class="staff-container">
-                        <img class="staff-pic"
-                             src="images/staff/romain_gehrig.jpg"
-                             alt="Picture of Romain Gehrig">
-                        <div class="staff-info">
-                            <span class="staff-firstname">
-                                Romain
-                            </span>
-                            <br>
-                            <span class="staff-lastname">
-                                Gehrig
-                            </span>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-centered">
-                <a class="staff-link"
-                   target="_blank"
-                   rel="noreferrer"
-                   href="http://linkedin.com/in/saphir-kwan-b284b2128">
-                    <div class="staff-container">
-                        <img class="staff-pic"
-                             src="images/staff/saphir_kwan.jpg"
-                             alt="Picture of Saphir Kwan">
-                        <div class="staff-info">
-                            <span class="staff-firstname">
-                                Saphir
-                            </span>
-                            <br>
-                            <span class="staff-lastname">
-                                Kwan
-                            </span>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-centered">
-                <a class="staff-link"
-                   target="_blank"
-                   rel="noreferrer"
-                   href="https://www.linkedin.com/in/solalpirelli">
-                    <div class="staff-container">
-                        <img class="staff-pic"
-                             src="images/staff/solal_pirelli.jpg"
-                             alt="Picture of Solal Pirelli">
-                        <div class="staff-info">
-                            <span class="staff-firstname">
-                                Solal
-                            </span>
-                            <br>
-                            <span class="staff-lastname">
-                                Pirelli
-                            </span>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-centered">
-                <a class="staff-link"
-                   target="_blank"
-                   rel="noreferrer"
-                   href="https://www.linkedin.com/in/sourabhlal">
-                    <div class="staff-container">
-                        <img class="staff-pic"
-                             src="images/staff/sourabh_lal.jpg"
-                             alt="Picture of Sourabh Lal">
-                        <div class="staff-info">
-                            <span class="staff-firstname">
-                                Sourabh
-                            </span>
-                            <br>
-                            <span class="staff-lastname">
-                                Lal
-                            </span>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-centered">
-                <a class="staff-link"
-                   target="_blank"
-                   rel="noreferrer"
-                   href="https://www.linkedin.com/in/tatiana-nikitina">
-                    <div class="staff-container">
-                        <img class="staff-pic"
-                             src="images/staff/tatiana_porte.jpg"
-                             alt="Picture of Tatiana Porté">
-                        <div class="staff-info">
-                            <span class="staff-firstname">
-                                Tatiana
-                            </span>
-                            <br>
-                            <span class="staff-lastname">
-                                Porté
-                            </span>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-centered">
-                <a class="staff-link"
-                   target="_blank"
-                   rel="noreferrer"
-                   href="https://www.linkedin.com/in/toverney/en">
-                    <div class="staff-container">
-                        <img class="staff-pic"
-                             src="images/staff/tristan_overney.jpg"
-                             alt="Picture of Tristan Overney">
-                        <div class="staff-info">
-                            <span class="staff-firstname">
-                                Tristan
-                            </span>
-                            <br>
-                            <span class="staff-lastname">
-                                Overney
-                            </span>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-centered">
-                <a class="staff-link"
-                   target="_blank"
-                   rel="noreferrer"
-                   href="https://www.linkedin.com/in/victor-herrmann-7032b2141/">
-                    <div class="staff-container">
-                        <img class="staff-pic"
-                             src="images/staff/victor_herrmann.jpg"
-                             alt="Picture of Victor Herrmann">
-                        <div class="staff-info">
-                            <span class="staff-firstname">
-                                Victor
-                            </span>
-                            <br>
-                            <span class="staff-lastname">
-                                Herrmann
-                            </span>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgvcANgz_H87yUzeH_xlbWULDlCIf1yGs"></script>
+    <section class="section-footer">
+      <h1>Committee</h1>
+      <div class="items-container">
+        {% for staff in site.data.staff %}
+          <div class="item-small">
+            <a class="staff-link"
+               href="{{ staff.link }}"
+               target="_blank"
+               rel="noreferrer">
+              <div class="staff-container">
+                <img class="staff-image"
+                     src="images/staff/{{ staff.first }}_{{ staff.last }}.jpg"
+                     alt="Picture of {{ staff.first }} {{ staff.last }}">
+                <div class="staff-info">
+                  <span class="staff-first">{{ staff.first }}</span>
+                  <br>
+                  <span class="staff-last">{{ staff.last }}</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
 </body>
 </html>
