@@ -41,15 +41,20 @@
             {{ site.location }}
         </h1>
         <p>
-            <h3>
-                Follow us on <a href="https://www.facebook.com/{{ site.facebook }}"
-                                target="_blank"
-                                rel="noreferrer">Facebook</a>
-                and <a href="https://twitter.com/{{ site.twitter }}"
-                       target="_blank"
-                       rel="noreferrer">Twitter</a>
-                for updates!
-            </h3>
+          Follow us on <a href="https://www.facebook.com/{{ site.facebook }}"
+                          target="_blank"
+                          rel="noreferrer">Facebook</a>
+          and <a href="https://twitter.com/{{ site.twitter }}"
+                 target="_blank"
+                 rel="noreferrer">Twitter</a>
+          for updates!
+        </p>
+        <p>
+          Check out the past editions:
+          {% for edition in site.data.editions %}
+            <a href="{{ edition.link }}"
+               target="_blank">{{ edition.name }}</a>
+          {% endfor %}
         </p>
       </div>
     </section>
@@ -57,31 +62,6 @@
       <div>
         {% capture info %}{% include info.md %}{% endcapture %}
         {{ info | markdownify }}
-      </div>
-    </section>
-    <section class="section-past">
-      <h1>Past Editions</h1>
-      <div class="items-container">
-        {% for edition in site.data.editions %}
-          <div class="item-large">
-            <h3>{{ edition.year }}</h3>
-            <p>{{ edition.description }}
-            <p>
-              {% for item in edition.links %}
-                <a href="{{ item.link }}"
-                   target="_blank"
-                   rel="noreferrer">{{ item.name }}</a>
-              {% endfor %}
-            </p>
-            <p>Photos:
-              {% for item in edition.galleries %}
-                <a href="{{ item.link }}"
-                   target="_blank"
-                   rel="noreferrer">{{ item.name }}</a>
-              {% endfor %}
-            </p>
-          </div>
-        {% endfor %}
       </div>
     </section>
 <!--    <section id="section-schedule">
