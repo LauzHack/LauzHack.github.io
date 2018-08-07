@@ -1,0 +1,24 @@
+- year: 2016
+  description: LauzHack's first edition!
+  links:
+    - name: Projects
+      link: https://lauzhack.devpost.com/submissions
+  galleries:
+    - name: Saturday
+      link: https://www.flickr.com/photos/clic-epfl/albums/72157673003949813
+    - name: Sunday
+      link: https://www.flickr.com/photos/clic-epfl/albums/72157675427474611
+
+- year: 2017
+  description: LauzHack's second edition: more hackers, more sponsors, more fun!
+  links:
+    - name: Aftermovie
+      link: https://www.youtube.com/watch?v=3o-LGYTGjTI
+    - name: Projects
+      link: https://lauzhack2017.devpost.com/
+  galleries:
+    - name: Saturday
+      link: https://www.flickr.com/photos/clic-epfl/sets/72157688594566001
+    - name: Sunday
+      link: https://www.flickr.com/photos/clic-epfl/sets/72157666472688549
+
