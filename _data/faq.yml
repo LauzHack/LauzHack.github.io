@@ -1,0 +1,47 @@
+# Don't forget to end lines with two spaces if you want to force a line break.
+# The 'id' field is there to allow linking to a specific section if needed
+
+- q: Can I participate?
+  a: |- 
+        You must be **at least 18 years old** and **a student**,  
+        or have graduated from university in the past twelve months.
+
+- q: How much does it cost?
+  a: |-
+        Thanks to our sponsors, **attendance is free**.  
+        We will provide you with **meals**, swag, Wi-Fi and a workspace.
+
+- q: What should I bring?
+  a: |-
+        Your laptop, charger and anything else you'd like.  
+        Please bring **a valid ID** for admission.
+
+- q: Where is it?
+  a: |-
+        LauzHack will take place in EPFL's Lausanne campus, bordering Lake Geneva.  
+        You can find directions [here](https://information.epfl.ch/access).
+
+- q: Where will I sleep?
+  a: |-
+        We have a sleeping area with mattresses and showers.  
+        Please bring your sleeping bag, towel, and toiletries.
+
+- q: Will my travel be reimbursed?
+  a: |-
+        More details to come soon on travel reimbursement - stay tuned!
+
+- q: What about intellectual property?
+  a: |-
+        We do not claim any rights on any of your intellectual property whatsoever.  
+        Everything you create, at LauzHack or not, belongs to you.
+
+- q: What if I don't have a team?
+  a: |-
+        Don't worry! Part of the fun of a hackathon is meeting new people.  
+        We will have time at the beginning of the event to socialize and form teams.
+
+- q: I have another question...
+  a: |-
+        Message us on [Facebook](https://facebook.com/lauzhack),  
+        tweet to us [@lauzhack](https://twitter.com/lauzhack),  
+        or email us (info at lauzhack dot com) !
