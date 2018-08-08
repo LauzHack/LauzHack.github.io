@@ -24,11 +24,7 @@
 
     <title>{{ site.title }} {{ site.year }}</title>
 
-    {% comment %} Inline CSS for page speed {% endcomment %}
-    <style>
-      {% capture style %}{% include main.css %}{% endcapture %}
-      {{ style }}
-    </style>
+    <style>{% include main.css %}</style>
 
     <link rel="icon" type="image/png" href="images/favicon-16.png" sizes="16x16">
     <link rel="icon" type="image/png" href="images/favicon-32.png" sizes="32x32">
@@ -145,6 +141,9 @@
         {% endfor %}
       </div>
     </div>
+    <p>
+      LauzHack is organized by the LauzHack association, whose legal documents can be viewed <a href="/legal">here</a>.
+    </p>
   </section>
 </body>
 </html>

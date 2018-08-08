@@ -1,0 +1,33 @@
+---
+---
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ site.title }} legalese</title>
+
+    <style>{% include main.css %}</style>
+</head>
+<body>
+  <section>
+    <h1>Statutes</h1>
+    <p>Our statutes are available <a href="{{ site.data.legal.statutes }}"
+                                     target="_blank"
+                                     rel="noreferrer">here</a>.</p>
+  </section>
+  <section>
+    <h1>General Assemblies</h1>
+    <div>
+      {% for assembly in site.data.legal.assemblies %}
+        <p>
+          <a href="{{ assembly.link }}"
+             target="_blank"
+             rel="noreferrer">{{ assembly.name }}</a>
+        </p>
+      {% endfor %}
+    </div>
+  </section>
+</body>
+</html>
