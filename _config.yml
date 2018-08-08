@@ -11,3 +11,6 @@ url: https://lauzhack.com
 # Social networks
 twitter: lauzhack
 facebook: lauzhack
+
+# Jekyll config
+includes_dir: .

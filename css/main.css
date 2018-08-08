@@ -1,171 +1,141 @@
+/* Font */
 @font-face {
-    font-family: "Sanchez";
-    src: url("../fonts/Sanchez.otf");
+  font-family: "Sanchez";
+  src: url("../fonts/Sanchez.otf");
 }
 
+/* Basic elements */
 body {
-    background: #f0f0f0;
-    text-align: center;
-    font-family: Sanchez, Courier, monospace;
-    margin: 0;
+  background: #f0f0f0;
+  text-align: center;
+  font-family: Sanchez, Courier, monospace;
+  font-size: 1.25em;
+  margin: 0;
 }
 
+header,
 section {
-    width: 100%;
-    overflow: hidden;
-    padding: 1.5em 0;
+  width: 100%;
+  overflow: hidden;
+  padding: 1.5em 0;
+}
+
+header > *,
+section > * {
+  padding: 0 2em;
 }
 
 .items-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 1em 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 1em 0;
 }
 
 .item-large {
-    flex-grow: 0;
-    flex-basis: 30%;
-    padding: 0 1.65%;
+  flex-grow: 0;
+  flex-basis: 30%;
+  padding: 0 1.65%;
+  min-width: 200px;
 }
 
 .item-small {
-    flex-grow: 0;
-    flex-basis: 17%;
-    padding: 0 1.5%;
+  flex-grow: 0;
+  flex-basis: 17%;
+  padding: 0 1.5%;
 }
 
 h1 {
-    font-size: 4em;
-    margin: 0.5em;
+  font-size: 4em;
+  margin: 0.5em;
 }
 
 h2 {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
+@media all and (max-width:768px) {
+  h1 {
     font-size: 2.5em;
+    margin: 0.2em;
+  }
 }
 
-h3 {
-    font-weight: bold;
-    font-size: 1.5em;
-    margin-bottom: 0;
+/* Colors */
+.tone-dark {
+  background: #d42b2e;
+  color: #fff;
 }
 
-strong {
-    color: black;
+.tone-dark a {
+  color: #ddd;
+}
+
+.tone-dark a:active,
+.tone-dark a:focus,
+.tone-dark a:hover {
+  color: #fff;
+}
+
+
+/* Header */
+header {
+  /* Fake a dark overlay with a gradient. Black is black... I want my sanity back... */
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/background.jpg') !important;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+header p {
+  font-size: 3em;
+  margin: 0; /* otherwise they create weird spacing */
+}
+
+header img {
+  max-width: 80%;
+  margin: 10em auto 0 auto;
 }
 
 @media all and (max-width:768px) {
-    h1 {
-        font-size: 2.5em;
-        margin: 0.2em;
-    }
-
-    h2 {
-        font-size: 1.25em;
-    }
-}
-
-.section-title {
-    /* Fake a dark overlay with a gradient. Black is black... I want my sanity back... */
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/background.jpg');
-    background-size: cover;
-    min-height: 100vh;
-    color: white;
-}
-
-.section-title > div {
-    padding: 0 2em;
-}
-
-    .section-title p {
-        font-size: 3em;
-    }
-
-    .section-title .btn {
-        color: #d42b2e !important;
-        font-size: 2em;
-        padding: 0.75em;
-    }
-
-        .section-title .btn:hover {
-            color: #fff !important;
-            border-color: #d42b2e;
-            background-color: #d42b2e;
-        }
-
-
-.section-info {
-    background: #d42b2e;
-    color: #fff;
-    font-size: 1.25em;
-}
-
-    .section-info a {
-        color: #fff;
-        text-decoration: underline;
-    }
-
-        .section-info a:active,
-        .section-info a:focus,
-        .section-info a:hover {
-            color: #000;
-        }
-
-.section-footer {
-    background: #d42b2e;
-    color: #fff;
-    font-size: 1.25em;
-    margin-top: 5em;
-}
-
-
-.logo {
-    max-width: 80%;
+  header img {
+    max-width: 95%;
     margin: 10em auto 0 auto;
-}
-
-@media all and (max-width:768px) {
-    .logo {
-        max-width: 95%;
-        margin: 10em auto 0 auto;
-    }
-}
-
-.section-info > div {
-    padding: 2em;
+  }
 }
 
 
+/* Staff */
 .staff-container {
-    display: inline-block;
-    margin: 0 0 2em 0;
+  display: inline-block;
+  margin: 0 0 2em 0;
 }
 
 .staff-link .staff-info {
-    opacity: 0.7;
-    color: white;
+  opacity: 0.7;
 }
 
 .staff-link:active .staff-info,
 .staff-link:hover  .staff-info {
-    opacity: 1;
+  opacity: 1;
 }
 
 .staff-image {
-    width: 10em;
-    height: 10em;
+  width: 10em;
+  height: 10em;
 }
 
 .staff-info {
-    background-color: rgba(0, 0, 0, 0.2);
-    margin-top: -0.3em;
-    padding: 0.3em 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-top: -0.3em;
+  padding: 0.3em 0;
 }
 
 .staff-first {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .staff-last {
-    opacity: 0.7;
+  opacity: 0.7;
 }

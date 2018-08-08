@@ -30,7 +30,7 @@
     <link rel="icon" type="image/png" href="images/favicon-32.png" sizes="32x32">
 </head>
 <body>
-    <section class="section-title">
+    <header class="tone-dark">
       <div>
         <img class="logo"
              src="images/logo.png"
@@ -57,25 +57,19 @@
           {% endfor %}
         </p>
       </div>
-    </section>
-    <section class="section-info">
+    </header>
+    <section class="tone-dark">
       <div>
         {% capture info %}{% include info.md %}{% endcapture %}
         {{ info | markdownify }}
       </div>
     </section>
-<!--    <section id="section-schedule">
-      <h1>Schedule</h1>
-      <div>
-          To be announced.
-      </div>
-    </section> -->
-    <section class="section-faq">
+    <section>
       <h1>F.A.Q.</h1>
       <div class="items-container">
         {% for item in site.data.faq %}
         <div class="item-large">
-          <h3 id="{{ item.id }}">{{ item.q }}</h3>
+          <h2 id="{{ item.id }}">{{ item.q }}</h2>
           <p>{{ item.a | markdownify }}</p>
         </div>
         {% endfor %}
@@ -124,7 +118,7 @@
         {% endif %}
       {% endfor %}
     </section>
-    <section class="section-footer">
+    <section class="tone-dark">
       <h1>Committee</h1>
       <div class="items-container">
         {% for staff in site.data.staff %}
