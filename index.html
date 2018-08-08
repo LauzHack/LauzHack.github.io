@@ -64,8 +64,7 @@
     </header>
     <section class="tone-dark">
       <div>
-        {% capture info %}{% include info.md %}{% endcapture %}
-        {{ info | markdownify }}
+        {{ site.data.info.text | markdownify }}
       </div>
     </section>
     <section>
