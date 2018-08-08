@@ -8,14 +8,14 @@
     <meta name="description" content="{{ site.description }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Facebook -->
+    {% comment %} Facebook {% endcomment %}
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{ site.title }}">
     <meta property="og:image" content="{{ site.url }}/images/preview.jpg">
     <meta property="og:url" content="{{ site.url }}">
     <meta property="og:description" content="{{ site.description }}">
 
-    <!-- Twitter -->
+    {% comment %} Twitter {% endcomment %}
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@{{ site.twitter }}">
     <meta name="twitter:title" content="{{ site.title }}">
@@ -24,7 +24,11 @@
 
     <title>{{ site.title }} {{ site.year }}</title>
 
-    <link rel="stylesheet" href="css/main.css">
+    {% comment %} Inline CSS for page speed {% endcomment %}
+    <style>
+      {% capture style %}{% include main.css %}{% endcapture %}
+      {{ style }}
+    </style>
 
     <link rel="icon" type="image/png" href="images/favicon-16.png" sizes="16x16">
     <link rel="icon" type="image/png" href="images/favicon-32.png" sizes="32x32">
