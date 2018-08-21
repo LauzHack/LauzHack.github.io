@@ -17,6 +17,8 @@
       link: https://www.sbb.ch/en/home.html
     - name: FAIRTIQ
       link: https://fairtiq.ch/en
+    - name: Knowledge Expert
+      link: http://k-expert.com
 
 - name: Bronze
   color: rgba(205,127,50,0.12)
