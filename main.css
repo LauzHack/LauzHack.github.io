@@ -9,7 +9,7 @@ body {
   background: #f0f0f0;
   text-align: center;
   font-family: Sanchez, Courier, monospace;
-  font-size: 1.24em; /* with 1.25 there's a 1px border at the bottom of the page, thanks CSS */
+  font-size: 1.25em;
   margin: 0;
 }
 
@@ -25,7 +25,7 @@ section {
 
 header > *,
 section > * {
-  padding: 0 2em;
+  padding: 0 2vw;
 }
 
 .items-container {
@@ -36,10 +36,10 @@ section > * {
 }
 
 .item-large {
-  flex-grow: 0;
-  flex-basis: 30%;
-  padding: 0 1.65%;
-  min-width: 200px;
+  flex-grow: 1;
+  flex-basis: 26%;
+  padding: 0 3.65%;
+  min-width: 12em;
 }
 
 .item-small {
@@ -56,13 +56,6 @@ h2 {
   font-weight: bold;
   font-size: 1.5em;
   margin-bottom: 0;
-}
-
-@media all and (max-width:768px) {
-  h1 {
-    font-size: 2.5em;
-    margin: 0.2em;
-  }
 }
 
 /* Colors */
@@ -91,19 +84,13 @@ header {
 }
 
 header p {
-  font-size: 2.5em;
+  font-size: calc(1em + 2vw);
+  margin: 5vh 0 0 0;
 }
 
 header img {
-  max-width: 80%;
+  max-width: 100%;
   margin: 6em auto 0 auto;
-}
-
-@media all and (max-width:768px) {
-  header img {
-    max-width: 95%;
-    margin: 10em auto 0 auto;
-  }
 }
 
 
@@ -111,7 +98,6 @@ header img {
 .link-action {
   background: #d42b2e;
   color: #fff;
-  font-size: 3em;
   padding: 0.1em 0.3em;
   text-decoration: none;
 }

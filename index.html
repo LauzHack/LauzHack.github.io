@@ -35,16 +35,18 @@
         <img class="logo"
              src="images/logo.png"
              alt="{{ site.title }}">
-        <h1>
+        <p>
           {{ site.date }}
           <br>
           {{ site.location }}
-        </h1>
+        </p>
         {% if site.data.action.text %}
-          <a class="link-action"
-             href="{{ site.data.action.link }}"
-             target="_blank"
-             rel="noreferrer">{{ site.data.action.text }}</a>
+          <p>
+            <a class="link-action"
+               href="{{ site.data.action.link }}"
+               target="_blank"
+               rel="noreferrer">{{ site.data.action.text }}</a>
+          </p>
         {% endif %}
         <p>
           Follow us on <a href="https://www.facebook.com/{{ site.facebook }}"
