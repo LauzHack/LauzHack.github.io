@@ -9,7 +9,7 @@ body {
   background: #f0f0f0;
   text-align: center;
   font-family: Sanchez, Courier, monospace;
-  font-size: 1.25em;
+  font-size: 1.24em; /* with 1.25 there's a 1px border at the bottom of the page, thanks CSS */
   margin: 0;
 }
 
@@ -17,6 +17,9 @@ header,
 section {
   width: 100%;
   overflow: hidden;
+}
+
+section {
   padding: 1.5em 0;
 }
 
@@ -46,8 +49,7 @@ section > * {
 }
 
 h1 {
-  font-size: 4em;
-  margin: 0.5em;
+  font-size: 3.5em;
 }
 
 h2 {
@@ -89,13 +91,12 @@ header {
 }
 
 header p {
-  font-size: 3em;
-  margin: 0; /* otherwise they create weird spacing */
+  font-size: 2.5em;
 }
 
 header img {
   max-width: 80%;
-  margin: 10em auto 0 auto;
+  margin: 6em auto 0 auto;
 }
 
 @media all and (max-width:768px) {
@@ -105,6 +106,23 @@ header img {
   }
 }
 
+
+/* Action link */
+.link-action {
+  background: #d42b2e;
+  color: #fff;
+  font-size: 3em;
+  padding: 0.1em 0.3em;
+  text-decoration: none;
+}
+
+.link-action:hover {
+  background: #b2252a;
+}
+
+.link-action:active {
+  background: #902024;
+}
 
 /* Staff */
 .staff-container {

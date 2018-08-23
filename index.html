@@ -36,10 +36,16 @@
              src="images/logo.png"
              alt="{{ site.title }}">
         <h1>
-            {{ site.date }}
-            <br>
-            {{ site.location }}
+          {{ site.date }}
+          <br>
+          {{ site.location }}
         </h1>
+        {% if site.data.action.text %}
+          <a class="link-action"
+             href="{{ site.data.action.link }}"
+             target="_blank"
+             rel="noreferrer">{{ site.data.action.text }}</a>
+        {% endif %}
         <p>
           Follow us on <a href="https://www.facebook.com/{{ site.facebook }}"
                           target="_blank"
