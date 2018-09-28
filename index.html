@@ -42,10 +42,14 @@
         </p>
         {% if site.data.action.text %}
           <p>
-            <a class="link-action"
-               href="{{ site.data.action.link }}"
-               target="_blank"
-               rel="noreferrer">{{ site.data.action.text }}</a>
+            {% if site.data.action.link %}
+              <a class="link-action"
+                 href="{{ site.data.action.link }}"
+                 target="_blank"
+                 rel="noreferrer">{{ site.data.action.text }}</a>
+            {% else %}
+              {{ site.data.action.text }}
+            {% endif %}
           </p>
         {% endif %}
         <p>
