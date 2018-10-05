@@ -1,0 +1,34 @@
+---
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="{{ site.description }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.data.days.title }}</title>
+
+    <style>{% include main.css %}</style>
+
+    <link rel="icon" type="image/png" href="images/favicon-16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="images/favicon-32.png" sizes="32x32">
+</head>
+<body>
+  <section class="tone-dark">
+    <h1>{{ site.data.days.title }}</h1>
+    <div>
+      {{ site.data.days.description | markdownify }}
+    </div>
+  </section>
+  <section>
+    <h1>Newsletter</h1>
+    <div>
+      {{ site.data.days.newsletter_info | markdownify }}
+    </div>
+    <div class="newsletter">
+      {% include _html/newsletter.html %}
+    </div>
+  </section>
+</body>
+</html>

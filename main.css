@@ -143,3 +143,23 @@ header img {
 .staff-last {
   opacity: 0.7;
 }
+
+
+/* Newsletter */
+.newsletter input {
+  background: #fff;
+  border: 1px solid #999;
+  box-sizing: border-box;
+  padding: 0.5rem 0.8rem;
+}
+
+.newsletter input[type="email"] {
+  box-sizing: border-box;
+  width: 18rem;
+}
+.newsletter input[type="submit"]:hover {
+  background: #eee;
+}
+.newsletter input[type="submit"]:active {
+  background: #ccc;
+}
