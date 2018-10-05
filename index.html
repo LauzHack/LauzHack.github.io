@@ -46,9 +46,9 @@
               <a class="link-action"
                  href="{{ site.data.action.link }}"
                  target="_blank"
-                 rel="noreferrer">{{ site.data.action.text }}</a>
+                 rel="noreferrer">{{ site.data.action.text | markdownify }}</a>
             {% else %}
-              {{ site.data.action.text }}
+              {{ site.data.action.text | markdownify }}
             {% endif %}
           </p>
         {% endif %}
@@ -61,6 +61,12 @@
                  rel="noreferrer">Twitter</a>
           for updates!
         </p>
+      </div>
+    </header>
+    <section class="tone-dark">
+      <div>
+        {{ site.data.info.text | markdownify }}
+
         <p>
           Check out the past editions:
           {% for edition in site.data.editions %}
@@ -68,11 +74,6 @@
                target="_blank">{{ edition.name }}</a>
           {% endfor %}
         </p>
-      </div>
-    </header>
-    <section class="tone-dark">
-      <div>
-        {{ site.data.info.text | markdownify }}
       </div>
     </section>
     <section>
