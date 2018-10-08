@@ -24,6 +24,8 @@
   color: rgba(205,127,50,0.12)
   size: 16
   sponsors:
+    - name: GitHub
+      link: https://github.com
 
 - name: Partners
   size: 20
