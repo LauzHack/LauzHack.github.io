@@ -81,7 +81,7 @@ h2 {
 header {
   /* Fake a dark overlay with a gradient. Black is black... I want my sanity back... */
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/background.jpg') !important;
-  background-size: cover;
+  background-size: cover !important;
   min-height: 100vh;
 }
 
