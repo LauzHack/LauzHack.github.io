@@ -6,6 +6,8 @@
       link: https://www.logitech.com/en-ch
     - name: Swissquote
       link: https://en.swissquote.com
+    - name: Bobst
+      link: https://www.bobst.com/chfr
 
 - name: Silver
   color: rgba(192,192,192,0.18)
@@ -19,6 +21,8 @@
       link: https://fairtiq.ch/en
     - name: Knowledge Expert
       link: http://k-expert.com
+    - name: SGS
+      link: https://www.sgs.ch/fr-FR
 
 - name: Bronze
   color: rgba(205,127,50,0.12)
