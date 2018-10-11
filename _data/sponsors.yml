@@ -2,12 +2,12 @@
   color: rgba(212,175,55,0.12)
   size: 42
   sponsors:
+    - name: BOBST
+      link: https://www.bobst.com/chfr
     - name: Logitech
       link: https://www.logitech.com/en-ch
     - name: Swissquote
       link: https://en.swissquote.com
-    - name: Bobst
-      link: https://www.bobst.com/chfr
 
 - name: Silver
   color: rgba(192,192,192,0.18)
