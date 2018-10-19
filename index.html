@@ -100,15 +100,16 @@
             {% for sponsor in tier.sponsors %}
 
               {% comment %} Use SVG if available, PNG otherwise {% endcomment %}
+              {% assign file_img = 'null' %}
               {% assign file_svg_path = sponsor.name | prepend: '/images/logos/' | append: '.svg' %}
               {% for file in site.static_files %}
                 {% if file.path == file_svg_path %}
                   {% assign file_img = file_svg_path %}
                 {% endif %}
               {% endfor %}
-              {% unless file_img %}
+              {% if file_img == 'null' %}
                 {% assign file_img = sponsor.name | prepend: '/images/logos/' | append: '.png' %}
-              {% endunless %}
+              {% endif %}
 
               <div>
                 <a href="{{ sponsor.link }}"
