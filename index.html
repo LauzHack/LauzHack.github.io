@@ -95,15 +95,9 @@
 
       {% for tier in site.data.sponsors %}
         {% if tier.sponsors %}
-          {% if tier.no_sort %}
-            {% assign sponsors = tier.sponsors %}
-          {% else %}
-            {% assign sponsors = tier.sponsors | sort: 'name' %}
-          {% endif %}
-
           <div class="items-container"
                style="background: {{ tier.color }}">
-            {% for sponsor in sponsors %}
+            {% for sponsor in tier.sponsors %}
 
               {% comment %} Use SVG if available, PNG otherwise {% endcomment %}
               {% assign file_svg_path = sponsor.name | prepend: '/images/logos/' | append: '.svg' %}

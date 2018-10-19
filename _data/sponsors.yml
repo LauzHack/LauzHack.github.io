@@ -34,7 +34,6 @@
 - name: Partners
   size: 20
   color: rgba(0,0,0,0)
-  no_sort: true
   sponsors:
     - name: EPFL
       link: https://epfl.ch/index.en.html
@@ -43,3 +42,7 @@
   size: 20
   color: rgba(0,0,0,0)
   sponsors:
+    - name: DAR-VIDA
+      link: https://hug-familie.ch/en/our_brands/dar_vida
+    - name: HUG Familie
+      link: https://hug-familie.ch/en
