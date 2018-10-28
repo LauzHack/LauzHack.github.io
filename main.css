@@ -60,6 +60,31 @@ h2 {
 }
 
 
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+}
+
+thead {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+tbody > tr:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+tbody > tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+tr {
+  height: 5vh;
+}
+
+
 /* Colors */
 .tone-dark {
   background: #d42b2e;

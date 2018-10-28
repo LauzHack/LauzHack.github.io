@@ -1,0 +1,35 @@
+- name: Saturday
+  schedule:
+  - at: '7:30-9:30'
+    name: Registration and breakfast
+  - at: '9:30-10:00'
+    name: Opening ceremony
+  - at: '10:00-10:20'
+    name: Team building
+  - at: '10:20-12:00'
+    name: Tech talks
+  - at: '12:00'
+    name: Hacking starts
+  - at: '12:30-13:30'
+    name: Lunch
+  - at: '18:30-19:30'
+    name: Dinner
+  - at: '21:00-23:59'
+    name: Mini-events
+
+- name: Sunday
+  schedule:
+  - at: '0:00-1:00'
+    name: Midnight snack
+  - at: '1:00-3:00'
+    name: Mini-events
+  - at: '7:00-9:00'
+    name: Breakfast
+  - at: '12:00'
+    name: Hacking ends
+  - at: '11:30-12:30'
+    name: Lunch
+  - at: '12:30-15:00'
+    name: Judging
+  - at: '15:00-17:00'
+    name: Closing ceremony

@@ -4,136 +4,161 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="description" content="{{ site.description }}">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="description" content="{{ site.description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    {% comment %} Facebook {% endcomment %}
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="{{ site.title }}">
-    <meta property="og:image" content="{{ site.url }}/images/preview.jpg">
-    <meta property="og:url" content="{{ site.url }}">
-    <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:image" content="{{ site.url }}/images/preview.jpg">
+  <meta property="og:url" content="{{ site.url }}">
+  <meta property="og:description" content="{{ site.description }}">
 
-    {% comment %} Twitter {% endcomment %}
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@{{ site.twitter }}">
-    <meta name="twitter:title" content="{{ site.title }}">
-    <meta name="twitter:image" content="{{ site.url }}/images/preview.jpg">
-    <meta name="twitter:description" content="{{ site.description }}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@{{ site.twitter }}">
+  <meta name="twitter:title" content="{{ site.title }}">
+  <meta name="twitter:image" content="{{ site.url }}/images/preview.jpg">
+  <meta name="twitter:description" content="{{ site.description }}">
 
-    <title>{{ site.title }} {{ site.year }}</title>
+  <title>{{ site.title }} {{ site.year }}</title>
 
-    <style>{% include main.css %}</style>
+  <style>{% include main.css %}</style>
 
-    <link rel="icon" type="image/png" href="images/favicon-16.png" sizes="16x16">
-    <link rel="icon" type="image/png" href="images/favicon-32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="images/favicon-16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="images/favicon-32.png" sizes="32x32">
 </head>
 <body>
-    <header class="tone-dark">
-      <div>
-        <img class="logo"
-             src="images/logo.png"
-             alt="{{ site.title }}">
+  <header class="tone-dark">
+    <div>
+      <img class="logo"
+           src="images/logo.png"
+           alt="{{ site.title }}">
+      <p>
+        {{ site.date }}
+        <br>
+        {{ site.location }}
+      </p>
+      {% if site.data.action.text %}
         <p>
-          {{ site.date }}
-          <br>
-          {{ site.location }}
-        </p>
-        {% if site.data.action.text %}
-          <p>
-            {% if site.data.action.link %}
-              <a class="link-action"
-                 href="{{ site.data.action.link }}"
-                 target="_blank"
-                 rel="noreferrer">{{ site.data.action.text }}</a>
-            {% else %}
-              {{ site.data.action.text }}
-            {% endif %}
-          </p>
-        {% endif %}
-        <p>
-          Follow us on <a href="https://www.facebook.com/{{ site.facebook }}"
-                          target="_blank"
-                          rel="noreferrer">Facebook</a>
-          and <a href="https://twitter.com/{{ site.twitter }}"
-                 target="_blank"
-                 rel="noreferrer">Twitter</a>
-          for updates!
-        </p>
-      </div>
-    </header>
-    <section class="tone-dark">
-      <div>
-        {{ site.data.info.text | markdownify }}
-
-        <p>
-          Check out the past editions:
-          {% for edition in site.data.editions %}
-            <a href="{{ edition.link }}"
-               target="_blank">{{ edition.name }}</a>
-          {% endfor %}
-        </p>
-      </div>
-    </section>
-    <section>
-      <h1>F.A.Q.</h1>
-      <div class="items-container">
-        {% for item in site.data.faq %}
-        <div class="item-large">
-          <h2 id="{{ item.id }}">{{ item.q }}</h2>
-          <p>{{ item.a | markdownify }}</p>
-        </div>
-        {% endfor %}
-      </div>
-    </section>
-    <section class="section-sponsors">
-      <h1>Sponsors</h1>
-      <div>
-        <p>Interested in sponsoring us? Check out our <a href="/pdf/sponsor.pdf">sponsorship prospectus</a>.</p>
-      </div>
-
-      {% for tier in site.data.sponsors %}
-        {% if tier.sponsors %}
-          <div class="items-container"
-               style="background: {{ tier.color }}">
-            {% for sponsor in tier.sponsors %}
-
-              {% comment %} Use SVG if available, PNG otherwise {% endcomment %}
-              {% assign file_img = 'null' %}
-              {% assign file_svg_path = sponsor.name | prepend: '/images/logos/' | append: '.svg' %}
-              {% for file in site.static_files %}
-                {% if file.path == file_svg_path %}
-                  {% assign file_img = file_svg_path %}
-                {% endif %}
-              {% endfor %}
-              {% if file_img == 'null' %}
-                {% assign file_img = sponsor.name | prepend: '/images/logos/' | append: '.png' %}
-              {% endif %}
-
-              <div>
-                <a href="{{ sponsor.link }}"
-                   rel="noreferrer"
-                   target="_blank">
-                  <img src="{{ file_img }}"
-                       alt="{{ tier.name }} sponsor - {{ sponsor.name }}"
-                       style="height: {{ tier.size }}vh">
-                </a>
-              </div>
-            {% endfor %}
-          </div>
-        {% endif %}
-      {% endfor %}
-    </section>
-    <section class="tone-dark">
-      <h1>Committee</h1>
-      <div class="items-container">
-        {% for staff in site.data.staff %}
-          <div class="item-small">
-            <a class="staff-link"
-               href="{{ staff.link }}"
+          {% if site.data.action.link %}
+            <a class="link-action"
+               href="{{ site.data.action.link }}"
                target="_blank"
-               rel="noreferrer">
+               rel="noreferrer">{{ site.data.action.text }}</a>
+          {% else %}
+            {{ site.data.action.text }}
+          {% endif %}
+        </p>
+      {% endif %}
+      <p>
+        Follow us on <a href="https://www.facebook.com/{{ site.facebook }}"
+                        target="_blank"
+                        rel="noreferrer">Facebook</a>
+        and <a href="https://twitter.com/{{ site.twitter }}"
+               target="_blank"
+               rel="noreferrer">Twitter</a>
+        for updates!
+      </p>
+    </div>
+  </header>
+  <section class="tone-dark">
+    <div>
+      {{ site.data.info.text | markdownify }}
+
+      <p>
+        Check out the past editions:
+        {% for edition in site.data.editions %}
+          <a href="{{ edition.link }}"
+             target="_blank">{{ edition.name }}</a>
+        {% endfor %}
+      </p>
+    </div>
+  </section>
+  {% if site.data.schedule %}
+  <section>
+    <h1>Schedule</h1>
+    <div class="items-container">
+      {% for part in site.data.schedule %}
+        <div class="item-large">
+          <h2>{{ part.name }}</h2>
+          <table>
+            <thead>
+              <tr>
+                <td>Time</td>
+                <td>Event</td>
+              </tr>
+            </thead>
+            <tbody>
+              {% for item in part.schedule %}
+                <tr>
+                  <td>{{ item.at }}</td>
+                  <td>{{ item.name }}</td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+  <section>
+    <h1>F.A.Q.</h1>
+    <div class="items-container">
+      {% for item in site.data.faq %}
+      <div class="item-large">
+        <h2 id="{{ item.id }}">{{ item.q }}</h2>
+        <p>{{ item.a | markdownify }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  <section class="section-sponsors">
+    <h1>Sponsors</h1>
+    <div>
+      <p>Interested in sponsoring us? Check out our <a href="/pdf/sponsor.pdf">sponsorship prospectus</a>.</p>
+    </div>
+
+    {% for tier in site.data.sponsors %}
+      {% if tier.sponsors %}
+        <div class="items-container"
+             style="background: {{ tier.color }}">
+          {% for sponsor in tier.sponsors %}
+            {% comment %} Use SVG if available, PNG otherwise {% endcomment %}
+            {% assign file_img = 'null' %}
+            {% assign file_svg_path = sponsor.name | prepend: '/images/logos/' | append: '.svg' %}
+            {% for file in site.static_files %}
+              {% if file.path == file_svg_path %}
+                {% assign file_img = file_svg_path %}
+              {% endif %}
+            {% endfor %}
+            {% if file_img == 'null' %}
+              {% assign file_img = sponsor.name | prepend: '/images/logos/' | append: '.png' %}
+            {% endif %}
+
+            <div>
+              <a href="{{ sponsor.link }}"
+                 rel="noreferrer"
+                 target="_blank">
+                <img src="{{ file_img }}"
+                     alt="{{ tier.name }} sponsor - {{ sponsor.name }}"
+                     style="height: {{ tier.size }}vh">
+              </a>
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </section>
+  <section class="tone-dark">
+    <h1>Committee</h1>
+    <div class="items-container">
+      {% for staff in site.data.staff %}
+        <div class="item-small">
+          <a class="staff-link"
+             href="{{ staff.link }}"
+             target="_blank"
+             rel="noreferrer">
               <div class="staff-container">
                 <img class="staff-image"
                      src="images/staff/{{ staff.first }}_{{ staff.last }}.jpg"
