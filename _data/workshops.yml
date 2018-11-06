@@ -1,0 +1,12 @@
+name: LauzHack Days
+description: Join us for short workshops focused on specific hacks!
+
+# Get those from the MailChimp embed - the form action and the 'real people should not fill this' input name
+mailchimp_action: 'https://lauzhack.us14.list-manage.com/subscribe/post?u=58e344e5cc77ae96251a8ef7d&amp;id=c5f91ec5f4'
+mailchimp_bot_input: 'b_58e344e5cc77ae96251a8ef7d_c5f91ec5f4'
+
+items:
+  - name: Hacking With Amazon Alexa
+    date: '2018-10-19 17:00'
+    signup: 'https://goo.gl/forms/7yrOLmYUlkIHJYhV2'
+    description: Learn to create your first skill for Amazon Alexa, the voice service that powers Amazon Echo. ([More information](https://localhost.mlh.io/activities/build-with-alexa/))
