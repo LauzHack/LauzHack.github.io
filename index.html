@@ -10,15 +10,15 @@
 
   <meta property="og:type" content="website">
   <meta property="og:title" content="{{ site.data.info.name }}">
-  <meta property="og:image" content="{{ site.data.info.url }}/images/preview.jpg">
-  <meta property="og:url" content="{{ site.data.info.url }}">
+  <meta property="og:image" content="{{ site.url }}/images/preview.jpg">
+  <meta property="og:url" content="{{ site.url }}">
   <meta property="og:description" content="{{ site.data.info.description_short }}">
 
   {% if site.data.info.twitter %}
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@{{ site.data.info.twitter }}">
     <meta name="twitter:title" content="{{ site.data.info.name }}">
-    <meta name="twitter:image" content="{{ site.data.info.url }}/images/preview.jpg">
+    <meta name="twitter:image" content="{{ site.url }}/images/preview.jpg">
     <meta name="twitter:description" content="{{ site.data.info.description_short }}">
   {% endif %}
 
