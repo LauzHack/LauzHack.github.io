@@ -22,9 +22,9 @@
     <div>
       {% for assembly in site.data.legal.assemblies %}
         <p>
-          <a href="{{ assembly.link }}"
+          <a href="{{ assembly[1] }}"
              target="_blank"
-             rel="noreferrer">{{ assembly.name }}</a>
+             rel="noreferrer">{{ assembly[0] }}</a>
         </p>
       {% endfor %}
     </div>
