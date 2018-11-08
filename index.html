@@ -5,22 +5,24 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="{{ site.description }}">
+  <meta name="description" content="{{ site.data.info.description_short }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="{{ site.title }}">
-  <meta property="og:image" content="{{ site.url }}/images/preview.jpg">
-  <meta property="og:url" content="{{ site.url }}">
-  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:title" content="{{ site.data.info.name }}">
+  <meta property="og:image" content="{{ site.data.info.url }}/images/preview.jpg">
+  <meta property="og:url" content="{{ site.data.info.url }}">
+  <meta property="og:description" content="{{ site.data.info.description_short }}">
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@{{ site.twitter }}">
-  <meta name="twitter:title" content="{{ site.title }}">
-  <meta name="twitter:image" content="{{ site.url }}/images/preview.jpg">
-  <meta name="twitter:description" content="{{ site.description }}">
+  {% if site.data.info.twitter %}
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@{{ site.data.info.twitter }}">
+    <meta name="twitter:title" content="{{ site.data.info.name }}">
+    <meta name="twitter:image" content="{{ site.data.info.url }}/images/preview.jpg">
+    <meta name="twitter:description" content="{{ site.data.info.description_short }}">
+  {% endif %}
 
-  <title>{{ site.title }} {{ site.year }}</title>
+  <title>{{ site.data.info.name }}</title>
 
   <style>{% include main.css %}</style>
 
@@ -32,11 +34,11 @@
     <div>
       <img class="logo"
            src="images/logo.png"
-           alt="{{ site.title }}">
+           alt="{{ site.data.info.name }}">
       <p>
-        {{ site.date }}
+        {{ site.data.info.date }}
         <br>
-        {{ site.location }}
+        {{ site.data.info.location }}
       </p>
       {% if site.data.action.text %}
         <p>
@@ -51,19 +53,21 @@
         </p>
       {% endif %}
       <p>
-        Follow us on <a href="https://www.facebook.com/{{ site.facebook }}"
+        Follow us on <a href="https://www.facebook.com/{{ site.data.info.facebook }}"
                         target="_blank"
                         rel="noreferrer">Facebook</a>
-        and <a href="https://twitter.com/{{ site.twitter }}"
-               target="_blank"
-               rel="noreferrer">Twitter</a>
+        {% if site.data.info.twitter %}
+          and <a href="https://twitter.com/{{ site.data.info.twitter }}"
+                 target="_blank"
+                 rel="noreferrer">Twitter</a>
+        {% endif %}
         for updates!
       </p>
     </div>
   </header>
   <section class="tone-dark">
     <div>
-      {{ site.data.info.text | markdownify }}
+      {{ site.data.info.description_long | markdownify }}
 
       <p>
         Check out the past editions:

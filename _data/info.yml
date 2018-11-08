@@ -1,4 +1,8 @@
-text: |-
+name: LauzHack 2018
+date: 'November 24-25'
+location: EPFL, Switzerland
+description_short: Student-run hackathon at EPFL, Switzerland
+description_long: |-
   LauzHack is a student-run hackathon at EPFL in Lausanne, Switzerland.
 
   Hackathons are creativity marathons, where attendees work in teams to create something exciting in a short time.
@@ -6,3 +10,10 @@ text: |-
   Come and join over 200 like-minded students hacking together during a weekend to make something amazing!
 
   Please keep in mind our [rules](/pdf/rules.pdf).
+
+# URL of the hosted website
+url: https://lauzhack.com
+
+# Social networks
+twitter: lauzhack
+facebook: lauzhack
