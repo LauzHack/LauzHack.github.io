@@ -68,8 +68,8 @@
       <p>
         Check out the past editions:
         {% for edition in site.data.editions %}
-          <a href="{{ edition.link }}"
-             target="_blank">{{ edition.name }}</a>
+          <a href="{{ edition[1] }}"
+             target="_blank">{{ edition[0] }}</a>
         {% endfor %}
       </p>
     </div>
