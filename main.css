@@ -40,7 +40,6 @@ section > * {
   flex-grow: 1;
   flex-basis: 26%;
   padding: 0 3.65%;
-  min-width: 12em;
 }
 
 .item-small {
