@@ -69,65 +69,62 @@
     <div>
       {{ site.data.info.description_long | markdownify }}
 
-      <p>
-        Check out the past editions:
-        {% for edition in site.data.info.past_editions %}
-          <a href="{{ edition[1] }}"
-             target="_blank">{{ edition[0] }}</a>
-        {% endfor %}
-      </p>
+      {% if site.data.info.past_editions %}
+        <p>
+          Check out the past editions:
+          {% for edition in site.data.info.past_editions %}
+            <a href="{{ edition[1] }}"
+               target="_blank">{{ edition[0] }}</a>
+          {% endfor %}
+        </p>
+      {% endif %}
     </div>
   </section>
   {% if site.data.schedule %}
-  <section>
-    <h1>Schedule</h1>
-    <div class="items-container">
-      {% for part in site.data.schedule %}
-        <div class="item-large">
-          <h2>{{ part[0] }}</h2>
-          <table>
-            <thead>
-              <tr>
-                <td>Time</td>
-                <td>Event</td>
-              </tr>
-            </thead>
-            <tbody>
+    <section>
+      <h1>Schedule</h1>
+      <div class="items-container">
+        {% for part in site.data.schedule %}
+          <div class="item-large">
+            <h2>{{ part[0] }}</h2>
+            <table>
               {% for item in part[1] %}
                 <tr>
                   <td>{{ item[0] }}</td>
                   <td>{{ item[1] }}</td>
                 </tr>
               {% endfor %}
-            </tbody>
-          </table>
-        </div>
-      {% endfor %}
-    </div>
-  </section>
+            </table>
+          </div>
+        {% endfor %}
+      </div>
+    </section>
   {% endif %}
   <section>
     <h1>F.A.Q.</h1>
     <div class="items-container">
       {% for item in site.data.faq %}
-      <div class="item-large">
-        <h2 id="{{ item.id }}">{{ item.q }}</h2>
-        <p>{{ item.a | markdownify }}</p>
-      </div>
+        <div class="item-large">
+          <h2 id="{{ item.id }}">{{ item.q }}</h2>
+          <p>{{ item.a | markdownify }}</p>
+        </div>
       {% endfor %}
     </div>
   </section>
   <section class="section-sponsors">
     <h1>Sponsors</h1>
-    <div>
-      <p>Interested in sponsoring us? Check out our <a href="/pdf/sponsor.pdf">sponsorship prospectus</a>.</p>
-    </div>
 
-    {% for tier in site.data.sponsors %}
-      {% if tier.sponsors %}
+    {% if site.data.sponsors.show_prospectus %}
+      <div>
+        <p>Interested in sponsoring us? Check out our <a href="/pdf/sponsor.pdf">sponsorship prospectus</a>.</p>
+      </div>
+    {% endif %}
+
+    {% for tier in site.data.sponsors.tiers %}
+      {% if tier[1].sponsors %}
         <div class="items-container"
-             style="background: {{ tier.color }}">
-          {% for sponsor in tier.sponsors %}
+             style="background: {{ tier[1].color }}">
+          {% for sponsor in tier[1].sponsors %}
             {% comment %} Use SVG if available, PNG otherwise {% endcomment %}
             {% assign file_img = 'null' %}
             {% assign file_svg_path = sponsor[0] | prepend: '/images/logos/' | append: '.svg' %}
@@ -145,8 +142,9 @@
                  rel="noreferrer"
                  target="_blank">
                 <img src="{{ file_img }}"
-                     alt="{{ tier.name }} sponsor - {{ sponsor[1] }}"
-                     style="height: {{ tier.size }}vh">
+                     alt="{{ tier[0] }} - {{ sponsor[0] }}"
+                     title="{{ tier[0] }} - {{ sponsor[0] }}"
+                     style="height: {{ tier[1].size }}vh">
               </a>
             </div>
           {% endfor %}

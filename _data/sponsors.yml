@@ -1,38 +1,41 @@
-- name: Gold
-  color: rgba(212,175,55,0.12)
-  size: 42
-  sponsors:
-    BOBST: https://www.bobst.com/chfr
-    Logitech: https://www.logitech.com/en-ch
-    Swissquote: https://en.swissquote.com
+show_prospectus: false
 
-- name: Silver
-  color: rgba(192,192,192,0.18)
-  size: 32
-  sponsors:
-    AXA Winterthur: https://axa.ch/en
-    Crédit Suisse: https://www.credit-suisse.com/ch/en.html
-    FAIRTIQ: https://fairtiq.ch/en
-    Knowledge Expert: http://k-expert.com
-    SBB: https://www.sbb.ch/en/home.html
-    SGS: https://www.sgs.ch/fr-FR
+tiers:
+  Gold:
+    color: rgba(212,175,55,0.12)
+    size: 42
+    sponsors:
+      BOBST: https://www.bobst.com/chfr
+      Logitech: https://www.logitech.com/en-ch
+      Swissquote: https://en.swissquote.com
 
-- name: Bronze
-  color: rgba(205,127,50,0.12)
-  size: 16
-  sponsors:
-    GitHub: https://github.com
+  Silver:
+    color: rgba(192,192,192,0.18)
+    size: 32
+    sponsors:
+      AXA Winterthur: https://axa.ch/en
+      Crédit Suisse: https://www.credit-suisse.com/ch/en.html
+      FAIRTIQ: https://fairtiq.ch/en
+      Knowledge Expert: http://k-expert.com
+      SBB: https://www.sbb.ch/en/home.html
+      SGS: https://www.sgs.ch/fr-FR
 
-- name: Partners
-  size: 20
-  color: rgba(0,0,0,0)
-  sponsors:
-    EPFL: https://epfl.ch/index.en.html
+  Bronze:
+    color: rgba(205,127,50,0.12)
+    size: 16
+    sponsors:
+      GitHub: https://github.com
 
-- name: Food Sponsors
-  size: 20
-  color: rgba(0,0,0,0)
-  sponsors:
-    DAR-VIDA: https://hug-familie.ch/en/our_brands/dar_vida
-    HUG Familie: https://hug-familie.ch/en
-    La Semeuse: https://www.lasemeuse.ch/?___store=en
+  Partner:
+    size: 20
+    color: rgba(0,0,0,0)
+    sponsors:
+      EPFL: https://epfl.ch/index.en.html
+
+  Food:
+    size: 20
+    color: rgba(0,0,0,0)
+    sponsors:
+      DAR-VIDA: https://hug-familie.ch/en/our_brands/dar_vida
+      HUG Familie: https://hug-familie.ch/en
+      La Semeuse: https://www.lasemeuse.ch/?___store=en
