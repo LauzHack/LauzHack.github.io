@@ -126,22 +126,22 @@
           {% for sponsor in tier.sponsors %}
             {% comment %} Use SVG if available, PNG otherwise {% endcomment %}
             {% assign file_img = 'null' %}
-            {% assign file_svg_path = sponsor.name | prepend: '/images/logos/' | append: '.svg' %}
+            {% assign file_svg_path = sponsor[0] | prepend: '/images/logos/' | append: '.svg' %}
             {% for file in site.static_files %}
               {% if file.path == file_svg_path %}
                 {% assign file_img = file_svg_path %}
               {% endif %}
             {% endfor %}
             {% if file_img == 'null' %}
-              {% assign file_img = sponsor.name | prepend: '/images/logos/' | append: '.png' %}
+              {% assign file_img = sponsor[0] | prepend: '/images/logos/' | append: '.png' %}
             {% endif %}
 
             <div>
-              <a href="{{ sponsor.link }}"
+              <a href="{{ sponsor[1] }}"
                  rel="noreferrer"
                  target="_blank">
                 <img src="{{ file_img }}"
-                     alt="{{ tier.name }} sponsor - {{ sponsor.name }}"
+                     alt="{{ tier.name }} sponsor - {{ sponsor[1] }}"
                      style="height: {{ tier.size }}vh">
               </a>
             </div>

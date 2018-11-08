@@ -2,49 +2,36 @@
   color: rgba(212,175,55,0.12)
   size: 42
   sponsors:
-    - name: BOBST
-      link: https://www.bobst.com/chfr
-    - name: Logitech
-      link: https://www.logitech.com/en-ch
-    - name: Swissquote
-      link: https://en.swissquote.com
+    BOBST: https://www.bobst.com/chfr
+    Logitech: https://www.logitech.com/en-ch
+    Swissquote: https://en.swissquote.com
 
 - name: Silver
   color: rgba(192,192,192,0.18)
   size: 32
   sponsors:
-    - name: Crédit Suisse
-      link: https://www.credit-suisse.com/ch/en.html
-    - name: FAIRTIQ
-      link: https://fairtiq.ch/en
-    - name: Knowledge Expert
-      link: http://k-expert.com
-    - name: SBB
-      link: https://www.sbb.ch/en/home.html
-    - name: SGS
-      link: https://www.sgs.ch/fr-FR
+    Crédit Suisse: https://www.credit-suisse.com/ch/en.html
+    FAIRTIQ: https://fairtiq.ch/en
+    Knowledge Expert: http://k-expert.com
+    SBB: https://www.sbb.ch/en/home.html
+    SGS: https://www.sgs.ch/fr-FR
 
 - name: Bronze
   color: rgba(205,127,50,0.12)
   size: 16
   sponsors:
-    - name: GitHub
-      link: https://github.com
+    GitHub: https://github.com
 
 - name: Partners
   size: 20
   color: rgba(0,0,0,0)
   sponsors:
-    - name: EPFL
-      link: https://epfl.ch/index.en.html
+    EPFL: https://epfl.ch/index.en.html
 
 - name: Food Sponsors
   size: 20
   color: rgba(0,0,0,0)
   sponsors:
-    - name: DAR-VIDA
-      link: https://hug-familie.ch/en/our_brands/dar_vida
-    - name: HUG Familie
-      link: https://hug-familie.ch/en
-    - name: La Semeuse
-      link: https://www.lasemeuse.ch/?___store=en
+    DAR-VIDA: https://hug-familie.ch/en/our_brands/dar_vida
+    HUG Familie: https://hug-familie.ch/en
+    La Semeuse: https://www.lasemeuse.ch/?___store=en
