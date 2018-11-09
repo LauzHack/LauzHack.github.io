@@ -149,37 +149,37 @@ header img {
 }
 
 
-/* Staff */
-.staff-container {
+/* People */
+.person-container {
   display: inline-block;
   margin: 0 0 2em 0;
 }
 
-.staff-link .staff-info {
+.person-link .person-info {
   opacity: 0.7;
 }
 
-.staff-link:active .staff-info,
-.staff-link:hover  .staff-info {
+.person-link:active .person-info,
+.person-link:hover  .person-info {
   opacity: 1;
 }
 
-.staff-image {
+.person-image {
   width: 10em;
   height: 10em;
 }
 
-.staff-info {
+.person-info {
   background-color: rgba(0, 0, 0, 0.2);
   margin-top: -0.3em;
   padding: 0.3em 0;
 }
 
-.staff-first {
+.person-first {
   font-weight: 600;
 }
 
-.staff-last {
+.person-last {
   opacity: 0.7;
 }
 

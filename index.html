@@ -129,20 +129,20 @@ layout: default
 <section class="tone-dark">
   <h1>Committee</h1>
   <div class="items-container">
-    {% for staff in site.data.staff %}
+    {% for person in site.data.organizers.people %}
       <div class="item-small">
-        <a class="staff-link"
-           href="{{ staff.link }}"
+        <a class="person-link"
+           href="{{ person.link }}"
            target="_blank"
            rel="noreferrer">
-            <div class="staff-container">
-              <img class="staff-image"
-                   src="images/staff/{{ staff.first }} {{ staff.last }}.jpg"
-                   alt="Picture of {{ staff.first }} {{ staff.last }}">
-              <div class="staff-info">
-                <span class="staff-first">{{ staff.first }}</span>
+            <div class="person-container">
+              <img class="person-image"
+                   src="images/people/{{ person.first }} {{ person.last }}.jpg"
+                   alt="Picture of {{ person.first }} {{ person.last }}">
+              <div class="person-info">
+                <span class="person-first">{{ person.first }}</span>
                 <br>
-                <span class="staff-last">{{ staff.last }}</span>
+                <span class="person-last">{{ person.last }}</span>
               </div>
             </div>
           </a>
@@ -150,7 +150,9 @@ layout: default
       {% endfor %}
     </div>
   </div>
-  <p>
-    {{ site.data.info.name }} is organized by {{ site.data.organizer.name }}, whose legal documents can be viewed <a href="/legal">here</a>.
-  </p>
+  {% if site.data.organizers.group %}
+    <p>
+      {{ site.data.info.name }} is organized by {{ site.data.organizers.group.name }}, whose legal documents can be viewed <a href="/legal">here</a>.
+    </p>
+  {% endif %}
 </section>

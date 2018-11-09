@@ -4,14 +4,14 @@ layout: default
 ---
 <section>
   <h1>Statutes</h1>
-  <p>Our statutes are available <a href="{{ site.data.organizer.statutes }}"
+  <p>Our statutes are available <a href="{{ site.data.organizers.group.statutes }}"
                                    target="_blank"
                                    rel="noreferrer">here</a>.</p>
 </section>
 <section>
   <h1>General Assemblies</h1>
   <div>
-    {% for assembly in site.data.organizer.assemblies %}
+    {% for assembly in site.data.organizers.group.assemblies %}
       <p>
         <a href="{{ assembly[1] }}"
            target="_blank"
