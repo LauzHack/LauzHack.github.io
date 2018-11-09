@@ -44,6 +44,12 @@ layout: default
       Please keep in mind our <a href="/pdf/rules.pdf">rules</a>.
     </p>
 
+    {% if site.data.workshops %}
+    <p>
+      We also organize <a href="/workshops">{{ site.data.workshops.name }}</a>.
+    </p>
+    {% endif %}
+
     {% if site.data.info.past_editions %}
       <p>
         Check out the past editions:
