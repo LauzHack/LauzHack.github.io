@@ -1,0 +1,41 @@
+---
+---
+{% assign title = site.data.info.name %}
+{% if page.title %}
+  {% assign title = title | append: ' - ' | append: page.title %}
+{% endif %}
+{% if page.override_title %}
+  {% assign title = page.override_title %}
+{% endif %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="{{ site.data.info.description_short }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:image" content="{{ site.url }}/images/preview.jpg">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:description" content="{{ site.data.info.description_short }}">
+
+  {% if site.data.info.twitter %}
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@{{ site.data.info.twitter }}">
+    <meta name="twitter:title" content="{{ title }}">
+    <meta name="twitter:image" content="{{ site.url }}/images/preview.jpg">
+    <meta name="twitter:description" content="{{ site.data.info.description_short }}">
+  {% endif %}
+
+  <title>{{ title }}</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="icon" type="image/png" href="images/favicon-16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="images/favicon-32.png" sizes="32x32">
+</head>
+<body>
+  {{ content }}
+</body>
+</html>
