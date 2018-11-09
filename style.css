@@ -1,3 +1,5 @@
+---
+---
 /* Font */
 @font-face {
   font-family: "Sanchez";
@@ -86,7 +88,7 @@ tr {
 
 /* Colors */
 .tone-dark {
-  background: #d42b2e;
+  background: {{ site.data.info.color }};
   color: #fff;
 }
 
@@ -120,20 +122,30 @@ header img {
 }
 
 
-/* Action link */
+/* Action link, with trick to put a dark overlay */
 .link-action {
-  background: #d42b2e;
+  background: {{ site.data.info.color }};
   color: #fff;
   padding: 0.1em 0.3em;
   text-decoration: none;
+  position: relative;
 }
 
-.link-action:hover {
-  background: #b2252a;
+.link-action:after {
+  content: '\A';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
 }
 
-.link-action:active {
-  background: #902024;
+.link-action:hover:after {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.link-action:active:after {
+  background: rgba(0, 0, 0, 0.2);
 }
 
 
