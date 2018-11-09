@@ -1,1 +1,4 @@
 includes_dir: .
+
+plugins:
+  - jekyll-redirect-from
