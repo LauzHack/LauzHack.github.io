@@ -1,5 +1,11 @@
+# Whether to display text about the prospectus.
+# See the ReadMe file for information about it.
 show_prospectus: false
 
+# Sponsors, organized by tiers.
+# Tiers have a size, and may have a background color (for e.g. gold/silver/bronze)
+# Each sponsor has a link to its website.
+# See the ReadMe file for information about logos.
 tiers:
   Gold:
     color: rgba(212,175,55,0.12)
@@ -28,13 +34,11 @@ tiers:
 
   Partner:
     size: 20
-    color: rgba(0,0,0,0)
     sponsors:
       EPFL: https://epfl.ch/index.en.html
 
   Food:
     size: 20
-    color: rgba(0,0,0,0)
     sponsors:
       Biotta: https://biotta.ch/en
       DAR-VIDA: https://hug-familie.ch/en/our_brands/dar_vida

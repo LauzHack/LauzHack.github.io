@@ -1,5 +1,8 @@
-# Don't forget to end lines with two spaces if you want to force a line break.
-# The 'id' field is there to allow linking to a specific section if needed
+# FAQ, optional.
+# Questions, answers, and an optional 'id' field for hyperlinks (e.g. if you need to show a specific answer to someone).
+# Beware, YAML/Markdown syntax is a bit tricky:
+# - Use the weird |- syntax to allow answers to span lines.
+# - End lines with two spaces if you want to force a line break, otherwise the line break is ignored.
 
 - q: Can I participate?
   a: |- 

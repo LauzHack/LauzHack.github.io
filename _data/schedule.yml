@@ -1,3 +1,6 @@
+# Schedule, optional.
+# Don't forget quotes around hours, otherwise the colons will mess stuff up.
+
 Saturday:
   '7:30-9:30': Registration and breakfast
   '9:30-10:00': Opening ceremony

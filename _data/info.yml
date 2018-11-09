@@ -1,6 +1,13 @@
+# Event name
 name: LauzHack 2018
+
+# Event date, in free-text format
 date: November 24-25
+
+# Event location
 location: EPFL, Switzerland
+
+# Event description; short is for e.g. Facebook shared links, long appears on the home page.
 description_short: Student-run hackathon at EPFL, Switzerland
 description_long: |-
   LauzHack is a student-run hackathon at EPFL in Lausanne, Switzerland.
@@ -9,14 +16,14 @@ description_long: |-
 
   Come and join over 200 like-minded students hacking together during a weekend to make something amazing!
 
-# Social networks
-twitter: lauzhack
+# Social networks. Twitter is optional, but you really should have a Facebook page.
 facebook: lauzhack
+twitter: lauzhack
 
-# Appearance
+# Accent color of the website
 color: '#d42b2e'
 
-# Links to previous editions
+# Links to past editions
 past_editions:
   2016: https://2016.lauzhack.com
   2017: https://2017.lauzhack.com

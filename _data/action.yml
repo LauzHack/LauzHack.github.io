@@ -1,2 +1,5 @@
+# Call to action, optional.
+# If the link is set, the call will appear as a button.
+
 text: Applications are now closed.
 link:

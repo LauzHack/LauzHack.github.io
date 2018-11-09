@@ -97,7 +97,10 @@ layout: default
   {% for tier in site.data.sponsors.tiers %}
     {% if tier[1].sponsors %}
       <div class="items-container"
-           style="background: {{ tier[1].color }}">
+           {% if tier[1].color %}
+             style="background: {{ tier[1].color }}"
+           {% endif %}
+           >
         {% for sponsor in tier[1].sponsors %}
           {% comment %} Use SVG if available, PNG otherwise {% endcomment %}
           {% assign file_img = 'null' %}

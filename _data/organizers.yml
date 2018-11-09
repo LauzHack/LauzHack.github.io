@@ -1,3 +1,4 @@
+# The group organizing the event, and its legal stuff. Optional.
 group:
   name: the LauzHack Association
   statutes: https://drive.google.com/open?id=1twbjDBC0TBGNP4hnViQbDndTdDL1ge7V
@@ -5,6 +6,8 @@ group:
     February 2018 (Constitutive): https://drive.google.com/open?id=1WbRh8Chivk2Dn7VeVABHEPIe5SKz--2d
     June 2018 (Extraordinary): https://drive.google.com/open?id=1iJviqdbG_4W86swkc3wD0EqsdUHk6yBG
 
+# People organizing the event, and their websites.
+# See the ReadMe file for information on pictures.
 people:
   - first: Audrey
     last: Loeffel

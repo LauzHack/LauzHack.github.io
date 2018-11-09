@@ -11,13 +11,13 @@ layout: default
     {{ site.data.workshops.description | markdownify }}
   </div>
   {% for workshop in site.data.workshops.items %}
-    {% capture dateunix %}{{ workshop.date | date: '%s' | plus: 0 }}{% endcapture %}
+    {% capture dateunix %}{{ workshop[1].date | date: '%s' | plus: 0 }}{% endcapture %}
     {% if dateunix > nowunix %}
       <div>
-        <h2>{{ workshop.name }}</h2>
-        <p>{{ workshop.date | date: '%A %B %-d, %H:%M' }}</p>
-        <p>{{ workshop.description | markdownify }}</p>
-        <a href="{{ workshop.signup }}"
+        <h2>{{ workshop[0] }}</h2>
+        <p>{{ workshop[1].date | date: '%A %B %-d, %H:%M' }}</p>
+        <p>{{ workshop[1].description | markdownify }}</p>
+        <a href="{{ workshop[1].signup }}"
            target="_blank">Register</a>
       </div>
     {% endif %}
@@ -50,12 +50,12 @@ layout: default
 <section>
   <h1>Previous {{ site.data.workshops.name }}</h1>
   {% for workshop in site.data.workshops.items %}
-    {% capture dateunix %}{{ workshop.date | date: '%s' | plus: 0 }}{% endcapture %}
+    {% capture dateunix %}{{ workshop[1].date | date: '%s' | plus: 0 }}{% endcapture %}
     {% if dateunix <= nowunix %}
       <div>
-        <h2>{{ workshop.name }}</h2>
-        <p>{{ workshop.date | date: '%A %B %-d, %H:%M' }}</p>
-        <p>{{ workshop.description | markdownify }}</p>
+        <h2>{{ workshop[0] }}</h2>
+        <p>{{ workshop[1].date | date: '%A %B %-d, %H:%M' }}</p>
+        <p>{{ workshop[1].description | markdownify }}</p>
       </div>
     {% endif %}
   {% endfor %}
