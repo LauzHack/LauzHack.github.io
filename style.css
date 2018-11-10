@@ -1,17 +1,29 @@
 ---
 ---
 /* Font */
-@font-face {
-  font-family: "Sanchez";
-  src: url("../fonts/Sanchez.otf");
-}
-
+{% assign has_font = false %}
+{% for file in site.static_files %}
+  {% if file.path.size > 6 %}
+    {% assign path_begin = file.path | slice: 0, 6 %}
+    {% if path_begin == '/font.' %}
+      {% assign has_font = true %}
+      @font-face {
+        font-family: CustomFont;
+        src: url('{{ file.path }}');
+      }
+    {% endif %}
+  {% endif %}
+{% endfor %}
 
 /* Basic elements */
 body {
   background: #f0f0f0;
   text-align: center;
-  font-family: Sanchez, Courier, monospace;
+  font-family:
+    {% if has_font %}
+      CustomFont,
+    {% endif %}
+    {{ site.data.info.font }};
   margin: 0;
 }
 

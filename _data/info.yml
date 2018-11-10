@@ -23,6 +23,11 @@ twitter: lauzhack
 # Accent color of the website
 color: '#d42b2e'
 
+# Font used by the website.
+# To use a custom font, see the ReadMe file.
+# If using a custom font, this value will be used as fallback.
+font: Courier, monospace
+
 # Links to past editions
 past_editions:
   2016: https://2016.lauzhack.com
