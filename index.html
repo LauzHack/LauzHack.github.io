@@ -2,39 +2,37 @@
 layout: default
 ---
 <header class="tone-dark">
-  <div>
-    <img class="logo"
-         src="images/logo.svg"
-         alt="{{ site.data.info.name }}">
+  <img class="logo"
+       src="images/logo.svg"
+       alt="{{ site.data.info.name }}">
+  <p>
+    {{ site.data.info.date }}
+    <br>
+    {{ site.data.info.location }}
+  </p>
+  {% if site.data.action.text %}
     <p>
-      {{ site.data.info.date }}
-      <br>
-      {{ site.data.info.location }}
-    </p>
-    {% if site.data.action.text %}
-      <p>
-        {% if site.data.action.link %}
-          <a class="link-action"
-             href="{{ site.data.action.link }}"
-             target="_blank"
-             rel="noreferrer">{{ site.data.action.text }}</a>
-        {% else %}
-          {{ site.data.action.text }}
-        {% endif %}
-      </p>
-    {% endif %}
-    <p>
-      Follow us on <a href="https://facebook.com/{{ site.data.info.facebook }}"
-                      target="_blank"
-                      rel="noreferrer">Facebook</a>
-      {% if site.data.info.twitter %}
-        and <a href="https://twitter.com/{{ site.data.info.twitter }}"
-               target="_blank"
-               rel="noreferrer">Twitter</a>
+      {% if site.data.action.link %}
+        <a class="link-action"
+           href="{{ site.data.action.link }}"
+           target="_blank"
+           rel="noreferrer">{{ site.data.action.text }}</a>
+      {% else %}
+        {{ site.data.action.text }}
       {% endif %}
-      for updates!
     </p>
-  </div>
+  {% endif %}
+  <p>
+    Follow us on <a href="https://facebook.com/{{ site.data.info.facebook }}"
+                    target="_blank"
+                    rel="noreferrer">Facebook</a>
+    {% if site.data.info.twitter %}
+      and <a href="https://twitter.com/{{ site.data.info.twitter }}"
+             target="_blank"
+             rel="noreferrer">Twitter</a>
+    {% endif %}
+    for updates!
+  </p>
 </header>
 <section class="tone-dark">
   <div>
