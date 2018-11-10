@@ -13,7 +13,7 @@ All configuration files are extensively commented.
 - **Overall configuration**: Edit `_data/info.yml`.  
                              Put your rules as a PDF named `rules.pdf` in the `pdf` folder.  
                              Put your sponsorship prospectus as a PDF named `sponsor-prospectus.pdf` in the `pdf` folder.
-- **Theming**: See the ReadMe file in `images/`.  
+- **Theming**: See the [ReadMe](./images/ReadMe.md) for `images/`.  
                To use a custom font, put a font file at the root, named `font` with any font extension, such as `font.otf`.
 - **Action link**: Edit `_data/action.yml`.
 - **Schedule**: Edit `_data/schedule.yml`.
