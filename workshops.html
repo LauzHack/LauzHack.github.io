@@ -17,8 +17,7 @@ layout: default
         <h2>{{ workshop[0] }}</h2>
         <p>{{ workshop[1].date | date: '%A %B %-d, %H:%M' }}</p>
         <p>{{ workshop[1].description | markdownify }}</p>
-        <a href="{{ workshop[1].signup }}"
-           target="_blank">Register</a>
+        <a href="{{ workshop[1].signup }}">Register</a>
       </div>
     {% endif %}
   {% endfor %}
@@ -34,7 +33,6 @@ layout: default
           id="mc-embedded-subscribe-form"
           name="mc-embedded-subscribe-form"
           class="validate"
-          target="_blank"
           novalidate>
       <div id="mc_embed_signup_scroll">
         <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>

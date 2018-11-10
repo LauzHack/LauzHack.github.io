@@ -15,7 +15,6 @@ layout: default
       {% if site.data.action.link %}
         <a class="tone-dark link-action"
            href="{{ site.data.action.link }}"
-           target="_blank"
            rel="noreferrer">{{ site.data.action.text }}</a>
       {% else %}
         {{ site.data.action.text }}
@@ -24,11 +23,9 @@ layout: default
   {% endif %}
   <p>
     Follow us on <a href="https://facebook.com/{{ site.data.info.facebook }}"
-                    target="_blank"
                     rel="noreferrer">Facebook</a>
     {% if site.data.info.twitter %}
       and <a href="https://twitter.com/{{ site.data.info.twitter }}"
-             target="_blank"
              rel="noreferrer">Twitter</a>
     {% endif %}
     for updates!
@@ -48,8 +45,7 @@ layout: default
       <p>
         Check out the past editions:
         {% for edition in site.data.info.past_editions %}
-          <a href="{{ edition[1] }}"
-             target="_blank">{{ edition[0] }}</a>
+          <a href="{{ edition[1] }}">{{ edition[0] }}</a>
         {% endfor %}
       </p>
     {% endif %}
@@ -92,11 +88,9 @@ layout: default
       <div class="item-large">
         <h2>I have another question...</h2>
         <p>Contact us on <a href="https://facebook.com/{{ site.data.info.facebook }}"
-                            target="_blank"
                             rel="noreferrer">Facebook</a>,
           {% if site.data.info.twitter %}
             on <a href="https://twitter.com/{{ site.data.info.twitter }}"
-                  target="_blank"
                   rel="noreferrer">Twitter</a>,
           {% endif %}
           <br>
@@ -131,8 +125,7 @@ layout: default
 
           <div class="item-large">
             <a href="{{ sponsor[1] }}"
-               rel="noreferrer"
-               target="_blank">
+               rel="noreferrer">
               <img src="{{ file_img }}"
                    alt="{{ tier[0] }} - {{ sponsor[0] }}"
                    title="{{ tier[0] }} - {{ sponsor[0] }}"
@@ -151,7 +144,6 @@ layout: default
       <div class="item-small">
         <a class="person-link"
            href="{{ person.link }}"
-           target="_blank"
            rel="noreferrer">
             <div class="person-container">
               <img class="person-image"
