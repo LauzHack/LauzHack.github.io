@@ -14,6 +14,22 @@ mailchimp_bot_input: 'b_58e344e5cc77ae96251a8ef7d_c5f91ec5f4'
 # All past and future workshops
 # Workshops have a date (in structured form), a signup link, and a description.
 items:
+
+  Fun Fourier Transform - Whistle Unlocker:
+    date: '2018-11-13 18:00'
+    signup: 'https://goo.gl/forms/VEhqGI1euI6FgsxC3'
+    description: Learn how to use the Fourier Transform in order to perform melody detection, which is used to create a "whistle unlocker".
+
+  Build a Private-by-Design Voice Assistant:
+    date: '2018-11-20 18:00'
+    signup: 'https://goo.gl/forms/5pijntOGOurABPRx2'
+    description: Discover [Snips'](https://snips.ai/) tools as we build a voice assistant that runs completely on device, that is without connecting to the cloud.
+
+  Crash Course on Reinforcement Learning:
+    date: '2018-12-14 18:00'
+    signup: 'https://goo.gl/forms/oPWtxNJACHStc8rq2'
+    description: Mohanty from [crowdAI](https://www.crowdai.org/) shares his extensive experience in reinforcement learning with hands-on examples.
+
   Hacking With Amazon Alexa:
     date: '2018-10-19 17:00'
     signup: 'https://goo.gl/forms/7yrOLmYUlkIHJYhV2'

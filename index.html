@@ -22,6 +22,10 @@ layout: default
     </p>
   {% endif %}
   <p>
+  If you are a local student, check out <a href="/workshops">{{ site.data.workshops.name }}</a>!
+  </p>
+
+  <p>
     Follow us on <a href="https://facebook.com/{{ site.data.info.facebook }}"
                     rel="noreferrer">Facebook</a>
     {% if site.data.info.twitter %}
@@ -36,9 +40,9 @@ layout: default
     {{ site.data.info.description_long | markdownify }}
 
     {% if site.data.workshops %}
-      <p>
+<!--       <p>
         We also organize <a href="/workshops">{{ site.data.workshops.name }}</a>.
-      </p>
+      </p> -->
     {% endif %}
 
     {% if site.data.info.past_editions %}
