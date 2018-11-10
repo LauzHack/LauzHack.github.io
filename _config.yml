@@ -5,7 +5,6 @@ compress_html:
   clippings: all
   startings: [head, body]
   endings: all
-  profile: true
 
 plugins:
   - jekyll-redirect-from
