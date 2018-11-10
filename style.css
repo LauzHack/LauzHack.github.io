@@ -67,7 +67,6 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 1.5em;
-  margin-bottom: 0;
 }
 
 
@@ -78,16 +77,11 @@ table {
   margin: 1em 0;
 }
 
-thead {
-  font-size: 1.3em;
-  font-weight: bold;
-}
-
-tbody > tr:nth-child(odd) {
+tbody > tr:nth-child(even) {
   background-color: rgba(0, 0, 0, 0.05);
 }
 
-tbody > tr:nth-child(even) {
+tbody > tr:nth-child(odd) {
   background-color: rgba(0, 0, 0, 0.02);
 }
 
