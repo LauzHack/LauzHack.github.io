@@ -16,6 +16,9 @@ description_long: |-
 
   Come and join over 200 like-minded students hacking together during a weekend to make something amazing!
 
+# Contact email. Use a bot-defeating format, otherwise you'll get spammed.
+email: info at lauzhack dot com
+
 # Social networks. Twitter is optional, but you really should have a Facebook page.
 facebook: lauzhack
 twitter: lauzhack

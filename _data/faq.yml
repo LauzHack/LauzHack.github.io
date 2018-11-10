@@ -1,5 +1,6 @@
 # FAQ, optional.
 # Questions, answers, and an optional 'id' field for hyperlinks (e.g. if you need to show a specific answer to someone).
+# The last question is automatically added with the contact information.
 # Beware, YAML/Markdown syntax is a bit tricky:
 # - Use the weird |- syntax to allow answers to span lines.
 # - End lines with two spaces if you want to force a line break, otherwise the line break is ignored.
@@ -16,7 +17,7 @@
 
 - q: What should I bring?
   a: |-
-        Your laptop, charger and anything else you'd like.  
+        Your laptop and charger, as well as toiletries.  
         Please bring **a valid ID** for admission.
 
 - q: Where is it?
@@ -44,9 +45,3 @@
   a: |-
         Don't worry! Part of the fun of a hackathon is meeting new people.  
         We will have time at the beginning of the event to socialize and form teams.
-
-- q: I have another question...
-  a: |-
-        Message us on [Facebook](https://facebook.com/lauzhack),  
-        tweet to us [@lauzhack](https://twitter.com/lauzhack),  
-        or email us (info at lauzhack dot com) !

@@ -24,7 +24,7 @@ layout: default
       </p>
     {% endif %}
     <p>
-      Follow us on <a href="https://www.facebook.com/{{ site.data.info.facebook }}"
+      Follow us on <a href="https://facebook.com/{{ site.data.info.facebook }}"
                       target="_blank"
                       rel="noreferrer">Facebook</a>
       {% if site.data.info.twitter %}
@@ -82,15 +82,29 @@ layout: default
   </section>
 {% endif %}
 <section>
-  <h1>F.A.Q.</h1>
-  <div class="items-container">
-    {% for item in site.data.faq %}
+  {% if site.data.faq %}
+    <h1>F.A.Q.</h1>
+    <div class="items-container">
+      {% for item in site.data.faq %}
+        <div class="item-large">
+          <h2 {% if item.id %} id="{{ item.id }}" {% endif %}>{{ item.q }}</h2>
+          <p>{{ item.a | markdownify }}</p>
+        </div>
+      {% endfor %}
       <div class="item-large">
-        <h2 id="{{ item.id }}">{{ item.q }}</h2>
-        <p>{{ item.a | markdownify }}</p>
-      </div>
-    {% endfor %}
-  </div>
+        <h2>I have another question...</h2>
+        <p>Message us on <a href="https://facebook.com/{{ site.data.info.facebook }}"
+                            target="_blank"
+                            rel="noreferrer">Facebook</a>,
+          {% if site.data.info.twitter %}
+            on <a href="https://twitter.com/{{ site.data.info.twitter }}"
+                  target="_blank"
+                  rel="noreferrer">Twitter</a>,
+          {% endif %}
+          <br>
+          or email us ({{ site.data.info.email }})!</p>
+    </div>
+  {% endif %}
 </section>
 <section class="section-sponsors">
   <h1>Sponsors</h1>
@@ -103,10 +117,7 @@ layout: default
   {% for tier in site.data.sponsors.tiers %}
     {% if tier[1].sponsors %}
       <div class="items-container"
-           {% if tier[1].color %}
-             style="background: {{ tier[1].color }}"
-           {% endif %}
-           >
+           {% if tier[1].color %} style="background: {{ tier[1].color }}" {% endif %}>
         {% for sponsor in tier[1].sponsors %}
           {% comment %} Use SVG if available, PNG otherwise {% endcomment %}
           {% assign file_img = 'null' %}
