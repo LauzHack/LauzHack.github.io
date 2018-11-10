@@ -13,8 +13,9 @@ layout: default
   {% for workshop in site.data.workshops.items %}
     {% capture dateunix %}{{ workshop[1].date | date: '%s' | plus: 0 }}{% endcapture %}
     {% if dateunix > nowunix %}
+      <hr>
       <div>
-        <h2>{{ workshop[0] }}</h2>
+        <h2><i>{{ workshop[0] }}</i></h2>
         <p>{{ workshop[1].date | date: '%A %B %-d, %H:%M' }}</p>
         <p>{{ workshop[1].description | markdownify }}</p>
         <a href="{{ workshop[1].signup }}">Register</a>
@@ -50,8 +51,9 @@ layout: default
   {% for workshop in site.data.workshops.items %}
     {% capture dateunix %}{{ workshop[1].date | date: '%s' | plus: 0 }}{% endcapture %}
     {% if dateunix <= nowunix %}
+      <hr>
       <div>
-        <h2>{{ workshop[0] }}</h2>
+        <h2><i>{{ workshop[0] }}</i></h2>
         <p>{{ workshop[1].date | date: '%A %B %-d, %H:%M' }}</p>
         <p>{{ workshop[1].description | markdownify }}</p>
       </div>
