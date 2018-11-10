@@ -136,8 +136,6 @@ header img {
 
 /* Action link, with trick to put a dark overlay */
 .link-action {
-  background: {{ site.data.info.color }};
-  color: #fff;
   padding: 0.1em 0.3em;
   text-decoration: none;
   position: relative;
