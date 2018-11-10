@@ -1,10 +1,12 @@
 Generic website for events, whose main target is [LauzHack](https://lauzhack.com).
 
+
 ## Features
 
 - Lightweight, good-looking pages
 - Easy to configure, no programming required
 - Supports common event features: schedule, FAQ, sponsors, organizers...
+
 
 ## How-To
 
@@ -25,3 +27,10 @@ All configuration files are extensively commented.
 - **Workshops**: Edit `_data/workshops.yml`.
 
 See the [GitHub Pages documentation](https://pages.github.com/) to learn how to deploy the site and use a custom domain name.
+
+
+## Tips
+
+- Use SVGs as much as possible for sponsor logos.
+- Use [TinyJPG](https://tinyjpg.com/) to compress JPGs.
+- Use [PNGOUT](http://advsys.net/ken/utils.htm) then [DeflOpt](http://web.archive.org/web/20131208161446/http://www.walbeehm.com/download/index.html) to compress PNGs.
