@@ -15,15 +15,12 @@ layout: default
       {% if site.data.action.link %}
         <a class="tone-dark link-action"
            href="{{ site.data.action.link }}"
-           rel="noreferrer">{{ site.data.action.text }}</a>
+           rel="noreferrer">{{ site.data.action.text | markdownify }}</a>
       {% else %}
-        {{ site.data.action.text }}
+        {{ site.data.action.text | markdownify }}
       {% endif %}
     </p>
   {% endif %}
-  <p>
-  If you are a local student, check out <a href="/workshops">{{ site.data.workshops.name }}</a>!
-  </p>
 
   <p>
     Follow us on <a href="https://facebook.com/{{ site.data.info.facebook }}"
@@ -40,9 +37,9 @@ layout: default
     {{ site.data.info.description_long | markdownify }}
 
     {% if site.data.workshops %}
-<!--       <p>
+      <p>
         We also organize <a href="/workshops">{{ site.data.workshops.name }}</a>.
-      </p> -->
+      </p>
     {% endif %}
 
     {% if site.data.info.past_editions %}

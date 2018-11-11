@@ -7,21 +7,24 @@ layout: default
 {% capture nowunix %}{{ 'now' | date: '%s' | plus: 0 }}{% endcapture %}
 <section class="tone-dark">
   <h1>{{ site.data.workshops.name }}</h1>
-  <div>
-    {{ site.data.workshops.description | markdownify }}
+
+  {{ site.data.workshops.description | markdownify }}
+
+  <div class="items-container">
+    {% for workshop in site.data.workshops.items %}
+      {% capture dateunix %}{{ workshop[1].date | date: '%s' | plus: 0 }}{% endcapture %}
+      {% if dateunix > nowunix %}
+        <div class="item-large">
+          <h2>
+            <i>{{ workshop[0] }}</i>
+          </h2>
+          <p>{{ workshop[1].date | date: '%A %B %-d, %H:%M' }}</p>
+          <p>{{ workshop[1].description | markdownify }}</p>
+          <a href="{{ workshop[1].signup }}">Register</a>
+        </div>
+      {% endif %}
+    {% endfor %}
   </div>
-  {% for workshop in site.data.workshops.items %}
-    {% capture dateunix %}{{ workshop[1].date | date: '%s' | plus: 0 }}{% endcapture %}
-    {% if dateunix > nowunix %}
-      <hr>
-      <div>
-        <h2><i>{{ workshop[0] }}</i></h2>
-        <p>{{ workshop[1].date | date: '%A %B %-d, %H:%M' }}</p>
-        <p>{{ workshop[1].description | markdownify }}</p>
-        <a href="{{ workshop[1].signup }}">Register</a>
-      </div>
-    {% endif %}
-  {% endfor %}
 </section>
 <section>
   <h1>Newsletter</h1>
@@ -48,15 +51,18 @@ layout: default
 </section>
 <section>
   <h1>Previous {{ site.data.workshops.name }}</h1>
-  {% for workshop in site.data.workshops.items %}
-    {% capture dateunix %}{{ workshop[1].date | date: '%s' | plus: 0 }}{% endcapture %}
-    {% if dateunix <= nowunix %}
-      <hr>
-      <div>
-        <h2><i>{{ workshop[0] }}</i></h2>
-        <p>{{ workshop[1].date | date: '%A %B %-d, %H:%M' }}</p>
-        <p>{{ workshop[1].description | markdownify }}</p>
-      </div>
-    {% endif %}
-  {% endfor %}
+  <div class="items-container">
+    {% for workshop in site.data.workshops.items %}
+      {% capture dateunix %}{{ workshop[1].date | date: '%s' | plus: 0 }}{% endcapture %}
+      {% if dateunix <= nowunix %}
+        <div class="item-large">
+          <h2>
+            <i>{{ workshop[0] }}</i>
+          </h2>
+          <p>{{ workshop[1].date | date: '%A %B %-d, %H:%M' }}</p>
+          <p>{{ workshop[1].description | markdownify }}</p>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
 </section>
