@@ -20,7 +20,7 @@ items:
     description: Learn how to use the Fourier Transform in order to perform melody detection, which is used to create a "whistle unlocker".
 
   Build a Private-by-Design Voice Assistant:
-    date: '2018-11-20 18:00'
+    date: '2018-11-21 18:00'
     signup: 'https://goo.gl/forms/5pijntOGOurABPRx2'
     description: Discover [Snips'](https://snips.ai/) tools as we build a voice assistant that runs completely on device, that is without connecting to the cloud.
 
