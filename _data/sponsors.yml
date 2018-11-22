@@ -40,6 +40,7 @@ tiers:
     color: rgba(205,127,50,0.12)
     size: 16
     sponsors:
+      Bloomberg: https://bloomberg.com
       GitHub: https://github.com
 
   Food:
