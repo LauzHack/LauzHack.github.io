@@ -1,10 +1,12 @@
 - name: Logitech
+  important: true
   text: |-
     Create the perfect music player for running!  
     Make a phone app, or use one of Logitech's smart watches.  
     Logitech will also have plenty of hardware for imaginative hacks.
 
 - name: Swissquote
+  important: true
   text: |-
     It's the Swissquote Bots Race!  
     The challenge: Win the race by building the fastest and smartest trading bot!  
@@ -14,6 +16,7 @@
     The prizes: One prize for the most profitable bot, and one prize for the most innovative trading strategy.
 
 - name: BOBST
+  important: true
   text: |-
     BOBST proposes an Augmented Reality challenge.  
     Using BOBST's smart glasses or your smartphone, display live data about production machines.  
