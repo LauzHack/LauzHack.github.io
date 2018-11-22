@@ -1,0 +1,67 @@
+- name: Logitech
+  text: |-
+    Create the perfect music player for running!  
+    Make a phone app, or use one of Logitech's smart watches.  
+    Logitech will also have plenty of hardware for imaginative hacks.
+
+- name: Swissquote
+  text: |-
+    It's the Swissquote Bots Race!  
+    The challenge: Win the race by building the fastest and smartest trading bot!  
+    Your weapon: A bot that can post BUY and SELL orders to a dedicated endpoint between 11am and 12am.  
+    Your fuel: Historical data and streaming live prices provided by Swissquote.  
+    Your competitors: Other teams, and... the market!
+    The prizes: One prize for the most profitable bot, and one prize for the most innovative trading strategy.
+
+- name: BOBST
+  text: |-
+    BOBST proposes an Augmented Reality challenge.  
+    Using BOBST's smart glasses or your smartphone, display live data about production machines.  
+    You can also use BOBST's technology to hack your own AR project idea!
+
+- name: Crédit Suisse
+  text: |-
+    Identifying suspicious clients from abnormal behaviors, fraudulent activities or terrorist financing is a major challenge in Compliance at Credit Suisse.  
+    Nowadays, rule based scenarios are not anymore relevant and data science is seen as a game changer for the bank. In a world where there are more and more regulations and where the reputational risk is more and more at stake for Credit Suisse, we need you to find out the methods for the future and help us identify our suspicious clients using state of the art machine learning techniques and your smart analysis.  
+    You will be given a set of clients with a list of features regarding their profiles and activity with the bank such as total transaction amounts during the year, or the age of the client. You will then have to derive a list of suspicious clients to investigate for the financial crime compliance team - taking also into account not only the features but also regulators rules.  
+    The submission will be evaluated both on the algorithmic approach, the scoring results and the novelty in visualizing the data and the model results.
+
+- name: SBB
+  text: |-
+    Analyze and optimize passenger flows in train stations!
+    SBB has selected train stations that are often faced with high peak loads, leading to congestion, safety issues, delays and reduced comfort for passengers.  
+    Now it's your turn to provide an innovative hack to address those issues!
+
+- name: FAIRTIQ
+  text: |-
+    Improve a public transport network based on data!  
+    People have been using public transport with FAIRTIQ for a while now. Could the average commute time have been shorter?  
+    Are there public transport lines the could be created/removed to reduce the commute time?  
+    Would it be interesting to merge two public transport lines?  
+    Or make one shorter? or longer?  
+    These are the type of questions you have to ask to yourself in order to optimise the public transport network for Frimobil (Switzerland). In addition to data publicly available (timetable, routes, stations, tariffs) you will get anonymised travel data from FAIRTIQ.  
+    Modifications come at a cost, which you'll have to take into consideration.  
+    The goal of this challenge is to come up with realistic modifications to apply to the network so that it performs better regarding the criteria explained before.  
+
+- name: Knowledge Experts / PEGA
+  text: |-
+    Use AI for good!  
+    Thousands of companies are leveraging Pega to personalize consumers' experience by leveraging its artificial intelligence and omni-channel capabilities. Can you leverage the technology for the greater good? Which future will you create?  
+    You can leverage any of the unified platform capabilities, including the prediction studio: a unified place for data scientists and technical thought leaders to develop and configure analytical models – predictive analytics, adaptive analytics, text classification and text extraction.  
+    You can also use the application studio: a model-driven, low-code environment for those who need to rapidly create solutions accessible on web, mobile, mashup, social or chatbot channels, while aggregating data from a variety of sources.
+
+- name: SGS
+  text: |-
+    SGS will teach you about security threats on the Internet of Things (IoT), and offer a Capture-The-Flag competition.  
+    Learn about digital security risks and test your skills!
+
+- name: AXA
+  text: |-
+    AXA will reward the best hack in Computer Vision, based on the technological challenges you faced and the innovation you displayed to solve them!  
+    Come and talk to their representatives if you have an idea.  
+    For instance, you could detect tampered images, spot and match signatures, convert currencies from an image, inspect invoices... they will support your innovative ideas!
+
+- name: IBM
+  text: |-
+    IBM will provide their expertise on AI, Machine Learning, and Deep Learning, as well as on the Internet of Things (IoT) and Node-RED.  
+    They can also provide you with free cloud resources!
