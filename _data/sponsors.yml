@@ -7,6 +7,15 @@ show_prospectus: false
 # Each sponsor has a link to its website.
 # See the ReadMe file for information about logos.
 tiers:
+  Partners:
+    show_title: true
+    size: 30
+    sponsors:
+      EPFL: https://epfl.ch/index.en.html
+
+  Sponsors:
+    show_title: true
+
   Gold:
     color: rgba(212,175,55,0.12)
     size: 42
@@ -32,11 +41,6 @@ tiers:
     size: 16
     sponsors:
       GitHub: https://github.com
-
-  Partner:
-    size: 20
-    sponsors:
-      EPFL: https://epfl.ch/index.en.html
 
   Food:
     size: 20
