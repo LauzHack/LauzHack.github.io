@@ -60,10 +60,10 @@
 
 - name: AXA
   text: |-
-    AXA will reward the best hack in Computer Vision, based on the technological challenges you faced and the innovation you displayed to solve them!  
-    Come and talk to their representatives if you have an idea.  
-    For instance, you could detect tampered images, spot and match signatures, convert currencies from an image, inspect invoices... they will support your innovative ideas!
-
+    AXA will reward the best hack in Computer Vision, based on the technological challenges you faced and the innovation you displayed to solve them!
+    Come to their tech talk for some tips and trick for how to make a good computer vision hack and talk to their representatives if you have an idea.
+    For instance, you could detect tampered images, spot and match signatures, convert currencies from an image, inspect invoices… they will support your innovative ideas!
+    
 - name: IBM
   text: |-
     IBM will provide their expertise on AI, Machine Learning, and Deep Learning, as well as on the Internet of Things (IoT) and Node-RED.  
