@@ -1,0 +1,13 @@
+---
+title: Judges
+layout: default
+---
+{% comment %}this page is rather messy but done quickly...{% endcomment %}
+<section style="padding: 1em; text-align: justify; width: 90%">
+  <h1>{{ site.data.info.name }} Judges</h1>
+  {% for judge in site.data.judges %}
+    <h2>{{ judge[0] }}</h2>
+    <p>{{ judge[1] }}</p>
+    <br><br>
+  {% endfor %}
+</section>
