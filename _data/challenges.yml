@@ -31,9 +31,8 @@
 
 - name: SBB
   text: |-
-    Analyze and optimize passenger flows in train stations!
-    SBB has selected train stations that are often faced with high peak loads, leading to congestion, safety issues, delays and reduced comfort for passengers.  
-    Now it's your turn to provide an innovative hack to address those issues!
+    A Smarter Parking Spot Finder: How can we help car drivers find parking that meets their needs perfectly (remaining distance to destination, price, different providers, charging, reservation, etc.)? The solution should be integrated in a routing service.  
+    A Smarter Park+Rail: How can we make SBB parking spots (we have lots!) smarter to make it easier for customers to use Park+Rail? The solution could be based on LoRaWAN technology (hardware will be provided).
 
 - name: FAIRTIQ
   text: |-
