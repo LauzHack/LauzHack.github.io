@@ -15,7 +15,7 @@ layout: default
       {% if site.data.action.link %}
         <a class="tone-dark link-action"
            href="{{ site.data.action.link }}"
-           rel="noreferrer">{{ site.data.action.text | markdownify }}</a>
+           rel="noreferrer">{{ site.data.action.text | markdownify | remove: '<p>' | remove: '</p>' }}</a>
       {% else %}
         {{ site.data.action.text | markdownify }}
       {% endif %}
