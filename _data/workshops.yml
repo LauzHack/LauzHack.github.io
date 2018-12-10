@@ -4,7 +4,7 @@
 name: LauzHack Days
 
 # Workshops description
-description: Join us for short workshops focused on specific hacks!
+description: Join us for short workshops focused on specific hacks! Scroll down to find slides and material from past workshops :)
 
 # Newsletter for workshops using MailChimp
 # Get those from the MailChimp embed - the form action and the 'real people should not fill this' input name
@@ -32,7 +32,7 @@ items:
   Intro to Docker:
     date: '2018-12-05 18:00'
     signup: 'https://goo.gl/forms/RLXrwdUqbAXvXa9b2'
-    description: Have you ever heard of "cloud computing"? Let's learn about Docker and use it for building and deploying our own cloud application.
+    description: Have you ever heard of "cloud computing"? Let's learn about Docker and use it for building and deploying our own cloud application. [Slides](https://speakerdeck.com/adrian_gespi/intro-to-docker-lauzhack-days) and [workshop material](https://github.com/ageapps/lauzhack-docker-workshop).
 
   Crash Course on Reinforcement Learning:
     date: '2018-12-14 18:00'
