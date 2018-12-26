@@ -37,4 +37,9 @@ items:
   Crash Course on Reinforcement Learning:
     date: '2018-12-14 18:00'
     signup: 'https://goo.gl/forms/oPWtxNJACHStc8rq2'
-    description: Mohanty from [crowdAI](https://www.crowdai.org/) shares his extensive experience in reinforcement learning with hands-on examples.
+    description: Mohanty from [crowdAI](https://www.crowdai.org/) shares his extensive experience in reinforcement learning with hands-on examples. [Workshop material](https://github.com/stanfordnmbl/osim-rl).
+
+  Neural Style Transfer - Teaching Machines to Mimic Artists:
+    date: '2019-02-20 18:00'
+    signup: 'https://goo.gl/forms/vJrINE0PtHcEqGDx2'
+    description: Mohanty from [crowdAI](https://www.crowdai.org/) shows how to combine Artificial Intelligence and Art with [Neural Style Transfer](https://medium.com/tensorflow/neural-style-transfer-creating-art-with-deep-learning-using-tf-keras-and-eager-execution-7d541ac31398).
