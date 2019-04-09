@@ -1,0 +1,76 @@
+---
+is_workshops: true
+layout: default
+---
+{% comment %} For date comparisons, see https://stackoverflow.com/a/23025858/3311770 {% endcomment %}
+{% capture nowunix %}{{ 'now' | date: '%s' | plus: 0 }}{% endcapture %}
+<section class="tone-dark">
+  <h1>{{ site.data.workshops.name }}</h1>
+
+  {{ site.data.workshops.description | markdownify }}
+
+  <div class="items-container">
+    {% for workshop in site.data.workshops.items %}
+      {% capture dateunix %}{{ workshop[1].date | date: '%s' | plus: 0 }}{% endcapture %}
+      {% if dateunix > nowunix %}
+        <div class="item-large">
+          <h2>
+            <i>{{ workshop[0] }}</i>
+          </h2>
+          <p>{{ workshop[1].date | date: '%A %B %-d, %H:%M' }}</p>
+          <p>{{ workshop[1].description | markdownify }}</p>
+          <a href="{{ workshop[1].signup }}">Register</a>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+<section>
+  <h1>Newsletter</h1>
+  <div>
+    Subscribe to our newsletter to be informed of future {{ site.data.workshops.name }}!
+  </div>
+  <div class="newsletter">
+    <form action="{{ site.data.workshops.mailchimp_action }}"
+          method="post"
+          id="mc-embedded-subscribe-form"
+          name="mc-embedded-subscribe-form"
+          class="validate"
+          novalidate>
+      <div id="mc_embed_signup_scroll">
+        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups -->
+        <div style="position: absolute; left: -5000px;" aria-hidden="true">
+          <input type="text" name="{{ site.data.workshops.mailchimp_bot_input }}" tabindex="-1" value="">
+        </div>
+        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+      </div>
+    </form>
+  </div>
+</section>
+{% assign has_previous = false %}
+{% for workshop in site.data.workshops.items %}
+  {% capture dateunix %}{{ workshop[1].date | date: '%s' | plus: 0 }}{% endcapture %}
+  {% if dateunix <= nowunix %}
+    {% assign has_previous = true %}
+  {% endif %}
+{% endfor %}
+{% if has_previous %}
+  <section>
+    <h1>Previous {{ site.data.workshops.name }}</h1>
+    <div class="items-container">
+      {% for workshop in site.data.workshops.items %}
+        {% capture dateunix %}{{ workshop[1].date | date: '%s' | plus: 0 }}{% endcapture %}
+        {% if dateunix <= nowunix %}
+          <div class="item-large">
+            <h2>
+              <i>{{ workshop[0] }}</i>
+            </h2>
+            <p>{{ workshop[1].date | date: '%A %B %-d, %H:%M' }}</p>
+            <p>{{ workshop[1].description | markdownify }}</p>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+{% endif %}

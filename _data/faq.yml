@@ -1,0 +1,46 @@
+# FAQ, optional.
+# Questions, answers, and an optional 'id' field for hyperlinks (e.g. if you need to show a specific answer to someone).
+# The last question is automatically added with the contact information.
+# Beware, YAML/Markdown syntax is a bit tricky:
+# - Use the weird |- syntax to allow answers to span lines.
+# - End lines with two spaces if you want to force a line break, otherwise the line break is ignored.
+
+- q: Can I participate?
+  a: |- 
+        You must be **at least 18 years old** and **a student**,  
+        or have graduated from university in the past twelve months.
+
+- q: How much does it cost?
+  a: |-
+        Thanks to our sponsors, **attendance is free**.  
+        We will provide you with **meals**, swag, Wi-Fi and a workspace.
+
+- q: What should I bring?
+  a: |-
+        Your laptop and charger, as well as toiletries.  
+        Please bring **a valid ID** for admission.
+
+- q: Where is it?
+  a: |-
+        LauzHack will take place in EPFL's Lausanne campus, bordering Lake Geneva.  
+        You can find directions [here](https://information.epfl.ch/access).
+
+- q: Where will I sleep?
+  a: |-
+        We have limited space in a sleeping area.  
+        Please refer to the e-mails you received.
+
+- q: Will my travel be reimbursed?
+  a: |-
+        We will soon announce our travel reimbursement policy.
+
+- id: ip
+  q: What about intellectual property?
+  a: |-
+        We do not claim any rights on any of your intellectual property whatsoever.  
+        Everything you create, at LauzHack or not, belongs to you.
+
+- q: What if I don't have a team?
+  a: |-
+        Don't worry! Part of the fun of a hackathon is meeting new people.  
+        We will have time at the beginning of the event to socialize and form teams.

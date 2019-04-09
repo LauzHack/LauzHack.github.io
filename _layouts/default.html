@@ -1,0 +1,43 @@
+---
+layout: compress
+---
+{% assign title = site.data.info.name %}
+{% if page.title %}
+  {% assign title = title | append: ' - ' | append: page.title %}
+{% endif %}
+{% comment %} Stupid hack because front matter can't contain variables,
+              and page.url can be overriden so we can't test for it {% endcomment %}
+{% if page.is_workshops %}
+  {% assign title = site.data.workshops.name %}
+{% endif %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="{{ site.data.info.description_short }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:image" content="{{ site.url }}/images/preview.png">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:description" content="{{ site.data.info.description_short }}">
+
+  {% if site.data.info.twitter %}
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@{{ site.data.info.twitter }}">
+    <meta name="twitter:title" content="{{ title }}">
+    <meta name="twitter:image" content="{{ site.url }}/images/preview.png">
+    <meta name="twitter:description" content="{{ site.data.info.description_short }}">
+  {% endif %}
+
+  <title>{{ title }}</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="icon" type="image/png" href="images/favicon.png" sizes="16x16">
+</head>
+<body>
+  {{ content }}
+</body>
+</html>

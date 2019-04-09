@@ -1,0 +1,20 @@
+---
+title: Legalese
+layout: default
+---
+<section>
+  <h1>Statutes</h1>
+  <p>Our statutes are available <a href="{{ site.data.organizers.group.statutes }}"
+                                   rel="noreferrer">here</a>.</p>
+</section>
+<section>
+  <h1>General Assemblies</h1>
+  <div>
+    {% for assembly in site.data.organizers.group.assemblies %}
+      <p>
+        <a href="{{ assembly[1] }}"
+           rel="noreferrer">{{ assembly[0] }}</a>
+      </p>
+    {% endfor %}
+  </div>
+</section>

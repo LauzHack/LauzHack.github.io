@@ -1,0 +1,211 @@
+---
+---
+/* Font */
+{% assign has_font = false %}
+{% for file in site.static_files %}
+  {% if file.path.size > 6 %}
+    {% assign path_begin = file.path | slice: 0, 6 %}
+    {% if path_begin == '/font.' %}
+      {% assign has_font = true %}
+      @font-face {
+        font-family: CustomFont;
+        src: url('{{ file.path }}');
+      }
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+/* Basic elements */
+body {
+  background: #f0f0f0;
+  text-align: center;
+  font-family:
+    {% if has_font %}
+      CustomFont,
+    {% endif %}
+    {{ site.data.info.font }};
+  margin: 0;
+}
+
+section {
+  width: 100%;
+  overflow: hidden;
+}
+
+section {
+  font-size: 1.25em;
+  padding: 1.5em 0;
+}
+
+section > * {
+  padding: 0 2vw;
+}
+
+.items-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 1em 0;
+}
+
+.item-large {
+  flex-grow: 1;
+  flex-basis: 26%;
+  padding: 0 3.65%;
+}
+
+.item-small {
+  flex-grow: 0;
+  flex-basis: 17%;
+  padding: 0 1.5%;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+}
+
+tbody > tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+tbody > tr:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+tr {
+  height: 3em;
+}
+
+
+/* Colors */
+.tone-dark {
+  background: {{ site.data.info.color }};
+  color: #fff;
+}
+
+.tone-dark a {
+  color: #ddd;
+}
+
+.tone-dark a:active,
+.tone-dark a:focus,
+.tone-dark a:hover {
+  color: #fff;
+}
+
+
+/* Header */
+.header {
+  /* Fake a dark overlay with a gradient. Black is black... I want my sanity back... */
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/background.jpg') no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 0;
+}
+
+.header p {
+  font-size: calc(0.75em + 2vw);
+  margin: 4vh 0 0 0;
+}
+
+.header img {
+  max-width: 95%;
+  margin: 5em auto 0 auto;
+}
+
+
+/* Action link, with trick to put a dark overlay */
+.link-action {
+  padding: 0.1em 0.3em;
+  text-decoration: none;
+  position: relative;
+}
+
+.link-action:after {
+  content: '\A';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.link-action:hover:after {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.link-action:active:after {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+
+/* People */
+.person-container {
+  display: inline-block;
+  margin: 0 0 2em 0;
+}
+
+.person-link .person-info {
+  opacity: 0.7;
+}
+
+.person-link:active .person-info,
+.person-link:hover  .person-info {
+  opacity: 1;
+}
+
+.person-image {
+  width: 10em;
+  height: 10em;
+}
+
+.person-info {
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-top: -0.3em;
+  padding: 0.3em 0;
+}
+
+.person-first {
+  font-weight: 600;
+}
+
+.person-last {
+  opacity: 0.7;
+}
+
+
+/* Newsletter */
+.newsletter {
+  margin-top: 1em;
+}
+
+.newsletter input {
+  background: #fff;
+  border: 1px solid #999;
+  box-sizing: border-box;
+  padding: 0.5rem 0.8rem;
+}
+
+.newsletter input[type="email"] {
+  box-sizing: border-box;
+  width: 18rem;
+}
+.newsletter input[type="submit"]:hover {
+  background: #eee;
+}
+.newsletter input[type="submit"]:active {
+  background: #ccc;
+}
