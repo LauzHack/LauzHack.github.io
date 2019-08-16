@@ -11,20 +11,21 @@ tiers:
     show_title: true
     size: 30
     sponsors:
-      EPFL: https://epfl.ch/index.en.html
+      EPFL: https://epfl.ch/en
 
-#  Sponsors:
-#    show_title: true
+  Sponsors:
+    show_title: true
 
 #  Gold:
 #    color: rgba(212,175,55,0.12)
 #    size: 42
 #    sponsors:
 
-#  Silver:
-#    color: rgba(192,192,192,0.18)
-#    size: 32
-#    sponsors:
+  Silver:
+    color: rgba(192,192,192,0.18)
+    size: 32
+    sponsors:
+      AdNovum: https://adnovum.ch
 
 #  Bronze:
 #    color: rgba(205,127,50,0.12)
