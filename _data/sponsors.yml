@@ -16,16 +16,20 @@ tiers:
   Sponsors:
     show_title: true
 
-#  Gold:
-#    color: rgba(212,175,55,0.12)
-#    size: 42
-#    sponsors:
+  Gold:
+    color: rgba(212,175,55,0.12)
+    size: 42
+    sponsors:
+      BOBST: https://bobst.com/chen
+      Loterie Romande: https://loro.ch
+      Swissquote: https://en.swissquote.com
 
   Silver:
     color: rgba(192,192,192,0.18)
     size: 32
     sponsors:
       AdNovum: https://adnovum.ch
+      Sophia Genetics: https://www.sophiagenetics.com
 
 #  Bronze:
 #    color: rgba(205,127,50,0.12)
