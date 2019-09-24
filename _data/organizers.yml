@@ -10,10 +10,6 @@ group:
 # People organizing the event, and their websites.
 # See the ReadMe file for information on pictures.
 people:
-  - first: Ali
-    last: Elabridi
-    link: https://linkedin.com/in/alielabridi
-
   - first: Audrey
     last: Loeffel
     link: https://linkedin.com/in/audreyloeffel
