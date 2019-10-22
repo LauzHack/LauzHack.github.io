@@ -39,6 +39,9 @@ tiers:
 #    size: 16
 #    sponsors:
 
-#  Food:
-#    size: 20
-#    sponsors:
+  Food:
+    size: 20
+    sponsors:
+      La Semeuse: https://www.lasemeuse.ch/?___store=en
+      Leibundgut: https://gerig.ch/en/marken/leibundgut
+      Nissin: https://nissinfoods.com
