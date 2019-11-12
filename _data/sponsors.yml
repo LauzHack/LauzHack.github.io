@@ -42,6 +42,7 @@ tiers:
   Food:
     size: 20
     sponsors:
+      Biotta: https://biotta.ch/en
       La Semeuse: https://www.lasemeuse.ch/?___store=en
       Leibundgut: https://gerig.ch/en/marken/leibundgut
       Nissin: https://nissinfoods.com
