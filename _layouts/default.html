@@ -18,10 +18,10 @@ layout: compress
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta prefix="og: http://ogp.me/ns#" property="og:type" content="website">
-  <meta prefix="og: http://ogp.me/ns#" property="og:title" content="{{ title }}">
-  <meta prefix="og: http://ogp.me/ns#" property="og:image" content="{{ site.url }}/images/preview.png">
+  <meta prefix="og: http://ogp.me/ns#" name="title" property="og:title" content="{{ title }}">
+  <meta prefix="og: http://ogp.me/ns#" name="image" property="og:image" content="{{ site.url }}/images/preview.png">
   <meta prefix="og: http://ogp.me/ns#" property="og:url" content="{{ site.url }}{{ page.url }}">
-  <meta prefix="og: http://ogp.me/ns#" property="og:description" content="{{ site.data.info.description_short }}">
+  <meta prefix="og: http://ogp.me/ns#" name="description" property="og:description" content="{{ site.data.info.description_short }}">
 
   {% if site.data.info.twitter %}
     <meta name="twitter:card" content="summary">
