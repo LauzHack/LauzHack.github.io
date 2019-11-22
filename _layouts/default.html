@@ -17,11 +17,11 @@ layout: compress
   <meta name="description" content="{{ site.data.info.description_short }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="{{ title }}">
-  <meta property="og:image" content="{{ site.url }}/images/preview.png">
-  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-  <meta property="og:description" content="{{ site.data.info.description_short }}">
+  <meta prefix="og: http://ogp.me/ns#" property="og:type" content="website">
+  <meta prefix="og: http://ogp.me/ns#" property="og:title" content="{{ title }}">
+  <meta prefix="og: http://ogp.me/ns#" property="og:image" content="{{ site.url }}/images/preview.png">
+  <meta prefix="og: http://ogp.me/ns#" property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta prefix="og: http://ogp.me/ns#" property="og:description" content="{{ site.data.info.description_short }}">
 
   {% if site.data.info.twitter %}
     <meta name="twitter:card" content="summary">
