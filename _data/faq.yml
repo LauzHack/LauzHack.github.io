@@ -12,28 +12,11 @@
 
 - q: How much does it cost?
   a: |-
-        Thanks to our sponsors, **attendance is free**.  
-        We will provide you with **meals**, swag, Wi-Fi and a workspace.
-
-- q: What should I bring?
-  a: |-
-        Your laptop and charger, as well as toiletries.  
-        Please bring **a valid ID** for admission.
+        Thanks to our sponsors, **attendance is free**.
 
 - q: Where is it?
   a: |-
-        LauzHack will take place in EPFL's Lausanne campus, bordering Lake Geneva.  
-        You can find directions [here](https://information.epfl.ch/access).
-
-- q: Where will I sleep?
-  a: |-
-        We have limited space in a sleeping area.  
-        Please refer to the e-mails you received.
-
-- q: Will my travel be reimbursed?
-  a: |-
-        We will reimburse up to CHF 60 for participants from Switzerland outside of Lausanne,  
-        and CHF 100 for participants outside of Switzerland, upon presentation of receipts.
+        LauzHack will be entirely online!
 
 - id: ip
   q: What about intellectual property?

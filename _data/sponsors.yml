@@ -14,25 +14,17 @@ tiers:
       EPFL: https://epfl.ch/en
 
   Sponsors:
-    show_title: true
+#    show_title: true
 
   Gold:
     color: rgba(212,175,55,0.12)
     size: 42
     sponsors:
-      BOBST: https://bobst.com/chen
-      Logitech: https://logitech.com/en-ch
-      Loterie Romande: https://loro.ch
-      Swissquote: https://en.swissquote.com
 
   Silver:
     color: rgba(192,192,192,0.18)
     size: 32
     sponsors:
-      AdNovum: https://adnovum.ch
-      AXA Rev: https://axa.ch/en
-      SBB: https://sbb.ch/en
-      Sophia Genetics: https://www.sophiagenetics.com
 
 #  Bronze:
 #    color: rgba(205,127,50,0.12)
@@ -42,7 +34,3 @@ tiers:
   Food:
     size: 20
     sponsors:
-      Biotta: https://biotta.ch/en
-      La Semeuse: https://www.lasemeuse.ch/?___store=en
-      Leibundgut: https://gerig.ch/en/marken/leibundgut
-      Nissin: https://nissinfoods.com
