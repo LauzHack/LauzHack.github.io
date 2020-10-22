@@ -14,7 +14,7 @@ tiers:
       EPFL: https://epfl.ch/en
 
   Sponsors:
-#    show_title: true
+    show_title: true
 
   Gold:
     color: rgba(212,175,55,0.12)
