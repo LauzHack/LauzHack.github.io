@@ -25,6 +25,7 @@ tiers:
     color: rgba(192,192,192,0.18)
     size: 32
     sponsors:
+      OWT: https://openwt.com/en
 
 #  Bronze:
 #    color: rgba(205,127,50,0.12)
