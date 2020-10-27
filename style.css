@@ -132,9 +132,6 @@ tr {
   padding: 0.1em 0.3em;
   text-decoration: none;
   position: relative;
-  box-decoration-break: clone;
-  -webkit-box-decoration-break: clone;
-  font-size: 2em; /* temp for covid */
 }
 
 .link-action:after {
