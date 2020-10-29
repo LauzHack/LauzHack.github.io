@@ -25,13 +25,15 @@ tiers:
     color: rgba(192,192,192,0.18)
     size: 32
     sponsors:
-      OWT: https://openwt.com/en
       AdNovum: https://www.adnovum.ch
+      Nexthink: https://nexthink.com
+      OWT: https://openwt.com/en
+
 #  Bronze:
 #    color: rgba(205,127,50,0.12)
 #    size: 16
 #    sponsors:
 
-  Food:
-    size: 20
-    sponsors:
+#  Food:
+#    size: 20
+#    sponsors:
