@@ -1,0 +1,13 @@
+# Schedule, optional.
+# Don't forget quotes around hours, otherwise the colons will mess stuff up.
+
+Friday: 
+  '19:00': Opening ceremony
+  '19:30': Tech talks and Q&A sessions 
+Saturday:
+  '10:30': Challenges Q&A session
+  '13:00': Team registrations on Devpost	
+Sunday:
+  '12:00': Projects submission
+  '13:30': Judging
+  '19:00': Closing ceremony
