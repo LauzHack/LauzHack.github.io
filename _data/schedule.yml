@@ -1,6 +1,6 @@
 # Schedule, optional.
 # Don't forget quotes around hours, otherwise the colons will mess stuff up.
- 
+'':
   'Friday 19:00': Opening ceremony
   'Friday 19:30': Tech talks and Q&A sessions 
   'Saturday 10:30': Challenges Q&A session
@@ -8,3 +8,4 @@
   'Sunday 12:00': Projects submission
   'Sunday 13:30': Judging
   'Sunday 19:00': Closing ceremony
+  'Unscheduled': Surprise
