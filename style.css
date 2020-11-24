@@ -209,3 +209,11 @@ tr {
 .newsletter input[type="submit"]:active {
   background: #ccc;
 }
+
+/* Challenge container */
+.challenge-container{
+  text-align:justify; 
+  margin:auto;
+  padding: 1em; 
+  width: 60%; 
+}
