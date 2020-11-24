@@ -63,11 +63,13 @@ layout: default
       {% for part in site.data.schedule %}
         <div class="item-large">
           <table>
+            {% if part[0] != '' %}
             <tr>
               <th colspan="2">
                 <h2>{{ part[0] }}</h2>
               </th>
             </tr>
+            {% endif %}
             {% for item in part[1] %}
               <tr>
                 <td>{{ item[0] }}</td>
