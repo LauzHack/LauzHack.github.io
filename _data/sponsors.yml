@@ -31,6 +31,12 @@ tiers:
       OWT: https://openwt.com/en
       SBB: https://sbb.ch/en
 
+  Media Partners:
+    size: 22
+    show_title: true
+    sponsors:
+      SwissDevJobs: https://swissdevjobs.ch
+
 #  Bronze:
 #    color: rgba(205,127,50,0.12)
 #    size: 16
