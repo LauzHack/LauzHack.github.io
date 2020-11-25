@@ -215,5 +215,11 @@ tr {
   text-align:justify; 
   margin:auto;
   padding: 1em; 
-  width: 60%; 
+  max-width: 60%; 
+}
+
+@media only screen and (max-width: 600px) {
+  .challenge-container{
+    max-width:100%;
+  }
 }
