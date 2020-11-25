@@ -31,6 +31,13 @@ tiers:
       OWT: https://openwt.com/en
       SBB: https://sbb.ch/en
 
+  Resource Partners:
+    size: 22
+    show_title: true
+    sponsors:
+      echoAR: https://echoar.xyz
+      Oracle: https://oracle.com
+
   Media Partners:
     size: 22
     show_title: true
