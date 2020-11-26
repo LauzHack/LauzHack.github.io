@@ -9,7 +9,7 @@ layout: default
   train door button detector
   </h1>
 
-  <a target="_blank" href="https://drive.google.com/file/d/1QKTNbuuT1GO1wFG8yDpUntKhq6ZmlsiU/view?usp=sharing"><img src="../images/challenges/sbb/preview.png" style="display: block; margin: auto; max-width: 100%; width: 40em"></a>
+  <!--<a target="_blank" href="https://drive.google.com/file/d/1QKTNbuuT1GO1wFG8yDpUntKhq6ZmlsiU/view?usp=sharing"><img src="../images/challenges/sbb/preview.png" style="display: block; margin: auto; max-width: 100%; width: 40em"></a>-->
 
   <h2>About us</h2>
   <p>
@@ -17,8 +17,10 @@ layout: default
   </p>
   <p>
     CFF has a long history of excellence when it comes to intensity of use, safety and reliability and quality of service for all our passengers and clients. These are aspects we would like to keep on a high level of satisfaction and where we strive for continuous improvement. 
-    Our client base includes everyone: focus on the visually impaired
   </p>
+  <h2>
+    Our client base includes everyone: focus on the visually impaired
+  </h2>
   <p>
     This continuous improvement shall be of use to all our customers. During this challenge, we would like to focus on a specific subgroup of our customers, the blind and visually impaired. This is not something new, but an endeavor we have started quite some time ago. 
   </p>
@@ -56,20 +58,16 @@ layout: default
   <img src="../images/challenges/sbb/trainstation.png" style="display: block; margin: auto;max-width: 100%; width:40em">
 
   <br>
-  <h2>
-    CFF challenge and available data: Choose «the model» or «the implementation»
-  </h2>
+  <h2>CFF challenge and available data: Choose «the model» or «the implementation»</h2>
   <p>
     For the concrete challenge, we’d like to offer you two different options: 
   </p>
-  <h3>
-    1)	Challenge the model
-  </h3>
+  <h3>1)	Challenge the model</h3>
   <p>
     We have already started training an object detection model, which can help us solve the question at hand. Therefore, the first option for you is to have a look at our model and challenge it and make it better. This mean, you are developing a model using machine learning.
   </p> 
   <p>
-    Following the link, you will find a data set with approx. 5'000 images on which the objects are marked (size: approx. 15 GB). This data set is available as an S3 Bucket or directly on the Oracle Cloud. We also have 100 test images ready for you to test your model. These are not marked and are not part of the large data set.
+    Following the link, you will find a data set with approx. 5'000 images on which the objects are marked (size: approx. 15 GB). This data set is available as an S3 Bucket or directly on the Oracle Cloud. We also have 100 <a href="https://drive.google.com/file/d/1BhrsOlcjvP58FIOuJBI5jdC-rcKrpwEj/view?usp=sharing">test images ready for you</a> to test your model. These are not marked and are not part of the large data set.
     <br>
     Oracle team prepared 6 <a href="https://docs.cloud.oracle.com/en-us/iaas/data-science/using/data-science.htm">OCI Data science</a> environments which gives access to Python ML stack through a Jupyter Lab IDE and GPU support.
     Let us know on SBB Discord channel if your team is interested in this machine learning challenge or directly contact Boubacar from the LauzHack committee and we’ll give you access to one of these environments.
@@ -79,7 +77,7 @@ layout: default
 
   </p>
   <img src="../images/challenges/sbb/traindoor.jpg" style="display: block; margin-left: auto; margin-right: auto; width:auto; height:auto; max-width:40%">
-    <ul style="margin-left: 1em;">
+    <ul class="indented">
       <li>Türe = door</li> 
       <li>Türtaster = door button</li> 
       <li>Offene Türe = open door</li> 
@@ -92,9 +90,43 @@ layout: default
     For the second option you can also focus on the user experience, by creating a navigation pattern for the blind using technologies such as voiceover or haptic feedback. 
   </p>
   <p>
-  If you don't want to develop the model yourself, you can use one of our models. We offer you Core ML (iOS 11) or TensorFlow (Android). These models come from <a href="https://www.customvision.ai/">https://www.customvision.ai/</a> by Microsoft and are not specifically adapted. 
+  If you don't want to develop the model yourself, <a href="https://drive.google.com/file/d/1czB79SC_DWtIlWK-fG_5c1ya6xuFB7Wz/view?usp=sharing">you can use one of our models</a>. We offer you Core ML (iOS 11) or TensorFlow (Android). These models come from <a href="https://www.customvision.ai/">https://www.customvision.ai/</a> by Microsoft and are not specifically adapted. 
   </p>
-
+  <h2>Submission of the results of the challenges</h2>
+  <h3>Challenge 1</h3>
+  <p>
+    On Sunday at 10 am CET you will receive about 200 test files. These files shall then be
+    checked with your model and the objects (door, door handle, door button, door open)
+    detected.
+  </p>
+  <p>
+    As a result, we need a text file with the same name as the image (<a href="https://drive.google.com/file/d/1IuKz2C2h8gzP3cahajQGVeAQ6UPVjbAq/view?usp=sharing">example file</a>) with the following information for each image:
+  </p>
+  <ul class="indented">
+    <li>&ltclass_name&gt</li>
+    <li>&ltconfidence&gt</li>
+    <li>&ltleft&gt</li>
+    <li>&lttop&gt</li>
+    <li>&ltright&gt</li>
+    <li>&ltbottom&gt</li>
+    <li>As well as a visualization of the image with all bounding boxes which have a confidence >= 40%.</li>
+  </ul>
+  <h4>Example</h4>
+  
+  <div style="height:20em; display:inline-block" >
+    <img src="../images/challenges/sbb/trainleft.png" style="margin-left: auto; margin-right: auto;  width:auto; height:100%;; ">
+    <img src="../images/challenges/sbb/trainright.png" style="margin-left: auto; margin-right: auto;  width:auto; height:100%;; ">
+    <p><span style="color:blue">Blue</span>: ground truth // <span style="color:red">Red</span>: bounding box from the model<p>
+  </div>
+  <p>
+    We then check how well your bounding boxes match our (manually drawn) ground truth.
+  </p>
+  <p>
+    Please include a <b>pitch video</b> and link to <b>source code</b> (e.g github repository) in your project submission. You can specify the location of the test files and visualization images in a Readme file at the root of your repository.
+    Additionally we would appreciate the <b>model</b> and a <b>documentation</b> of how to call the model.
+  </p>
+  <h4>Challenge 2</h4>
+  <p>Besides the <b>pitch video</b> and the <b>source code</b> there are no additional elements.</p>
   <h2>
     Contacts and questions: Discord, Q&A sessions and HR topics
   </h2>
