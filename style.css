@@ -223,3 +223,7 @@ tr {
     max-width:100%;
   }
 }
+
+ul.indented{
+  margin-left: 1em;
+}
