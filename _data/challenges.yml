@@ -1,3 +1,8 @@
+- name: AdNovum
+  text: |-
+    AdNovum is a software solution company. We aim to empower our clients to master their digital potential. In that context, with the health crisis that forced everyone to change their routine, we would like to see innovative ideas that could improve our daily life.  
+    The goal of our challenge is to build a creative and innovative project where Machine Learning is applied in a meaningful way. You are free to choose the subject, the technology, the datasets,... We will judge the pertinence of the ML part as well as the innovation and technical parts. Don't hesitate to talk to us !
+
 - name: Implenia
   link: implenia.html
   text: |-
@@ -30,8 +35,3 @@
     But they have no tools to find the door. This leads to inconveniences for visually impaired customers.
     They sometimes have to scan the train with their hands to find the door buttons, and we all know that – despite our efforts – trains are not always squeaky clean on the outside.
     If we can guide the blind to the door buttons, we make their public transport experience much better and safer, which is what we would like to do. 
-
-- name: AdNovum
-  text: |-
-    AdNovum is a software solution company. We aim to empower our clients to master their digital potential. In that context, with the health crisis that forced everyone to change their routine, we would like to see innovative ideas that could improve our daily life.  
-    The goal of our challenge is to build a creative and innovative project where Machine Learning is applied in a meaningful way. You are free to choose the subject, the technology, the datasets,... We will judge the pertinence of the ML part as well as the innovation and technical parts. Don't hesitate to talk to us !
