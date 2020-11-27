@@ -20,6 +20,7 @@ tiers:
     color: rgba(212,175,55,0.12)
     size: 42
     sponsors:
+      AXA: https://axa.ch/en
 
   Silver:
     color: rgba(192,192,192,0.18)
