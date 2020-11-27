@@ -1,7 +1,19 @@
 - name: AdNovum
   text: |-
-    AdNovum is a software solution company. We aim to empower our clients to master their digital potential. In that context, with the health crisis that forced everyone to change their routine, we would like to see innovative ideas that could improve our daily life.  
+    AdNovum is a software solution company. We aim to empower our clients to master their digital potential. In that context, with the health crisis that forced everyone to change their routine, we would like to see innovative ideas that could improve our daily life.
     The goal of our challenge is to build a creative and innovative project where Machine Learning is applied in a meaningful way. You are free to choose the subject, the technology, the datasets,... We will judge the pertinence of the ML part as well as the innovation and technical parts. Don't hesitate to talk to us !
+
+- name: AXA
+  text: |-
+    As one of the largest global insurers, our purpose is to act for human progress by protecting what matters.
+    Today, we know that climate change have and will have a huge impact on our environment, health, safety, economy, lifestyle and more.
+    We, at AXA, are also working on these major issues by funding research, getting out of some industries and creating products for our future.
+    For this hackathon, we'd like to see some innovative solutions. There are many axes that you can tackle. From the decrease in [biodiversity](https://www.axa-research.org/en/news/biodiversity-at-risk-preserving-the-natural-world-for-our-future),
+    [pandemic aid](https://www.axa-research.org/en/project/mohammed-amidu)
+    to [catastrophe detection and recovery](https://www.youtube.com/watch?v=uatUu2EZMQc),
+    from fighting poverty to [preventing mental illnesses](https://www.axa-research.org/en/project/gianluca-serafini).
+    These may all sound like big words, but they are all axes that we are currently researching and creative solutions for these challenges are always more than welcome.  
+    Note that you can combine this challenge with any of the other ones, for doubling your prizes! :)
 
 - name: Implenia
   link: implenia.html
