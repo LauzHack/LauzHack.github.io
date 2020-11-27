@@ -8,7 +8,7 @@ layout: default
   {% for challenge in site.data.challenges %}
     <h2 style="font-size: 2em">{{ challenge.name }}</h2>
     <p>{{ challenge.text | markdownify }}</p>
-    {% if challenge.link %}<a href="{{ challenge.link }}" target="_blank">More information...</a>{% endif %}
+    {% if challenge.link %}<a href="{{ challenge.link }}" target="_blank">More information...</a><br>{% endif %}
     <br><br>
   {% endfor %}
 </section>
