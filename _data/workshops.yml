@@ -39,7 +39,7 @@ items:
     signup: 'https://goo.gl/forms/oPWtxNJACHStc8rq2'
     description: Mohanty from [crowdAI](https://www.crowdai.org/) shares his extensive experience in reinforcement learning with hands-on examples.
     
-   Introduction to Hackathons:
+  Introduction to Hackathons:
     date: '2021-10-13 18:15'
     signup: 'go.epfl.ch/LZ21'
     description: During this session, we talk about what happens at a hackathon (in-person and virtual), share our experience organizing hackathons for the past five years, and how you can get involved as participant or organizer.
