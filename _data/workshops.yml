@@ -55,7 +55,7 @@ items:
     description: Generative Adversarial Networks (GANs) are an approach to generative modeling using deep learning methods. In this workshop, we will give a hands-on intro to GANs, going through image and financial time series examples. [Workshop material](https://github.com/amrusnak/LauzHackGANDemo).
     
   Intro to Hardware Hacking:
-    date: '2021-03-24 18:15'
+    date: '2022-03-24 18:15'
     signup: 'https://go.epfl.ch/hardware'
     description: Our next workshop is on hardware hacking, namely how to use cheap, prototyping hardware such as Raspberry Pis and Arduinos in your projects.
     
