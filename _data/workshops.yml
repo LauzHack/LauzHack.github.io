@@ -49,13 +49,13 @@ items:
     signup: 'https://go.epfl.ch/github'
     description: Our next workshop is on GitHub, which is a very useful platform to organize your code/materials for a hackathon, a personal project, or a school project. [Workshop slides](https://docs.google.com/presentation/d/1Ib2Ok8G7y1biGUHSDRUoRjUgLIERfpdNqsQM6ub1FWc/edit?usp=sharing).
 
-  Intro to Hardware Hacking:
-    date: '2021-11-24 18:15'
-    signup: 'https://go.epfl.ch/hardware'
-    description: Our next workshop is on hardware hacking, namely how to use cheap, prototyping hardware such as Raspberry Pis and Arduinos in your projects.
-    
   Generative Adversarial Networks - Synthetic Data for Fun and Profit:
     date: '2021-12-08 18:15'
     signup: 'https://go.epfl.ch/gans'
-    description: Generative Adversarial Networks (GANs) are an approach to generative modeling using deep learning methods. In this workshop, we will give a hands-on intro to GANs, going through image and financial time series examples.
+    description: Generative Adversarial Networks (GANs) are an approach to generative modeling using deep learning methods. In this workshop, we will give a hands-on intro to GANs, going through image and financial time series examples. [Workshop material](https://github.com/amrusnak/LauzHackGANDemo).
+    
+  Intro to Hardware Hacking:
+    date: '2021-03-24 18:15'
+    signup: 'https://go.epfl.ch/hardware'
+    description: Our next workshop is on hardware hacking, namely how to use cheap, prototyping hardware such as Raspberry Pis and Arduinos in your projects.
     
