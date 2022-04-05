@@ -59,3 +59,8 @@ items:
     signup: 'https://go.epfl.ch/hardware'
     description: Our next workshop is on hardware hacking, namely how to use cheap, prototyping hardware such as Raspberry Pis and Arduinos in your projects.
     
+  Intro to Docker:
+    date: '2022-04-11 18:15'
+    signup: 'https://go.epfl.ch/docker'
+    description: Our next workshop is on Docker, an important technology for cloud computing and virtualization.
+    
