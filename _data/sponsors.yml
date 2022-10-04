@@ -16,33 +16,28 @@ tiers:
   Sponsors:
     show_title: true
 
-  Gold:
-    color: rgba(212,175,55,0.12)
-    size: 42
-    sponsors:
-      AXA: https://axa.ch/en
+#  Gold:
+#    color: rgba(212,175,55,0.12)
+#    size: 42
+#    sponsors:
 
   Silver:
     color: rgba(192,192,192,0.18)
     size: 32
     sponsors:
-      AdNovum: https://www.adnovum.ch
-      Implenia: https://implenia.com/en
-      Nexthink: https://nexthink.com
-      OWT: https://openwt.com/en
-      SBB: https://sbb.ch/en
+      AXA: https://axa.ch/en
 
-  Resource Partners:
-    size: 22
-    show_title: true
-    sponsors:
-      echoAR: https://echoar.xyz
+#  Resource Partners:
+#    size: 22
+#    show_title: true
+#    sponsors:
+#      echoAR: https://echoar.xyz
 
-  Media Partners:
-    size: 22
-    show_title: true
-    sponsors:
-      SwissDevJobs: https://swissdevjobs.ch
+#  Media Partners:
+#    size: 22
+#    show_title: true
+#    sponsors:
+#      SwissDevJobs: https://swissdevjobs.ch
 
 #  Bronze:
 #    color: rgba(205,127,50,0.12)
