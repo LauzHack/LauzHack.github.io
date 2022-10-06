@@ -16,15 +16,26 @@
 
 - q: Where is it?
   a: |-
-        LauzHack will be entirely online!
+        LauzHack will take place in EPFL's Lausanne campus, bordering Lake Geneva.
+        You can find directions [here](https://www.epfl.ch/campus/visitors/coming-to-epfl/).
+
+- q: What should I bring?
+  a: |-
+        Your laptop and charger, as well as toiletries.
+        Please bring **a valid ID** for admission.
+
+- q: Will my travel be reimbursed?
+  a: |-
+        We will reimburse up to CHF 50 for participants from outside of Lausanne,
+        upon presentation of receipts.  
+
+- q: What if I don't have a team?
+  a: |-
+        Don't worry! Part of the fun of a hackathon is meeting new people.  
+        We will have time at the beginning of the event to socialize and form teams.
 
 - id: ip
   q: What about intellectual property?
   a: |-
         We do not claim any rights on any of your intellectual property whatsoever.  
         Everything you create, at LauzHack or not, belongs to you.
-
-- q: What if I don't have a team?
-  a: |-
-        Don't worry! Part of the fun of a hackathon is meeting new people.  
-        We will have time at the beginning of the event to socialize and form teams.
