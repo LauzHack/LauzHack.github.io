@@ -64,3 +64,12 @@ items:
     signup: 'https://go.epfl.ch/whistle_keylock'
     description: Learn how to apply the Fourier Transform in order to perform melody detection, which is used to create a "whistle unlocker", and use an Arduino for recording audio and displaying feedback.
 
+  Introduction to Hackathons:
+    date: '2022-10-12 18:15'
+    signup: 'https://forms.gle/ajRuMb4JvvRct9Nc8'
+    description: During this session, we talk about what happens at a hackathon, share our experience organizing hackathons for the past years, and how you can get involved as participant or organizer.
+
+  Arkworks - efficient zero knowledge arguments in Rust:
+    date: '2022-11-09 18:15'
+    signup: 'https://forms.gle/VyJL9GwYonsjWFVU6'
+    description: Come learn how to do zero-knowledge arguments efficiently using the Arkworks library for Rust! In this workshop we will be giving an introduction to Succinct Zero Knowledge Arguments of Knowledge (zkSNARKs) in general and Arkworks, a bleeding-edge Rust library for designing and implementing them.
