@@ -7,12 +7,6 @@ show_prospectus: true
 # Each sponsor has a link to its website.
 # See the ReadMe file for information about logos.
 tiers:
-  Partners:
-    show_title: true
-    size: 30
-    sponsors:
-      EPFL: https://epfl.ch/en
-
   Sponsors:
     show_title: true
 
@@ -47,3 +41,9 @@ tiers:
 #  Food:
 #    size: 20
 #    sponsors:
+
+  Partners:
+    show_title: true
+    size: 28
+    sponsors:
+      EPFL: https://epfl.ch/en
