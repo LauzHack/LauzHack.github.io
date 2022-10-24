@@ -6,10 +6,8 @@ name: LauzHack Days
 # Workshops description
 description: Join us for short workshops focused on specific hacks!
 
-# Newsletter for workshops using MailChimp
-# Get those from the MailChimp embed - the form action and the 'real people should not fill this' input name
-mailchimp_action: 'https://lauzhack.us14.list-manage.com/subscribe/post?u=58e344e5cc77ae96251a8ef7d&amp;id=c5f91ec5f4'
-mailchimp_bot_input: 'b_58e344e5cc77ae96251a8ef7d_c5f91ec5f4'
+# Calendar ICS link, optional
+calendar: https://calendar.google.com/calendar/ical/ba66fc8d7f12874a798423297edbbe4058dacd0f4b048d5fcf37eaebc61c669d%40group.calendar.google.com/public/basic.ics
 
 # All past and future workshops
 # Workshops have a date (in structured form), a signup link, and a description.
