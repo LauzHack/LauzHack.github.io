@@ -36,16 +36,20 @@ layout: default
     <br>or sign up to our <a href="https://go.epfl.ch/lauzhackmailing">mailing list</a>
     for updates!
   </p>
+
+  {% if site.data.workshops %}
+    <p>
+      We also organize <a href="/workshops">workshops</a>.
+    </p>
+  {% endif %}
 </section>
 <section class="tone-dark">
   <div>
     {{ site.data.info.description_long | markdownify }}
 
-    {% if site.data.workshops %}
-      <p>
-        We also organize <a href="/workshops">{{ site.data.workshops.name }}</a>.
-      </p>
-    {% endif %}
+    <p>
+      Please keep in mind our <a href="/pdf/rules.pdf">rules</a>.
+    </p>
 
     {% if site.data.info.past_editions %}
       <p>
@@ -55,10 +59,6 @@ layout: default
         {% endfor %}
       </p>
     {% endif %}
-
-    <p>
-      Please keep in mind our <a href="/pdf/rules.pdf">rules</a>.
-    </p>
   </div>
 </section>
 {% if site.data.schedule %}
