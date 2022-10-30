@@ -12,10 +12,6 @@ group:
 # People organizing the event, and their websites.
 # See the ReadMe file for information on pictures.
 people:
-  - first: Audrey
-    last: Loeffel
-    link: https://linkedin.com/in/audreyloeffel
-
   - first: Eric
     last: Bezzam
     link: https://linkedin.com/in/eric-bezzam-37ab2274
@@ -27,6 +23,10 @@ people:
   - first: Natalia
     last: Nessler
     link: https://linkedin.com/in/natalia-nessler-730933149
+
+  - first: Simona
+    last: Herren
+    link: https://linkedin.com/in/simona-herren-61725b238
 
   - first: Solal
     last: Pirelli
