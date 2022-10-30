@@ -66,7 +66,7 @@ layout: default
     <h1>Schedule</h1>
     <div class="items-container">
       {% for part in site.data.schedule %}
-        <div class="item-large">
+        <div class="item-generic">
           <table>
             {% if part[0] != '' %}
             <tr>
@@ -92,12 +92,12 @@ layout: default
     <h1 id="faq">F.A.Q.</h1>
     <div class="items-container">
       {% for item in site.data.faq %}
-        <div class="item-large">
+        <div class="item-generic">
           <h2 {% if item.id %} id="{{ item.id }}" {% endif %}>{{ item.q }}</h2>
           <p>{{ item.a | markdownify }}</p>
         </div>
       {% endfor %}
-      <div class="item-large">
+      <div class="item-generic">
         <h2>I have another question...</h2>
         <p>Contact us on <a href="https://facebook.com/{{ site.data.info.facebook }}"
                             rel="noreferrer">Facebook</a>,
@@ -139,7 +139,7 @@ layout: default
               {% assign file_img = sponsor[0] | prepend: '/images/logos/' | append: '.png' %}
             {% endif %}
 
-            <div class="item-large">
+            <div class="item-generic">
               <a href="{{ sponsor[1] }}"
                  rel="noreferrer">
                  <img src="{{ file_img }}"
@@ -157,7 +157,7 @@ layout: default
   <h1>Committee</h1>
   <div class="items-container">
     {% for person in site.data.organizers.people %}
-      <div class="item-small">
+      <div class="person-item">
         <a class="person-link"
            href="{{ person.link }}"
            rel="noreferrer">
