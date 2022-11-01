@@ -163,12 +163,12 @@ layout: default
            rel="noreferrer">
             <div class="person-container">
               <img class="person-image"
-                   src="images/people/{{ person.first }} {{ person.last }}.jpg"
-                   alt="Picture of {{ person.first }} {{ person.last }}">
+                   src="images/people/{{ person.given }} {{ person.family }}.jpg"
+                   alt="Picture of {{ person.given }} {{ person.family }}">
               <div class="person-info">
-                <span class="person-first">{{ person.first }}</span>
+                <span class="person-given">{{ person.given }}</span>
                 <br>
-                <span class="person-last">{{ person.last }}</span>
+                <span class="person-family">{{ person.family }}</span>
               </div>
             </div>
           </a>

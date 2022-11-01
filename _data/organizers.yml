@@ -12,42 +12,42 @@ group:
 # People organizing the event, and their websites.
 # See the ReadMe file for information on pictures.
 people:
-  - first: Camille
-    last: Pescatore
+  - given: Camille
+    family: Pescatore
     link: https://linkedin.com/in/camille-pescatore-2bab621b9
 
-  - first: Eric
-    last: Bezzam
+  - given: Eric
+    family: Bezzam
     link: https://linkedin.com/in/eric-bezzam-37ab2274
 
-  - first: Kopiga
-    last: Rasiah
+  - given: Kopiga
+    family: Rasiah
     link: https://linkedin.com/in/kopiga-rasiah-47a42b170
 
-  - first: Natalia
-    last: Nessler
+  - given: Natalia
+    family: Nessler
     link: https://linkedin.com/in/natalia-nessler-730933149
 
-  - first: Simona
-    last: Herren
+  - given: Simona
+    family: Herren
     link: https://linkedin.com/in/simona-herren-61725b238
 
-  - first: Solal
-    last: Pirelli
+  - given: Solal
+    family: Pirelli
     link: https://linkedin.com/in/solalpirelli
 
-  - first: Tatiana
-    last: Porté
+  - given: Tatiana
+    family: Porté
     link: https://linkedin.com/in/tatiana-porte
 
-  - first: Vinitra
-    last: Swamy
+  - given: Vinitra
+    family: Swamy
     link: https://vinitra.github.io
 
-  - first: Xiaotian
-    last: Su
+  - given: Xiaotian
+    family: Su
     link: https://linkedin.com/in/xiaotiansu
 
-  - first: Yiren
-    last: Cao
+  - given: Yiren
+    family: Cao
     link: https://linkedin.com/in/yiren-cao-190945207
