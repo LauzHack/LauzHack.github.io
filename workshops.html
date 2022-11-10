@@ -48,6 +48,9 @@ layout: default
               <i>{{ workshop[0] }}</i>
             </h2>
             <p>{{ workshop[1].description | markdownify }}</p>
+            {% if workshop[1].material %}
+              <p><a href="{{ workshop[1].material }}">Workshop material</a></p>
+            {% endif %}
           </div>
         {% endif %}
       {% endfor %}
