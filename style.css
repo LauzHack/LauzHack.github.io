@@ -51,7 +51,7 @@ section > * {
 .item-generic {
   flex-grow: 1;
   flex-basis: 42.7%;
-  padding: 0 3.65%;
+  padding: 2% 3.65%;
 }
 
 h1 {

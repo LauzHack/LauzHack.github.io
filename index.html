@@ -127,24 +127,25 @@ layout: default
         <div class="items-container"
              {% if tier[1].color %} style="background: {{ tier[1].color }}" {% endif %}>
           {% for sponsor in tier[1].sponsors %}
-            {% comment %} Use SVG if available, PNG otherwise {% endcomment %}
+            {% comment %} Use SVG if available, PNG otherwise (and GIF if you must...) {% endcomment %}
             {% assign file_img = 'null' %}
-            {% assign file_svg_path = sponsor[0] | prepend: '/images/logos/' | append: '.svg' %}
+            {% assign formats = "svg|png|gif" | split: "|" %}
+            {% assign file_png_path = sponsor[0] | prepend: '/images/logos/' | append: '.gif' %}
             {% for file in site.static_files %}
-              {% if file.path == file_svg_path %}
-                {% assign file_img = file_svg_path %}
-              {% endif %}
+              {% for format in formats %}
+                {% assign format_path = sponsor[0] | prepend: '/images/logos/' | append: '.' | append: format %}
+                {% if file.path == format_path %}
+                  {% assign file_img = format_path %}
+                {% endif %}
+              {% endfor %}
             {% endfor %}
-            {% if file_img == 'null' %}
-              {% assign file_img = sponsor[0] | prepend: '/images/logos/' | append: '.png' %}
-            {% endif %}
 
             <div class="item-generic">
               <a href="{{ sponsor[1] }}"
                  rel="noreferrer">
                  <img src="{{ file_img }}"
                       alt="{{ tier[0] }} - {{ sponsor[0] }}"
-                      style="height: {{ tier[1].size }}vh">
+                      style="max-height: {{ tier[1].size }}vh; max-width: {{ tier[1].size }}vh">
               </a>
             </div>
           {% endfor %}
