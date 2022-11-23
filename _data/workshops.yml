@@ -78,3 +78,9 @@ items:
     signup: 'https://forms.gle/VyJL9GwYonsjWFVU6'
     description: Come learn how to do zero-knowledge arguments efficiently using the Arkworks library for Rust! In this workshop we will be giving an introduction to Succinct Zero Knowledge Arguments of Knowledge (zkSNARKs) in general and Arkworks, a bleeding-edge Rust library for designing and implementing them.
     material: https://drive.google.com/file/d/1LOUlv6gkmkMQrKkmRrfr1Bl1AOrfXyeB/view?usp=sharing
+    
+  Turning your hackathon or side project into a startup:
+    date: '2022-12-07 18:15'
+    signup: 'https://go.epfl.ch/lauzhacks2s'
+    description: S2S Ventures - a student-run venture capital fund - will talk about how they support and invest money in student projects from Swiss higher education. And if you could not make it to LauzHack, come hear about some of the projects that are continuing, and that are looking for talent!
+
