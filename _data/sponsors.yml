@@ -40,7 +40,7 @@ tiers:
 #    size: 16
 #    sponsors:
 
-  Drinks:
+  Energy Drinks:
     color: rgba(14, 25, 60, 0.4)
     size: 20
     show_title: true
@@ -53,5 +53,6 @@ tiers:
     sponsors:
       EPFL: https://epfl.ch/en
       EPFL Rocket Team: https://epflrocketteam.ch
+      La Semeuse: https://www.lasemeuse.ch/?___store=en
       Logitech: https://logitech.com/en-ch
       S2S: https://s2s.vc
