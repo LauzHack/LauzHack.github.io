@@ -40,9 +40,12 @@ tiers:
 #    size: 16
 #    sponsors:
 
-#  Food:
-#    size: 20
-#    sponsors:
+  Drinks:
+    color: rgba(14, 25, 60, 0.4)
+    size: 20
+    show_title: true
+    sponsors:
+      El Tony Mate: https://eltonymate.com/en
 
   Partners:
     show_title: true
