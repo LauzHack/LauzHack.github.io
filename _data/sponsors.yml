@@ -1,27 +1,27 @@
 # Whether to display text about the prospectus.
 # See the ReadMe file for information about it.
-show_prospectus: true
+show_prospectus: false
 
 # Sponsors, organized by tiers.
 # Tiers have a size, and may have a background color (for e.g. gold/silver/bronze)
 # Each sponsor has a link to its website.
 # See the ReadMe file for information about logos.
 tiers:
-  Sponsors:
-    show_title: true
+#  Sponsors:
+#    show_title: true
 
 #  Gold:
 #    color: rgba(212,175,55,0.12)
 #    size: 42
 #    sponsors:
 
-  Silver:
-    color: rgba(192,192,192,0.18)
-    size: 32
-    sponsors:
-      AdNovum: https://www.adnovum.ch
-      AXA: https://axa.ch/en
-      Disco: https://github.com/epfml/disco/
+#  Silver:
+#    color: rgba(192,192,192,0.18)
+#    size: 32
+#    sponsors:
+#      AdNovum: https://www.adnovum.ch
+#      AXA: https://axa.ch/en
+#      Disco: https://github.com/epfml/disco/
 
 #  Resource Partners:
 #    size: 22
@@ -40,20 +40,20 @@ tiers:
 #    size: 16
 #    sponsors:
 
-  Energy Drinks:
-    color: rgba(14, 25, 60, 0.4)
-    size: 20
-    show_title: true
-    sponsors:
-      El Tony Mate: https://eltonymate.com/en
+#  Energy Drinks:
+#    color: rgba(14, 25, 60, 0.4)
+#    size: 20
+#    show_title: true
+#    sponsors:
+#      El Tony Mate: https://eltonymate.com/en
 
-  Partners:
+  Main Partner:
     show_title: true
     size: 28
     sponsors:
       EPFL: https://epfl.ch/en
-      EPFL Rocket Team: https://epflrocketteam.ch
-      La Semeuse: https://www.lasemeuse.ch/?___store=en
-      Logitech: https://logitech.com/en-ch
-      S2S: https://s2s.vc
-      Quantum Computing Association: https://epfl.ch/campus/associations/list/qc
+#      EPFL Rocket Team: https://epflrocketteam.ch
+#      La Semeuse: https://www.lasemeuse.ch/?___store=en
+#      Logitech: https://logitech.com/en-ch
+#      S2S: https://s2s.vc
+#      Quantum Computing Association: https://epfl.ch/campus/associations/list/qc

@@ -1,8 +1,8 @@
 # Event name
-name: LauzHack
+name: LauzHack S4S
 
 # Event date, in free-text format
-date: December 3-4, 2022
+date: March 25-26, 2023
 
 # Event location
 location: EPFL, Switzerland
@@ -38,3 +38,4 @@ past_editions:
   2018: https://2018.lauzhack.com
   2019: https://2019.lauzhack.com
   2020: https://2020.lauzhack.com
+  2022: https://2022.lauzhack.com
