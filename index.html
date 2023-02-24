@@ -5,11 +5,7 @@ layout: default
   <img class="logo"
        src="images/logo.svg"
        alt="{{ site.data.info.name }}">
-  <p>
-    {{ site.data.info.date }}
-    <br>
-    {{ site.data.info.location }}
-  </p>
+  {{ site.data.info.date_and_location | markdownify }}
   {% if site.data.action.text %}
     <p>
       {% if site.data.action.link %}
