@@ -52,6 +52,12 @@ tiers:
     size: 28
     sponsors:
       EPFL: https://epfl.ch/en
+
+  Partners:
+    show_title: true
+    size: 24
+    sponsors:
+      E4S: https://e4s.center
 #      EPFL Rocket Team: https://epflrocketteam.ch
 #      La Semeuse: https://www.lasemeuse.ch/?___store=en
 #      Logitech: https://logitech.com/en-ch
