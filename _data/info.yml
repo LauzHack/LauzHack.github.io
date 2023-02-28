@@ -18,9 +18,11 @@ description_long: |-
 # Contact email. Use a bot-defeating format, otherwise you'll get spammed.
 email: lauzhack at epfl dot ch
 
-# Social networks. Twitter is optional, but you really should have a Facebook page.
+# Social networks. Facebook is mandatory (for now?), rest optional
 facebook: lauzhack
 twitter: lauzhack
+discord: https://discord.gg/kBfkHqVZft
+mailinglist: https://go.epfl.ch/lauzhackmailing
 
 # Accent color of the website
 color: '#d42b2e'

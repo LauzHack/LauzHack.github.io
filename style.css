@@ -112,7 +112,8 @@ tr {
 
 .header p {
   font-size: calc(0.75em + 2vw);
-  margin: 4vh 0 0 0;
+  margin: 4vh auto 0 auto;
+  max-width: 80%;
 }
 
 .header img {
