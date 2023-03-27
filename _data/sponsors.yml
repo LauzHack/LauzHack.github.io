@@ -21,7 +21,6 @@ tiers:
 #    sponsors:
 #      AdNovum: https://www.adnovum.ch
 #      AXA: https://axa.ch/en
-#      Disco: https://github.com/epfml/disco/
 
 #  Resource Partners:
 #    size: 22
@@ -40,13 +39,6 @@ tiers:
 #    size: 16
 #    sponsors:
 
-#  Energy Drinks:
-#    color: rgba(14, 25, 60, 0.4)
-#    size: 20
-#    show_title: true
-#    sponsors:
-#      El Tony Mate: https://eltonymate.com/en
-
   Main Partner:
     show_title: true
     size: 28
@@ -57,10 +49,20 @@ tiers:
     show_title: true
     size: 24
     sponsors:
+      Disco: https://github.com/epfml/disco/
       E4S: https://e4s.center
       EDC: https://gdsc.community.dev/epfl
 #      EPFL Rocket Team: https://epflrocketteam.ch
-#      La Semeuse: https://www.lasemeuse.ch/?___store=en
+      La Semeuse: https://www.lasemeuse.ch/?___store=en
+      Meubleco: https://meubleco.unipoly.ch/en/
+      Zero Emission Group: https://zeroemission.group/
 #      Logitech: https://logitech.com/en-ch
 #      S2S: https://s2s.vc
 #      Quantum Computing Association: https://epfl.ch/campus/associations/list/qc
+
+  Energy Drinks:
+    color: rgba(14, 25, 60, 0.4)
+    size: 20
+    show_title: true
+    sponsors:
+      El Tony Mate: https://eltonymate.com/en
