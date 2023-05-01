@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<section class="tone-dark">
+  <h1>{{ site.data.workshops.name }}</h1>
+
+  {{ site.data.workshops.description | markdownify }}
+
+  {% if site.data.info.discord %}
+    <p>Join our <a href="{{ site.data.info.discord }}">Discord</a> to be notified of future workshops!</p>
+  {% endif %}
+</section>
+<section>
+  <div class="items-container">
+    {% for workshop in site.data.workshops.items %}
+      <div class="item-generic">
+        <h2>{{ workshop[0] }}</h2>
+        <p>{{ workshop[1].description | markdownify }}</p>
+        <p><a href="{{ workshop[1].material }}">Material</a></p>
+      </div>
+    {% endfor %}
+  </div>
+</section>

@@ -1,0 +1,44 @@
+# Workshops around the event, optional.
+
+# Workshops name
+name: LauzHack Workshops
+
+# All past and future workshops
+items:
+  Build a Private-by-Design Voice Assistant:
+    description: Discover [Snips'](https://snips.ai/) tools as we build a voice assistant that runs completely on device, that is without connecting to the cloud.
+    material: https://github.com/ebezzam/snips-skill-mental-calculation
+
+  Collaborate with GitHub:
+    description: GitHub is a very useful platform to organize your code/materials for a hackathon, a personal project, or a school project.
+    material: https://docs.google.com/presentation/d/1Ib2Ok8G7y1biGUHSDRUoRjUgLIERfpdNqsQM6ub1FWc/edit?usp=sharing
+
+  Crash Course on Reinforcement Learning:
+    description: Mohanty from [crowdAI](https://www.crowdai.org/) shares his extensive experience in reinforcement learning with hands-on examples.
+
+  Fun Fourier Transform - Whistle Unlocker:
+    description: Learn how to apply the Fourier Transform in order to perform melody detection, which is used to create a "whistle unlocker", and use an Arduino for recording audio and displaying feedback.
+
+  Hacking With Amazon Alexa:
+    description: Learn to create your first skill for Amazon Alexa, the voice service that powers Amazon Echo.
+    material: https://docs.google.com/presentation/d/1Aw1WJrv07Xm0iC63NN8AehWYOxqQrzlD1T6zBSX5bdc/edit?usp=sharing
+
+  Generative Adversarial Networks - Synthetic Data for Fun and Profit:
+    description: Generative Adversarial Networks (GANs) are an approach to generative modeling using deep learning methods. In this workshop, we will give a hands-on intro to GANs, going through image and financial time series examples.
+    material: https://github.com/amrusnak/LauzHackGANDemo
+
+  Intro to Docker:
+    description: Have you ever heard of "cloud computing"? Let's learn about Docker and use it for building and deploying our own cloud application.
+    material: https://github.com/dialexo/lauzhack-docker-workshop
+
+  Intro to Hackathons:
+    description: We talk about what happens at a hackathon, share our experience organizing hackathons, and explain how you can get involved as participant or organizer.
+    material: https://docs.google.com/presentation/d/1jNNELCNEsioMadm9GWjAFc-YYZkACi3C/edit?usp=sharing&ouid=105260958691229278807&rtpof=true&sd=true
+
+  Intro to Hardware Hacking:
+    description: How to use cheap, prototyping hardware such as Raspberry Pis and Arduinos in your projects.
+    material: https://github.com/ebezzam/hardware-hacking-intro
+
+  Zero-knowledge arguments in Rust with Arkworks:
+    description: Come learn how to do zero-knowledge arguments efficiently using the Arkworks library for Rust! In this workshop we will be giving an introduction to Succinct Zero Knowledge Arguments of Knowledge (zkSNARKs) in general and Arkworks, a bleeding-edge Rust library for designing and implementing them.
+    material: https://drive.google.com/file/d/1LOUlv6gkmkMQrKkmRrfr1Bl1AOrfXyeB/view?usp=sharing
