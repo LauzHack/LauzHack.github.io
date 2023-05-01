@@ -15,9 +15,11 @@ items:
 
   Crash Course on Reinforcement Learning:
     description: Mohanty from [crowdAI](https://www.crowdai.org/) shares his extensive experience in reinforcement learning with hands-on examples.
+    material: https://github.com/stanfordnmbl/osim-rl
 
   Fun Fourier Transform - Whistle Unlocker:
     description: Learn how to apply the Fourier Transform in order to perform melody detection, which is used to create a "whistle unlocker", and use an Arduino for recording audio and displaying feedback.
+    material: https://github.com/ebezzam/melody-detection
 
   Hacking With Amazon Alexa:
     description: Learn to create your first skill for Amazon Alexa, the voice service that powers Amazon Echo.
