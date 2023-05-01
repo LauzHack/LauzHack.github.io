@@ -6,7 +6,7 @@
 # - End lines with two spaces if you want to force a line break, otherwise the line break is ignored.
 
 - q: Can I participate?
-  a: |- 
+  a: |-
         You must be **at least 18 years old** and **a student**, including PhD students,
         or have graduated in the past 12 months.
 
@@ -32,7 +32,7 @@
 - q: Will my travel be reimbursed?
   a: |-
         We will reimburse travel up to an amount to be announced,
-        upon presentation of receipts.  
+        upon presentation of receipts.
 
 - q: What if I don't have a team?
   a: |-

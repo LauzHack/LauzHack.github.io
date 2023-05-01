@@ -26,7 +26,9 @@ items:
     material: https://docs.google.com/presentation/d/1Aw1WJrv07Xm0iC63NN8AehWYOxqQrzlD1T6zBSX5bdc/edit?usp=sharing
 
   Generative Adversarial Networks - Synthetic Data for Fun and Profit:
-    description: Generative Adversarial Networks (GANs) are an approach to generative modeling using deep learning methods. In this workshop, we will give a hands-on intro to GANs, going through image and financial time series examples.
+    description: |-
+      Generative Adversarial Networks (GANs) are an approach to generative modeling using deep learning methods.
+      In this workshop, we will give a hands-on intro to GANs, going through image and financial time series examples.
     material: https://github.com/amrusnak/LauzHackGANDemo
 
   Intro to Docker:
@@ -41,6 +43,16 @@ items:
     description: How to use cheap, prototyping hardware such as Raspberry Pis and Arduinos in your projects.
     material: https://github.com/ebezzam/hardware-hacking-intro
 
+  Speed up your Python:
+    description: |-
+      Python's ease of use, flexibility, and cost (free!) have contributed to its explosion in recent years.
+      But it's also easy for things to get messy. In this workshop, we cover some tips and tricks to simplify your Python development life and also make your code easy to use by others!
+      Topics covered: using an IDE, debugging, GitHub Copilot, packaging.
+    material: https://drive.google.com/drive/folders/1vK4zrJ3vH6X8E42WON0hXbjaCFJWzqRi?usp=share_link
+
   Zero-knowledge arguments in Rust with Arkworks:
-    description: Come learn how to do zero-knowledge arguments efficiently using the Arkworks library for Rust! In this workshop we will be giving an introduction to Succinct Zero Knowledge Arguments of Knowledge (zkSNARKs) in general and Arkworks, a bleeding-edge Rust library for designing and implementing them.
+    description: |-
+      Come learn how to do zero-knowledge arguments efficiently using the Arkworks library for Rust!
+      In this workshop we will be giving an introduction to Succinct Zero Knowledge Arguments of Knowledge (zkSNARKs) in general and Arkworks,
+      a bleeding-edge Rust library for designing and implementing them.
     material: https://drive.google.com/file/d/1LOUlv6gkmkMQrKkmRrfr1Bl1AOrfXyeB/view?usp=sharing
