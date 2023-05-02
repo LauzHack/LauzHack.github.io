@@ -14,6 +14,10 @@ group:
 # People organizing the event, and their websites.
 # See the ReadMe file for information on pictures.
 people:
+  - given: Alina (Mingchi)
+    family: Hou
+    link: https://linkedin.com/in/mingchi-hou-771594177
+
   - given: Eric
     family: Bezzam
     link: https://linkedin.com/in/eric-bezzam-37ab2274
