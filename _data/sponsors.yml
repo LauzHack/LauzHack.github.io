@@ -13,8 +13,12 @@ tiers:
     sponsors:
       EPFL: https://epfl.ch/en
 
-#  Sponsors:
-#    show_title: true
+  Sponsors:
+    show_title: true
+    # putting AWS here while they decide where to go
+    size: 38
+    sponsors:
+      AWS: https://aws.amazon.com
 
 #  Gold:
 #    color: rgba(212,175,55,0.12)
