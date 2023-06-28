@@ -26,12 +26,12 @@ tiers:
     sponsors:
       Loterie Romande: https://loro.ch
 
-#  Silver:
-#    color: rgba(192,192,192,0.18)
-#    size: 32
-#    sponsors:
+  Silver:
+    color: rgba(192,192,192,0.18)
+    size: 32
+    sponsors:
 #      AdNovum: https://www.adnovum.ch
-#      AXA: https://axa.ch/en
+      AXA: https://axa.ch/en
 
 #  Resource Partners:
 #    size: 22
