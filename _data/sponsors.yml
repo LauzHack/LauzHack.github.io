@@ -15,15 +15,12 @@ tiers:
 
   Sponsors:
     show_title: true
-    # putting AWS here while they decide where to go
-    size: 38
-    sponsors:
-      AWS: https://aws.amazon.com
 
   Gold:
     color: rgba(212,175,55,0.12)
     size: 42
     sponsors:
+      AWS: https://aws.amazon.com
       Loterie Romande: https://loro.ch
 
   Silver:
@@ -50,9 +47,9 @@ tiers:
 #    size: 16
 #    sponsors:
 
-#  Energy Drinks:
-#    color: rgba(14, 25, 60, 0.4)
-#    size: 20
-#    show_title: true
-#    sponsors:
+  Food and Drinks:
+    size: 24
+    show_title: true
+    sponsors:
+      Dieci: https://dieci.ch/en
 #      El Tony Mate: https://eltonymate.com/en
