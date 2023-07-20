@@ -22,6 +22,7 @@ tiers:
     sponsors:
       AWS: https://aws.amazon.com
       Loterie Romande: https://loro.ch
+      Swissquote: https://swissquote.ch
 
   Silver:
     color: rgba(192,192,192,0.18)
