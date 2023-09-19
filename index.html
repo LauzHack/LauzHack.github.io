@@ -107,10 +107,10 @@ layout: default
         <h1>{{ tier[0] }}</h1>
       {% endif %}
 
-      {% if tier[1].sponsors %}
+      {% if tier[1].items %}
         <div class="items-container"
              {% if tier[1].color %} style="background: {{ tier[1].color }}" {% endif %}>
-          {% for sponsor in tier[1].sponsors %}
+          {% for sponsor in tier[1].items %}
             {% comment %} Use SVG if available, PNG otherwise (and GIF if you must...) {% endcomment %}
             {% assign file_img = 'null' %}
             {% assign formats = "svg|png|gif" | split: "|" %}

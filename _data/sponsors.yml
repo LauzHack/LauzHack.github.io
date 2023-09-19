@@ -7,19 +7,19 @@ show_prospectus: true
 # Each sponsor has a link to its website.
 # See the ReadMe file for information about logos.
 tiers:
-  Partners:
+  Partners and Sponsors:
     show_title: true
-    size: 28
-    sponsors:
-      EPFL: https://epfl.ch/en
 
-  Sponsors:
-    show_title: true
+  Platinum:
+    color: rgba(164,164,164,0.18)
+    size: 70 # very large bc their logo is so horizontal
+    items:
+      Bristol Myers Squibb: https://bms.com
 
   Gold:
     color: rgba(212,175,55,0.12)
-    size: 42
-    sponsors:
+    size: 40
+    items:
       AWS: https://aws.amazon.com
       Logitech: https://logitech.com/en-ch
       Loterie Romande: https://loro.ch
@@ -27,35 +27,27 @@ tiers:
 
   Silver:
     color: rgba(192,192,192,0.18)
-    size: 32
-    sponsors:
-#      AdNovum: https://www.adnovum.ch
+    size: 30
+    items:
       AXA: https://axa.ch/en
       Open Systems: https://open.ch
       SBB: https://sbb.ch/en
       Swisscom: https://swisscom.ch
 
-#  Resource Partners:
-#    size: 22
-#    show_title: true
-#    sponsors:
-#      echoAR: https://echoar.xyz
-
-#  Media Partners:
-#    size: 22
-#    show_title: true
-#    sponsors:
-#      SwissDevJobs: https://swissdevjobs.ch
-
 #  Bronze:
 #    color: rgba(205,127,50,0.12)
-#    size: 16
-#    sponsors:
+#    size: 15
+#    items:
+
+  EPFL:
+    size: 25
+    items:
+      EPFL: https://epfl.ch/en
 
   Food and Drinks:
-    size: 24
-    show_title: true
-    sponsors:
+    size: 20
+#    show_title: true
+    items:
       Dieci: https://dieci.ch/en
       El Tony Mate: https://eltonymate.com/en
       La Semeuse: https://lasemeuse.ch
