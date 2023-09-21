@@ -43,6 +43,7 @@ tiers:
     size: 25
     items:
       EPFL: https://epfl.ch/en
+      S2S: https://s2s.vc
 
   Food and Drinks:
     size: 20
