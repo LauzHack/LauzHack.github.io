@@ -124,7 +124,7 @@ tr {
 
 /* Action link, with trick to put a dark overlay */
 .link-action {
-  padding: 0.1em 0.3em;
+  padding: 0.2em 0.4em;
   text-decoration: none;
   position: relative;
 }
