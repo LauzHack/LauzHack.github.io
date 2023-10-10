@@ -33,7 +33,7 @@ items:
 
   Intro to Docker:
     description: Have you ever heard of "cloud computing"? Let's learn about Docker and use it for building and deploying our own cloud application.
-    material: https://github.com/dialexo/lauzhack-docker-workshop
+    material: https://drive.google.com/drive/u/1/folders/1I7Y0v8_y1Tgiakz6dOXmqxOWc45RxbeB
 
   Intro to Hackathons:
     description: We talk about what happens at a hackathon, share our experience organizing hackathons, and explain how you can get involved as participant or organizer.
