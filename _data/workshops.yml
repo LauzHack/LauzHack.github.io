@@ -44,8 +44,7 @@ items:
     material: https://github.com/ebezzam/hardware-hacking-intro
 
   Speed up your Python:
-    description: |-
-      Python's ease of use, flexibility, and cost (free!) have contributed to its explosion in recent years.
+    description: Python's ease of use, flexibility, and cost (free!) have contributed to its explosion in recent years.
       But it's also easy for things to get messy. In this workshop, we cover some tips and tricks to simplify your Python development life and also make your code easy to use by others!
       Topics covered: using an IDE, debugging, GitHub Copilot, packaging.
     material: https://drive.google.com/drive/folders/1vK4zrJ3vH6X8E42WON0hXbjaCFJWzqRi?usp=share_link
@@ -56,3 +55,7 @@ items:
       In this workshop we will be giving an introduction to Succinct Zero Knowledge Arguments of Knowledge (zkSNARKs) in general and Arkworks,
       a bleeding-edge Rust library for designing and implementing them.
     material: https://drive.google.com/file/d/1LOUlv6gkmkMQrKkmRrfr1Bl1AOrfXyeB/view?usp=sharing
+
+  Quantum computing to simulate quantum matter:
+    description: Stefano from [CQSL](https://www.epfl.ch/labs/cqsl/) at EPFL gives an intro to quantum computers and how quantum computing is used to simulate quantum matter.
+    material: https://drive.google.com/drive/folders/1oJWJb05xnZnABm3Wz5rq61_dnLohHhrB?usp=drive_link
