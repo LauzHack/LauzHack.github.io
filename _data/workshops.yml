@@ -60,3 +60,7 @@ items:
   Quantum computing to simulate quantum matter:
     description: Stefano from [CQSL](https://www.epfl.ch/labs/cqsl/) at EPFL gives an intro to quantum computers and how quantum computing is used to simulate quantum matter.
     material: https://drive.google.com/drive/folders/1oJWJb05xnZnABm3Wz5rq61_dnLohHhrB?usp=drive_link
+
+  Telegram bot and APIs (OpenAI, HuggingFace, etc):
+    description: Learn about how to make a Telegram bot and connect with APIs for endless possibilities! 
+    material: https://github.com/LauzHack/apis-telegram
