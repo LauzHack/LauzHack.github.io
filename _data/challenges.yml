@@ -6,7 +6,7 @@
 
 - name: AWS
   text: |-
-    **Unmasking Issues in the Feedback Maze**
+    **Unmasking Issues in the Feedback Maze.**
     Every day, millions of customers purchase from e-commerce websites across the globe and thousands write feedback about their likes and dislikes on the purchased products and services. It is impossible for humans to manually review all the feedback and take action to improve the customer experience. In this hackathon, users are given with a dataset to identify key issues that feedbacks contain and group them using their similarity.
 
 - name: Logitech
