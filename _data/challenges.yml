@@ -5,7 +5,7 @@
     Best usage of LLMs (not chatbots!)
 
 - name: AWS
-  text: Unmasking Issues in the Feedback Maze
+  text: **Unmasking Issues in the Feedback Maze**: Every day, millions of customers purchase from e-commerce websites across the globe and thousands write feedback about their likes and dislikes on the purchased products and services. It is impossible for humans to manually review all the feedback and take action to improve the customer experience. In this hackathon, users are given with a dataset to identify key issues that feedbacks contain and group them using their similarity.
 
 - name: Logitech
   text: |-
@@ -63,4 +63,4 @@
 
 - name: S2S
   text: |-
-    S2S Ventures minimum viable product (MVP) challenge: build the most investable demo and pitch it! Develop a novel (minimal) solution that solves a crucial customer problem of your choice. Validate your first traction, e.g., with your hackathon peers. Make sure you fit the investment criteria on https://s2s.vc Copy and adjust our S2S pitch deck template to present your solution: https://s2s.vc/pitch-template
+    S2S Ventures minimum viable product (MVP) challenge: build the most investable demo and pitch it! Develop a novel (minimal) solution that solves a crucial customer problem of your choice. Validate your first traction, e.g., with your hackathon peers. Make sure you fit the investment criteria (https://s2s.vc). Copy and adjust our S2S pitch deck template to present your solution: https://s2s.vc/pitch-template
