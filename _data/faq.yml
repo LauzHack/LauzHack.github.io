@@ -21,8 +21,7 @@
 
 - q: What should I bring?
   a: |-
-        Your laptop and charger, as well as toiletries.
-        Please bring **a valid ID** for admission.
+        Your laptop and charger, toiletrie and **an ID** such as a passport or ID card.
 
 - q: Where will I sleep?
   a: |-
@@ -41,6 +40,11 @@
   a: |-
         You don't need one to apply! Part of the fun of a hackathon is meeting new people.  
         There will be time at the beginning of the event to socialize and form teams.
+
+- q: What if I only know a little programming?
+  a: |-
+        That's fine! Hackathons are about writing basic code that glues together existing modules,
+        such as libraries and online APIs, to show the potential of your idea.
 
 - id: ip
   q: What about intellectual property?
