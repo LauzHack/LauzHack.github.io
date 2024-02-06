@@ -36,7 +36,7 @@
         in cash upon presentation of receipts at the end of the event.  
         This includes the return trip, and a hotel stay if you cannot travel back on Sunday.
 
-- q: What if I don't have a team?
+- q: What if I'm alone?
   a: |-
         You don't need one to apply! Part of the fun of a hackathon is meeting new people.  
         There will be time at the beginning of the event to socialize and form teams.
@@ -45,6 +45,10 @@
   a: |-
         That's fine! Hackathons are about writing basic code that glues together existing modules,
         such as libraries and online APIs, to show the potential of your idea.
+
+- q: One of my friends can't make it...
+  a: Don't worry, you can recruit new teammates during the event.
+     For fairness reasons, we cannot allow changes to group compositions after registrations have closed.
 
 - id: ip
   q: What about intellectual property?
