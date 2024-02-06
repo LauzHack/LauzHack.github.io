@@ -11,9 +11,10 @@ description_short: Student-run hackathon at EPFL, Switzerland
 description_long: |-
   LauzHack is a student-run hackathon at EPFL in Lausanne, Switzerland.
 
-  Hackathons are creativity marathons, where attendees work in teams to create something exciting in a short time.
+  Hackathons are creativity and prototyping marathons, in which you "hack" a demo of your cool idea to show its potential.
+  No need to be a programming master, only to be able to glue together existing libraries and interfaces to create your demo as a team.
 
-  Come and join 250 like-minded students hacking together during a weekend to make something amazing!
+  Come have fun, meet new friends, and maybe even win prizes during an amazing weekend!
 
 # Contact email. Use a bot-defeating format, otherwise you'll get spammed.
 email: lauzhack at epfl dot ch
