@@ -1,15 +1,8 @@
-# The group organizing the event, and its legal stuff. Optional.
-group:
-  name: the LauzHack Association
-  statutes: https://drive.google.com/open?id=1twbjDBC0TBGNP4hnViQbDndTdDL1ge7V
-  assemblies:
-    April 2023: https://drive.google.com/file/d/14QkdjjPautIgy9Y5mbItB3y8ABWbTBSX/view?usp=share_link
-    December 2022: https://drive.google.com/file/d/1c2STiwYBxJm5mzfpRdyy2rGtNKjrECfT/view?usp=share_link
-    November 2021: https://drive.google.com/file/d/1nQCM6_IU9or2NXWIi2ctOTeisFHG3Scf/view?usp=sharing
-    June 2020: https://drive.google.com/file/d/1Goks7Jtg77giuq33RzkZiN2or7RH3NaV/view?usp=sharing
-    April 2019: https://drive.google.com/open?id=1ma_eSVZ1XPEzM66xq71TEvSzyqCMt29E
-    June 2018 (Extraordinary): https://drive.google.com/open?id=1iJviqdbG_4W86swkc3wD0EqsdUHk6yBG
-    February 2018 (Constitutive): https://drive.google.com/open?id=1WbRh8Chivk2Dn7VeVABHEPIe5SKz--2d
+# The group organizing the event.
+# PDFs of general assembly minutes must be in pdf/minutes,
+# and a PDF of the statutes in pdf/statutes.pdf.
+# All of this is optional.
+group: the LauzHack Association
 
 # People organizing the event, and their websites.
 # See the ReadMe file for information on pictures.

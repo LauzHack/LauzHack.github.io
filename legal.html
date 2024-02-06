@@ -4,17 +4,15 @@ layout: default
 ---
 <section>
   <h1>Statutes</h1>
-  <p>Our statutes are available <a href="{{ site.data.organizers.group.statutes }}"
-                                   rel="noreferrer">here</a>.</p>
+  <p>Our statutes are available <a href="/pdf/statutes.pdf">here</a>.</p>
 </section>
 <section>
   <h1>General Assemblies</h1>
   <div>
-    {% for assembly in site.data.organizers.group.assemblies %}
-      <p>
-        <a href="{{ assembly[1] }}"
-           rel="noreferrer">{{ assembly[0] }}</a>
-      </p>
+    {% for file in site.static_files %}
+      {% if file.path contains 'pdf/minutes' %}
+        <p><a href="{{ file.path }}">{{ file.basename }}</a></p>
+      {% endif %}
     {% endfor %}
   </div>
 </section>
