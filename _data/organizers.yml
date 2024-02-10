@@ -15,6 +15,10 @@ people:
     family: Bezzam
     link: https://linkedin.com/in/eric-bezzam-37ab2274
 
+  - given: Güneş
+    family: Özgün
+    link: https://gozgun.github.io
+
   - given: Kopiga
     family: Rasiah
     link: https://linkedin.com/in/kopiga-rasiah-47a42b170
@@ -26,6 +30,10 @@ people:
   - given: Jacopo
     family: Bilotto
     link: https://linkedin.com/in/jacopo-bilotto-4331491b4
+
+  - given: Mariia
+    family: Eremina
+    link: https://linkedin.com/in/mariia-eremina
 
   - given: Natalia
     family: Nessler
@@ -50,11 +58,3 @@ people:
   - given: Vinitra
     family: Swamy
     link: https://vinitra.github.io
-
-  - given: Xiaotian
-    family: Su
-    link: https://linkedin.com/in/xiaotiansu
-
-  - given: Yiren
-    family: Cao
-    link: https://linkedin.com/in/yiren-cao-190945207
