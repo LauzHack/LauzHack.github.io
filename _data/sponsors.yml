@@ -10,29 +10,29 @@ tiers:
   Partners and Sponsors:
     show_title: true
 
-  Platinum:
-    color: rgba(164,164,164,0.18)
-    size: 70 # very large bc their logo is so horizontal
-    items:
-      Bristol Myers Squibb: https://bms.com
+#  Platinum:
+#    color: rgba(164,164,164,0.18)
+#    size: 70 # very large bc their logo is so horizontal
+#    items:
+#      Bristol Myers Squibb: https://bms.com
 
-  Gold:
-    color: rgba(212,175,55,0.12)
-    size: 40
-    items:
-      AWS: https://aws.amazon.com
-      Logitech: https://logitech.com/en-ch
-      Loterie Romande: https://loro.ch
-      Swissquote: https://swissquote.ch
+#  Gold:
+#    color: rgba(212,175,55,0.12)
+#    size: 40
+#    items:
+#      AWS: https://aws.amazon.com
+#      Logitech: https://logitech.com/en-ch
+#      Loterie Romande: https://loro.ch
+#      Swissquote: https://swissquote.ch
 
-  Silver:
-    color: rgba(192,192,192,0.18)
-    size: 30
-    items:
-      AXA: https://axa.ch/en
-      Open Systems: https://open.ch
-      SBB: https://sbb.ch/en
-      Swisscom: https://swisscom.ch
+#  Silver:
+#    color: rgba(192,192,192,0.18)
+#    size: 30
+#    items:
+#      AXA: https://axa.ch/en
+#      Open Systems: https://open.ch
+#      SBB: https://sbb.ch/en
+#      Swisscom: https://swisscom.ch
 
 #  Bronze:
 #    color: rgba(205,127,50,0.12)
@@ -43,7 +43,7 @@ tiers:
     size: 25
     items:
       EPFL: https://epfl.ch/en
-      S2S: https://s2s.vc
+#      S2S: https://s2s.vc
 
   Food and Drinks:
     size: 20
@@ -51,5 +51,5 @@ tiers:
     items:
       Dieci: https://dieci.ch/en
       El Tony Mate: https://eltonymate.com/en
-      La Semeuse: https://lasemeuse.ch
-      Lindt: https://lindt.ch
+#      La Semeuse: https://lasemeuse.ch
+#      Lindt: https://lindt.ch

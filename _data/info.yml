@@ -1,9 +1,9 @@
 # Event name
-name: LauzHack 2023
+name: LauzHack 2024
 
 # Event date and location
 date_and_location: |
-  December 2-3  
+  Date TBA  
   EPFL, Switzerland
 
 # Event description; short is for e.g. Facebook shared links, long appears on the home page.
@@ -42,5 +42,7 @@ past_editions:
   2017: https://2017.lauzhack.com
   2018: https://2018.lauzhack.com
   2019: https://2019.lauzhack.com
+  COVID19: https://covid19.lauzhack.com
   2020: https://2020.lauzhack.com
   2022: https://2022.lauzhack.com
+  2023: https://2023.lauzhack.com
