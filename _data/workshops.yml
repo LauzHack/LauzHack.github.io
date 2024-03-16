@@ -6,7 +6,7 @@ name: LauzHack Workshops
 # All past and future workshops
 items:
   Reproducible ML Projects:
-    description: Skander Moalla (PhD student at EPFL) explains the nuances of reproducibility and replicability and show us how to build reproducible ML projects in Python.
+    description: [Skander Moalla](https://people.epfl.ch/skander.moalla) (PhD student at EPFL) explains the nuances of reproducibility and replicability and show us how to build reproducible ML projects in Python.
     material: https://drive.google.com/drive/folders/1tE-eUw3tFm8fX7hD8jeLoX2leQepfK1B?usp=sharing
 
   Build a Private-by-Design Voice Assistant:
