@@ -15,6 +15,10 @@ people:
     family: Hou
     link: https://linkedin.com/in/mingchi-hou-771594177
 
+  - given: Antoine
+    family: Reynaud
+    link: https://people.epfl.ch/antoine.reynaud
+
   - given: Eric
     family: Bezzam
     link: https://linkedin.com/in/eric-bezzam-37ab2274
@@ -63,10 +67,10 @@ people:
     family: Porté
     link: https://linkedin.com/in/tatiana-porte
 
-  - given: Yassine
-    family: Kouch
-    link: https://linkedin.com/in/yassine-kouch-08b186195
-
   - given: Vinitra
     family: Swamy
     link: https://vinitra.github.io
+    
+  - given: Yassine
+    family: Kouch
+    link: https://linkedin.com/in/yassine-kouch-08b186195
