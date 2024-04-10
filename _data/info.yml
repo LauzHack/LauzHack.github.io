@@ -3,7 +3,7 @@ name: LauzHack 2024
 
 # Event date and location
 date_and_location: |
-  Date TBA  
+  Date to be announced yet  
   EPFL, Switzerland
 
 # Event description; short is for e.g. Facebook shared links, long appears on the home page.
@@ -26,7 +26,7 @@ linkedin: lauzhack
 luma: lauzhack
 instagram: lauzhack
 discord: https://discord.gg/kBfkHqVZft
-mailinglist: https://go.epfl.ch/lauzhackmailing
+# mailinglist: https://go.epfl.ch/lauzhackmailing - Commented out as it's a closed form link
 
 # Accent color of the website
 color: '#d42b2e'
