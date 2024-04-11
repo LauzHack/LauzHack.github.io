@@ -7,6 +7,10 @@ group: the LauzHack Association
 # People organizing the event, and their websites.
 # See the ReadMe file for information on pictures.
 people:
+  - given: Adrien
+    family: Gunther
+    link: https://github.com/link1183/
+    
   - given: Alessandro
     family: Amodio
     link: https://linkedin.com/in/alessandro-amodio
