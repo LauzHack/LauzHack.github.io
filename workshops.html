@@ -5,10 +5,16 @@ layout: default
   <h1>{{ site.data.workshops.name }}</h1>
 
   {{ site.data.workshops.description | markdownify }}
-
+  
+  {% if site.data.info.luma %}
+    <p>Check out our <a href="https://lu.ma/{{ site.data.info.luma }}">Luma</a> calendar for upcoming workshops!</p>
+  {% endif %}
+  
+  {% comment %}
   {% if site.data.info.discord %}
     <p>Join our <a href="{{ site.data.info.discord }}">Discord</a> to be notified of future workshops!</p>
   {% endif %}
+  {% endcomment %}
 </section>
 <section>
   <div class="items-container">
