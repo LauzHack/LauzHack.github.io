@@ -1,10 +1,18 @@
 # Workshops around the event, optional.
 
-# Workshops name
+# Workshops page title name
 name: LauzHack Workshops
+
+# Workshops description under title
+# description: Uncomment and specify
 
 # All past and future workshops
 items:
+  Building a Portfolio Site:
+    description: |-
+      [Lars Quaedvlieg](https://www.linkedin.com/in/lars-quaedvlieg/) shows how to leverage Jekyll and GitHub to build your own portfolio website!
+    material: https://docs.google.com/presentation/d/1kMfgqWVkJtmMSz5chzXt-KF3kUOLejiXmtR9bZyC1zc/edit?usp=sharing
+
   Reproducible ML Projects:
     description: |-
       [Skander Moalla](https://people.epfl.ch/skander.moalla) (PhD student at EPFL) explains the nuances of reproducibility and replicability and show us how to build reproducible ML projects in Python.
