@@ -8,6 +8,11 @@ name: LauzHack Workshops
 
 # All past and future workshops
 items:
+  Building Web Apps with HTMX:
+    description: |-
+      [Jimi Vaubien](https://www.linkedin.com/in/jimi-vaubien/) shows how to build interactive and powerful web apps with HTMX.
+    material: https://github.com/bitswired/python-web-dev-with-htmx
+
   Building a Portfolio Site:
     description: |-
       [Lars Quaedvlieg](https://www.linkedin.com/in/lars-quaedvlieg/) shows how to leverage Jekyll and GitHub to build your own portfolio website!
