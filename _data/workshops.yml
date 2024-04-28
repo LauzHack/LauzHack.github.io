@@ -8,7 +8,7 @@ name: LauzHack Workshops
 
 # All past and future workshops
 items: 
-  Building Web Apps with HTMX:
+  Python Web App with Flask and PythonAnywhere:
     description: |-
       [Seyed Parsa Neshaei](https://spneshaei.com/) teaches how to develop a simple web app and API using the Flask framework in Python and how to deploy them to a Pythonanywhere server.
     material: https://github.com/LauzHack/flask-workshop
