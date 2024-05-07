@@ -7,7 +7,12 @@ name: LauzHack Workshops
 # description: Uncomment and specify
 
 # All past and future workshops
-items: 
+items:
+  Intro to Solidity and Blockchain:
+    description: |-
+      Presented in collaboration with the [Blockchain Student Association](https://bsaepfl.ch/), an introduction to developing on the blockchain and using Solidity.
+    material: https://github.com/LauzHack/solidity-workshop-lauzhack
+
   Python Web App with Flask and PythonAnywhere:
     description: |-
       [Seyed Parsa Neshaei](https://spneshaei.com/) teaches how to develop a simple web app and API using the Flask framework in Python and how to deploy them to a Pythonanywhere server.
