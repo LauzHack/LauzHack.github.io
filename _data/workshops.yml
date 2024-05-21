@@ -8,6 +8,11 @@ name: LauzHack Workshops
 
 # All past and future workshops
 items:
+  Code to Production in Minutes with Windmill:
+    description: |-
+      [Hugo Casademont](https://www.linkedin.com/in/hugo-casademont/) presented [Windmill](https://www.windmill.dev/), an open source developer platform and workflow engine, and his experience developing open source software.
+    material: https://github.com/LauzHack/code-to-production-windmill
+
   Intro to Solidity and Blockchain:
     description: |-
       Presented in collaboration with the [Blockchain Student Association](https://bsaepfl.ch/), an introduction to developing on the blockchain and using Solidity.
