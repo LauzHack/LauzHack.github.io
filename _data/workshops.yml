@@ -8,6 +8,11 @@ name: LauzHack Workshops
 
 # All past and future workshops
 items:
+  Open-Source in Industry, 5G and Software Radio Networks:
+    description: |-
+      Brendan McAuliffe from [Software Radio Systems](https://srs.io/) presented [srsRAN](https://www.srslte.com/), an open-source project for 5G Radio Access Networks, and  his experience developing open source software.
+    material: https://github.com/LauzHack/software-radio-5g
+
   Code to Production in Minutes with Windmill:
     description: |-
       [Hugo Casademont](https://www.linkedin.com/in/hugo-casademont/) presented [Windmill](https://www.windmill.dev/), an open source developer platform and workflow engine, and his experience developing open source software.
