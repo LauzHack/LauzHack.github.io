@@ -8,6 +8,11 @@ name: LauzHack Workshops
 
 # All past and future workshops
 items:
+  Introduction to Julia:
+    description: |-
+      Julia Lang is a high-level programming language well-suited for numerical analysis and computational sciences: fast, dynamic, and open source.
+    material: https://github.com/LauzHack/julia
+      
   Open-Source in Industry, 5G and Software Radio Networks:
     description: |-
       Brendan McAuliffe from [Software Radio Systems](https://srs.io/) presented [srsRAN](https://www.srslte.com/), an open-source project for 5G Radio Access Networks, and  his experience developing open source software.
