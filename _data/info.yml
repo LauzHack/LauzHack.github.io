@@ -19,16 +19,17 @@ description_long: |-
 # Contact email. Use a bot-defeating format, otherwise you'll get spammed.
 email: lauzhack at epfl dot ch
 
-# Social networks. Facebook is mandatory (for now?), rest optional
-facebook: lauzhack
-twitter: lauzhack
-linkedin: lauzhack
-luma: lauzhack
-instagram: lauzhack
+# Social networks, LinkedIn and Luma mandatory but the rest optional
+#facebook: https://facebook.com/lauzhack
+#twitter: lauzhack
+linkedin: https://www.linkedin.com/company/lauzhack
+luma: https://lu.ma/lauzhack
+instagram: https://instagram.com/lauzhack
 discord: https://discord.gg/kBfkHqVZft
 mailinglist: https://go.epfl.ch/lauzhackmailing
-github: LauzHack
-
+github: https://github.com/LauzHack
+youtube: https://www.youtube.com/channel/UCtCEau65tGgsH3BCdhy5hsw
+ 
 # Accent color of the website
 color: '#d42b2e'
 

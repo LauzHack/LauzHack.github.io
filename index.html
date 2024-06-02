@@ -19,13 +19,13 @@ layout: default
   {% endif %}
 
   <p>
-    We also organize <a href="https://lu.ma/lauzhack"
+    We also organize <a href="{{ site.data.info.luma }}"
                         class="tone-dark link-action">tech talks</a>, whose past material is <a href="/workshops">here</a>.
   </p>
 
   <p>
     {% comment %} annoyingly long line to avoid auto-inserted spacing before the commas {% endcomment %}
-    Follow us on <a href="https://www.linkedin.com/company/{{ site.data.info.linkedin }}">LinkedIn</a>, <a href="https://instagram.com/{{ site.data.info.instagram }}">Instagram</a>, <a href="https://github.com/{{ site.data.info.github }}">GitHub</a>, <a href="https://facebook.com/{{ site.data.info.facebook }}">Facebook</a>{% if site.data.info.twitter %}, <a href="https://twitter.com/{{ site.data.info.twitter }}">Twitter</a>{% endif %}{% if site.data.info.discord %}, or join our <a href="{{ site.data.info.discord }}">Discord</a>{% endif %}!
+    Follow us on <a href="{{ site.data.info.linkedin }}">LinkedIn</a>{% if site.data.info.instagram %}, <a href="{{ site.data.info.instagram }}">Instagram</a>{% endif %}{% if site.data.info.github %}, <a href="{{ site.data.info.github }}">GitHub</a>{% endif %}{% if site.data.info.youtube %}, <a href="{{ site.data.info.youtube }}">YouTube</a>{% endif %}{% if site.data.info.facebook %}, <a href="{{ site.data.info.facebook }}">Facebook</a>{% endif %}{% if site.data.info.twitter %}, <a href="https://twitter.com/{{ site.data.info.twitter }}">Twitter</a>{% endif %}{% if site.data.info.discord %}, or join our <a href="{{ site.data.info.discord }}">Discord</a>{% endif %}!
   </p>
 </section>
 <section class="tone-dark">
