@@ -48,9 +48,9 @@ layout: default
 </section>
 {% if site.data.schedule %}
   <section id="schedule">
-    <h1>Schedule</h1>
+    <h1>{{ site.data.schedule.title | markdownify }}</h1>
     <div class="items-container">
-      {% for part in site.data.schedule %}
+      {% for part in site.data.schedule.table %}
         <div class="item-generic">
           <table>
             {% if part[0] != '' %}

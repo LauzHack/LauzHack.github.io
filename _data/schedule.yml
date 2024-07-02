@@ -1,20 +1,26 @@
 # Schedule, optional.
 # Don't forget quotes around hours, otherwise the colons will mess stuff up.
 
-Saturday:
-  '8:00-9:30': Registration and breakfast
-  '10:00-10:15': Opening ceremony
-  '10:20-11:40': Tech talks
-  '11:40-12:00': Team building
-  '12:00': Hacking starts
-  '12:00-13:00': Lunch
-  '18:30-19:30': Dinner
+title: Tentative Schedule
 
-Sunday:
-  '0:00-1:00': Midnight snack
-  '7:00-9:00': Breakfast
-  '12:00': Hacking ends
-  '11:30-12:30': Lunch
-  '12:30-15:00': Judging
-  '15:00-17:00': Closing ceremony
-  '17:00-19:00': Closing apéro
+
+
+table:
+
+  Saturday:
+   '8:00-9:30': Registration and breakfast
+   '10:00-10:15': Opening ceremony
+   '10:20-11:40': Tech talks
+   '11:40-12:00': Team building
+   '12:00': Hacking starts
+   '12:00-13:00': Lunch
+   '18:30-19:30': Dinner
+
+  Sunday:
+   '0:00-1:00': Midnight snack
+   '7:00-9:00': Breakfast
+   '12:00': Hacking ends
+   '11:30-12:30': Lunch
+   '12:30-15:00': Judging
+   '15:00-17:00': Closing ceremony
+   '17:00-19:00': Closing apéro
