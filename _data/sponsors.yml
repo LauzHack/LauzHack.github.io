@@ -10,28 +10,31 @@ tiers:
   Partners and Sponsors:
     show_title: true
 
-#  Platinum:
-#    color: rgba(164,164,164,0.18)
-#    size: 70 # very large bc their logo is so horizontal
-#    items:
-#      Bristol Myers Squibb: https://bms.com
+  Platinum:
+    color: rgba(164,164,164,0.18)
+    size: 70 # very large bc their logo is so horizontal
+    items:
+      Bristol Myers Squibb: https://bms.com
 
-#  Gold:
-#    color: rgba(212,175,55,0.12)
-#    size: 40
-#    items:
+  Gold:
+    color: rgba(212,175,55,0.12)
+    size: 40
+    items:
 #      AWS: https://aws.amazon.com
-#      Logitech: https://logitech.com/en-ch
-#      Loterie Romande: https://loro.ch
+      Logitech: https://logitech.com/en-ch
+      Loterie Romande: https://loro.ch
 #      Swissquote: https://swissquote.ch
+      BOBST: https://www.bobst.com/chen/
+      Vitol: https://www.vitol.com/
 
-#  Silver:
-#    color: rgba(192,192,192,0.18)
-#    size: 30
-#    items:
-#      AXA: https://axa.ch/en
+
+  Silver:
+    color: rgba(192,192,192,0.18)
+    size: 30
+    items:
+      AXA: https://axa.ch/en
 #      Open Systems: https://open.ch
-#      SBB: https://sbb.ch/en
+      SBB: https://sbb.ch/en
 #      Swisscom: https://swisscom.ch
 
 #  Bronze:
