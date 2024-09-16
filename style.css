@@ -63,6 +63,19 @@ h2 {
   font-size: 1.5em;
 }
 
+.social-logos {
+	height: 1.2em;
+	width: 1.2em;
+}
+
+{% if site.data.info.luma_iframe_calendar %}
+
+.calendar {
+  max-width: 600px;
+  height: 250px;
+}
+
+{% endif %}
 
 /* Tables */
 table {
@@ -120,7 +133,6 @@ tr {
   max-width: 95%;
   margin: 5em auto 0 auto;
 }
-
 
 /* Action link, with trick to put a dark overlay */
 .link-action {
