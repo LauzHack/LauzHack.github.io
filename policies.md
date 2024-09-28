@@ -25,7 +25,7 @@ It is _not_ available on the night following the event. If you have no flight ho
 
 # Travel reimbursement
 
-We reimburse the following in cash, upon presentation of receipts, at the end of the event:
+We reimburse the following upon presentation of receipts, at the end of the event, in cash:
 - For participants from the greater Lausanne area, nothing.
 - For particpants from Switzerland, up to CHF 75 of public transport costs per person.
 - For participants from the rest of the world, up to CHF 150 of transport costs per person including planes, trains, buses, and so on.
@@ -34,7 +34,7 @@ If you must stay at a hotel from Friday to Saturday, either because the free hos
 this counts as travel. Similarly, if you must stay at a hotel from Sunday to Monday, it also counts.
 
 Your receipts must show the travel date, origin and destination of trips when relevant, and the price paid.
-It's OK if the price is in your local currency, we'll convert.
+The receipt currency doesn't matter, we'll convert. It's OK if a single receipt has info for multiple participants.
 
 Starting on the day before the event, you'll be able to send your receipts to a designated committee member on Discord,
 to speed up the process. We strongly recommend you do this early, since the queue to do so in person on Sunday will likely be long.
@@ -42,6 +42,7 @@ to speed up the process. We strongly recommend you do this early, since the queu
 If you are currently living in a different place than your university, such as for an internship,
 please provide some basic proof that this is the case, such as a badge of a company you're interning in.
 
-We do not reimburse food nor travel-related purchase such as sleeping bags or mobile data.
+We do not reimburse food nor travel-related purchases such as sleeping bags or mobile data.
 
-We only reimburse costs for accepted participants, so please do not make any travel expenses before you have been accepted.
+We only reimburse costs for accepted participants,
+please do not make any travel expenses before you receive an acceptance confirmation.
