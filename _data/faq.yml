@@ -7,8 +7,9 @@
 
 - q: Can I participate?
   a: |-
-        You must be **at least 18 years old** and **a student**, including apprentices and PhD students,
-        or have graduated in the past 24 months.
+        You must be **at least 18** and **a student**, apprentice or PhD student,
+        or have graduated in the past 24 months.  
+        You can participate in a team of up to **4 people**.
 
 - q: How much does it cost?
   a: |-
@@ -16,41 +17,44 @@
 
 - q: Where is it?
   a: |-
-        LauzHack will take place in EPFL's Lausanne campus, bordering Lake Geneva.
-        You can find directions [here](https://www.epfl.ch/campus/visitors/coming-to-epfl/).
+        On [EPFL's Lausanne campus](https://www.epfl.ch/campus/visitors/coming-to-epfl/), bordering Lake Geneva.
 
 - q: What should I bring?
   a: |-
-        Your laptop and charger, toiletries and **an ID** such as a passport or ID card.
+        A laptop and charger, toiletries, and **passport** or ID card.
 
 - q: Where will I sleep?
   a: |-
-        We have limited space in a separate sleeping area, as well as showers.
-        Please bring a sleeping bag if you'd like to use it.
-        If you would like to use it on the Friday-Saturday night, please contact us.
+        We have limited space in a sleeping area as well as showers.  
+        Please bring a sleeping bag and toiletries.
 
 - q: Will my travel be reimbursed?
   a: |-
-        We will reimburse up to **TBA CHF** for international travel,
-        and up to **TBA CHF** for travel within Switzerland outside of the Lausanne area,
-        in cash upon presentation of receipts at the end of the event.
+        Up to **TBA CHF** internationally and **TBA CHF** within Switzerland outside of Lausanne.  
+        Please see the exact conditions [here](/policies).
 
-- q: What if I'm alone?
+- q: I have to arrive on Friday...
   a: |-
-        You don't need one to apply! Part of the fun of a hackathon is meeting new people.  
-        There will be time at the beginning of the event to socialize and form teams.
+       We have limited sleeping space for the Friday-Saturday night.  
+       Please see the exact conditions [here](/policies).
 
-- q: What if I only know a little programming?
+- q: I don't have a team...
   a: |-
-        That's fine! Hackathons are about writing basic code that glues together existing modules,
-        such as libraries and online APIs, to show the potential of your idea.
+        You don't need one to apply! Part of the fun is meeting people.  
+        There will be time at the beginning to socialize and form teams.
+
+- q: I don't have much programming experience...
+  a: |-
+        That's fine! Hackathons are about prototyping a cool idea by writing simple code,  
+        gluing together existing libraries and online APIs.
 
 - q: One of my friends can't make it...
-  a: Don't worry, you can recruit new teammates during the event.
-     For fairness reasons, we cannot allow changes to group compositions after registrations have closed.
+  a: |-
+        You can recruit new teammates during the event.  
+        For fairness reasons, we cannot allow changes to groups once applications have closed.
 
 - id: ip
   q: What about intellectual property?
   a: |-
-        We do not claim any rights on any of your intellectual property whatsoever.  
+        We do not claim any rights on any of your intellectual property.  
         Everything you create, at LauzHack or not, belongs to you.

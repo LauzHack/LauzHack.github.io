@@ -51,6 +51,13 @@ section > * {
   padding: 2% 3.65%;
 }
 
+.item-small {
+  flex-grow: 1;
+  flex-basis: 26%;
+  padding: 2% 3.65%;
+  min-width: 15em;
+}
+
 h1 {
   font-size: 3em;
 }
