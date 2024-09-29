@@ -31,15 +31,20 @@ body {
 section {
   width: 100%;
   overflow: hidden;
+  padding: 3vh 0;
 }
 
-section > * {
-  padding: 2vh 2vw;
+section#workshops {
+  /* the color Luma uses as background */
+  background: #F4F5F6;
+  /* no padding below the iframe */
+  padding-bottom: 0;
 }
 
 h1 {
   font-size: 2.5em;
-  margin-bottom: 0;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
 }
 
 h2 {
@@ -60,7 +65,13 @@ h2 {
 
 .item-sponsor {
   flex-grow: 1;
-  padding: 5%;
+  padding: 1vh 0;
+  display: table;
+}
+
+.item-sponsor > a {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .item-small {
@@ -84,6 +95,7 @@ h2 {
   width: 100%;
   height: 50vh;
   padding: 0;
+  display: block;
 }
 
 /* Tables */
@@ -135,7 +147,7 @@ tr {
 
 .header p {
   font-size: calc(0.7em + 2vw);
-  margin: 0 auto;
+  margin: 5vh auto;
   max-width: 80%;
 }
 

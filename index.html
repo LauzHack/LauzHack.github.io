@@ -17,7 +17,6 @@ layout: default
       {% endif %}
     </p>
   {% endif %}
-  <br>
   <p>
     We also organize <a href="#workshops">workshops</a>.
   </p>
@@ -78,8 +77,8 @@ layout: default
   </section>
 {% endif %}
 
-<section>
-  {% if site.data.faq %}
+{% if site.data.faq %}
+  <section>
     <h1 id="faq">F.A.Q.</h1>
     <div class="items-container">
       {% for item in site.data.faq %}
@@ -95,8 +94,8 @@ layout: default
           or on <a href="{{ site.data.info.socials.discord }}">Discord</a>!
         </p>
     </div>
-  {% endif %}
-</section>
+  </section>
+{% endif %}
 
 {% if site.data.info.workshops_link %}
 <section id="workshops">
@@ -109,10 +108,10 @@ layout: default
   </p>
 
   <iframe class="calendar"
-	   src="{{ site.data.info.workshops_iframe }}"
-           allowfullscreen=""
-           frameborder="0"
-           aria-hidden="false">
+          src="{{ site.data.info.workshops_iframe }}"
+          allowfullscreen=""
+          frameborder="0"
+          aria-hidden="false">
   </iframe>
 </section>
 {% endif %}
@@ -126,8 +125,15 @@ layout: default
       </div>
     {% endif %}
     {% for tier in site.data.sponsors.tiers %}
-      <div class="items-container"
-           {% if tier[1].color %} style="background: {{ tier[1].color }}" {% endif %}>
+      {% comment %} CSS is terrible so we set the number of items per row manually {% endcomment %}
+      {% assign mod_3 = tier[1].items.size | modulo: 3 %}
+      {% assign mod_4 = tier[1].items.size | modulo: 4 %}
+      {% if mod_3 == 0 or mod_4 == 1 %}
+        {% assign flex_basis = 30 %}
+      {% else %}
+        {% assign flex_basis = 24 %}
+      {% endif %}
+      <div class="items-container">
         {% for sponsor in tier[1].items %}
           {% comment %} Use SVG if available, PNG otherwise (and GIF if you must...) {% endcomment %}
           {% assign file_img = 'null' %}
@@ -141,8 +147,7 @@ layout: default
               {% endif %}
             {% endfor %}
           {% endfor %}
-
-          <div class="item-sponsor">
+          <div class="item-sponsor" style="flex-basis: {{ flex_basis }}%">
             <a href="{{ sponsor[1] }}"
                rel="noreferrer">
                <img src="{{ file_img }}"

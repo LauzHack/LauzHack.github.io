@@ -8,14 +8,12 @@ show_prospectus: true
 # See the ReadMe file for information about logos.
 tiers:
   Platinum:
-    color: rgba(164,164,164,0.18)
     size: 70 # huge because their logo is so horizontal
     items:
       Bristol Myers Squibb: https://bms.com
 
   Gold:
-    color: rgba(212,175,55,0.12)
-    size: 40
+    size: 32
     items:
 #      AWS: https://aws.amazon.com
       Logitech: https://logitech.com/en-ch
@@ -26,8 +24,7 @@ tiers:
 
 
   Silver:
-    color: rgba(192,192,192,0.18)
-    size: 30
+    size: 24
     items:
       AXA: https://axa.ch/en
 #      Open Systems: https://open.ch
@@ -35,12 +32,11 @@ tiers:
 #      Swisscom: https://swisscom.ch
 
 #  Bronze:
-#    color: rgba(205,127,50,0.12)
 #    size: 15
 #    items:
 
   EPFL:
-    size: 30
+    size: 28
     items:
       EPFL: https://epfl.ch/en
 #      S2S: https://s2s.vc
