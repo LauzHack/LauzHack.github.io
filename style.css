@@ -19,7 +19,7 @@
 body {
   background: #f0f0f0;
   text-align: center;
-  font-size: 1.25em;
+  font-size: 1.35em;
   font-family:
     {% if has_font %}
       CustomFont,
@@ -31,55 +31,60 @@ body {
 section {
   width: 100%;
   overflow: hidden;
-  padding: 1.5em 0;
 }
 
 section > * {
-  padding: 0 2vw;
+  padding: 2vh 2vw;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 1.5em;
 }
 
 .items-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 1em 0;
 }
 
 .item-generic {
   flex-grow: 1;
-  flex-basis: 42.7%;
-  padding: 2% 3.65%;
+  flex-basis: 45%;
+  padding: 0% 2%;
+}
+
+.item-sponsor {
+  flex-grow: 1;
+  padding: 5%;
 }
 
 .item-small {
   flex-grow: 1;
   flex-basis: 26%;
-  padding: 2% 3.65%;
+  padding: 0% 2%;
   min-width: 15em;
 }
 
-h1 {
-  font-size: 3em;
+.social {
+  text-decoration: none;
 }
 
-h2 {
-  font-weight: bold;
-  font-size: 1.5em;
+.social img {
+  width: 1.25em;
+  height: 1.25em;
+  padding: 0.5em;
 }
-
-.social-logos {
-	height: 1.2em;
-	width: 1.2em;
-}
-
-{% if site.data.info.luma_iframe_calendar %}
 
 .calendar {
-  max-width: 600px;
-  height: 250px;
+  width: 100%;
+  height: 50vh;
+  padding: 0;
 }
-
-{% endif %}
 
 /* Tables */
 table {
@@ -105,6 +110,7 @@ tr {
 .tone-dark {
   background: {{ site.data.info.color }};
   color: #fff;
+  -webkit-box-decoration-break: clone;
 }
 
 .tone-dark a {
@@ -128,19 +134,19 @@ tr {
 }
 
 .header p {
-  font-size: calc(0.75em + 2vw);
+  font-size: calc(0.7em + 2vw);
   margin: 4vh auto 0 auto;
   max-width: 80%;
 }
 
-.header img {
-  max-width: 95%;
-  margin: 5em auto 0 auto;
+.sitelogo {
+  max-width: 90%;
+  margin: 10vh auto 0 auto;
 }
 
 /* Action link, with trick to put a dark overlay */
 .link-action {
-  padding: 0.2em 0.4em;
+  padding: 0.1vh 2vw;
   text-decoration: none;
   position: relative;
 }
@@ -213,46 +219,4 @@ tr {
 
 .person-family {
   opacity: 0.7;
-}
-
-
-/* Newsletter */
-.newsletter {
-  margin-top: 1em;
-}
-
-.newsletter input {
-  background: #fff;
-  border: 1px solid #999;
-  box-sizing: border-box;
-  padding: 0.5rem 0.8rem;
-}
-
-.newsletter input[type="email"] {
-  box-sizing: border-box;
-  width: 18rem;
-}
-.newsletter input[type="submit"]:hover {
-  background: #eee;
-}
-.newsletter input[type="submit"]:active {
-  background: #ccc;
-}
-
-/* Challenge container */
-.challenge-container{
-  text-align:justify; 
-  margin:auto;
-  padding: 1em; 
-  max-width: 60%; 
-}
-
-@media only screen and (max-width: 600px) {
-  .challenge-container{
-    max-width:100%;
-  }
-}
-
-ul.indented{
-  margin-left: 1em;
 }

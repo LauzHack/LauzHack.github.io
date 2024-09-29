@@ -17,7 +17,8 @@
 
 - q: Where is it?
   a: |-
-        On [EPFL's Lausanne campus](https://www.epfl.ch/campus/visitors/coming-to-epfl/), bordering Lake Geneva.
+        At EPFL in Lausanne, bordering Lake Geneva.  
+        Directions [here](https://www.epfl.ch/campus/visitors/coming-to-epfl/).
 
 - q: What should I bring?
   a: |-
@@ -30,7 +31,7 @@
 
 - q: Will my travel be reimbursed?
   a: |-
-        Up to **TBA CHF** internationally and **TBA CHF** within Switzerland outside of Lausanne.  
+        Up to **150 CHF** internationally and **75 CHF** within Switzerland outside of Lausanne.  
         Please see the exact conditions [here](/policies).
 
 - q: I have to arrive on Friday...
@@ -45,7 +46,7 @@
 
 - q: I don't have much programming experience...
   a: |-
-        That's fine! Hackathons are about prototyping a cool idea by writing simple code,  
+        That's fine! Hackathons are about prototyping a cool idea by writing simple code,
         gluing together existing libraries and online APIs.
 
 - q: One of my friends can't make it...
@@ -56,5 +57,5 @@
 - id: ip
   q: What about intellectual property?
   a: |-
-        We do not claim any rights on any of your intellectual property.  
+        We do not claim any rights on your intellectual property.  
         Everything you create, at LauzHack or not, belongs to you.

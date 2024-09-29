@@ -2,7 +2,7 @@
 layout: default
 ---
 <section class="tone-dark header">
-  <img class="logo"
+  <img class="sitelogo"
        src="images/logo.svg"
        alt="{{ site.data.info.name }}">
   {{ site.data.info.date_and_location | markdownify }}
@@ -19,10 +19,19 @@ layout: default
   {% endif %}
   <br>
   <p>
-  Our socials, events calendar and materials are <a href="#socials">here</a>.
-  <br>
+    We also organize <a href="#workshops">workshops</a>.
+  </p>
+  <p>
+    {% for social in site.data.info.socials %}
+      <a class="social"
+         href="{{ social[1] }}">
+        <img src="images/socials/{{ social[0] }}.svg"
+             alt="{{ social[0] }}">
+      </a>
+    {% endfor %}
   </p>
 </section>
+
 <section class="tone-dark">
   <div>
     {{ site.data.info.description_long | markdownify }}
@@ -41,9 +50,10 @@ layout: default
     {% endif %}
   </div>
 </section>
+
 {% if site.data.schedule %}
   <section id="schedule">
-    <h1>{{ site.data.schedule.title | markdownify }}</h1>
+    <h1>{{ site.data.schedule.title }}</h1>
     <div class="items-container">
       {% for part in site.data.schedule.table %}
         <div class="item-generic">
@@ -67,6 +77,7 @@ layout: default
     </div>
   </section>
 {% endif %}
+
 <section>
   {% if site.data.faq %}
     <h1 id="faq">F.A.Q.</h1>
@@ -80,81 +91,70 @@ layout: default
       <div class="item-small">
         <h2>I have another question...</h2>
         <p>
-          Contact us by email ({{ site.data.info.email }}),
+          Contact us by email ({{ site.data.info.email }})
           or on <a href="{{ site.data.info.socials.discord }}">Discord</a>!
         </p>
     </div>
   {% endif %}
 </section>
+
+{% if site.data.info.workshops_link %}
+<section id="workshops">
+  <h1>Workshops</h1>
+
+  <p>
+    We organize many workshops,
+    see the <a href="{{ site.data.info.workshops_link }}">list of upcoming ones</a>, the calendar below,
+    and the <a href="/workshops">material from previous ones</a>.
+  </p>
+
+  <iframe class="calendar"
+	   src="{{ site.data.info.workshops_iframe }}"
+           allowfullscreen=""
+           frameborder="0"
+           aria-hidden="false">
+  </iframe>
+</section>
+{% endif %}
+
 {% if site.data.sponsors %}
   <section class="section-sponsors">
-    {% for tier in site.data.sponsors.tiers %}
-      {% if tier[1].show_title %}
-        <h1>{{ tier[0] }}</h1>
-      {% endif %}
-
-      {% if tier[1].items %}
-        <div class="items-container"
-             {% if tier[1].color %} style="background: {{ tier[1].color }}" {% endif %}>
-          {% for sponsor in tier[1].items %}
-            {% comment %} Use SVG if available, PNG otherwise (and GIF if you must...) {% endcomment %}
-            {% assign file_img = 'null' %}
-            {% assign formats = "svg|png|gif" | split: "|" %}
-            {% assign file_png_path = sponsor[0] | prepend: '/images/logos/' | append: '.gif' %}
-            {% for file in site.static_files %}
-              {% for format in formats %}
-                {% assign format_path = sponsor[0] | prepend: '/images/logos/' | append: '.' | append: format %}
-                {% if file.path == format_path %}
-                  {% assign file_img = format_path %}
-                {% endif %}
-              {% endfor %}
-            {% endfor %}
-
-            <div class="item-generic">
-              <a href="{{ sponsor[1] }}"
-                 rel="noreferrer">
-                 <img src="{{ file_img }}"
-                      alt="{{ tier[0] }} - {{ sponsor[0] }}"
-                      style="height: min(90vw, {{ tier[1].size }}vh); width: min(90vw, {{ tier[1].size }}vh)">
-              </a>
-            </div>
-          {% endfor %}
-        </div>
-      {% endif %}
-    {% endfor %}
+    <h1>Sponsors and Partners</h1>
     {% if site.data.sponsors.show_prospectus %}
       <div>
         <p>Interested in sponsoring us? Check out our prospectus for <a href="/pdf/sponsor-prospectus.pdf">hackathon sponsoring</a> and <a href="/pdf/tech-talk-sponsoring.pdf">tech talk sponsoring</a>.</p>
       </div>
     {% endif %}
+    {% for tier in site.data.sponsors.tiers %}
+      <div class="items-container"
+           {% if tier[1].color %} style="background: {{ tier[1].color }}" {% endif %}>
+        {% for sponsor in tier[1].items %}
+          {% comment %} Use SVG if available, PNG otherwise (and GIF if you must...) {% endcomment %}
+          {% assign file_img = 'null' %}
+          {% assign formats = "svg|png|gif" | split: "|" %}
+          {% assign file_png_path = sponsor[0] | prepend: '/images/logos/' | append: '.gif' %}
+          {% for file in site.static_files %}
+            {% for format in formats %}
+              {% assign format_path = sponsor[0] | prepend: '/images/logos/' | append: '.' | append: format %}
+              {% if file.path == format_path %}
+                {% assign file_img = format_path %}
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+
+          <div class="item-sponsor">
+            <a href="{{ sponsor[1] }}"
+               rel="noreferrer">
+               <img src="{{ file_img }}"
+                    alt="{{ tier[0] }} - {{ sponsor[0] }}"
+                    style="width: min(80vw, {{ tier[1].size }}vh)">
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    {% endfor %}
   </section>
 {% endif %}
-
-<section id="socials">
- <h2>
-    Join us on: {% for social in site.data.info.socials %}  <a href="{{ social[1] }}"><img class="social-logos" 
-  	  alt="{{ social[0] }}"
-	  src="images/socials/{{ social[0] }}.svg"></a>  {% endfor %}
-	  <br> <br>
-	  You can find <a href="{{ site.data.info.luma }}">upcoming events</a> on the calendar below or download material from previous events <a href="/workshops">here</a>.
-  </h2>
-
-{% if site.data.info.luma_iframe_calendar %}
-  <p>
-   <iframe class="calendar"
-	   src="{{ site.data.info.luma_iframe_calendar }}"
-    	   frameborder="0"
-           width="80%"
-	   style="border: 1px solid #bfcbda88; border-radius: 4px;"
-           allowfullscreen=""
-           aria-hidden="false"
-           tabindex="0" >
-  </iframe>
- </p>
-{% endif %}
-
-</section>
-
 
 <section class="tone-dark">
   <h1>Committee</h1>

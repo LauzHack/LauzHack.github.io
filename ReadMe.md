@@ -23,7 +23,7 @@ All configuration files are extensively commented.
 - **Schedule**: Edit `_data/schedule.yml`.
 - **FAQ**: Edit `_data/faq.yml`.
 - **Sponsors**: Edit `_data/sponsors.yml`, and put sponsor logos in `images/logos/` named as the sponsor name in SVG or PNG.  
-                Sponsor logos should all be square and have equal visual weight within the image, so that sponsors with very wide logos are not disadvantaged compared to sponsors with square logos.
+                Sponsor logos should all be 2x1 rectangles and have equal visual weight within the image, so that sponsors with very wide logos are not disadvantaged compared to sponsors with square logos.
 - **Organizers**: Edit `_data/organizers.yml`, and put people photos in `images/people/` named in `First Last.jpg` format.  
                   People photos should be 300x300px.
 - **Workshops**: Edit `_data/workshops.yml`.

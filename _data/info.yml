@@ -20,19 +20,19 @@ description_long: |-
 email: lauzhack at epfl dot ch
 
 # Social networks, Discord is mandatory but the rest is optional, please add the socials' logo in /images/socials/
+# Good free social logo SVGs can be found at https://nucleoapp.com/social-media-icons
 socials:
   discord: https://discord.gg/kBfkHqVZft
-  youtube: https://www.youtube.com/channel/UCtCEau65tGgsH3BCdhy5hsw
   linkedin: https://www.linkedin.com/company/lauzhack
   instagram: https://instagram.com/lauzhack
+  youtube: https://www.youtube.com/channel/UCtCEau65tGgsH3BCdhy5hsw
   github: https://github.com/LauzHack
   #facebook: https://facebook.com/lauzhack
   #twitter: lauzhack 
 
-# Extra ones    
-luma: https://lu.ma/lauzhack
-luma_iframe_calendar: https://lu.ma/embed/calendar/cal-J8bDxsJnQ0w6LHd/events?
-mailinglist: https://go.epfl.ch/lauzhackmailing
+# Workshops
+workshops_link: https://lu.ma/lauzhack
+workshops_iframe: https://lu.ma/embed/calendar/cal-J8bDxsJnQ0w6LHd/events?
 
 # Accent color of the website
 color: '#d42b2e'
