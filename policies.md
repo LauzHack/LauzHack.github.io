@@ -39,6 +39,8 @@ The receipt currency doesn't matter, we'll convert. It's OK if a single receipt 
 Starting on the day before the event, you'll be able to send your receipts to a designated committee member on Discord,
 to speed up the process. We strongly recommend you do this early, since the queue to do so in person on Sunday will likely be long.
 
+You do not need to let us know about the need for this reimbursement. It will not impact anyone's chances of being accepted to the event.
+
 If you are currently living in a different place than your university, such as for an internship,
 please provide some basic proof that this is the case, such as a badge of a company you're interning in.
 

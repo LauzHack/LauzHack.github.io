@@ -51,6 +51,11 @@ h2 {
   font-size: 1.5em;
 }
 
+p {
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
 .items-container {
   display: flex;
   flex-wrap: wrap;
@@ -115,6 +120,11 @@ tbody > tr:nth-child(odd) {
 
 tr {
   height: 3em;
+}
+
+td {
+  padding: 0.3em 0.7em;
+  min-width: 15vw;
 }
 
 
