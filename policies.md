@@ -16,7 +16,7 @@ After acceptance, you will receive a link to the reservation form.
 We cannot guarantee there will still be space when you are accepted, since participants accepted earlier may have already filled the space.
 If the space is already full, you can include the cost of a hotel in the travel reimbursement up to the relevant limit, see below.
 
-You will be able to check in and get your swag bag on friday, which includes a travel blanket. Please **bring a sleeping bag**.
+You will be able to check in and get your swag bag on Friday, which includes a travel blanket. Please **bring a sleeping bag**.
 We also have showers available to everyone, for which you need to bring toiletries.
 
 During the event, the sleeping area is available in the night between Saturday and Sunday on a first-come-first-served basis.
