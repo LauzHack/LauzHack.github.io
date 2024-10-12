@@ -1,0 +1,47 @@
+# Event details, in the separate and unlinked /details page.
+# Beware, YAML/Markdown syntax is a bit tricky:
+# - Use the weird |- syntax to allow answers to span lines.
+# - End lines with two spaces if you want to force a line break, otherwise the line break is ignored.
+
+- label: Rules
+  text: |-
+    LauzHack is a fun and safe event for everyone, per our [rules](https://lauzhack.com/pdf/rules.pdf). If you feel unsafe or witness anything you believe breaks the rules, please talk to an organizer.  
+    _Only LauzHack participants may come to the event. Your partner, family, or friends who are not participants cannot come with you._
+
+- label: Location
+  text: |-
+    LauzHack is held at the [BC building](https://plan.epfl.ch//?room==BC) at EPFL.  
+    The closest airport is Geneva, from which you can take a train to Lausanne or Renens, both of which can get you to EPFL via the metro line M1.  
+    Check out [the Swiss Federal Railways website](sbb.ch/en) for itineraries.
+    EPFL's [directions page](https://www.epfl.ch/campus/visitors/coming-to-epfl/) is also useful.
+
+- label: What to bring
+  text: |-
+    A valid ID, your laptop and charger (we have electrical adapters), toiletries (we have showers), and optionally a sleeping bag if you want to use the sleeping area.
+
+- label: Travel reimbursement
+  text: |-
+    For all details regarding travel reimbursement, please see [here](/policies#travel-reimbursement).
+
+- label: Check in
+  text: |-
+    8:00 to 9:30 on Saturday morning.
+    You'll then enjoy breakfast and meet other participants.  
+    Everyone should arrive before 9:30. If you are delayed, please come to the help desk when you arrive for a late check in, though you may miss the challenge presentations.
+
+- label: Schedule
+  text: |-
+    The event ends around 17:00 on Sunday, once the closing ceremony is over and winners have been chosen.  
+    For a detailed schedule, please see [here](/#schedule).
+
+- label: Wi-Fi
+  text: |-
+    Use the "eduroam" Wi-Fi, to which you can connect with university credentials.
+    If you do not have access to it, EPFL also has a free Wi-Fi network.
+
+- label: The event
+  text: |-
+    You will get 24 hours to build your hack, optionally inspired by our sponsors' challenges.
+    You can be in a team of up to 4, there will be a team-building opportunity before hacking.  
+    After hacking is over, there will be one global ranking from our jury, and one per sponsor challenge.  
+    We also have some fun workshops and games, with small prizes!

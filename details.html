@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<section class="tone-dark header">
+  <img class="sitelogo"
+       src="images/logo.svg"
+       alt="{{ site.data.info.name }}">
+  <p>{{ site.data.info.name }} Details</p>
+</section>
+
+<section class="tone-dark">
+  <div>
+    <p>
+      This page contains information for accepted participants. We're looking forward to seeing you!
+    </p>
+  </div>
+</section>
+
+<section>
+  <div>
+    {% for item in site.data.details %}
+      <h3>{{ item.label }}</h3>
+      {{ item.text | markdownify }}
+    {% endfor %}
+  </div>
+</section>

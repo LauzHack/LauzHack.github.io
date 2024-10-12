@@ -146,24 +146,27 @@ td {
 }
 
 
-/* Header */
+/* Special sections */
 .header {
   /* Fake a dark overlay with a gradient. Black is black... I want my sanity back... */
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/background.jpg') no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/background.jpg') no-repeat top center;
   background-size: cover;
-  min-height: 100vh;
   padding: 0;
 }
 
 .header p {
   font-size: calc(0.7em + 2vw);
-  margin: 5vh auto;
+  margin: 2vh auto 5vh auto;
   max-width: 80%;
 }
 
 .sitelogo {
   max-width: 90%;
-  margin: 10vh auto 0 auto;
+  margin: 5vh auto;
+}
+
+.fullscreen {
+  min-height: 100vh;
 }
 
 /* Action link, with trick to put a dark overlay */
