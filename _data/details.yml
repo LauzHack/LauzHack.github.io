@@ -27,7 +27,7 @@
   text: |-
     8:00 to 9:30 on Saturday morning.
     You'll then enjoy breakfast and meet other participants.  
-    Everyone should arrive before 9:30. If you are delayed, please come to the help desk when you arrive for a late check in, though you may miss the challenge presentations.
+    Everyone should arrive before 9:30. If you are delayed, please [email the organizers](mailto:lauzhack@epfl.ch) and come to the help desk when you arrive for a late check in.
 
 - label: Schedule
   text: |-
@@ -36,7 +36,7 @@
 
 - label: Wi-Fi
   text: |-
-    Use the "eduroam" Wi-Fi, to which you can connect with university credentials.
+    Use the "eduroam" Wi-Fi, to which you can connect with university credentials.  
     If you do not have access to it, EPFL also has a free Wi-Fi network.
 
 - label: The event
@@ -45,3 +45,11 @@
     You can be in a team of up to 4, there will be a team-building opportunity before hacking.  
     After hacking is over, there will be one global ranking from our jury, and one per sponsor challenge.  
     We also have some fun workshops and games, with small prizes!
+
+- label: Judging
+  text: |-
+    You will be judged based on (1) how innovative, original, and unexpected your project is;  
+    (2) how convincing your demo is, no slides allowed; and  
+    (3) how impressive your hack is in terms of "wow" factor and technology.  
+    _As per our rules, you are encouraged to use existing libraries and APIs, you may even use existing code you wrote,_  
+    _but you must clearly state which parts of your project are novel and which parts you reused._
