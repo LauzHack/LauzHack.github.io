@@ -3,6 +3,24 @@ title: Policies
 layout: textual
 ---
 
+# Acceptance
+
+Because the main LauzHack event typically receives far more applications than we have physical space to host, we cannot accept everyone.
+Our acceptance process is a random draw done in batches that balances EPFL and non-EPFL participation.
+Because the process is done in batches, the earlier you finish the application process, the more chances you have to be accepted.
+
+The process does not take into account your CV, so uploading it or not has no influence on your chances.
+Your personal details such as dietary restrictions also have no impact on the decision.
+
+If you apply as a group, we guarantee that if one member of the group is accepted, then all others are also accepted.
+You can form a team with whoever you want during the event, regardless of who you applied with.
+Accepted participants may not be replaced by someone else nor add someone to their group after acceptance.
+
+Application decisions are final.
+If you are rejected, the decision is about space constraints, not about you personally.
+Please do not contact us asking if you could participate anyway.
+
+
 # Friday-Saturday hosting
 
 We have a limited number of places in a sleeping area near the venue.

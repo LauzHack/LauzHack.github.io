@@ -7,57 +7,59 @@
 
 - q: Can I participate?
   a: |-
-        You must be **at least 18** and **a student**, apprentice or PhD student,
-        or have graduated in the past 24 months.  
-        You can participate in a team of up to **4 people**.
+    You must be **at least 18** and **a student**, apprentice or PhD student,
+    or have graduated in the past 24 months.  
+    You can participate in a team of up to **4 people**.
 
 - q: How much does it cost?
   a: |-
-        Thanks to our sponsors, **attendance is free** and we **partially reimburse travel** if you live outside Lausanne.  
-        Amounts and conditions [here](/policies#travel-reimbursement).
+    Thanks to our sponsors, **attendance is free** and we **partially reimburse travel** if you live outside Lausanne.  
+    Amounts and conditions [here](/policies#travel-reimbursement).
 
 - q: Where is it?
   a: |-
-        At EPFL in Lausanne, bordering Lake Geneva.  
-        Directions [here](https://www.epfl.ch/campus/visitors/coming-to-epfl/).
+    At EPFL in Lausanne, bordering Lake Geneva.  
+    Directions [here](https://www.epfl.ch/campus/visitors/coming-to-epfl/).
 
 - q: What should I bring?
   a: |-
-        A laptop and charger, toiletries, and **passport** or ID card.
-
-- q: Where will I sleep?
-  a: |-
-        We have limited space in a sleeping area as well as showers.  
-        Please bring a sleeping bag and toiletries.
+    A laptop and charger, toiletries, and **passport** or ID card.  
+    Optionally, a **sleeping bag** and toiletries to use our sleeping area and showers.
 
 - q: Is there a specific topic?
   a: |-
-        No, all ideas are welcome,
-        and you can choose to work on one or more of the challenges our sponsors will propose.
-        There are prizes for the best hacks overall and the best challenge entries.
+    No, all ideas are welcome,
+    and you can choose to work on one or more of the challenges our sponsors will propose.
+    There are prizes for the best hacks overall and the best challenge entries.
+
+- q: Will I be accepted?
+  a: |-
+    The earlier you apply, the more likely you will be accepted.
+    We get more applications than we have physical space to hold, so we cannot guarantee anything.
+    More details [here](/policies#acceptance).
 
 - q: I have to arrive on Friday...
   a: |-
-       We have limited sleeping space for that night, you will need to request it once accepted.  
-       Details [here](/policies#friday-saturday-hosting).
+    We have limited sleeping space for that night, you will need to request it once accepted.  
+    Details [here](/policies#friday-saturday-hosting).
 
 - q: I don't have a team...
   a: |-
-        You don't need one to apply! Part of the fun is meeting people.  
-        There will be time at the beginning to socialize and form teams.
+    You don't need one to apply! Part of the fun is meeting people.  
+    There will be time at the beginning to socialize and form teams.
 
 - q: I don't have much programming experience...
   a: |-
-        That's fine! Hackathons are about prototyping a cool idea by writing simple code,
-        gluing together existing libraries and APIs.
+    That's fine! Hackathons are about prototyping a cool idea by writing simple code,
+    gluing together existing libraries and APIs.
 
 - q: One of my friends can't make it...
   a: |-
-        You can recruit new teammates during the event.  
-        For fairness reasons, we cannot allow changes to groups once you submit the application form.
+    You can recruit new teammates during the event.  
+    For fairness reasons, we cannot allow changes to groups once you submit the application form.
 
 - id: ip
   q: What about intellectual property?
   a: |-
-        We do not claim any rights on your intellectual property.  
-        Everything you create, at LauzHack or not, belongs to you.
+    We do not claim any rights on your intellectual property.  
+    Everything you create, at LauzHack or not, belongs to you.
