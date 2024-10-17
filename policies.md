@@ -45,8 +45,11 @@ It is _not_ available on the night following the event. If you have no flight ho
 
 We reimburse the following upon presentation of receipts, at the end of the event, in cash:
 - For participants from the greater Lausanne area, nothing.
-- For particpants from Switzerland, up to CHF 75 of public transport costs per person.
-- For participants from the rest of the world, up to CHF 150 of transport costs per person including planes, trains, buses, and so on.
+- For particpants from Switzerland, up to CHF 75 of public transport costs per person, no planes nor cars.
+- For participants from the rest of the world, up to CHF 150 of transport costs per person including plane, train, bus, car, and so on.
+
+For car travel, rental, fuel, and parking are all covered up to the limit.
+In case of sharing, which we encourage, we will reimburse each person's fraction of the total expenses, so long as the entire group comes as a whole at reimbursement time.
 
 If you must stay at a hotel from Friday to Saturday, either because the free hosting above has run out or because you cannot arrive early enough,
 this counts as travel. Similarly, if you must stay at a hotel from Sunday to Monday, it also counts.
