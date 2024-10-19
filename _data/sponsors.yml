@@ -15,25 +15,32 @@ tiers:
   Gold:
     size: 32
     items:
-#      AWS: https://aws.amazon.com
+      BOBST: https://www.bobst.com/chen/
       Logitech: https://logitech.com/en-ch
       Loterie Romande: https://loro.ch
-#      Swissquote: https://swissquote.ch
-      BOBST: https://www.bobst.com/chen/
       Vitol: https://www.vitol.com/
-
+#      Swissquote: https://swissquote.ch
+#      AWS: https://aws.amazon.com
 
   Silver:
-    size: 24
+    size: 28
     items:
       AXA: https://axa.ch/en
-#      Open Systems: https://open.ch
       SBB: https://sbb.ch/en
 #      Swisscom: https://swisscom.ch
+#      Open Systems: https://open.ch
 
 #  Bronze:
-#    size: 15
+#    size: 22
 #    items:
+
+
+  Partner:
+    size: 24
+    items:
+      LlamaIndex: https://www.llamaindex.ai/
+
+
 
   EPFL:
     size: 28
