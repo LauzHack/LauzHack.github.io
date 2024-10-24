@@ -48,10 +48,10 @@ tiers:
       EPFL: https://epfl.ch/en
 #      S2S: https://s2s.vc
 
-#  Food and Drinks:
-#    size: 15
-#    items:
-#      Dieci: https://dieci.ch/en
-#      El Tony Mate: https://eltonymate.com/en
-#      La Semeuse: https://lasemeuse.ch
-#      Lindt: https://lindt.ch
+  Food and Drinks:
+    size: 15
+    items:
+      Dieci: https://dieci.ch/en
+      El Tony Mate: https://eltonymate.com/en
+      La Semeuse: https://lasemeuse.ch
+      Lindt: https://lindt.ch
