@@ -30,10 +30,10 @@ tiers:
 #      Swisscom: https://swisscom.ch
 #      Open Systems: https://open.ch
 
-#  Bronze:
-#    size: 22
-#    items:
-
+  Bronze:
+    size: 26
+    items:
+      JetBrains: https://www.jetbrains.com/
 
   Partner:
     size: 24
