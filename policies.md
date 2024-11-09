@@ -57,7 +57,7 @@ this counts as travel. Similarly, if you must stay at a hotel from Sunday to Mon
 Your receipts must show the travel date, origin and destination of trips when relevant, and the price paid.
 The receipt currency doesn't matter, we'll convert. It's OK if a single receipt has info for multiple participants.
 
-Starting on the day before the event, you'll be able to send your receipts to a designated committee member on Discord,
+On Friday and during the event, you'll be able to send your receipts to a designated committee member on Discord,
 to speed up the process. We strongly recommend you do this early, since the queue to do so in person on Sunday will likely be long.
 
 You do not need to let us know about the need for this reimbursement. It will not impact anyone's chances of being accepted to the event.
