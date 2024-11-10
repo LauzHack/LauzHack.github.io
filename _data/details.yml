@@ -3,11 +3,6 @@
 # - Use the weird |- syntax to allow answers to span lines.
 # - End lines with two spaces if you want to force a line break, otherwise the line break is ignored.
 
-- label: Rules
-  text: |-
-    LauzHack is a fun and safe event for everyone, per our [rules](https://lauzhack.com/pdf/rules.pdf). If you feel unsafe or witness anything you believe breaks the rules, please talk to an organizer.  
-    _Only LauzHack participants may come to the event. Your partner, family, or friends who are not participants cannot come with you._
-
 - label: Location
   text: |-
     LauzHack is held at the [BC building](https://plan.epfl.ch//?room==BC) at EPFL.  
@@ -15,9 +10,19 @@
     Check out [the Swiss Federal Railways website](sbb.ch/en) for itineraries.
     EPFL's [directions page](https://www.epfl.ch/campus/visitors/coming-to-epfl/) is also useful.
 
+- label: Exclusivity
+  text: |-
+    Only LauzHack attendees may come. Your partner, family, or friends who are not participants cannot come with you.  
+    Even EPFL students who are not attendees cannot use the parts of the building in use by LauzHack during the event.
+
 - label: What to bring
   text: |-
     A valid ID, your laptop and charger (we have electrical adapters), toiletries (we have showers), and optionally a sleeping bag if you want to use the sleeping area.
+
+- label: Sleeping
+  text: |-
+    You may sleep at any time you want, and if you live nearby you are welcome to go home on Saturday evening and come back on Sunday morning.  
+    We will shuttle groups of people to the sleeping area at regular intervals starting Saturday evening.
 
 - label: Travel reimbursement
   text: |-
@@ -32,6 +37,7 @@
 - label: Schedule
   text: |-
     The event ends around 17:00 on Sunday, once the closing ceremony is over and winners have been chosen.  
+    There is an apéro afterwards, but you can leave any time.  
     For a detailed schedule, please see [here](/#schedule).
 
 - label: Wi-Fi
