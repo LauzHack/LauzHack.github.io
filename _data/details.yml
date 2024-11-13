@@ -5,7 +5,7 @@
 
 - label: Location
   text: |-
-    LauzHack is held at the [BC building](https://plan.epfl.ch//?room==BC) at EPFL.  
+    LauzHack is held at the [BC building](https://maps.app.goo.gl/d79S2W6oHT2TUQ4N8) at EPFL.  
     The closest airport is Geneva, from which you can take a train to Lausanne or Renens, both of which can get you to EPFL via the metro line M1.  
     Check out [the Swiss Federal Railways website](sbb.ch/en) for itineraries.
     EPFL's [directions page](https://www.epfl.ch/campus/visitors/coming-to-epfl/) is also useful.
@@ -22,7 +22,8 @@
 - label: Sleeping
   text: |-
     You may sleep at any time you want, and if you live nearby you are welcome to go home on Saturday evening and come back on Sunday morning.  
-    We will shuttle groups of people to the sleeping area at regular intervals starting Saturday evening.
+    We will shuttle groups of people to the sleeping area at regular intervals starting Saturday evening.  
+    Everyone will receive a travel blanket as part of the welcome kit.
 
 - label: Travel reimbursement
   text: |-
@@ -52,10 +53,11 @@
     After hacking is over, there will be one global ranking from our jury, and one per sponsor challenge.  
     We also have some fun workshops and games, with small prizes!
 
-- label: Judging
+- label: Project evaluation
   text: |-
-    You will be judged based on (1) how innovative, original, and unexpected your project is;  
+    Prizes will be awarded in the global ranking based on (1) how innovative, original, and unexpected your project is;  
     (2) how convincing your demo is, no slides allowed; and  
     (3) how impressive your hack is in terms of "wow" factor and technology.  
+    There will also be prizes for sponsor challenges, according to each sponsor's criteria.  
     _As per our rules, you are encouraged to use existing libraries and APIs, you may even use existing code you wrote,_  
     _but you must clearly state which parts of your project are novel and which parts you reused._
