@@ -26,6 +26,7 @@ tiers:
     size: 28
     items:
       AXA: https://axa.ch/en
+      UBS: https://ubs.com
       SBB: https://sbb.ch/en
 #      Swisscom: https://swisscom.ch
 #      Open Systems: https://open.ch
