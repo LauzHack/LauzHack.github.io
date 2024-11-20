@@ -8,11 +8,13 @@ show_prospectus: true
 # See the ReadMe file for information about logos.
 tiers:
   Platinum:
+    color: rgba(164,164,164,0.18)
     size: 70 # huge because their logo is so horizontal
     items:
       Bristol Myers Squibb: https://bms.com
 
   Gold:
+    color: rgba(212,175,55,0.12)
     size: 32
     items:
       BOBST: https://www.bobst.com/chen/
@@ -20,18 +22,26 @@ tiers:
       Loterie Romande: https://loro.ch
       Vitol: https://www.vitol.com/
 #      Swissquote: https://swissquote.ch
-#      AWS: https://aws.amazon.com
+  
+  Official cloud provider:
+    size: 30
+    ocp: true
+    items:
+      AWS: https://aws.amazon.com
+
 
   Silver:
+    color: rgba(192,192,192,0.18)
     size: 28
     items:
       AXA: https://axa.ch/en
-      UBS: https://ubs.com
       SBB: https://sbb.ch/en
+      UBS: https://ubs.com
 #      Swisscom: https://swisscom.ch
 #      Open Systems: https://open.ch
 
   Bronze:
+    color: rgba(205,127,50,0.12)
     size: 26
     items:
       JetBrains: https://www.jetbrains.com/

@@ -69,12 +69,13 @@ p, h1, h2, h3 {
 }
 
 .item-sponsor {
+  padding: 2%;
   flex-grow: 1;
   padding: 1vh 0;
   display: table;
 }
 
-.item-sponsor > a {
+.item-sponsor > section#sponsors {
   display: table-cell;
   vertical-align: middle;
 }
