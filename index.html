@@ -134,6 +134,7 @@ layout: default
         {% assign flex_basis = 24 %}
       {% endif %}
       <div class="items-container" {% if tier[1].color %} style="background: {{ tier[1].color }}" {% endif %}>
+        {% if tier[1].show_title %}<section class="sponsortiertitle"><h3>{{ tier[0] }}</h3></section>{% endif %}
         {% for sponsor in tier[1].items %}
           {% comment %} Use SVG if available, PNG otherwise (and GIF if you must...) {% endcomment %}
           {% assign file_img = 'null' %}
@@ -149,7 +150,6 @@ layout: default
           {% endfor %}
           <div class="item-sponsor" style="flex-basis: {{ flex_basis }}%">
             <section id="sponsors">
-              {% if tier[1].ocp %}<h3 style="margin: 0">{{ tier[0] }}</h3>{% endif %}
               <a href="{{ sponsor[1] }}"
                 rel="noreferrer">
                 <img src="{{ file_img }}"

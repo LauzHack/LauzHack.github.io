@@ -41,6 +41,16 @@ section#workshops {
   padding-bottom: 0;
 }
 
+.sponsortiertitle {
+  margin: 0;
+  padding: 0;
+}
+
+.sponsortiertitle > h3 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
 h1 {
   font-size: 2.5em;
   margin-top: 1.5em;

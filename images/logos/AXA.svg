@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="2160"
+   width="1800"
    height="900"
    version="1.0"
    id="svg3"
@@ -9,7 +9,7 @@
   <defs
      id="defs3" />
   <g
-     transform="matrix(1.0206,0,0,1.0189,269.10778,376.79)"
+     transform="matrix(1.0206,0,0,1.0189,89.107785,376.78745)"
      id="g3">
     <path
        d="m 353.61,-369.81 v 883.33 h 881.83 v -883.33 z"
