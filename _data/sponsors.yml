@@ -25,13 +25,6 @@ tiers:
       Loterie Romande: https://loro.ch
       Vitol: https://www.vitol.com/
 #      Swissquote: https://swissquote.ch
-  
-  Official Cloud Provider:
-    show_title: true
-    size: 30
-    items:
-      AWS: https://aws.amazon.com
-
 
   Silver:
     show_title: true
@@ -50,6 +43,12 @@ tiers:
     size: 26
     items:
       JetBrains: https://www.jetbrains.com/
+
+  Official Cloud Tech Provider:
+    show_title: true
+    size: 30
+    items:
+      AWS: https://aws.amazon.com
 
   Partners:
     show_title: true
