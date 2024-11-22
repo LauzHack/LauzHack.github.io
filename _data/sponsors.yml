@@ -31,6 +31,7 @@ tiers:
     color: rgba(192,192,192,0.18)
     size: 28
     items:
+      AWS: https://aws.amazon.com
       AXA: https://axa.ch/en
       SBB: https://sbb.ch/en
       UBS: https://ubs.com
