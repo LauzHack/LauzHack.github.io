@@ -19,7 +19,12 @@
   text: |-
     A valid ID, your laptop and charger (we have electrical adapters), toiletries (we have showers), and optionally a sleeping bag if you want to use the sleeping area.
 
-- label: Sleeping
+- label: Friday-Saturday night
+  text: |-
+    Please see [our policy](/policies#friday-saturday-hosting).  
+    If you arrive on Friday, you can already check in and get your welcome kit that includes a travel blanket.
+
+- label: Saturday-Sunday night
   text: |-
     You may sleep at any time you want, and if you live nearby you are welcome to go home on Saturday evening and come back on Sunday morning.  
     We will shuttle groups of people to the sleeping area at regular intervals starting Saturday evening.  
@@ -27,7 +32,7 @@
 
 - label: Travel reimbursement
   text: |-
-    For all details regarding travel reimbursement, please see [here](/policies#travel-reimbursement).
+    Please see [our policy](/policies#travel-reimbursement).
 
 - label: Check in
   text: |-
@@ -39,6 +44,7 @@
   text: |-
     The event ends around 17:00 on Sunday, once the closing ceremony is over and winners have been chosen.  
     There is an apéro afterwards, but you can leave any time.  
+    The sleeping area is _not_ available for the Sunday-Monday night.  
     For a detailed schedule, please see [here](/#schedule).
 
 - label: Wi-Fi
