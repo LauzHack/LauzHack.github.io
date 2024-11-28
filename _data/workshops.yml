@@ -8,6 +8,11 @@ name: LauzHack Workshops
 
 # All past and future workshops
 items:
+  Cloud Computing Workshop:
+    description: |-
+      Master the essentials, from basic commands to training ML models on cloud servers. Get ready to elevate your skills for the big event! 🚀
+    material: https://github.com/LauzHack/cloud-computing-workshop
+      
   Introduction to Julia:
     description: |-
       Julia Lang is a high-level programming language well-suited for numerical analysis and computational sciences: fast, dynamic, and open source.
