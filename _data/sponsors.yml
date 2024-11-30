@@ -56,13 +56,13 @@ tiers:
     size: 24
     items:
       LlamaIndex: https://www.llamaindex.ai/
+      S2S: https://s2s.vc
 
   EPFL:
     show_title: false
     size: 28
     items:
       EPFL: https://epfl.ch/en
-#      S2S: https://s2s.vc
 
   Food and Drinks:
     show_title: true
