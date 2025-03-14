@@ -7,7 +7,7 @@ show_prospectus: true
 # To show the title of a tier set show_title to true
 # Each sponsor has a link to its website.
 # See the ReadMe file for information about logos.
-#tiers:
+tiers:
 #  Platinum:
 #    show_title: true
 #    color: rgba(164,164,164,0.18)
@@ -42,11 +42,11 @@ show_prospectus: true
 #    size: 24
 #    items:
 #
-#  EPFL:
-#    show_title: false
-#    size: 28
-#    items:
-#      EPFL: https://epfl.ch/en
+  EPFL:
+    show_title: false
+    size: 28
+    items:
+      EPFL: https://epfl.ch/en
 #
 #  Food and Drinks:
 #    show_title: true
