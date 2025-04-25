@@ -4,9 +4,13 @@
 # All of this is optional.
 group: the LauzHack Association
 
-# People organizing the event, and their websites.
+# People organizing the event, and their websites. Sorted alphabetically automatically by given.
 # See the ReadMe file for information on pictures.
 people:
+  - given: Mark
+    family: Tropin
+    link: https://linkedin.com/in/mark-tropin
+
   - given: Adrien
     family: Gunther
     link: https://www.linkedin.com/in/adrien-gunther-453565261/
