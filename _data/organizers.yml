@@ -7,14 +7,6 @@ group: the LauzHack Association
 # People organizing the event, and their websites. Sorted alphabetically automatically by given.
 # See the ReadMe file for information on pictures.
 people:
-  - given: Yelizaveta
-    family: Kulynych
-    link: https://www.linkedin.com/in/yelizaveta-kulynych
-
-  - given: Mark
-    family: Tropin
-    link: https://linkedin.com/in/mark-tropin
-
   - given: Adrien
     family: Gunther
     link: https://www.linkedin.com/in/adrien-gunther-453565261/
@@ -27,9 +19,9 @@ people:
     family: Hou
     link: https://linkedin.com/in/mingchi-hou-771594177
 
-  - given: Amir
-    family: Ammar
-    link: https://linkedin.com/in/amir-ammar-9583a226b
+#  - given: Amir
+#    family: Ammar
+#    link: https://linkedin.com/in/amir-ammar-9583a226b
 
   - given: Antoine
     family: Reynaud
@@ -51,9 +43,9 @@ people:
     family: Bilotto
     link: https://linkedin.com/in/jacopo-bilotto-4331491b4
 
-  - given: Kopiga
-    family: Rasiah
-    link: https://linkedin.com/in/kopiga-rasiah-47a42b170
+#  - given: Kopiga
+#    family: Rasiah
+#    link: https://linkedin.com/in/kopiga-rasiah-47a42b170
 
   - given: Luca
     family: Fusar Bassini
@@ -71,13 +63,17 @@ people:
     family: Künzle
     link: https://linkedin.com/in/nathalie-k%C3%BCnzle-2797b8286
 
+  - given: Mark
+    family: Tropin
+    link: https://linkedin.com/in/mark-tropin
+
   - given: Pınar
     family: Oray
     link: https://www.linkedin.com/in/p%C4%B1nar-oray-780286237/
 
-  - given: Qinyue
-    family: Zheng
-    link: https://linkedin.com/in/qinyue-zheng-526b391a4
+#  - given: Qinyue
+#    family: Zheng
+#    link: https://linkedin.com/in/qinyue-zheng-526b391a4
 
   - given: Seyed Parsa
     family: Neshaei
@@ -91,14 +87,18 @@ people:
     family: Pirelli
     link: https://solalpirelli.github.io
 
-  - given: Tatiana
-    family: Porté
-    link: https://linkedin.com/in/tatiana-porte
+#  - given: Tatiana
+#    family: Porté
+#    link: https://linkedin.com/in/tatiana-porte
 
-  - given: Vinitra
-    family: Swamy
-    link: https://vinitra.github.io
+#  - given: Vinitra
+#    family: Swamy
+#    link: https://vinitra.github.io
 
-  - given: Yassine
-    family: Kouch
-    link: https://linkedin.com/in/yassine-kouch-08b186195
+#  - given: Yassine
+#    family: Kouch
+#    link: https://linkedin.com/in/yassine-kouch-08b186195
+
+  - given: Yelizaveta
+    family: Kulynych
+    link: https://www.linkedin.com/in/yelizaveta-kulynych

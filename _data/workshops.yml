@@ -12,17 +12,17 @@ items:
     description: |-
       Master the essentials, from basic commands to training ML models on cloud servers. Get ready to elevate your skills for the big event! 🚀
     material: https://github.com/LauzHack/cloud-computing-workshop
-      
+
   Create Your Own Intelligent Voice Assistant:
     description: |-
       Learn about different possible tasks in deep learning for audio, approaches for creation of core parts of the voice assistant (KWS, ASR, TTS) and use GPT and these models and combine them into working intelligent voice assistant.
     material: https://www.youtube.com/watch?v=rK4I-F8Y6pw
-      
+
   Introduction to Julia:
     description: |-
       Julia Lang is a high-level programming language well-suited for numerical analysis and computational sciences: fast, dynamic, and open source.
     material: https://github.com/LauzHack/julia
-      
+
   Open-Source in Industry, 5G and Software Radio Networks:
     description: |-
       Brendan McAuliffe from [Software Radio Systems](https://srs.io/) presented [srsRAN](https://www.srslte.com/), an open-source project for 5G Radio Access Networks, and  his experience developing open source software.
