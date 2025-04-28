@@ -7,6 +7,10 @@ group: the LauzHack Association
 # People organizing the event, and their websites. Sorted alphabetically automatically by given.
 # See the ReadMe file for information on pictures.
 people:
+  - given: Yelizaveta
+    family: Kulynych
+    link: https://www.linkedin.com/in/yelizaveta-kulynych
+
   - given: Mark
     family: Tropin
     link: https://linkedin.com/in/mark-tropin
