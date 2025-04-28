@@ -45,8 +45,8 @@ It is _not_ available on the night following the event. If you have no flight ho
 
 We reimburse the following upon presentation of receipts, at the end of the event, in cash:
 - For participants from the greater Lausanne area, nothing.
-- For particpants from Switzerland, up to CHF 75 of public transport costs per person, no planes nor cars.
-- For participants from the rest of the world, up to CHF 150 of transport costs per person including plane, train, bus, car, and so on.
+- For participants from Switzerland, up to **TBA** of public transport costs per person, no planes nor cars.
+- For participants from the rest of the world, up to **TBA** of transport costs per person including plane, train, bus, car, and so on.
 
 For car travel, rental, fuel, and parking are all covered up to the limit.
 In case of sharing, which we encourage, we will reimburse each person's fraction of the total expenses, so long as the entire group comes as a whole at reimbursement time.
