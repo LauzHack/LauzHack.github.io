@@ -43,29 +43,33 @@ It is _not_ available on the night following the event. If you have no flight ho
 
 # Travel reimbursement
 
-We reimburse the following upon presentation of receipts, at the end of the event, in cash:
-- For participants from the greater Lausanne area, nothing.
-- For participants from Switzerland, up to **TBA** of public transport costs per person, no planes nor cars.
-- For participants from the rest of the world, up to **TBA** of transport costs per person including plane, train, bus, car, and so on.
+We reimburse the following upon presentation of receipts, at the end of the event, in CHF cash:
 
-For car travel, rental, fuel, and parking are all covered up to the limit.
-In case of sharing, which we encourage, we will reimburse each person's fraction of the total expenses, so long as the entire group comes as a whole at reimbursement time.
+* Per participant from the greater Lausanne area, nothing.
+* Per participant from Switzerland, up to **TBA** of public transport costs, no planes nor cars.
+* Per participant from the rest of the world, up to **TBA** of travel costs including plane, car, train, bus, hotel/AirBnB.
 
-If you must stay at a hotel from Friday to Saturday, either because the free hosting above has run out or because you cannot arrive early enough,
-this counts as travel. Similarly, if you must stay at a hotel from Sunday to Monday, it also counts.
+Important:
 
-Your receipts must show the travel date, origin and destination of trips when relevant, and the price paid.
-The receipt currency doesn't matter, we'll convert. It's OK if a single receipt has info for multiple participants.
+* **No need to let us know about the need for this reimbursement**, it applies to everyone and does not impact acceptance to the event.
+* Only accepted participants can be reimbursed, do not make travel expenses before you receive an acceptance confirmation.
+* **You must stay for the entire event and demo your hack to be reimbursed**, including attending the closing ceremony.
+* If you live away from your university, such as for an internship, provide some basic proof such as the badge of the company you’re interning in.
+* You must upload your receipts before the Sunday of the event, the system to do so will be open before the event starts.
 
-On Friday and during the event, you'll be able to send your receipts to a designated committee member on Discord,
-to speed up the process. We strongly recommend you do this early, since the queue to do so in person on Sunday will likely be long.
+Details:
 
-You do not need to let us know about the need for this reimbursement. It will not impact anyone's chances of being accepted to the event.
+* Public transport trips not yet bought at reimbursement time, such as a train trip back, are reimbursed given the receipt for the one-way trip at the same cost.
+* Car rental, fuel, and parking all count.
+* Hotel stays from Friday to Saturday, either because the free hosting above has run out or because you cannot arrive early enough, count.
+* Hotel stays from Sunday to Monday also count.
+* Food and travel-adjacent purchases such as sleeping bags or mobile data do **NOT** count.
 
-If you are currently living in a different place than your university, such as for an internship,
-please provide some basic proof that this is the case, such as a badge of a company you're interning in.
+About receipts:
 
-We do not reimburse food nor travel-related purchases such as sleeping bags or mobile data.
+* Receipts must show the price paid, date, origin, and destination when relevant.
+* Receipt currency doesn’t matter, we’ll use the conversion rate on the day of the reimbursement.
+* Multiple participants can be on the same receipt, such as a shared car or hotel, we will split **equally** between them.
 
-We only reimburse costs for accepted participants,
-please do not make any travel expenses before you receive an acceptance confirmation.
+Please understand that these policies exist to provide fairness for participants and workload management for the organizers, who are volunteers.
+We will not make exceptions such as not-yet-bought asymmetric train trips, unequal sharing of receipts, late reimbursements, or bank transfers.
