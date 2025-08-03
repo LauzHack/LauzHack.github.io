@@ -7,10 +7,9 @@ layout: textual
 
 Because the main LauzHack event typically receives far more applications than we have physical space to host, we cannot accept everyone.
 Our acceptance process is a random draw done in batches that balances EPFL and non-EPFL participation.
-Because the process is done in batches, the earlier you finish the application process, the more chances you have to be accepted.
 
-The process does not take into account your CV, so uploading it or not has no influence on your chances.
-Your personal details such as dietary restrictions also have no impact on the decision.
+The earlier you finish the application process, the more chances you have to be accepted.
+Acceptance decisions do not take into account your CV nor personal details such as dietary restrictions.
 
 If you apply as a group, we guarantee that if one member of the group is accepted, then all others are also accepted.
 You can form a team with whoever you want during the event, regardless of who you applied with.
@@ -46,8 +45,9 @@ It is _not_ available on the night following the event. If you have no flight ho
 We reimburse the following upon presentation of receipts, at the end of the event, in CHF cash:
 
 * Per participant from the greater Lausanne area, nothing.
-* Per participant from Switzerland, up to **TBA** of public transport costs, no planes nor cars.
-* Per participant from the rest of the world, up to **TBA** of travel costs including plane, car, train, bus, hotel/AirBnB.
+* Per participant from Switzerland, up to **75 CHF** of public transport costs, no planes nor cars.
+* Per participant from Germany, Austria, Italy, France, Spain, Portugal, the UK, and Benelux, up to **150 CHF** of travel costs including plane, car, train, bus, hotel/AirBnB.
+* Per participant from the rest of the world, up to **200 CHF** of travel costs including plane, car, train, bus, hotel/AirBnB.
 
 Important:
 
