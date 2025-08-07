@@ -1,2 +1,9 @@
 *DS_Store
 _site/
+Gemfile
+default.nix
+.bundle/
+Gemfile.lock
+default.nix
+gemset.nix
+vendor/

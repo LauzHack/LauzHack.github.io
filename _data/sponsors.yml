@@ -47,8 +47,9 @@ tiers:
     size: 28
     items:
       EPFL: https://epfl.ch/en
-#
-#  Food and Drinks:
-#    show_title: true
-#    size: 20
-#    items:
+
+  Food and Drinks:
+    show_title: true
+    size: 20
+    items:
+        Fizzy: https://www.fizzy.ch
