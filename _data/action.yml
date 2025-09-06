@@ -3,3 +3,7 @@
 
 text: Applications will open very soon...
 link:
+
+# If the website is given a `utm_source` or `referrer` URL parameter,
+# and this is enabled, the link will be given a `referrer=...` parameter forwarding the original one
+forward_referrer: true

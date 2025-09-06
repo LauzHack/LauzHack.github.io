@@ -9,9 +9,22 @@ layout: default
   {% if site.data.action.text %}
     <p>
       {% if site.data.action.link %}
-        <a class="tone-dark link-action"
+        <a id="action-link"
+           class="tone-dark link-action"
            href="{{ site.data.action.link }}"
            rel="noreferrer">{{ site.data.action.text | markdownify | remove: '<p>' | remove: '</p>' }}</a>
+        {% if site.data.action.forward_referrer %}
+        <script>
+          let params = new URLSearchParams(document.location.search);
+          let referrer = params.get("utm_source") ?? params.get("referrer");
+          if (referrer) {
+              let link = document.getElementById("action-link");
+              var linkUrl = new URL(link.href);
+              linkUrl.searchParams.append("referrer", referrer);
+              link.href = linkUrl.toString();
+          }
+        </script>
+        {% endif %}
       {% else %}
         {{ site.data.action.text | markdownify }}
       {% endif %}
