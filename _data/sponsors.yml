@@ -14,11 +14,12 @@ tiers:
 #    size: 70 # huge because their logo is so horizontal
 #    items:
 #
-#  Gold:
-#    show_title: true
-#    color: rgba(212,175,55,0.12)
-#    size: 32
-#    items:
+  Gold:
+    show_title: true
+    color: rgba(212,175,55,0.12)
+    size: 32
+    items:
+      Logitech: https://logitech.com/en-ch
 #
 #  Silver:
 #    show_title: true
@@ -37,13 +38,8 @@ tiers:
 #    size: 30
 #    items:
 #
-#  Partners:
-#    show_title: true
-#    size: 24
-#    items:
-#
-  EPFL:
-    show_title: false
+  Partners:
+    show_title: true
     size: 28
     items:
       EPFL: https://epfl.ch/en
