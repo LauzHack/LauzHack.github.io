@@ -1,8 +1,8 @@
 # Call to action, optional.
 # If the link is set, the call will appear as a button.
 
-text: Applications will open very soon...
-link:
+text: Apply now!
+link: https://lauzhack.azurewebsites.net
 
 # If the website is given a `utm_source` or `referrer` URL parameter,
 # and this is enabled, the link will be given a `referrer=...` parameter forwarding the original one
