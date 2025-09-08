@@ -20,12 +20,13 @@ tiers:
     size: 32
     items:
       Logitech: https://logitech.com/en-ch
-#
-#  Silver:
-#    show_title: true
-#    color: rgba(192,192,192,0.18)
-#    size: 28
-#    items:
+
+  Silver:
+    show_title: true
+    color: rgba(192,192,192,0.18)
+    size: 28
+    items:
+      SBB: https://sbb.ch/en
 #
 #  Bronze:
 #    show_title: true
