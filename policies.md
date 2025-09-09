@@ -27,6 +27,8 @@ _Due to campus renovations, the space we usually offer as a sleeping area is not
 
 # Travel reimbursement
 
+**This policy applies to our main event, not to mini-hackathons such as Swiss AI weeks**
+
 We reimburse the following upon presentation of receipts, at the end of the event, in CHF cash:
 
 * Per participant from the greater Lausanne area, nothing.
