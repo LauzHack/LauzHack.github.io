@@ -20,13 +20,16 @@ tiers:
     size: 32
     items:
       Logitech: https://logitech.com/en-ch
+      Loterie Romande: https://loro.ch
 
   Silver:
     show_title: true
     color: rgba(192,192,192,0.18)
     size: 28
     items:
+      AXA: https://axa.ch/en
       SBB: https://sbb.ch/en
+      Legal Design and Code Lab: https://wp.unil.ch/legaldesignandcodelab/
 #
 #  Bronze:
 #    show_title: true
@@ -41,6 +44,11 @@ tiers:
 #
   Partners:
     show_title: true
+    size: 24
+    items:
+
+  EPFL:
+    show_title: false
     size: 28
     items:
       EPFL: https://epfl.ch/en
