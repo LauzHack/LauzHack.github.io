@@ -20,9 +20,20 @@ If you are rejected, the decision is about space constraints, not about you pers
 Please do not contact us asking if you could participate anyway.
 
 
-# Friday-Saturday hosting
+# Sleeping and Accommodation
 
-_Due to campus renovations, the space we usually offer as a sleeping area is not available. We are looking into alternatives and will let you know as soon as we can. Apologies for the inconvenience._
+You are welcome to sleep during the event, including going home to sleep if you live nearby.
+Depending on where you come from, you may need accommodation before or after the event.
+You can include the cost of hostels/hotels/AirBnB in the travel reimbursement up to the relevant limit, as described in the travel reimbursement section below.
+
+- Before the event for the Friday-Saturday night, either use the accommodation managed by us described below, or find your own accommodation
+- During the event for the Saturday-Sunday night, we will have hostel spots available for free on a first-come-first-served basis
+- After the event for the Sunday-Monday night, if you have no travel options once the closing ceremony is over, please find your own accommodation
+
+For Friday-Saturday, we have a limited number of places in a hostel near the venue, available if you arrive before 23:00 at EPFL on Friday, which means landing before 21:00 at Geneva Airport.
+It counts for CHF 50 from your travel reimbursement budget.
+After acceptance, you will receive a link to the reservation form.
+We cannot guarantee there will still be space when you are accepted, since participants accepted earlier may have already filled the space.
 
 
 # Travel reimbursement

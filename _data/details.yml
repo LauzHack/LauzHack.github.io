@@ -21,8 +21,7 @@
 
 - label: Friday-Saturday night
   text: |-
-    Please see [our policy](/policies#friday-saturday-hosting).  
-    If you arrive on Friday, you can already check in and get your welcome kit that includes a travel blanket.
+    Please see [our policy](/policies#sleeping-and-accommodation).  
 
 - label: Saturday-Sunday night
   text: |-
@@ -54,16 +53,22 @@
 
 - label: The event
   text: |-
-    You will get 24 hours to build your hack, optionally inspired by our sponsors' challenges.
+    You will get 24 hours to build your hack, optionally inspired by our sponsors' challenges.  
     You can be in a team of up to 4, there will be a team-building opportunity before hacking.  
     After hacking is over, there will be one global ranking from our jury, and one per sponsor challenge.  
     We also have some fun workshops and games, with small prizes!
 
 - label: Project evaluation
   text: |-
-    Prizes will be awarded in the global ranking based on (1) how innovative, original, and unexpected your project is;  
-    (2) how convincing your demo is, no slides allowed; and  
-    (3) how impressive your hack is in terms of "wow" factor and technology.  
-    There will also be prizes for sponsor challenges, according to each sponsor's criteria.  
-    _As per our rules, you are encouraged to use existing libraries and APIs, you may even use existing code you wrote,_  
-    _but you must clearly state which parts of your project are novel and which parts you reused._
+    You will demo in 3 minutes to our jury for the global ranking, with 1 minute of Q&A.  
+    You will also demo to sponsors whose challenge you are working on, if any.
+
+    Prizes for the global ranking are awarded based on  
+    (1) how innovative, original and unexpected your project is;  
+    (2) how convincing, smooth, and easy to follow your demo is; and  
+    (3) how much of a difference your project can make in the world.  
+    Prizes for sponsor challenges are awarded according to each sponsor’s criteria.
+
+    Slides are not allowed, though you can prepare images and videos as backup if your demo doesn’t work as expected.
+
+    _You are encouraged to use existing libraries and APIs, you may use existing code you wrote, but you must clearly state what you created during the event and what you reused._
