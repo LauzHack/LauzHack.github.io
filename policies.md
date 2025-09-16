@@ -53,6 +53,7 @@ Important:
 * Only accepted participants can be reimbursed, do not make travel expenses before you receive an acceptance confirmation.
 * **You must stay for the entire event and demo your hack to be reimbursed**, including attending the closing ceremony.
 * If you live away from your university, such as for an internship, provide some basic proof such as the badge of the company you’re interning in.
+* If you travel from and to different places with different reimbursement limits, the lower limit applies
 * You must upload your receipts before the Sunday of the event, the system to do so will be open before the event starts.
 
 Details:
