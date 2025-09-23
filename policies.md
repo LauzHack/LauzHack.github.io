@@ -58,7 +58,7 @@ Important:
 
 Details:
 
-* Public transport trips not yet bought at reimbursement time, such as a train trip back, are reimbursed given the receipt for the one-way trip at the same cost.
+* Return trips not yet bought at reimbursement time, such as a train trip back, are reimbursed given the receipt for the one-way trip at the same cost.
 * Car rental, fuel, and parking all count.
 * Hotel stays from Friday to Saturday, either because the free hosting above has run out or because you cannot arrive early enough, count.
 * Hotel stays from Sunday to Monday also count.
@@ -71,4 +71,4 @@ About receipts:
 * Multiple participants can be on the same receipt, such as a shared car or hotel, we will split **equally** between them.
 
 Please understand that these policies exist to provide fairness for participants and workload management for the organizers, who are volunteers.
-We will not make exceptions such as not-yet-bought asymmetric train trips, unequal sharing of receipts, late reimbursements, or bank transfers.
+We will not make exceptions such as not-yet-bought asymmetric return trips, unequal sharing of receipts, late reimbursements, or bank transfers.
