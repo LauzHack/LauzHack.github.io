@@ -8,12 +8,13 @@ show_prospectus: true
 # Each sponsor has a link to its website.
 # See the ReadMe file for information about logos.
 tiers:
-#  Platinum:
-#    show_title: true
-#    color: rgba(164,164,164,0.18)
-#    size: 70 # huge because their logo is so horizontal
-#    items:
-#
+  Platinum:
+    show_title: true
+    color: rgba(164,164,164,0.18)
+    size: 70 # huge because their logo is so horizontal
+    items:
+      Huawei: https://www.huawei.com/ch-en/
+
   Gold:
     show_title: true
     color: rgba(212,175,55,0.12)
@@ -58,4 +59,6 @@ tiers:
     size: 20
     items:
         Fizzy: https://www.fizzy.ch
+        La Semeuse: https://www.lasemeuse.ch/
+        Lindt: https://www.lindt.ch/
         PEAQ Hydration: https://peaqhydration.com/
