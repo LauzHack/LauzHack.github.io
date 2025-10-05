@@ -52,12 +52,13 @@ Important:
 * **No need to let us know about the need for this reimbursement**, it applies to everyone and does not impact acceptance to the event.
 * Only accepted participants can be reimbursed, do not make travel expenses before you receive an acceptance confirmation.
 * **You must stay for the entire event and demo your hack to be reimbursed**, including attending the closing ceremony.
-* If you live away from your university, such as for an internship, provide some basic proof such as the badge of the company you’re interning in.
+* If you live away from your university, such as for an internship, provide some basic proof such as the badge of the company you're interning in.
 * If you travel from and to different places with different reimbursement limits, the lower limit applies
 * You must upload your receipts before the Sunday of the event, the system to do so will be open before the event starts.
 
 Details:
 
+* Travel can be a few days before and after the event, so long as it is roughly the same price as if you had arrived right before and left right after the event.
 * Return trips not yet bought at reimbursement time, such as a train trip back, are reimbursed given the receipt for the one-way trip at the same cost.
 * Car rental, fuel, and parking all count.
 * Hotel stays from Friday to Saturday, either because the free hosting above has run out or because you cannot arrive early enough, count.
@@ -67,7 +68,7 @@ Details:
 About receipts:
 
 * Receipts must show the price paid, date, origin, and destination when relevant.
-* Receipt currency doesn’t matter, we’ll use the conversion rate on the day of the reimbursement.
+* Receipt currency doesn't matter, we'll use the conversion rate on the day of the reimbursement.
 * Multiple participants can be on the same receipt, such as a shared car or hotel, we will split **equally** between them.
 
 Please understand that these policies exist to provide fairness for participants and workload management for the organizers, who are volunteers.
