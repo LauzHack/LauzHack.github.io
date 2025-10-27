@@ -47,6 +47,7 @@ tiers:
     show_title: true
     size: 24
     items:
+      together.ai: https://www.together.ai/
 
   EPFL:
     show_title: false
