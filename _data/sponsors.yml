@@ -29,8 +29,9 @@ tiers:
     size: 28
     items:
       AXA: https://axa.ch/en
-      SBB: https://sbb.ch/en
       Legal Design and Code Lab: https://wp.unil.ch/legaldesignandcodelab/
+      Oracle: https://www.oracle.com/
+      SBB: https://sbb.ch/en
 #
 #  Bronze:
 #    show_title: true
