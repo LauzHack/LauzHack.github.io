@@ -29,9 +29,11 @@ tiers:
     size: 28
     items:
       AXA: https://axa.ch/en
+      JetBrains: https://www.jetbrains.com/
       Legal Design and Code Lab: https://wp.unil.ch/legaldesignandcodelab/
       Oracle: https://www.oracle.com/
       SBB: https://sbb.ch/en
+      UBS: https://www.ubs.com/ch/en.html
 #
 #  Bronze:
 #    show_title: true
@@ -64,3 +66,4 @@ tiers:
         La Semeuse: https://www.lasemeuse.ch/
         Lindt: https://www.lindt.ch/
         PEAQ Hydration: https://peaqhydration.com/
+        Red Bull: https://www.redbull.com

@@ -9,7 +9,7 @@ group: the LauzHack Association
 people:
   - given: Adrien
     family: Gunther
-    link: https://www.linkedin.com/in/adrien-gunther-453565261/
+    link: https://linkedin.com/in/adrien-gunther-453565261/
 
   - given: Alessandro
     family: Amodio
@@ -23,6 +23,10 @@ people:
 #    family: Ammar
 #    link: https://linkedin.com/in/amir-ammar-9583a226b
 
+  - given: Anna
+    family: Lavrenko
+    link: https://linkedin.com/in/anna-lavrenko-8b21b21a2
+
   - given: Antoine
     family: Reynaud
     link: https://people.epfl.ch/antoine.reynaud
@@ -33,7 +37,7 @@ people:
 
   - given: Florian
     family: Depraz
-    link: https://www.linkedin.com/in/floriandepraz/
+    link: https://linkedin.com/in/floriandepraz/
 
   - given: Güneş
     family: Özgün
@@ -69,7 +73,7 @@ people:
 
   - given: Pınar
     family: Oray
-    link: https://www.linkedin.com/in/p%C4%B1nar-oray-780286237/
+    link: https://linkedin.com/in/p%C4%B1nar-oray-780286237/
 
 #  - given: Qinyue
 #    family: Zheng
@@ -109,4 +113,4 @@ people:
 
   - given: Yelizaveta
     family: Kulynych
-    link: https://www.linkedin.com/in/yelizaveta-kulynych
+    link: https://linkedin.com/in/yelizaveta-kulynych
