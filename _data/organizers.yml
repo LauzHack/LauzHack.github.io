@@ -31,6 +31,10 @@ people:
     family: Reynaud
     link: https://people.epfl.ch/antoine.reynaud
 
+  - given: Deniz
+    family: Hönigs
+    link: https://dens.dev/
+
   - given: Eric
     family: Bezzam
     link: https://linkedin.com/in/eric-bezzam-37ab2274
@@ -59,6 +63,10 @@ people:
     family: Eremina
     link: https://linkedin.com/in/mariia-eremina
 
+  - given: Mark
+    family: Tropin
+    link: https://linkedin.com/in/mark-tropin
+
   - given: Natalia
     family: Nessler
     link: https://linkedin.com/in/natalia-nessler-730933149
@@ -67,9 +75,9 @@ people:
     family: Künzle
     link: https://linkedin.com/in/nathalie-k%C3%BCnzle-2797b8286
 
-  - given: Mark
-    family: Tropin
-    link: https://linkedin.com/in/mark-tropin
+  - given: Ömer Kağan
+    family: Yanık
+    link: https://omerkaganyanik.com
 
   - given: Pınar
     family: Oray
@@ -89,7 +97,11 @@ people:
 
   - given: Solal
     family: Pirelli
-    link: https://solalpirelli.github.io
+    link: https://solalpirelli.github.
+
+  - given: Thibaud
+    family: Babin
+    link: https://people.epfl.ch/thibaud.babin
 
   - given: Stefan
     family: Peters
@@ -98,10 +110,6 @@ people:
 #  - given: Tatiana
 #    family: Porté
 #    link: https://linkedin.com/in/tatiana-porte
-
-  - given: Thibaud
-    family: Babin
-    link: https://people.epfl.ch/thibaud.babin
 
 #  - given: Vinitra
 #    family: Swamy
