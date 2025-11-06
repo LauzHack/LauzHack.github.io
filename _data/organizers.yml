@@ -43,10 +43,6 @@ people:
 #    family: Depraz
 #    link: https://linkedin.com/in/floriandepraz/
 
-#  - given: Güneş
-#    family: Özgün
-#    link: https://gozgun.github.io
-
   - given: Jacopo
     family: Bilotto
     link: https://linkedin.com/in/jacopo-bilotto-4331491b4
@@ -75,10 +71,6 @@ people:
     family: Oray
     link: https://linkedin.com/in/p%C4%B1nar-oray-780286237/
 
-#  - given: Qinyue
-#    family: Zheng
-#    link: https://linkedin.com/in/qinyue-zheng-526b391a4
-
   - given: Seyed Parsa
     family: Neshaei
     link: https://spneshaei.com
@@ -102,10 +94,6 @@ people:
 #  - given: Tatiana
 #    family: Porté
 #    link: https://linkedin.com/in/tatiana-porte
-
-#  - given: Vinitra
-#    family: Swamy
-#    link: https://vinitra.github.io
 
 #  - given: Yassine
 #    family: Kouch
