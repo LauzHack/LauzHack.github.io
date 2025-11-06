@@ -39,33 +39,25 @@ people:
     family: Bezzam
     link: https://linkedin.com/in/eric-bezzam-37ab2274
 
-  - given: Florian
-    family: Depraz
-    link: https://linkedin.com/in/floriandepraz/
+#  - given: Florian
+#    family: Depraz
+#    link: https://linkedin.com/in/floriandepraz/
 
-  - given: Güneş
-    family: Özgün
-    link: https://gozgun.github.io
+#  - given: Güneş
+#    family: Özgün
+#    link: https://gozgun.github.io
 
   - given: Jacopo
     family: Bilotto
     link: https://linkedin.com/in/jacopo-bilotto-4331491b4
 
-#  - given: Kopiga
-#    family: Rasiah
-#    link: https://linkedin.com/in/kopiga-rasiah-47a42b170
-
-  - given: Luca
-    family: Fusar Bassini
-    link: https://lucafusarbassini.com
+#  - given: Luca
+#    family: Fusar Bassini
+#    link: https://lucafusarbassini.com
 
   - given: Mariia
     family: Eremina
     link: https://linkedin.com/in/mariia-eremina
-
-  - given: Mark
-    family: Tropin
-    link: https://linkedin.com/in/mark-tropin
 
   - given: Natalia
     family: Nessler
