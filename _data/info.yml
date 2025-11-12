@@ -1,6 +1,10 @@
 # Event name
 name: LauzHack 2025
 
+# !!!
+# The `/sos` redirect link must be modified directly in the `sos.md` file at the root of the repository 
+# !!!
+
 # Event date and location
 date_and_location: |
   November 22-23 at EPFL
