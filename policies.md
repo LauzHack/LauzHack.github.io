@@ -38,7 +38,7 @@ We cannot guarantee there will still be space when you are accepted, since parti
 
 # Travel reimbursement
 
-**This policy applies to our main event, not to mini-hackathons such as Swiss AI weeks**
+**This policy applies to our main event, not to mini-hackathons such as Swiss AI weeks**.
 
 We reimburse the following upon presentation of receipts, at the end of the event, in CHF cash:
 
