@@ -63,6 +63,7 @@ Details:
 * Car rental, fuel, and parking all count.
 * Hotel stays from Friday to Saturday, either because the free hosting above has run out or because you cannot arrive early enough, count.
 * Hotel stays from Sunday to Monday also count.
+* Visa fees and similar, if necessary, count.
 * Food and travel-adjacent purchases such as sleeping bags or mobile data do **NOT** count.
 
 About receipts:
