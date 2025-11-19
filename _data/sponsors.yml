@@ -51,18 +51,13 @@ tiers:
     size: 24
     items:
       together.ai: https://www.together.ai/
+      Hugging Face: https://huggingface.co
 
   EPFL:
     show_title: false
     size: 28
     items:
       EPFL: https://epfl.ch/en
-
-  Hugging Face:
-    show_title: true
-    size: 24
-    items:
-      Hugging Face: https://huggingface.co
 
   Food and Drinks:
     show_title: true
