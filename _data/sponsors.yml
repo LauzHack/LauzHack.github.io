@@ -34,18 +34,18 @@ tiers:
       Oracle: https://www.oracle.com/
       SBB: https://sbb.ch/en
       UBS: https://www.ubs.com/ch/en.html
-#
-#  Bronze:
-#    show_title: true
-#    color: rgba(205,127,50,0.12)
-#    size: 26
-#    items:
-#
-#  Official Cloud Tech Provider:
-#    show_title: true
-#    size: 30
-#    items:
-#
+  #
+  #  Bronze:
+  #    show_title: true
+  #    color: rgba(205,127,50,0.12)
+  #    size: 26
+  #    items:
+  #
+  #  Official Cloud Tech Provider:
+  #    show_title: true
+  #    size: 30
+  #    items:
+  #
   Partners:
     show_title: true
     size: 24
@@ -58,12 +58,19 @@ tiers:
     items:
       EPFL: https://epfl.ch/en
 
+  Hugging Face:
+    show_title: true
+    size: 24
+    items:
+      Hugging Face: https://huggingface.co
+
   Food and Drinks:
     show_title: true
     size: 20
     items:
-        Fizzy: https://www.fizzy.ch
-        La Semeuse: https://www.lasemeuse.ch/
-        Lindt: https://www.lindt.ch/
-        PEAQ Hydration: https://peaqhydration.com/
-        Red Bull: https://www.redbull.com
+      Fizzy: https://www.fizzy.ch
+      La Semeuse: https://www.lasemeuse.ch/
+      Lindt: https://www.lindt.ch/
+      PEAQ Hydration: https://peaqhydration.com/
+      Red Bull: https://www.redbull.com
+
