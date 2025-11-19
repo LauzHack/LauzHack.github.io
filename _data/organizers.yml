@@ -19,9 +19,9 @@ people:
     family: Hou
     link: https://linkedin.com/in/mingchi-hou-771594177
 
-#  - given: Amir
-#    family: Ammar
-#    link: https://linkedin.com/in/amir-ammar-9583a226b
+  - given: Amir
+    family: Ammar
+    link: https://linkedin.com/in/amir-ammar-9583a226b
 
   - given: Anna
     family: Lavrenko
@@ -39,17 +39,17 @@ people:
     family: Bezzam
     link: https://linkedin.com/in/eric-bezzam-37ab2274
 
-#  - given: Florian
-#    family: Depraz
-#    link: https://linkedin.com/in/floriandepraz/
+  #  - given: Florian
+  #    family: Depraz
+  #    link: https://linkedin.com/in/floriandepraz/
 
   - given: Jacopo
     family: Bilotto
     link: https://linkedin.com/in/jacopo-bilotto-4331491b4
 
-#  - given: Luca
-#    family: Fusar Bassini
-#    link: https://lucafusarbassini.com
+  #  - given: Luca
+  #    family: Fusar Bassini
+  #    link: https://lucafusarbassini.com
 
   - given: Mariia
     family: Eremina
@@ -91,13 +91,17 @@ people:
     family: Peters
     link: https://stefanpeterstm.github.io/StefanPetersTM/
 
-#  - given: Tatiana
-#    family: Porté
-#    link: https://linkedin.com/in/tatiana-porte
+  - given: Timaël
+    family: Andrié
+    link: https://google.com
 
-#  - given: Yassine
-#    family: Kouch
-#    link: https://linkedin.com/in/yassine-kouch-08b186195
+  #  - given: Tatiana
+  #    family: Porté
+  #    link: https://linkedin.com/in/tatiana-porte
+
+  - given: Yassine
+    family: Kouch
+    link: https://linkedin.com/in/yassine-kouch-08b186195
 
   - given: Yelizaveta
     family: Kulynych
