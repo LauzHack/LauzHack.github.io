@@ -18,14 +18,6 @@ layout: compress
   <meta prefix="og: http://ogp.me/ns#" property="og:url" content="{{ site.url }}{{ page.url }}">
   <meta prefix="og: http://ogp.me/ns#" name="description" property="og:description" content="{{ site.data.info.description_short }}">
 
-  {% if site.data.info.twitter %}
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@{{ site.data.info.twitter }}">
-    <meta name="twitter:title" content="{{ title }}">
-    <meta name="twitter:image" content="{{ site.url }}/images/preview.png">
-    <meta name="twitter:description" content="{{ site.data.info.description_short }}">
-  {% endif %}
-
   <title>{{ title }}</title>
 
   <link rel="stylesheet" href="/style.css">
