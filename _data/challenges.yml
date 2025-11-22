@@ -1,18 +1,55 @@
 - name: Huawei Challenge 1
-  text: Use GenAI models and building blocks to create tools and/or apps.
+  text: |-
+    Very open challenge in which participants can demonstrate the use of GenAI building blocks to build useful tools and showcase the usefulness and novelty. This part is about how to use GenAI.
+
 - name: Huawei Challenge 2
-  text: Experiment with speeding up SOTA model (e.g. DeepSeek) interference with limited resources.
+  text: |-
+    Speedup AI inference model: Somewhat open challenge related to speedup the inference time of SOTA model (e.g., DeepSeek).
+    You can use any technique (as long as it doesn’t require re-training) but here are hints: 1) dropping transformer blocks or parallelizing them, 2) dropping KV values, and 3) sparse-attention mechanisms instead of using full attention.
+
 - name: Logitech
-  text: Create solution as a plug-in for Logitech G Hub or Logi Options
+  text: |-
+    This year, we will invite hackers to create plug-ins for Options and Logitech G Hub marketplaces, leveraging our new SDKs and hardware. 
+    This is the opportunity to solve real life user needs by creating seamless experiences around their existing apps, or create new experiences by bridging Logitech HW with other connected appliances. 
+
 - name: AXA
-  text: Best use of Visual Language Models
+  text: |-
+    Best hack using VLMs - visual or multimodal models are quite mature now, both in API and local versions. How does this change our life? What innovative use cases can you conceive with this powerful technology ? It could be Computer Use agents (make a travel booking agent, food order agent, etc), it could be 1-click species identification to track ecosystems, it could be fashion advisor, it could be in-depth area monitoring with aerial imagery. In this area, we're particularly interested in hacks that are multi-image , so try to search a collection of images, or to analyze it, or to summarize it.
+
 - name: JetBrains
-  text: Make an app, e.g., JetBrains plugin, that helps developers, ideally using AI
+  text: |-
+    Help the Developer! Make an app, e.g., JetBrains plugin, that helps developers, ideally using AI.
+    For instance, refactoring suggestions, boilerplate creator... anything that makes the dev experience more comfortable.
+
 - name: Legal Design & Code Lab
-  text: Leverage LLMs with data from OpenJustice to enhance how legal and compliance knowledge is consumed.
+  text: |-
+    We invite lawyers and engineers to collaboratively develop specialized AI systems using OpenJustice—an open-source platform that integrates legal and compliance knowledge into language models. In interdisciplinary teams of 4, participants will explore innovative solutions to enhance access to justice and streamline legal processes. Ideally the groups are composed of 1-2 individuals with a background in law, and 2-3 individuals with a background in computer science. 
+    The overarching goal is twofold: (1) lawyers will research and develop dialog flows to tackle a chosen legal issue, and (2) computer scientists/engineers will have access to OpenJustice’s code base to customize the OpenJustice platform to add additional functionalities and support those dialog flows. 
+    Teams are still free to use other open-source tools to build their product, however we strongly encourage participants to focus on the OpenJustice platform and developers can support the teams during the whole weekend.
+    OpenJustice is a natural language platform for embedding legal knowledge and reasoning into LLMs. Note that OpenJustice operates like perplexity. Builders can use various language models (GPT, Claude or any others available on Github). Also, there will be a series of RAG already built into OpenJustice. Participants - both lawyers and engineers - can use it to build advanced legal AI applications by:  
+    Lawyers: Designing domain-focused dialogue flows (DF) to encode legal reasoning into LLMs  
+    Engineers: Enhancing the creator interface by adding functionalities and improving DF interactions with language models
+
+
 - name: Oracle
-  text: Develop an AI agent that follows the Open Agent Specification
+  text: |-
+    Develop an AI agent that follows the Open Agent Specification.
+    Design and implement intelligent agents leveraging the Open Agent Specification. By focusing on flexibility and integration, the challenge encourages participants to demonstrate the power of agent-based architectures in diverse application domains. Suggested use cases include:
+    Demonstrating a Deep Research RAG agent that synthesizes insights from internal or external knowledge bases for example applied to scientific literature reviews and summarization of state of the art
+    Demonstrating a Code Review agent capable of analyzing complex codebases, providing suggestions through integrations with tools like GitHub merge requests, GitHub actions, or learning and improving from historical feedback
+    Demonstrating a Web Operator agent that can autonomously navigate websites, automating information extraction or multi-step actions such as finding the best deals online or coordinating reservations.
+
 - name: SBB
-  text: Engineer a solution to have, to create, to verify and to store anonymous public transport digital tickets keeping it secure, safe and resistant to misuse.
+  text: |-
+    Ticket machines with cash payment are not likely to be found in the future.
+    Design a ticket that is (a) copy-safe (usable only by 1 person at a time), (2) anonymous (optional: personalized), (c) can be checked multiple times (not invalid after 1 check), (d) easy access (just like a ticket machine), and (e) print@home.
+    Make public transport available to everyone. The entry barrier should be low, it should be usable for non-nerds.
+    Engineer a solution to have, to create, to verify and to store anonymous public transport digital tickets keeping it secure, safe and resistant to misuse.
+
 - name: UBS
-  text: Develop an AI agent that can summarise customer behaviour and query data using natural language prompts.
+  text: |-
+    Our challenge is about building an agent to assist in analyzing structured data, with at least one of these 2 capabilities (ideally both):
+    A narration agent capable of summarizing the client's Know Your Customer (KYC) and transactional behavior. This agent will help users get a comprehensive overview of the client's activities and patterns in a concise and meaningful manner.
+    An interactive chatbot that users can interact with to query the data. This chatbot will allow users to ask questions about the client's transactional behavior, seek specific insights, and get detailed responses to their queries.
+
+
