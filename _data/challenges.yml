@@ -1,3 +1,18 @@
-- name: TBA
-  text: |-
-    TBA
+- name: Huawei Challenge 1
+  text: Use GenAI models and building blocks to create tools and/or apps.
+- name: Huawei Challenge 2
+  text: Experiment with speeding up SOTA model (e.g. DeepSeek) interference with limited resources.
+- name: Logitech
+  text: Create solution as a plug-in for Logitech G Hub or Logi Options
+- name: AXA
+  text: Best use of Visual Language Models
+- name: JetBrains
+  text: Make an app, e.g., JetBrains plugin, that helps developers, ideally using AI
+- name: Legal Design & Code Lab
+  text: Leverage LLMs with data from OpenJustice to enhance how legal and compliance knowledge is consumed.
+- name: Oracle
+  text: Develop an AI agent that follows the Open Agent Specification
+- name: SBB
+  text: Engineer a solution to have, to create, to verify and to store anonymous public transport digital tickets keeping it secure, safe and resistant to misuse.
+- name: UBS
+  text: Develop an AI agent that can summarise customer behaviour and query data using natural language prompts.
