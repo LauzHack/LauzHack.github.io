@@ -35,21 +35,13 @@ people:
     family: Hönigs
     link: https://dens.dev/
 
-  - given: Eric
-    family: Bezzam
-    link: https://linkedin.com/in/eric-bezzam-37ab2274
-
-  #  - given: Florian
-  #    family: Depraz
-  #    link: https://linkedin.com/in/floriandepraz/
+  # - given: Eric
+  #   family: Bezzam
+  #   link: https://linkedin.com/in/eric-bezzam-37ab2274
 
   - given: Jacopo
     family: Bilotto
     link: https://linkedin.com/in/jacopo-bilotto-4331491b4
-
-  #  - given: Luca
-  #    family: Fusar Bassini
-  #    link: https://lucafusarbassini.com
 
   - given: Mariia
     family: Eremina
@@ -59,9 +51,9 @@ people:
     family: Nessler
     link: https://linkedin.com/in/natalia-nessler-730933149
 
-  - given: Nathalie
-    family: Künzle
-    link: https://linkedin.com/in/nathalie-k%C3%BCnzle-2797b8286
+  # - given: Nathalie
+  #   family: Künzle
+  #   link: https://linkedin.com/in/nathalie-k%C3%BCnzle-2797b8286
 
   - given: Ömer Kağan
     family: Yanık
@@ -94,10 +86,6 @@ people:
   - given: Timaël
     family: Andrié
     link: https://google.com
-
-  #  - given: Tatiana
-  #    family: Porté
-  #    link: https://linkedin.com/in/tatiana-porte
 
   - given: Yassine
     family: Kouch
