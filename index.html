@@ -16,7 +16,7 @@ layout: default
         {% if site.data.action.forward_referrer %}
         <script>
           let params = new URLSearchParams(document.location.search);
-          let referrer = params.get("utm_source") ?? params.get("referrer");
+          let referrer = params.get("utm_source");
           if (referrer) {
               let link = document.getElementById("action-link");
               var linkUrl = new URL(link.href);
