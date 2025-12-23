@@ -8,32 +8,32 @@ show_prospectus: true
 # Each sponsor has a link to its website.
 # See the ReadMe file for information about logos.
 tiers:
-  Platinum:
-    show_title: true
-    color: rgba(164,164,164,0.18)
-    size: 70 # huge because their logo is so horizontal
-    items:
-      Huawei: https://www.huawei.com/ch-en/
+#  Platinum:
+#    show_title: true
+#    color: rgba(164,164,164,0.18)
+#    size: 70 # huge because their logo is so horizontal
+#    items:
+#      Huawei: https://www.huawei.com/ch-en/
 
-  Gold:
-    show_title: true
-    color: rgba(212,175,55,0.12)
-    size: 32
-    items:
-      Logitech: https://logitech.com/en-ch
-      Loterie Romande: https://loro.ch
+#  Gold:
+#    show_title: true
+#    color: rgba(212,175,55,0.12)
+#    size: 32
+#    items:
+#      Logitech: https://logitech.com/en-ch
+#      Loterie Romande: https://loro.ch
 
-  Silver:
-    show_title: true
-    color: rgba(192,192,192,0.18)
-    size: 28
-    items:
-      AXA: https://axa.ch/en
-      JetBrains: https://www.jetbrains.com/
-      Legal Design and Code Lab: https://wp.unil.ch/legaldesignandcodelab/
-      Oracle: https://www.oracle.com/
-      SBB: https://sbb.ch/en
-      UBS: https://www.ubs.com/ch/en.html
+#  Silver:
+#    show_title: true
+#    color: rgba(192,192,192,0.18)
+#    size: 28
+#    items:
+#      AXA: https://axa.ch/en
+#      JetBrains: https://www.jetbrains.com/
+#      Legal Design and Code Lab: https://wp.unil.ch/legaldesignandcodelab/
+#      Oracle: https://www.oracle.com/
+#      SBB: https://sbb.ch/en
+#      UBS: https://www.ubs.com/ch/en.html
   #
   #  Bronze:
   #    show_title: true
@@ -46,12 +46,12 @@ tiers:
   #    size: 30
   #    items:
   #
-  Partners:
-    show_title: true
-    size: 24
-    items:
-      together.ai: https://www.together.ai/
-      Hugging Face: https://huggingface.co
+#  Partners:
+#    show_title: true
+#    size: 24
+#    items:
+#      together.ai: https://www.together.ai/
+#      Hugging Face: https://huggingface.co
 
   EPFL:
     show_title: false
@@ -59,13 +59,13 @@ tiers:
     items:
       EPFL: https://epfl.ch/en
 
-  Food and Drinks:
-    show_title: true
-    size: 20
-    items:
-      Fizzy: https://www.fizzy.ch
-      La Semeuse: https://www.lasemeuse.ch/
-      Lindt: https://www.lindt.ch/
-      PEAQ Hydration: https://peaqhydration.com/
-      Red Bull: https://www.redbull.com
+#  Food and Drinks:
+#    show_title: true
+#    size: 20
+#    items:
+#      Fizzy: https://www.fizzy.ch
+#      La Semeuse: https://www.lasemeuse.ch/
+#      Lindt: https://www.lindt.ch/
+#      PEAQ Hydration: https://peaqhydration.com/
+#      Red Bull: https://www.redbull.com
 

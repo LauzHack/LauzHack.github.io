@@ -1,5 +1,5 @@
 # Event name
-name: LauzHack 2025
+name: LauzHack 2026
 
 # !!!
 # The `/sos` redirect link must be modified directly in the `sos.md` file at the root of the repository
@@ -7,7 +7,7 @@ name: LauzHack 2025
 
 # Event date and location
 date_and_location: |
-  November 22-23 at EPFL
+  Date TBA at EPFL
 
 # Event description; short is for e.g. Facebook shared links, long appears on the home page.
 description_short: Student-run hackathon at EPFL, Switzerland
@@ -54,3 +54,4 @@ past_editions:
   2022: https://2022.lauzhack.com
   2023: https://2023.lauzhack.com
   2024: https://2024.lauzhack.com
+  2025: https://2025.lauzhack.com
