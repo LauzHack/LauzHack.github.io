@@ -2,7 +2,7 @@
 name: LauzHack 2026
 
 # !!!
-# The `/sos` redirect link must be modified directly in the `sos.md` file at the root of the repository
+# The `/sos` and `/join` redirect links must be modified directly in the corresponding `.md` file at the root of the repository
 # !!!
 
 # Event date and location
