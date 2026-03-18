@@ -27,9 +27,9 @@ people:
     family: Lavrenko
     link: https://linkedin.com/in/anna-lavrenko-8b21b21a2
 
-  - given: Antoine
-    family: Reynaud
-    link: https://people.epfl.ch/antoine.reynaud
+  # - given: Antoine
+  #   family: Reynaud
+  #   link: https://people.epfl.ch/antoine.reynaud
 
   - given: Deniz
     family: Hönigs
@@ -73,7 +73,7 @@ people:
 
   - given: Solal
     family: Pirelli
-    link: https://solalpirelli.github.
+    link: https://solalpirelli.github.io
 
   - given: Thibaud
     family: Babin
@@ -94,3 +94,7 @@ people:
   - given: Yelizaveta
     family: Kulynych
     link: https://linkedin.com/in/yelizaveta-kulynych
+
+  - given: Maksim
+    family: Vasilev
+    link: https://www.linkedin.com/in/maksim-vasilev-4124361b8/
