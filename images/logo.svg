@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    version="1.1"
-   width="4.7733302in"
-   height="0.72666615in"
-   viewBox="0 0 1432 217.99975"
+   width="1432"
+   height="218"
+   viewBox="0 0 1432 218"
    id="svg1"
    sodipodi:docname="logo.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -24,7 +24,7 @@
        x="0"
        y="0"
        width="1432"
-       height="217.99976"
+       height="218"
        id="page2"
        margin="0"
        bleed="0" />
@@ -34,7 +34,7 @@
   <image
      id="raster0"
      x="0"
-     y="-0.00012593571"
+     y="-6.080968e-13"
      width="1432"
      height="218"
      opacity="1"
