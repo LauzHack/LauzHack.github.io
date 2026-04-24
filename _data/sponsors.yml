@@ -59,12 +59,13 @@ tiers:
     items:
       EPFL: https://epfl.ch/en
 
-#  Food and Drinks:
-#    show_title: true
-#    size: 20
-#    items:
+  Food and Drinks:
+    show_title: true
+    size: 20
+    items:
+      La Semeuse: https://www.lasemeuse.ch/
+      Fizzy: https://www.fizzy.ch
 #      Fizzy: https://www.fizzy.ch
-#      La Semeuse: https://www.lasemeuse.ch/
 #      Lindt: https://www.lindt.ch/
 #      PEAQ Hydration: https://peaqhydration.com/
 #      Red Bull: https://www.redbull.com
