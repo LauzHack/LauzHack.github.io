@@ -1,0 +1,17 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.data.info.name }}</title>
+  <link rel="canonical" href="{{ site.data.info.socials[page.service] }}">
+  <meta http-equiv="refresh" content="0; url={{ site.data.info.socials[page.service] }}">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <p>Redirecting to <a href="{{ site.data.info.socials[page.service] }}">{{ page.service }}</a>...</p>
+</body>
+</html>
