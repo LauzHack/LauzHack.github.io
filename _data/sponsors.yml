@@ -64,6 +64,7 @@ tiers:
     size: 24
     items:
       SwissDevJobs: https://swissdevjobs.ch/startup-jobs
+      START Hack: https://starthack.eu/
 
   Food and Drinks:
     show_title: true
