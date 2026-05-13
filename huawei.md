@@ -126,13 +126,24 @@ TBD
 
 ## 11. Acknowledgements
 
-A BIG thanks to our sponsors and partners for making this possible 🙏
+<style>
+  .ack { display: flex; flex-wrap: wrap; justify-content: center; align-items: stretch; gap: 2em; margin: 2em 0; }
+  .ack-item { flex: 1 1 12em; text-align: center; padding: 1.5em; background: rgba(0,0,0,0.03); border-radius: 4px; }
+  .ack-item img { height: 5em; max-width: 100%; object-fit: contain; display: block; margin: 0 auto 0.8em auto; }
+  .ack-item .label { display: block; font-size: 0.85em; opacity: 0.7; }
+</style>
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 2em; margin: 2em 0;">
-  <a href="https://www.huawei.com" rel="noreferrer">
-    <img src="/images/logos/Huawei.png" alt="Huawei" style="height: 6em; max-width: 12em; object-fit: contain;">
-  </a>
-  <a href="https://ai.epfl.ch/" rel="noreferrer">
-    <img src="/images/logos/EPFL AI Center.svg" alt="EPFL AI Center" style="height: 6em; max-width: 12em; object-fit: contain;">
-  </a>
+<div class="ack">
+  <div class="ack-item">
+    <a href="https://www.huawei.com" rel="noreferrer">
+      <img src="/images/logos/Huawei.png" alt="Huawei">
+    </a>
+    <span class="label">Sponsor</span>
+  </div>
+  <div class="ack-item">
+    <a href="https://ai.epfl.ch/" rel="noreferrer">
+      <img src="/images/logos/EPFL AI Center.svg" alt="EPFL AI Center">
+    </a>
+    <span class="label">Partner</span>
+  </div>
 </div>
