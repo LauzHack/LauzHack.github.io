@@ -35,10 +35,6 @@ layout: textual
 
 # Mixture of Experts Competition
 
-<div class="intro">
-  <h2>Come join us for a fun and innovative Mixture of Experts Competition! Let's do awesome things together 🎉</h2>
-</div>
-
 ## 1. General Information
 
 <div class="info-grid">
@@ -88,8 +84,6 @@ TBD
   </div>
 </section>
 
-😋 We will provide dinner on Friday and (breakfast, lunch) on Saturday.
-
 ## 5. Team formation
 
 Up to 4 members per team. You will be able to declare your teams at any point during the event, at [this link](https://app.lauzhack.com) (use the link you got by email to log in).
@@ -104,7 +98,7 @@ In order to be considered for a prize, **all projects should demo/present on Sat
 
 ### Travel Reimbursement
 
-Students coming from ETH Zurich will be eligible for up to CHF 60 in travel reimbursement costs. Submitting expenses will happen directly through the [web app of the event](https://app.lauzhack.com).
+Students coming from ETH Zurich will be eligible for up to CHF 60 in travel reimbursement costs. Submitting expenses will happen directly through the [web app of the event](https://app.lauzhack.com). The reimbursement will happen on site, by cash, towards the end of the event.
 
 ### Accommodation
 
