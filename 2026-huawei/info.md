@@ -1,5 +1,5 @@
 ---
-title: MoE Competition
+title: MoE Competition - Info
 layout: textual
 ---
 
@@ -33,13 +33,13 @@ layout: textual
   }
 </style>
 
-# Mixture of Experts Competition
+# Mixture of Experts Competition - Info
 
-<div style="text-align: center; margin: 1em 0 1em 0;">
-  <a href="https://app.lauzhack.com" rel="noreferrer"
-    style="display: inline-block; padding: 0.6em 2.5em; font-size: 1.8em;
-    background: {{ site.data.info.color }}; color: #fff;
-    text-decoration: none; border-radius: 4px;">
+<div style="text-align: center; margin: 1em 0 2em 0;">
+  <a href="/2026-huawei/apply" rel="noreferrer"
+     style="display: inline-block; padding: 0.6em 2.5em; font-size: 1.8em;
+            background: {{ site.data.info.color }}; color: #fff;
+            text-decoration: none; border-radius: 4px;">
     APPLY NOW
   </a>
 </div>
@@ -150,3 +150,5 @@ TBD
     <span class="label">Partner</span>
   </div>
 </div>
+
+<p style="text-align: center; margin-top: 2em;"><a href="/2026-huawei">&larr; Back to Huawei MoE Competition</a></p>
