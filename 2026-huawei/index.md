@@ -4,88 +4,68 @@ layout: textual
 ---
 
 <style>
-  .hero {
-    background: {{ site.data.info.color }};
-    color: #fff;
-    padding: 3em 1.5em;
-    border-radius: 4px;
-    margin: 1em 0 2em 0;
-    text-align: center;
-  }
-  .hero h1 { margin: 0 0 0.3em 0; font-size: 2em; color: #fff; }
-  .hero p { font-size: 1.1em; margin: 0.5em 0; }
-  .hero .subtitle { opacity: 0.85; font-size: 0.95em; }
-  .hero-logo { height: 4em; margin-bottom: 1em; }
-  .cta-row {
+  body { padding-bottom: 0.5em !important; }
+  .page-wrap {
+    min-height: calc(100vh - 1.5em);
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 1.5em;
-    margin: 2em 0;
-    flex-wrap: wrap;
+    max-width: 32em;
+    margin: 0 auto;
   }
+  .hero { text-align: center; }
+  .hero-logo { height: 4.5em; }
+  .hero h1 { margin: 0.3em 0; font-size: 3em; }
+  .hero .subtitle { opacity: 0.7; font-size: 1.2em; }
+  .cta-row { display: flex; gap: 1em; flex-wrap: wrap; justify-content: center; }
   .cta {
     display: inline-block;
-    padding: 0.5em 1.8em;
+    padding: 0.7em 2.2em;
     font-size: 1.4em;
-    background: {{ site.data.info.color }};
+    background: #d42b2e;
     color: #fff;
     text-decoration: none;
     border-radius: 4px;
   }
   .cta-outline {
     background: transparent;
-    border: 2px solid {{ site.data.info.color }};
-    color: {{ site.data.info.color }};
+    border: 2px solid #d42b2e;
+    color: #d42b2e;
   }
-  .cta:hover { opacity: 0.9; }
-  .section-highlight {
-    text-align: center;
-    padding: 2em 0;
-  }
-  .prize-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5em;
-    margin: 1.5em 0;
-    justify-content: center;
-  }
+  .section-highlight { text-align: center; }
+  .section-highlight h2 { margin: 0 0 0.3em 0; font-size: 1.8em; }
+  .section-highlight p { font-size: 1.1em; }
   .prize-card {
-    flex: 1 1 14em;
-    background: rgba(0,0,0,0.03);
-    padding: 1.5em 1.2em;
-    border-radius: 4px;
     text-align: center;
+    background: #d42b2e;
+    color: #fff;
+    padding: 1em 2em;
+    border-radius: 4px;
+    font-size: 1.3em;
   }
-  .prize-card .emoji { font-size: 2em; display: block; margin-bottom: 0.3em; }
-  .prize-card strong { display: block; font-size: 1.1em; margin-bottom: 0.3em; }
 </style>
 
-<div class="hero">
-  <img class="hero-logo" src="/images/logos/Huawei.png" alt="Huawei">
-  <h1>Huawei MoE Competition</h1>
-  <p class="subtitle">May 29 &ndash; 30, 2026 &middot; EPFL AI Center</p>
-</div>
-
-<div class="cta-row">
-  <a href="/2026-huawei/apply" class="cta">APPLY NOW</a>
-  <a href="/2026-huawei/info" class="cta cta-outline">Learn More</a>
-</div>
-
-<div class="section-highlight">
-  <h2>The Challenge</h2>
-  <p>
-    Can you place experts across a fixed GPU memory budget to minimize execution time?
-    You'll get real-world traces, a software simulator, and full freedom to design a placement algorithm
-    that pushes MoE performance to its limits.
-  </p>
-</div>
-
-<div class="prize-grid">
-  <div class="prize-card">
-    CHF 3000 worth of prizes
+<div class="page-wrap">
+  <div class="hero">
+    <img class="hero-logo" src="/images/logos/Huawei.png" alt="Huawei">
+    <h1>Huawei MoE Competition</h1>
+    <p class="subtitle">May 29 &ndash; 30, 2026 &middot; EPFL AI Center</p>
   </div>
-</div>
 
-<div style="text-align: center; margin: 2em 0;">
-  <p><a href="/2026-huawei/info">Full event details &rarr;</a></p>
+  <div class="cta-row">
+    <a href="/2026-huawei/apply" class="cta">APPLY NOW</a>
+    <a href="/2026-huawei/info" class="cta cta-outline">Learn More</a>
+  </div>
+
+  <div class="section-highlight">
+    <h2>The Challenge</h2>
+    <p>Design the best expert placement algorithm for MoE models under a fixed GPU memory budget using real-world traces.</p>
+    <p>You will have access to a software simulator with full freedom to push MoE performance to its limits.</p>
+  </div>
+
+  <div class="prize-card">
+    <strong>CHF 3000</strong> worth of prizes
+  </div>
 </div>
