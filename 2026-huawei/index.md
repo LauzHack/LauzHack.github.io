@@ -50,7 +50,7 @@ layout: textual
 
 <div class="page-wrap">
   <div class="hero">
-    <a href="https://huawei.com" target="_blank"><img class="hero-logo" src="/images/logos/Huawei.png" alt="Huawei"></a>
+    <a href="https://huawei.com" target="_blank" rel="noopener noreferrer"><img class="hero-logo" src="/images/logos/Huawei.png" alt="Huawei"></a>
     <h1>Huawei MoE Competition</h1>
     <p class="subtitle">May 29 &ndash; 30, 2026</p>
   </div>
