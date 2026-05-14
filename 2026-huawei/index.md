@@ -16,9 +16,9 @@ layout: textual
     margin: 0 auto;
   }
   .hero { text-align: center; }
-  .hero-logo { height: 4.5em; }
-  .hero h1 { margin: 0.3em 0; font-size: 3em; }
-  .hero .subtitle { opacity: 0.7; font-size: 1.2em; }
+  .hero-logo { height: 10em; }
+  .hero h1 { margin: 0.3em 0 0 0; font-size: 2.5em; }
+  .hero .subtitle { margin: 0.2em 0 0 0; opacity: 0.6; font-size: 1.1em; }
   .cta-row { display: flex; gap: 1em; flex-wrap: wrap; justify-content: center; }
   .cta {
     display: inline-block;
@@ -34,6 +34,7 @@ layout: textual
     border: 2px solid #d42b2e;
     color: #d42b2e;
   }
+  .cta:hover { opacity: 0.9; }
   .section-highlight { text-align: center; }
   .section-highlight h2 { margin: 0 0 0.3em 0; font-size: 1.8em; }
   .section-highlight p { font-size: 1.1em; }
@@ -49,9 +50,9 @@ layout: textual
 
 <div class="page-wrap">
   <div class="hero">
-    <img class="hero-logo" src="/images/logos/Huawei.png" alt="Huawei">
+    <a href="https://huawei.com" target="_blank"><img class="hero-logo" src="/images/logos/Huawei.png" alt="Huawei"></a>
     <h1>Huawei MoE Competition</h1>
-    <p class="subtitle">May 29 &ndash; 30, 2026 &middot; EPFL AI Center</p>
+    <p class="subtitle">May 29 &ndash; 30, 2026</p>
   </div>
 
   <div class="cta-row">
@@ -61,7 +62,7 @@ layout: textual
 
   <div class="section-highlight">
     <h2>The Challenge</h2>
-    <p>Design the best expert placement algorithm for MoE models under a fixed GPU memory budget using real-world traces.</p>
+    <p>Design the best expert placement algorithm for Mixture of Experts models under a fixed GPU memory budget using real-world traces.</p>
     <p>You will have access to a software simulator with full freedom to push MoE performance to its limits.</p>
   </div>
 
