@@ -109,10 +109,6 @@ In order to be considered for a prize, **all projects should demo/present on Sat
 
 Students coming from ETH Zurich will be eligible for up to CHF 60 in travel reimbursement costs. Submitting expenses will happen directly through the [web app of the event](https://app.lauzhack.com). The reimbursement will happen on site, by cash, towards the end of the event.
 
-### Accommodation
-
-A room will be provided on site for sleeping. We encourage you to bring a sleeping bag and a small mat or pillow.
-
 ## 8. Communication (Discord)
 
 Real-time information about the event, food service details, and questions related to the challenges will be posted in the event's discord server. Please use the link sent to you by mail to join the server.
