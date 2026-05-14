@@ -35,6 +35,15 @@ layout: textual
 
 # Mixture of Experts Competition
 
+<div style="text-align: center; margin: 1em 0 1em 0;">
+  <a href="https://app.lauzhack.com" rel="noreferrer"
+    style="display: inline-block; padding: 0.6em 2.5em; font-size: 1.8em;
+    background: {{ site.data.info.color }}; color: #fff;
+    text-decoration: none; border-radius: 4px;">
+    APPLY NOW
+  </a>
+</div>
+
 ## 1. General Information
 
 <div class="info-grid">
