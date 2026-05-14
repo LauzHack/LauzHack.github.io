@@ -40,8 +40,8 @@ layout: textual
 <div class="info-grid">
   <div class="info-card">
     <strong>Date &amp; Time</strong>
-    <strong>Date:</strong> Friday, May 29 to Saturday, May 30<br>
-    <strong>Time:</strong> 6:00 PM (May 29) to 6:00 PM (May 30)
+    Friday, May 29 to Saturday, May 30<br>
+    6:00 PM (May 29) to 6:00 PM (May 30)
   </div>
   <div class="info-card">
     <strong>Location</strong>
