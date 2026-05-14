@@ -56,7 +56,7 @@ layout: textual
   </div>
 
   <div class="cta-row">
-    <a href="/2026-huawei/apply" class="cta">APPLY NOW</a>
+    <a href="https://app.lauzhack.com" class="cta">APPLY NOW</a>
     <a href="/2026-huawei/info" class="cta cta-outline">Learn More</a>
   </div>
 
