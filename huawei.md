@@ -45,13 +45,13 @@ layout: textual
   </div>
   <div class="info-card">
     <strong>Location</strong>
-    <a href="https://plan.epfl.ch/?room==ELE%20117">ELE117, EPFL AI Center</a>
+    <a href="https://plan.epfl.ch/?room==ELE%20117">ELE 117, EPFL AI Center</a>
   </div>
 </div>
 
 ## 2. Themes
 
-This hackathon is a [Mixture of Experts](https://en.wikipedia.org/wiki/Mixture_of_experts) Competition:
+LauzHack is hosting a [Mixture of Experts](https://en.wikipedia.org/wiki/Mixture_of_experts) Competition:
 
 It focuses on designing the best expert placement algorithm for MoE models under a fixed GPU memory budget. You will be given real-world traces and a software simulator, and your goal will be to decide how experts should be assigned across physical devices. The winning approaches will be those that produce placement algorithms that minimize simulated execution time while also reducing memory usage.
 
