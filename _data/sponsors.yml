@@ -65,6 +65,7 @@ tiers:
     items:
       SwissDevJobs: https://swissdevjobs.ch/startup-jobs
       START Hack: https://starthack.eu/
+      Socraft: https://socraft.io/
 
   Food and Drinks:
     show_title: true
