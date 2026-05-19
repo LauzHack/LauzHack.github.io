@@ -123,22 +123,4 @@ TBD
 
 TBD
 
-## 11. Acknowledgements
-
-<style>
-  .ack { display: flex; flex-wrap: wrap; justify-content: center; align-items: stretch; gap: 2em; margin: 2em 0; }
-  .ack-item { flex: 1 1 12em; text-align: center; padding: 1.5em; background: rgba(0,0,0,0.03); border-radius: 4px; }
-  .ack-item img { height: 5em; max-width: 100%; object-fit: contain; display: block; margin: 0 auto 0.8em auto; }
-  .ack-item .label { display: block; font-size: 0.85em; opacity: 0.7; }
-</style>
-
-<div class="ack">
-  <div class="ack-item">
-    <a href="https://www.huawei.com" rel="noreferrer">
-      <img src="/images/logos/Huawei.png" alt="Huawei">
-    </a>
-    <span class="label">Sponsor</span>
-  </div>
-</div>
-
 <p style="text-align: center; margin-top: 2em;"><a href="/2026-huawei">&larr; Back to Huawei MoE Competition</a></p>
