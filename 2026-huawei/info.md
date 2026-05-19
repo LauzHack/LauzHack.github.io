@@ -139,12 +139,6 @@ TBD
     </a>
     <span class="label">Sponsor</span>
   </div>
-  <div class="ack-item">
-    <a href="https://ai.epfl.ch/" rel="noreferrer">
-      <img src="/images/logos/EPFL AI Center.svg" alt="EPFL AI Center">
-    </a>
-    <span class="label">Partner</span>
-  </div>
 </div>
 
 <p style="text-align: center; margin-top: 2em;"><a href="/2026-huawei">&larr; Back to Huawei MoE Competition</a></p>
