@@ -50,7 +50,7 @@ layout: textual
 
 <div class="page-wrap">
   <div class="hero">
-    <h1>Huawei MoE Competition</h1>
+    <h1>Mixture of Experts Competition</h1>
     <p class="subtitle">May 29 &ndash; 30, 2026</p>
   </div>
 
