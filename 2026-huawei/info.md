@@ -31,6 +31,50 @@ layout: textual
     display: block;
     margin-bottom: 0.3em;
   }
+
+  .jury-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2em;
+    margin: 2.5em 0;
+  }
+
+  .jury-card {
+    background: rgba(0,0,0,0.03);
+    border-radius: 14px;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 1.5em;
+  }
+
+  .jury-card a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+
+  .jury-card img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .jury-content {
+    padding: 1.2em 1.2em 0 1.2em;
+  }
+
+  .jury-content h3 {
+    margin: 0;
+    font-size: 1.35em;
+  }
+
+  .jury-role {
+    margin-top: 0.45em;
+    color: #666;
+    font-size: 1em;
+    line-height: 1.4;
+  }
 </style>
 
 # Mixture of Experts Competition - Info
@@ -121,7 +165,54 @@ TBD
 
 ## 10. Jury
 
-TBD
+<div class="jury-grid">
+
+  <div class="jury-card">
+    <a href="https://people.epfl.ch/volkan.cevher" target="_blank" rel="noreferrer">
+      <img src="/images/jury/volkan.jpg" alt="Volkan Cevher">
+
+      <div class="jury-content">
+        <h3>Volkan Cevher</h3>
+        <div class="jury-role">
+          Full Professor<br>
+          EPFL
+        </div>
+      </div>
+    </a>
+
+  </div>
+
+  <div class="jury-card">
+    <a href="https://people.epfl.ch/seyed.neshaei" target="_blank" rel="noreferrer">
+      <img src="/images/people/Seyed Parsa Neshaei.jpg" alt="Seyed Parsa Neshaei">
+
+      <div class="jury-content">
+        <h3>Seyed Parsa Neshaei</h3>
+        <div class="jury-role">
+          Doctoral Assistant<br>
+          EPFL
+        </div>
+      </div>
+    </a>
+
+  </div>
+
+  <div class="jury-card">
+    <a href="https://vinitra.github.io/" target="_blank" rel="noreferrer">
+      <img src="/images/jury/vinitra.JPG" alt="Vinitra Swamy">
+
+      <div class="jury-content">
+        <h3>Vinitra Swamy</h3>
+        <div class="jury-role">
+          CEO & Co-founder<br>
+          Scholé AI
+        </div>
+      </div>
+    </a>
+
+  </div>
+
+</div>
 
 ## 11. Acknowledgements
 
