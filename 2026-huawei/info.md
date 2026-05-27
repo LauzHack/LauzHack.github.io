@@ -34,46 +34,39 @@ layout: textual
 
   .jury-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 2em;
-    margin: 2.5em 0;
-  }
-
-  .jury-card {
-    background: rgba(0,0,0,0.03);
-    border-radius: 14px;
-    overflow: hidden;
-    text-align: center;
-    padding-bottom: 1.5em;
-  }
-
-  .jury-card a {
-    text-decoration: none;
-    color: inherit;
-    display: block;
+    grid-template-columns: repeat(2, minmax(220px, 320px));
+    justify-content: center;
+    gap: 1.5em;
+    margin: 2em 0;
   }
 
   .jury-card img {
     width: 100%;
-    height: 320px;
+    height: 260px;
     object-fit: cover;
     display: block;
   }
 
   .jury-content {
-    padding: 1.2em 1.2em 0 1.2em;
+    padding: 1em 1em 0 1em;
   }
 
   .jury-content h3 {
     margin: 0;
-    font-size: 1.35em;
+    font-size: 1.15em;
   }
 
   .jury-role {
-    margin-top: 0.45em;
+    margin-top: 0.35em;
     color: #666;
-    font-size: 1em;
-    line-height: 1.4;
+    font-size: 0.92em;
+    line-height: 1.35;
+  }
+
+  @media (max-width: 700px) {
+    .jury-grid {
+      grid-template-columns: 1fr;
+    }
   }
 </style>
 
@@ -212,6 +205,20 @@ TBD
 
   </div>
 
+  <div class="jury-card">
+    <a href="https://www.linkedin.com/in/drumondmp/" target="_blank" rel="noreferrer">
+      <img src="/images/jury/mario.jpg" alt="Vinitra Swamy">
+
+      <div class="jury-content">
+        <h3>Mario Drumond</h3>
+        <div class="jury-role">
+          Researcher<br>
+          Huawei
+        </div>
+      </div>
+    </a>
+
+  </div>
 </div>
 
 ## 11. Acknowledgements
