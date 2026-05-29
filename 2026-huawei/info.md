@@ -103,7 +103,7 @@ It focuses on designing the best expert placement algorithm for MoE models under
 
 ## 3. Resources
 
-TBD
+A lot of very useful information can be found at the [following documentation](https://moe-competition-docs.readthedocs.io/en/latest/index.html).
 
 ## 4. Schedule
 
