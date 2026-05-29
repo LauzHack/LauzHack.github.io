@@ -105,6 +105,8 @@ It focuses on designing the best expert placement algorithm for MoE models under
 
 A lot of very useful information can be found at the [following documentation](https://moe-competition-docs.readthedocs.io/en/latest/index.html).
 
+- [Codabench competition link](https://lauzhack.com/2026-huawei/competition)
+
 ## 4. Schedule
 
 <section id="schedule">
@@ -156,11 +158,11 @@ Only work done during hackathon will be considered (and should be made explicit)
 
 The competition result will be determined based on the codabench score (described [here](https://moe-competition-docs.readthedocs.io/en/latest/competition-context.html#evaluation-loop)), as well as with an evaluation from the judges based on the following table:
 
-| Criteria                         | Allocated points |
-| -------------------------------- | ---------------- |
+| Criteria                              | Allocated points |
+| ------------------------------------- | ---------------- |
 | **1. Innovativeness of the approach** | **10**           |
-| **2. Quality of the presentation**   | **5**            |
-| **3. Integrity Check**               | ✓                |
+| **2. Quality of the presentation**    | **5**            |
+| **3. Integrity Check**                | ✓                |
 | **TOTAL**                             | **15**           |
 
 ## 10. Jury
