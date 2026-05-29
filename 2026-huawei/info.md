@@ -154,7 +154,14 @@ Real-time information about the event, food service details, and questions relat
 
 Only work done during hackathon will be considered (and should be made explicit) for the project evaluation.
 
-TBD
+The competition result will be determined based on the codabench score (described [here](https://moe-competition-docs.readthedocs.io/en/latest/competition-context.html#evaluation-loop)), as well as with an evaluation from the judges based on the following table:
+
+| Criteria                         | Allocated points |
+| -------------------------------- | ---------------- |
+| **1. Innovativeness of the approach** | **10**           |
+| **2. Quality of the presentation**   | **5**            |
+| **3. Integrity Check**               | ✓                |
+| **TOTAL**                             | **15**           |
 
 ## 10. Jury
 
