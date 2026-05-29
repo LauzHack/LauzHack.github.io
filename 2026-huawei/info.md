@@ -106,6 +106,7 @@ It focuses on designing the best expert placement algorithm for MoE models under
 A lot of very useful information can be found at the [following documentation](https://moe-competition-docs.readthedocs.io/en/latest/index.html).
 
 - [Codabench competition link](https://lauzhack.com/2026-huawei/competition)
+- [Github Repository](https://github.com/huawei-cpl-zurich/moe-competition-sim)
 
 ## 4. Schedule
 
