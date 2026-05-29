@@ -124,9 +124,9 @@ A lot of very useful information can be found at the [following documentation](h
         <tr><th colspan="2"><h3>Saturday</h3></th></tr>
         <tr><td style="min-width: unset">8:00-9:00</td><td style="min-width: unset">Breakfast</td></tr>
         <tr><td style="min-width: unset">12:00-13:00</td><td style="min-width: unset">Lunch</td></tr>
-        <tr><td style="min-width: unset">16:00</td><td style="min-width: unset">End of hacking</td></tr>
-        <tr><td style="min-width: unset">16:00-17:45</td><td style="min-width: unset">Judging</td></tr>
-        <tr><td style="min-width: unset">17:45-18:00</td><td style="min-width: unset">Closing ceremony</td></tr>
+        <tr><td style="min-width: unset">17:00</td><td style="min-width: unset">End of hacking</td></tr>
+        <tr><td style="min-width: unset">17:00-17:50</td><td style="min-width: unset">Judging</td></tr>
+        <tr><td style="min-width: unset">17:50-18:00</td><td style="min-width: unset">Closing ceremony</td></tr>
         <tr><td style="min-width: unset">18:00-19:00</td><td style="min-width: unset">(optional) Apero!</td></tr>
       </table>
     </div>
