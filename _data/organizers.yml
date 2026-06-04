@@ -39,13 +39,13 @@ people:
   #   family: Bezzam
   #   link: https://linkedin.com/in/eric-bezzam-37ab2274
 
-  - given: Jacopo
-    family: Bilotto
-    link: https://linkedin.com/in/jacopo-bilotto-4331491b4
+  # - given: Jacopo
+  #   family: Bilotto
+  #   link: https://linkedin.com/in/jacopo-bilotto-4331491b4
 
-  - given: Mariia
-    family: Eremina
-    link: https://linkedin.com/in/mariia-eremina
+  # - given: Mariia
+  #   family: Eremina
+  #   link: https://linkedin.com/in/mariia-eremina
 
   - given: Natalia
     family: Nessler
@@ -67,9 +67,9 @@ people:
     family: Neshaei
     link: https://spneshaei.com
 
-  - given: Simona
-    family: Herren
-    link: https://linkedin.com/in/simona-herren-61725b238
+  # - given: Simona
+  #   family: Herren
+  #   link: https://linkedin.com/in/simona-herren-61725b238
 
   - given: Solal
     family: Pirelli
