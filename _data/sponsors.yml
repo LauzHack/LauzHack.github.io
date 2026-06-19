@@ -20,7 +20,7 @@ tiers:
     color: rgba(212,175,55,0.12)
     size: 32
     items:
-      # Logitech: https://logitech.com/en-ch
+      Logitech: https://logitech.com/en-ch
       Loterie Romande: https://loro.ch
 
   #  Silver:
