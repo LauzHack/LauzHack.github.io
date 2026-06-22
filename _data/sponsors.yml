@@ -23,13 +23,13 @@ tiers:
       Logitech: https://logitech.com/en-ch
       Loterie Romande: https://loro.ch
 
-  #  Silver:
-  #    show_title: true
-  #    color: rgba(192,192,192,0.18)
-  #    size: 28
-  #    items:
+  Silver:
+    show_title: true
+    color: rgba(192,192,192,0.18)
+    size: 28
+    items:
+      JetBrains: https://www.jetbrains.com/
   #      AXA: https://axa.ch/en
-  #      JetBrains: https://www.jetbrains.com/
   #      Legal Design and Code Lab: https://wp.unil.ch/legaldesignandcodelab/
   #      Oracle: https://www.oracle.com/
   #      SBB: https://sbb.ch/en
