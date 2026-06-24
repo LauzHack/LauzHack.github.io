@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-{% assign ev = site.data.mini_hackathons[page.event].info %}
+
+{% assign ev = site.data[page.namespace][page.event].info %}
+
 <style>
   body { padding-bottom: 0.5em !important; }
   .page-wrap {
@@ -45,34 +47,50 @@ layout: default
     border-radius: 4px;
     font-size: 1.3em;
   }
+  .past-notice {
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    opacity: 0.45;
+  }
 </style>
 
 <div class="page-wrap">
   <div class="hero">
-    {% if ev.logo %}<img class="hero-logo" src="{{ ev.logo }}" alt="{{ ev.name }}">{% endif %}
+    {% if ev.logo %}
+      <img class="hero-logo" src="{{ ev.logo }}" alt="{{ ev.name }}">
+    {% endif %}
     <h1>{{ ev.full_name }}</h1>
     <p class="subtitle">{{ ev.date }}</p>
   </div>
 
+  {% if ev.past %}<p class="past-notice">This event has ended</p>{% endif %}
+
   <div class="cta-row">
-    {% if ev.apply_link %}<a href="{{ ev.apply_link }}" class="cta">APPLY NOW</a>{% endif %}
+    {% if ev.past %}
+      {% if ev.projects_link %}<a href="{{ ev.projects_link }}" class="cta">View Projects</a>{% endif %}
+      {% if ev.photos_link %}<a href="{{ ev.photos_link }}" class="cta cta-outline" target="_blank">View Photos</a>{% endif %}
+    {% elsif ev.apply_link %}
+      <a href="{{ ev.apply_link }}" class="cta">APPLY NOW</a>
+    {% endif %}
     <a href="{{ page.dir }}info" class="cta cta-outline">Learn More</a>
   </div>
 
   {% if ev.description %}
-  <div class="section-highlight">
-    <h2>The Challenge</h2>
-    <p>{{ ev.description }}</p>
-  </div>
+    <div class="section-highlight">
+      <h2>The Challenge</h2>
+      <p>{{ ev.description }}</p>
+    </div>
   {% endif %}
 
   {% if ev.prize %}
-  <div class="prize-card">
-    <strong>{{ ev.prize }}</strong>
-  </div>
+    <div class="prize-card">
+      <strong>{{ ev.prize }}</strong>
+    </div>
   {% endif %}
 
   {{ content }}
 
-  <a href="/mini-hackathons" style="opacity: 0.6; font-size: 0.9em;">&larr; All mini-hackathons</a>
+  {% assign _section = page.namespace | replace: "_", "-" %}
+  <a href="/{{ _section }}" style="opacity: 0.6; font-size: 0.9em;">&larr; All {{ _section | replace: "-", " " }}</a>
 </div>

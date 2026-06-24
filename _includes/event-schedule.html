@@ -1,4 +1,4 @@
-{% assign schedule = site.data.mini_hackathons[page.event].schedule %}
+{% assign schedule = site.data[page.namespace][page.event].schedule %}
 {% if schedule %}
 <section id="schedule">
   <div class="items-container" style="justify-content: center;">

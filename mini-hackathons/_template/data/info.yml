@@ -1,0 +1,17 @@
+name: ORGANIZER Event Name          # short name, used in back-link and acknowledgements
+full_name: Full Competition Name    # shown as the hero heading
+date: Month DD - DD, YYYY           # shown on landing page and listing
+date_range: "Day, Month DD to Day, Month DD"
+time: "H:MM PM (Month DD) to H:MM PM (Month DD)"
+location: "Room, Building"
+location_link: "https://plan.epfl.ch/?room==ROOM"
+description: >
+  One or two sentences describing the challenge.
+  Shown on the landing page hero block.
+apply_link: https://app.lauzhack.com
+color: "#d42b2e"                    # accent color for buttons and prize card
+# logo: /images/logos/organizer.svg  # optional: shown above the title on the landing page
+past: false                         # set to true once the event is over
+prize: "CHF XXXX worth of prizes"  # leave empty to hide the prize card
+# projects_link: /mini-hackathons/YEAR-SLUG/projects  # uncomment once the event is over
+# photos_link: https://                                # uncomment once the event is over

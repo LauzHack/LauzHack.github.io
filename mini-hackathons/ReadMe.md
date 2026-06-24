@@ -7,17 +7,32 @@ Each mini-hackathon lives in two folders, both named with the format `YEAR-SLUG`
 
 The listing page at `/mini-hackathons` is generated automatically from all entries in `_data/mini_hackathons/`, sorted newest year first.
 
-## How-To
+## Creating a new mini-hackathon
 
-To create a new mini-hackathon, copy an existing `YEAR-SLUG` pair and fill in the data files:
+A template is provided in `mini-hackathons/_template/`. Copy it into place:
 
-- **Event metadata**: Edit `_data/mini_hackathons/YEAR-SLUG/info.yml`.
-- **Schedule**: Edit `_data/mini_hackathons/YEAR-SLUG/schedule.yml`.
-- **Jury**: Edit `_data/mini_hackathons/YEAR-SLUG/jury.yml`, and put jury photos in `images/jury/` named as in the `image` field. Photos should be at least 440x520px (displayed at 2:1 height-to-width ratio).
-- **Acknowledgements**: Edit `_data/mini_hackathons/YEAR-SLUG/acknowledgements.yml`, and put logos in `images/logos/` named as the `name` field in SVG or PNG.
+```bash
+cp -r mini-hackathons/_template mini-hackathons/YEAR-SLUG
+cp -r mini-hackathons/_template/data _data/mini_hackathons/YEAR-SLUG
+```
 
-The page files in `mini-hackathons/YEAR-SLUG/` typically contain:
+Then:
 
-- `index.md`, landing page of the event (layout: `event`, requires `event: YEAR-SLUG` in front matter)
-- `info.md`, the detailed info page (layout: `textual`, same `event` front matter). Edit the event-specific sections (themes, resources, evaluation criteria, FAQ) directly in this file
-- `apply.md`, the redirect to the registration link
+1. In both `mini-hackathons/YEAR-SLUG/index.md` and `info.md`, set `event: YEAR-SLUG` in the front matter.
+2. Fill in `_data/mini_hackathons/YEAR-SLUG/info.yml`.
+3. Fill in the other data files:
+   - **Schedule**: `schedule.yml`
+   - **Jury**: `jury.yml`, and put photos in `images/jury/` named as the `image` field. Photos should be at least 440x520px.
+   - **Acknowledgements**: `acknowledgements.yml`, and put logos in `images/logos/` named as the `name` field in SVG or PNG.
+4. Edit the event-specific sections in `info.md` (themes, resources, evaluation criteria, FAQ).
+5. Update the redirect target in `apply.md` if it differs from the default.
+
+The event will appear automatically on the `/mini-hackathons` listing page.
+
+## After the event
+
+Typically, you would use LauzHack's [EventManager](https://github.com/LauzHack/EventManager) to manage the projects. If this is the case, download the `projects.html` and place it in the `mini-hackathons/YEAR-SLUG` folder. You can then change the `projects_link` key in the `_data/mini-hackathons/YEAR-SLUG/info.yml` to point to that file, or to whichever website is hosting your participant's projects.
+
+You can also update the `photos_link` key to point to wherever the pictures of your event are hosted.
+
+Set `past: true` in `info.yml` to mark the event as past on the listing page.

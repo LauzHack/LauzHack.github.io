@@ -15,6 +15,10 @@ LauzHack also organizes smaller scale hackathons throughout the year.
 {% for event in group.items %}
 {% assign ev = event[1].info %}
 
-- [{{ ev.full_name }}](/mini-hackathons/{{ event[0] }}) - {{ ev.date }}
-  {% endfor %}
-  {% endfor %}
+- [{{ ev.full_name }}]({{ page.dir }}{{ event[0] }}){% if ev.past %} *(past)*{% endif %} - {{ ev.date }}  
+  {{ ev.description }}
+
+{% endfor %}
+{% endfor %}
+
+<p style="text-align: center; margin-top: 2em;"><a href="/">&larr; Back to main site</a></p>

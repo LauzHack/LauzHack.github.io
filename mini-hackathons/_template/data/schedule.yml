@@ -1,0 +1,12 @@
+- day: Friday
+  items:
+    - ["HH:MM-HH:MM", "Check-in"]
+    - ["HH:MM-HH:MM", "Kick-off & tech talk"]
+    - ["HH:MM-HH:MM", "Hacking + pizza"]
+- day: Saturday
+  items:
+    - ["HH:MM-HH:MM", "Breakfast"]
+    - ["HH:MM-HH:MM", "Lunch"]
+    - ["HH:MM",       "End of hacking"]
+    - ["HH:MM-HH:MM", "Judging"]
+    - ["HH:MM-HH:MM", "Closing ceremony"]

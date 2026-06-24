@@ -1,12 +1,14 @@
 ---
 title: MoE Competition - Info
 layout: textual
+namespace: mini_hackathons
 event: 2026-huawei
 comment: Do not modify this file unless you know what you're doing!
 ---
 
-{% assign ev = site.data.mini_hackathons[page.event].info %}
+{% assign ev = site.data[page.namespace][page.event].info %}
 
+{% unless ev.past %}
 <div style="text-align: center; margin: 1em 0 2em 0;">
   <a href="{{ ev.apply_link }}" rel="noreferrer"
      style="display: inline-block; padding: 0.6em 2.5em; font-size: 1.8em;
@@ -15,6 +17,7 @@ comment: Do not modify this file unless you know what you're doing!
     APPLY NOW
   </a>
 </div>
+{% endunless %}
 
 # {{ ev.full_name }} - Info
 

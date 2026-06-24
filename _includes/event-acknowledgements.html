@@ -1,4 +1,4 @@
-{% assign acks = site.data.mini_hackathons[page.event].acknowledgements %}
+{% assign acks = site.data[page.namespace][page.event].acknowledgements %}
 {% if acks %}
 <style>
   .ack { display: flex; flex-wrap: wrap; justify-content: center; align-items: stretch; gap: 2em; margin: 2em 0; }

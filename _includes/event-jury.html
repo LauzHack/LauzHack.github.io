@@ -1,4 +1,4 @@
-{% assign jury = site.data.mini_hackathons[page.event].jury %}
+{% assign jury = site.data[page.namespace][page.event].jury %}
 {% if jury %}
 <style>
   .jury-grid {
