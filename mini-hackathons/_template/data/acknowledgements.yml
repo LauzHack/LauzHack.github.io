@@ -1,0 +1,5 @@
+# Put logos in images/logos/ named exactly as the name field below, in SVG or PNG.
+- name: Organizer Name
+  link: https://
+  logo: /images/logos/Organizer Name.png
+  role: Sponsor

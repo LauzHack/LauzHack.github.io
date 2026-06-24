@@ -1,4 +1,4 @@
-includes_dir: .
+includes_dir: _includes
 
 # Compression parameters for the compress.html layout from https://jch.penibelst.de
 compress_html:

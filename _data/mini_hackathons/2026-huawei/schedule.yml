@@ -1,0 +1,12 @@
+- day: Friday
+  items:
+    - ["17:30-18:00", "Check-in (ELE117)"]
+    - ["18:00-22:00", "Workshops, tech talks, pizza"]
+- day: Saturday
+  items:
+    - ["8:00-9:00", "Breakfast"]
+    - ["12:00-13:00", "Lunch"]
+    - ["17:00", "End of hacking"]
+    - ["17:00-17:50", "Judging"]
+    - ["17:50-18:00", "Closing ceremony"]
+    - ["18:00-19:00", "(optional) Apero!"]

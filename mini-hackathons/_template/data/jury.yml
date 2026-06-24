@@ -1,0 +1,13 @@
+# Put jury photos in images/jury/ named exactly as the image field below.
+# Photos should be at least 440x520px.
+- name: First Last
+  link: https://
+  image: /images/jury/first-last.jpg
+  role: Role
+  affiliation: Institution
+
+- name: First Last
+  link: https://
+  image: /images/jury/first-last.jpg
+  role: Role
+  affiliation: Institution

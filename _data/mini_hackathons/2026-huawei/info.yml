@@ -1,0 +1,18 @@
+name: Huawei MoE Competition
+full_name: Mixture of Experts Competition
+date: May 29 - 30, 2026
+date_range: "Friday, May 29 to Saturday, May 30"
+time: "6:00 PM (May 29) to 6:00 PM (May 30)"
+location: "ELE 117, EPFL AI Center"
+location_link: "https://plan.epfl.ch/?room==ELE%20117"
+description: >
+  Design the best expert placement algorithm for Mixture of Experts models
+  under a fixed GPU memory budget using real-world traces.
+  You will have access to a software simulator with full freedom to push
+  MoE performance to its limits.
+apply_link: https://app.lauzhack.com
+color: "#d42b2e"
+prize: "CHF 3000 worth of prizes"
+past: true
+projects_link: /mini-hackathons/2026-huawei/projects
+photos_link: https://drive.google.com/drive/folders/1cnk_MGFugv2xP3qXnxFge2hTGZ8IqQKT
