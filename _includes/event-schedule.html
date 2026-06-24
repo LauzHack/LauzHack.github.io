@@ -1,0 +1,20 @@
+{% assign schedule = site.data.mini_hackathons[page.event].schedule %}
+{% if schedule %}
+<section id="schedule">
+  <div class="items-container" style="justify-content: center;">
+    {% for day in schedule %}
+    <div class="item-generic" style="flex-basis: auto; flex-grow: 0; width: auto;">
+      <table>
+        <tr><th colspan="2"><h3>{{ day.day }}</h3></th></tr>
+        {% for item in day.items %}
+        <tr>
+          <td style="min-width: unset">{{ item[0] }}</td>
+          <td style="min-width: unset">{{ item[1] }}</td>
+        </tr>
+        {% endfor %}
+      </table>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

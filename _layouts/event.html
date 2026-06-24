@@ -1,8 +1,7 @@
 ---
-title: Huawei MoE Competition
-layout: textual
+layout: default
 ---
-
+{% assign ev = site.data.mini_hackathons[page.event].info %}
 <style>
   body { padding-bottom: 0.5em !important; }
   .page-wrap {
@@ -24,15 +23,15 @@ layout: textual
     display: inline-block;
     padding: 0.7em 2.2em;
     font-size: 1.4em;
-    background: #d42b2e;
+    background: {{ ev.color }};
     color: #fff;
     text-decoration: none;
     border-radius: 4px;
   }
   .cta-outline {
     background: transparent;
-    border: 2px solid #d42b2e;
-    color: #d42b2e;
+    border: 2px solid {{ ev.color }};
+    color: {{ ev.color }};
   }
   .cta:hover { opacity: 0.9; }
   .section-highlight { text-align: center; }
@@ -40,7 +39,7 @@ layout: textual
   .section-highlight p { font-size: 1.1em; }
   .prize-card {
     text-align: center;
-    background: #d42b2e;
+    background: {{ ev.color }};
     color: #fff;
     padding: 1em 2em;
     border-radius: 4px;
@@ -50,22 +49,30 @@ layout: textual
 
 <div class="page-wrap">
   <div class="hero">
-    <h1>Mixture of Experts Competition</h1>
-    <p class="subtitle">May 29 &ndash; 30, 2026</p>
+    {% if ev.logo %}<img class="hero-logo" src="{{ ev.logo }}" alt="{{ ev.name }}">{% endif %}
+    <h1>{{ ev.full_name }}</h1>
+    <p class="subtitle">{{ ev.date }}</p>
   </div>
 
   <div class="cta-row">
-    <a href="https://app.lauzhack.com" class="cta">APPLY NOW</a>
-    <a href="/2026-huawei/info" class="cta cta-outline">Learn More</a>
+    {% if ev.apply_link %}<a href="{{ ev.apply_link }}" class="cta">APPLY NOW</a>{% endif %}
+    <a href="{{ page.dir }}info" class="cta cta-outline">Learn More</a>
   </div>
 
+  {% if ev.description %}
   <div class="section-highlight">
     <h2>The Challenge</h2>
-    <p>Design the best expert placement algorithm for Mixture of Experts models under a fixed GPU memory budget using real-world traces.</p>
-    <p>You will have access to a software simulator with full freedom to push MoE performance to its limits.</p>
+    <p>{{ ev.description }}</p>
   </div>
+  {% endif %}
 
+  {% if ev.prize %}
   <div class="prize-card">
-    <strong>CHF 3000</strong> worth of prizes
+    <strong>{{ ev.prize }}</strong>
   </div>
+  {% endif %}
+
+  {{ content }}
+
+  <a href="/mini-hackathons" style="opacity: 0.6; font-size: 0.9em;">&larr; All mini-hackathons</a>
 </div>
