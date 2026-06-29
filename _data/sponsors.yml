@@ -29,7 +29,7 @@ tiers:
     size: 28
     items:
       JetBrains: https://www.jetbrains.com/
-      # Nexthink: https://nexthink.com/
+      Nexthink: https://nexthink.com/
   #      AXA: https://axa.ch/en
   #      Legal Design and Code Lab: https://wp.unil.ch/legaldesignandcodelab/
   #      Oracle: https://www.oracle.com/
