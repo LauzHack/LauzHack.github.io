@@ -4,6 +4,6 @@
 text: Declare your interest!
 link: https://lauzhack.com/interest
 
-# If the website is given a `utm_source` or `referrer` URL parameter,
-# and this is enabled, the link will be given a `referrer=...` parameter forwarding the original one
+# If the website is given a `utm_source` URL parameter,
+# and this is enabled, the link will be given that same URL parameter
 forward_referrer: true

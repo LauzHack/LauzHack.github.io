@@ -20,7 +20,7 @@ layout: default
           if (referrer) {
               let link = document.getElementById("action-link");
               var linkUrl = new URL(link.href);
-              linkUrl.searchParams.append("referrer", referrer);
+              linkUrl.searchParams.append("utm_source", referrer);
               link.href = linkUrl.toString();
           }
         </script>
