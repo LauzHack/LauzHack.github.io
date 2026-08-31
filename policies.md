@@ -25,9 +25,9 @@ You are welcome to sleep during the event, including going home to sleep if you 
 Depending on where you come from, you may need accommodation before or after the event.
 You can include the cost of hostels/hotels/AirBnB in the travel reimbursement up to the relevant limit, as described in the travel reimbursement section below.
 
-- Before the event for the Friday-Saturday night, we may be able to provide accommodation, although the details are still to be confirmed. Alternatively, please arrange your own stay
-- During the event for the Saturday-Sunday night, we expect to have hostel rooms available for free on a first-come-first-served basis, although this is still to be confirmed
-- After the event for the Sunday-Monday night, if you have no travel options once the closing ceremony is over, please find your own accommodation
+- Before the event for the Friday-Saturday night, we may be able to provide accommodation for free, although the details are still to be confirmed. Alternatively, you can arrange your own stay.
+- During the event for the Saturday-Sunday night, we expect to have accomodation for free on a first-come-first-served basis, although this is still to be confirmed.
+- After the event for the Sunday-Monday night, if you have no travel options once the closing ceremony is over, please find your own accommodation.
 
 # Travel reimbursement
 
@@ -36,9 +36,9 @@ You can include the cost of hostels/hotels/AirBnB in the travel reimbursement up
 We reimburse the following upon presentation of receipts, at the end of the event, in CHF cash:
 
 - Per participant from the greater Lausanne area, nothing.
-- Per participant from Switzerland, up to **75 CHF** of public transport costs, no planes nor cars.
-- Per participant from Germany, Austria, Italy, France, Spain, Portugal, the UK, and Benelux, up to **150 CHF** of travel costs including plane, car, train, bus, hotel/AirBnB.
-- Per participant from the rest of the world, up to **200 CHF** of travel costs including plane, car, train, bus, hotel/AirBnB.
+- Per participant from Switzerland, up to **50 CHF** of public transport costs, no planes nor cars.
+- Per participant from Germany, Austria, Italy, France, Spain, Portugal, the UK, and Benelux, up to **100 CHF** of travel costs including plane, car, train, bus, hotel/AirBnB.
+- Per participant from the rest of the world, up to **150 CHF** of travel costs including plane, car, train, bus, hotel/AirBnB.
 
 Important:
 
