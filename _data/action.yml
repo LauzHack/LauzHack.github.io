@@ -1,8 +1,8 @@
 # Call to action, optional.
 # If the link is set, the call will appear as a button.
 
-text: Declare your interest!
-link: https://lauzhack.com/interest
+text: Apply now!
+link: https://app.lauzhack.com/
 
 # If the website is given a `utm_source` URL parameter,
 # and this is enabled, the link will be given that same URL parameter
