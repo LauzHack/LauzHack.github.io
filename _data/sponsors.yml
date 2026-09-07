@@ -22,6 +22,7 @@ tiers:
     items:
       Logitech: https://logitech.com/en-ch
       Loterie Romande: https://loro.ch
+      IMC: https://www.imc.com/eu/
 
   Silver:
     show_title: true
@@ -32,11 +33,11 @@ tiers:
       Nexthink: https://nexthink.com/
       Scholé AI: https://schole.ai/
       AXA: https://axa.ch/en
+      UBS: https://www.ubs.com/ch/en.html
 
   #      Legal Design and Code Lab: https://wp.unil.ch/legaldesignandcodelab/
   #      Oracle: https://www.oracle.com/
   #      SBB: https://sbb.ch/en
-  #      UBS: https://www.ubs.com/ch/en.html
   #
   #  Bronze:
   #    show_title: true
