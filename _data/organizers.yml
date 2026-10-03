@@ -75,9 +75,9 @@ people:
     family: Pirelli
     link: https://solalpirelli.github.io
 
-  - given: Thibaud
-    family: Babin
-    link: https://people.epfl.ch/thibaud.babin
+  # - given: Thibaud
+  #   family: Babin
+  #   link: https://people.epfl.ch/thibaud.babin
 
   - given: Stefan
     family: Peters
