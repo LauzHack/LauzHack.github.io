@@ -106,9 +106,9 @@ people:
     family: Sushko
     link: https://www.linkedin.com/in/anna-sushko-07a510171
 
-  - given: Adam
-    family: Attar
-    link: https://www.linkedin.com/in/adamattar
+  # - given: Adam
+  #   family: Attar
+  #   link: https://www.linkedin.com/in/adamattar
 
   - given: Fatima
     family: Almeida
