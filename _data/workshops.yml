@@ -62,9 +62,9 @@ items:
     description: Discover [Snips'](https://snips.ai/) tools as we build a voice assistant that runs completely on device, that is without connecting to the cloud.
     material: https://github.com/ebezzam/snips-skill-mental-calculation
 
-  Collaborate with GitHub:
-    description: GitHub is a very useful platform to organize your code/materials for a hackathon, a personal project, or a school project.
-    material: https://drive.google.com/drive/folders/1LiGhOMKIDdoeuwIwuqWgHs7E0bT5orQ_?usp=drive_link
+  Collaborate with Git and GitHub:
+    description: Git and GitHub are very useful tools to organize your code/materials for a hackathon, a personal project, or a school project.
+    material: https://github.com/sweng-epfl/public/blob/main/lectures/Infrastructure/ReadMe.md
 
   Crash Course on Reinforcement Learning:
     description: Mohanty from [crowdAI](https://www.crowdai.org/) shares his extensive experience in reinforcement learning with hands-on examples.
