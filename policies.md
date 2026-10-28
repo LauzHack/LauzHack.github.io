@@ -16,7 +16,7 @@ You can form a team with whoever you want during the event, regardless of who yo
 Accepted participants may not be replaced by someone else nor add someone to their group after acceptance.
 
 Application decisions are final.
-If you are rejected, the decision is about space constraints, not about you personally.
+Once applications are closed, if you have not applied or have been rejected, it's about space constraints, not about you personally.
 Please do not contact us asking if you could participate anyway.
 
 # Sleeping and Accommodation
